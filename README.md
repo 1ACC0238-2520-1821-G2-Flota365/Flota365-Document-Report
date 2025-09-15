@@ -343,7 +343,7 @@ En el siguiente cuadro se describen las acciones realizadas y enunciados de conc
         <tr>
             <!-- DATOS del integrante 1 -->
             <td>
-                <img src="/assets/img/chapter-I/RenzoLlerena.png" height="120" alt="RenzoLlerena"><br>
+                <img src="/images/chapter-I/RenzoLlerena.png" height="120" alt="RenzoLlerena"><br>
                 <strong>Renzo Miguel Llerena Delagado</strong><br>
                 U202312399
             </td>
@@ -357,7 +357,7 @@ En el siguiente cuadro se describen las acciones realizadas y enunciados de conc
         <tr>
             <!-- DATOS del integrante 2 -->
             <td>
-                <img src="/assets/img/chapter-I/RenzoVillafuerte.png" height="120" alt="RenzoVillafuerte"><br>
+                <img src="/images/chapter-I/RenzoVillafuerte.png" height="120" alt="RenzoVillafuerte"><br>
                 <strong>Renzo Alonso Villafuerte Tapia</strong><br>
                 U202310670
             </td>
@@ -371,7 +371,7 @@ En el siguiente cuadro se describen las acciones realizadas y enunciados de conc
         <tr>
             <!-- DATOS del integrante 3 -->
             <td>
-                <img src="/assets/img/chapter-I/ponerfoto.png" height="120" alt="OscarArmas"><br>
+                <img src="/images/chapter-I/ponerfoto.png" height="120" alt="OscarArmas"><br>
                 <strong>Oscar Armas López</strong><br>
                 U20
             </td>
@@ -385,7 +385,7 @@ En el siguiente cuadro se describen las acciones realizadas y enunciados de conc
         <tr>
             <!-- DATOS del integrante 4 -->
             <td>
-                <img src="/assets/img/chapter-I/GiovanyTorres.png" height="120" alt="GiovanyTorres"><br>
+                <img src="/images/chapter-I/GiovanyTorres.png" height="120" alt="GiovanyTorres"><br>
                 <strong>Torres Apolinario, Giovany Smith</strong><br>
                 U202311601
             </td>
@@ -399,7 +399,7 @@ En el siguiente cuadro se describen las acciones realizadas y enunciados de conc
         <tr>
             <!-- DATOS del integrante 5 -->
             <td>
-                <img src="/assets/img/chapter-I/PonerFoto.png" height="120" alt="MatiasDiaz"><br>
+                <img src="/images/chapter-I/PonerFoto.png" height="120" alt="MatiasDiaz"><br>
                 <strong>PonerNombre</strong><br>
                 U20
             </td>
@@ -423,5 +423,6 @@ En el siguiente cuadro se describen las acciones realizadas y enunciados de conc
 #### 1.2.2.3. Lean UX Hypothesis Statements.
 #### 1.2.2.4. Lean UX Canvas.
 ## 1.3. Segmentos objetivo.
+
 
 
