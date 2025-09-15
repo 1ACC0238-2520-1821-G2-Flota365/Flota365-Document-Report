@@ -331,6 +331,8 @@ En el siguiente cuadro se describen las acciones realizadas y enunciados de conc
 # Chapter I
 ## 1.1. Startup Profile
 ### 1.1.1. Descripción de la Startup
+
+### 1.1.2. Perfiles de integrantes del equipo
 <table style="text-align:center; width:100%; border-collapse:collapse;" border="1">
     <thead style="background-color:#f2f2f2;">
         <tr>
@@ -372,7 +374,7 @@ En el siguiente cuadro se describen las acciones realizadas y enunciados de conc
             <!-- DATOS del integrante 3 -->
             <td>
                 <img src="/images/chapter-I/ponerfoto.png" height="120" alt="ponernombre"><br>
-                <strong>Oscar Armas López</strong><br>
+                <strong>poner nombre</strong><br>
                 U20
             </td>
             <td>
@@ -414,7 +416,6 @@ En el siguiente cuadro se describen las acciones realizadas y enunciados de conc
 </table>
 
 
-### 1.1.2. Perfiles de integrantes del equipo
 ## 1.2. Solution Profile
 ### 1.2.1. Antecedentes y problemática
 ### 1.2.2. Lean UX Process.
@@ -423,6 +424,7 @@ En el siguiente cuadro se describen las acciones realizadas y enunciados de conc
 #### 1.2.2.3. Lean UX Hypothesis Statements.
 #### 1.2.2.4. Lean UX Canvas.
 ## 1.3. Segmentos objetivo.
+
 
 
 
