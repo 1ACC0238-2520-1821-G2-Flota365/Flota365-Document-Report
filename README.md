@@ -24,7 +24,7 @@
         <br><br>
         Huamani Sánchez, José Diego - U202110458
         <br><br>
-         - U202
+        Llerena Delgado, Renzo Miguel - U202312399
         <br><br>
         M- U202
         <br><br>
@@ -324,4 +324,5 @@ En el siguiente cuadro se describen las acciones realizadas y enunciados de conc
       </td>
     </tr>
   </tbody>
+
 </table>
