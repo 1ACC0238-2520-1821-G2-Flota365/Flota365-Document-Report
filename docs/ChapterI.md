@@ -29,17 +29,90 @@ Ser la empresa líder en soluciones inteligentes para la gestión de flotas a ni
 
 <h4 id="teamProfile">1.1.2. Perfiles de integrantes del equipo</h4>
 
-<table style="width: 100%; border-collapse: collapse;">
+<table style="text-align:center; width:100%; border-collapse:collapse;" border="1">
+    <thead style="background-color:#f2f2f2;">
         <tr>
-            <td style="width: 30%; border: 1px solid #FFF; padding: 10px; vertical-align: top;">
-            <img src="../images/Jose-Diego.jpg" alt="José Diego Photo" style="display: block; margin: 50 auto 0 auto;"/>
+            <th>Integrantes</th>
+            <th>Descripción</th>
+            <th>Conocimientos</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <!-- DATOS del integrante 1 -->
+            <td>
+                <img src="/images/chapter-I/RenzoLlerena.png" height="120" alt="RenzoLlerena"><br>
+                <strong>Renzo Miguel Llerena Delagado</strong><br>
+                U202312399
             </td>
-            <td style="width: 70%; border: 1px solid #FFF; padding: 10px; vertical-align: top;">
-                <strong>José Diego Huamani Sánchez (U202110458)</strong> - Ingeniería de Software<br><br>
-                Tengo 21 años y actualmente ando formandome en la Univeridad Peruana de Ciencias Aplicadas. Soy un tanto curioso en diferentes aspectos tanto tecnologicos como en la gestión y dirección de proyectos; en donde, mis principales experiencias radican en liderazgo y manejo de equipos en marcos de trabajo Ágiles, análisis de datos y conocimientos en desarrollo web. Espero que mi compromiso y mis ganas de enseñar logren hacer que el proyecto tome un direccionamiento hacia el éxito.
+            <td>
+                Me destaco por ser responsable, trabajador y tener un enfoque en la perfección y la calidad en todos mis proyectos. Disfruto trabajando en equipo, colaborando para alcanzar mis objetivos y siempre buscando superar expectativas. Me mantengo en constante aprendizaje, dispuesto a enfrentar desafíos con una actitud proactiva y resolutiva.
+            </td>
+            <td>
+                Tengo conocimientos en C++, Python, Java, JavaScript, C#, PHP, Hacking ético y HTML.
             </td>
         </tr>
+        <tr>
+            <!-- DATOS del integrante 2 -->
+            <td>
+                <img src="/images/chapter-I/RenzoVillafuerte.png" height="120" alt="RenzoVillafuerte"><br>
+                <strong>Renzo Alonso Villafuerte Tapia</strong><br>
+                U202310670
+            </td>
+            <td>
+                Estudio la carrera de Ingeniería de Software en la UPC. Estoy dispuesto a apoyar a mi equipo en cualquier necesidad técnica, ofreciendo soluciones y compartiendo conocimiento.
+            </td>
+            <td>
+                Tengo amplio conocimiento en programación en C++, incluyendo manejo de estructuras de datos, y programación orientada a objetos. Además, tengo habilidades para analizar y resolver problemas complejos de manera eficiente, gestionar tareas y proyectos asegurando el cumplimiento de plazos, y adaptarme rápidamente a nuevas tecnologías y entornos de trabajo.
+            </td>
+        </tr>
+        <tr>
+            <!-- DATOS del integrante 3 -->
+            <td>
+                <img src="../images/Jose-Diego.jpg" height="120" alt="ponernombre"><br>
+                <strong>José Diego Huamani Sánchez </strong><br>
+                U202110458
+            </td>
+            <td>
+               Tengo 21 años y actualmente ando formandome en la Univeridad Peruana de Ciencias Aplicadas. Soy un tanto curioso en diferentes aspectos tanto tecnologicos como en la gestión y dirección de proyectos
+            </td>
+            <td>
+               Mis principales experiencias radican en liderazgo y manejo de equipos en marcos de trabajo Ágiles, análisis de datos y conocimientos en desarrollo web. Espero que mi compromiso y mis ganas de enseñar logren hacer que el proyecto tome un direccionamiento hacia el éxito.
+            </td>
+        </tr>
+        <tr>
+            <!-- DATOS del integrante 4 -->
+            <td>
+                <img src="/images/chapter-I/GiovanyTorres.png" height="120" alt="GiovanyTorres"><br>
+                <strong>Torres Apolinario, Giovany Smith</strong><br>
+                U202311601
+            </td>
+            <td>
+                Estoy cursando el quinto ciclo de mi carrera. Soy una persona responsable que le gusta resolver desafíos junto con el trabajo en equipo. Tengo la capacidad de liderazgo y me gusta aprender nuevas cosas día a día.
+            </td>
+            <td>
+                Cuento con conocimientos en lenguajes de programación como C++, Python, programación web utilizando HTML y CSS, conocimientos en SQL; así mismo también poseo conocimientos generales en diversas materias como matemáticas y física.
+            </td>
+        </tr>
+        <tr>
+            <!-- DATOS del integrante 5 -->
+            <td>
+                <img src="/images/chapter-I/PonerFoto.png" height="120" alt="ponernombre"><br>
+                <strong>PonerNombre</strong><br>
+                U20
+            </td>
+            <td>
+             Poner Descripcion
+            </td>
+            <td>
+                poner segundo parrafo
+            </td>
+        </tr>
+    </tbody>
 </table>
+
+
+
 
 <h3 id="solutionProfile">1.2. Solution Profile</h4>
 
@@ -346,4 +419,5 @@ Mediante una selección rigurosa, Flota 365 seleccionó a los siguientes segment
       <li>Principales intereses: Seguridad vial, facilidad en el registro de su trabajo, optimización de tiempos de entrega, reducción de carga administrativa</li>
     </ul>
   </li>
+
 </ul>
