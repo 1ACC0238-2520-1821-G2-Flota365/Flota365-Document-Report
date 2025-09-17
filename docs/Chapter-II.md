@@ -373,6 +373,37 @@ En esta sección se aborda la investigación tomando como base la recolección d
 6: ¿Cuál es tu mayor preocupación cuando presentas  problemas mecánicos durante el viaje? ¿Cómo una app podría ayudarte a prevenir estos problemas?
 
 ### 2.2.2. Registro de entrevistas
+#### Segmento Objetivo 1: Productores de Vinos y Piscos Artesanales
+
+##### Entrevistado 1
+
+| **Campo**                | **Detalle** |
+|--------------------------|-------------|
+| **Nombre**               |  |
+| **Entrevistador**        | |
+| **Edad**                 |  |
+| **Distrito**             |  |
+| **Resumen**              |s|
+| **Tiempo que empieza**   | 0:00 minutos |
+| **Duración de la entrevista** | 0:00 minutos |
+| **URL de la entrevista** | [Ver entrevista]() |
+
+#### Segmento Objetivo 2: Distribuidores de Vinos y Piscos Artesanales
+
+##### Entrevistado 1
+
+| **Campo**                | **Detalle** |
+|--------------------------|-------------|
+| **Nombre**               | |
+| **Entrevistador**        |  |
+| **Edad**                 |  años |
+| **Distrito**             | |
+| **Resumen**              |  |
+| **Tiempo que empieza**   | 0:01 minutos |
+| **Duración de la entrevista** | 00:00 minutos |
+| **URL de la entrevista** | [Ver entrevista]() |
+
+
 ### 2.2.3. Análisis de entrevistas
 
 ## 2.3. Needfinding
