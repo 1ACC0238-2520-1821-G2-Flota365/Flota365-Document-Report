@@ -4,7 +4,71 @@
 
 ## 2.2. Entrevistas
 ### 2.2.1. Diseño de entrevistas
+<h4 id="interviewDesing">Preguntas para segmento 1 - Gestores de flota:</h4>
+
+1: ¿Cuál es tu rol actual y qué responsabilidades tienes en la gestión de la flota?
+
+2: ¿Con cuántos vehículos y conductores trabajas actualmente?
+
+3: ¿Qué herramientas utilizas hoy para gestionar tu flota?
+
+4: ¿Cómo haces seguimiento a los mantenimientos y registros de cada vehículo?
+
+5: ¿Te ha pasado que no pudiste tomar decisiones a tiempo por falta de datos?
+
+6: ¿Qué problemas enfrentas más seguido en la gestión diaria de tus unidades?
+
+7: ¿Has probado algún sistema de gestión de flotas antes? ¿Cuál fue tu experiencia?
+
+8: ¿Qué funcionalidades consideras indispensables en una solución como esta?
+
+9: ¿Qué tan importante es para ti tener reportes automáticos ?¿Pagarías por una plataforma que te de toda la información de tu flota y con ello evitar perdidas monetarias innecesarias?
+
+<h4 id="interviewDesing">Preguntas para segmento 2 - Conductores de vehículos pesados:</h4>
+
+1: ¿Qué tan fácil o difícil es para ti completar estos registros manualmente? ¿Qué parte del proceso te resulta más tediosa o complicada?
+
+2: ¿Cuánto tiempo pierdes, aproximadamente, al tratar de contactar a tu jefe o al equipo para informar un problema técnico?
+
+3: ¿Alguna vez has experimentado retrasos o problemas en tus rutas debido a la falta de información sobre el estado del vehículo?
+
+4: ¿Te gustaría contar con una plataforma  que te permita registrar todos los detalles de manera más rápida y eficiente?
+
+5: Si tuvieras una herramienta que te diga en qué estado está el automóvil, cuánto falta para el mantenimiento, o si hubo un problema mecánico ¿la usarías?
+¿Qué herramientas usas actualmente para registrar cualquier problema o inconveniente?
+
+6: ¿Cuál es tu mayor preocupación cuando presentas  problemas mecánicos durante el viaje? ¿Cómo una app podría ayudarte a prevenir estos problemas?
+
 ### 2.2.2. Registro de entrevistas
+#### Segmento Objetivo 1: Productores de Vinos y Piscos Artesanales
+
+##### Entrevistado 1
+
+| **Campo**                | **Detalle** |
+|--------------------------|-------------|
+| **Nombre**               |  |
+| **Entrevistador**        | |
+| **Edad**                 |  |
+| **Distrito**             |  |
+| **Resumen**              |s|
+| **Tiempo que empieza**   | 0:00 minutos |
+| **Duración de la entrevista** | 0:00 minutos |
+| **URL de la entrevista** | [Ver entrevista]() |
+
+#### Segmento Objetivo 2: Distribuidores de Vinos y Piscos Artesanales
+
+##### Entrevistado 1
+
+| **Campo**                | **Detalle** |
+|--------------------------|-------------|
+| **Nombre**               | |
+| **Entrevistador**        |  |
+| **Edad**                 |  años |
+| **Distrito**             | |
+| **Resumen**              |  |
+| **Tiempo que empieza**   | 0:01 minutos |
+| **Duración de la entrevista** | 00:00 minutos |
+| **URL de la entrevista** | [Ver entrevista]() |
 ### 2.2.3. Análisis de entrevistas
 
 ## 2.3. Needfinding
