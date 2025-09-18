@@ -40,7 +40,7 @@
 6: ¿Cuál es tu mayor preocupación cuando presentas  problemas mecánicos durante el viaje? ¿Cómo una app podría ayudarte a prevenir estos problemas?
 
 ### 2.2.2. Registro de entrevistas
-#### Segmento Objetivo 1: Productores de Vinos y Piscos Artesanales
+#### Segmento Objetivo 1: Gestores de flota
 
 ##### Entrevistado 1
 
@@ -55,7 +55,7 @@
 | **Duración de la entrevista** | 0:00 minutos |
 | **URL de la entrevista** | [Ver entrevista]() |
 
-#### Segmento Objetivo 2: Distribuidores de Vinos y Piscos Artesanales
+#### Segmento Objetivo 2: Conductores de vehículos pesados
 
 ##### Entrevistado 1
 
