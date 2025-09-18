@@ -331,21 +331,258 @@ Diseñar funcionalidades a medida según el giro del cliente (agrícola, carga l
 Mantener comunicación constante con los usuarios para evolucionar el producto según sus comentarios.
 
 
-<h3 id="interviews">2.2. Entrevistas</h4>
+## 2.2. Entrevistas
 
 En esta sección se aborda la investigación tomando como base la recolección de información en base a entrevistas a representantes de los segmentos objetivo. Es decir, entrevistaremos a nuestro público objetivo para asi tener más de cerca algunos testimonios y poder trabajar en base a ellos.
 
-## 2.2. Entrevistas
 ### 2.2.1. Diseño de entrevistas
 ### 2.2.2. Registro de entrevistas
 ### 2.2.3. Análisis de entrevistas
 
 ## 2.3. Needfinding
+
+En esta sección el equipo explica y presenta los artefactos resultantes del proceso de análisis de la información recolectada. Aquí se incluye secciones internas para **User Personas**, **User Task Matrix**, **User Journey Maps**, **Empathy Mapping** y **As-Is Scenario Mapping**:
+
+En esta sección el equipo explica y presenta los artefactos resultantes del proceso de análisis de la información recolectada. Aquí se incluye secciones internas para User Personas, User Task Matrix, User Journey Maps, Empathy Mapping y As-Is Scenario Mapping:
+
 ### 2.3.1. User Personas
+
+A partir del análisis de entrevistas y del estudio de la competencia, se identificaron los principales perfiles de usuarios que interactúan directamente con la solución Flota365. Estos perfiles representan los segmentos objetivo clave para el sistema, ya que concentran las necesidades operativas más **críticas** dentro de la gestión de flotas. La construcción de los *User Persona* permite al equipo de desarrollo entender mejor sus motivaciones, frustraciones y hábitos, lo que resulta fundamental para diseñar funcionalidades adecuadas y experiencias de usuario efectivas.
+
+**1) Segmento 1: Gestores de flota** 
+
+Para los gestores de flotas se elaboró el User Persona de **José Alberto Nuñez Peralta**. Se tomaron en cuenta factores clave como su edad, rol profesional, experiencia en gestión logística y toma de decisiones operativas, así como sus principales frustraciones en torno al control y monitoreo de los vehículos. También se evaluó su familiaridad con herramientas tecnológicas como hojas de cálculo, software de gestión y plataformas de análisis de datos, lo cual permitió definir un perfil completo y representativo del segmento.
+
+<div align="center">
+    <img src="../images/chapter-II/José Alberto Núñez Peralta.png" alt="User Persona gestores" width="420" height="670"/>
+</div>
+
+<br>
+
+**2) Segmento 2: Conductores de vehículos pesados**
+
+Para los conductores de vehículos pesados se elaboró el User Persona de **Victor Manuel Nolazco Herrera Torres**. La construcción de este perfil consideró aspectos como su rutina diaria, contexto laboral, grado de exposición a herramientas digitales, y las principales dificultades que enfrenta durante sus recorridos. Asimismo, se identificó su nivel de uso de tecnologías básicas como GPS, aplicaciones móviles y comunicación digital, lo cual fue determinante para ajustar la propuesta de valor de Flota365 a sus necesidades reales.
+
+<div align="center">
+    <img src="../images/chapter-II/Victor Manuel Nolazco Herrera.png" alt="User Persona Gestores" width="420" height="670"/>
+</div>
+
 ### 2.3.2. User Task Matrix
+
+<table border="1" cellspacing="0" cellpadding="5" style="border-collapse: collapse; text-align: center;">
+    <thead>
+        <tr>
+            <th rowspan="2">User Task Matrix</th>
+            <th colspan="2">José Nuñez - Gestor de flota</th>
+            <th colspan="2">Victor Nolazco - Conductor de vehículos pesados</th>
+        </tr>
+        <tr>
+            <th>Frecuencia</th>
+            <th>Importancia</th>
+            <th>Frecuencia</th>
+            <th>Importancia</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Supervisar el estado y ubicación de los vehículos</td>
+            <td>3</td>
+            <td>3</td>
+            <td>1</td>
+            <td>2</td>
+        </tr>
+        <tr>
+            <td>Organizar rutas y asignar unidades</td>
+            <td>3</td>
+            <td>3</td>
+            <td>2</td>
+            <td>2</td>
+        </tr>
+        <tr>
+            <td>Reportar incidentes o eventos en ruta</td>
+            <td>2</td>
+            <td>2</td>
+            <td>3</td>
+            <td>3</td>
+            </tr>
+        <tr>
+            <td>Realizar seguimiento de mantenimiento preventivo</td>
+            <td>2</td>
+            <td>3</td>
+            <td>1</td>
+            <td>2</td>
+        </tr>
+        <tr>
+            <td>Comunicar novedades al personal de conducción</td>
+            <td>2</td>
+            <td>2</td>
+            <td>1</td>
+            <td>1</td>
+        </tr>
+        <tr>
+            <td>Conducir y cumplir con itinerarios asignados</td>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+            <td>3</td>
+        </tr>
+        <tr> 
+            <td>Completar registros manuales de entregas o rutas</td>
+            <td>1</td>
+            <td>1</td>
+            <td>3</td>
+            <td>2</td>
+        </tr>
+        <tr>
+            <td>Revisar reportes de desempeño o consumo de combustible</td>
+            <td>3</td>
+            <td>3</td>
+            <td>1</td>
+            <td>2</td>
+        </tr>
+        <tr>
+            <td>Validar cumplimiento de rutas y horarios</td>
+            <td>3</td>
+            <td>3</td>
+            <td>2</td>
+            <td>2</td>
+        </tr>
+        <tr>
+            <td>Generar informes para la gerencia</td>
+            <td>2</td>
+            <td>3</td>
+            <td>1</td>
+            <td>1</td>
+        </tr>
+        <tr>
+            <td>Revisar alertas de eventos críticos (exceso de velocidad, paradas no autorizadas)</td>
+            <td>3</td>
+            <td>3</td>
+            <td>2</td>
+            <td>2</td>
+        </tr>
+        <tr>
+            <td>Configurar y personalizar alertas o notificaciones</td>
+            <td>2</td>
+            <td>2</td>
+            <td>1</td>
+            <td>1</td>
+        </tr>
+        <tr>
+            <td>Capacitar al personal en uso del sistema</td>
+            <td>1</td>
+            <td>2</td>
+            <td>1</td>
+            <td>1</td>
+        </tr>
+        <tr>
+            <td>Revisar historial de recorridos (playback GPS)</td>
+            <td>2</td>
+            <td>2</td>
+            <td>1</td>
+            <td>1</td>
+        </tr>
+        <tr>
+            <td>Reportar fallas del vehículo desde la app</td>
+            <td>1</td>
+            <td>1</td>
+            <td>3</td>
+            <td>3</td>
+        </tr>
+        <tr>
+            <td>Realizar checklist antes de salir a ruta</td>
+            <td>1</td>
+            <td>1</td>
+            <td>3</td>
+            <td>3</td>
+        </tr>
+    </tbody>
+</table>
+
+En este cuadro se utilizan los números del uno al tres para representar cuánta importancia y frecuencia posee una actividad frente al usuario que la realiza. En el caso de la frecuencia, el uno equivale a una actividad poco frecuente; el dos, más o menos frecuente y; el tres, muy frecuente. Por otro lado, en el caso de la importancia, el uno significa que la actividad no tiene mucha importancia para el usuario; el dos, que no es tan importante y; el tres, que es una actividad de suma importancia.
+<br>
+
 ### 2.3.3. User Journey Mapping
+
+**1) Segmento 1: Gestores de flota** 
+
+Para la elaboración del Journey Mapping, el equipo basó su análisis en las observaciones y el conocimiento adquirido a partir de los User Persona previamente creados. Se colocó al centro de cada mapa al usuario correspondiente, José Nuñez (Gestor de Flota) y Victor Nolazco (Conductor de Vehículos Pesados), y se respondió a las preguntas clave sobre su experiencia, emociones, comportamientos y necesidades a lo largo de las distintas fases de interacción con la plataforma.
+
+<div align="center">
+    <img src="../images/chapter-II/User Journey Mapping Segmento 1.png" alt="User Journey Mapping Gestores" width="auto" height="670"/>
+</div>
+
+Carlos es consciente de los problemas en la gestión logística, como la falta de integración entre sistemas y la dependencia de tareas manuales. Está buscando una solución que le permita tomar decisiones rápidas y basadas en datos en tiempo real. Se registra en la plataforma con la esperanza de optimizar el control de la flota. Aunque al principio se siente frustrado debido a la falta de integración con otros sistemas, rápidamente ajusta los procesos y empieza a ver mejoras en la eficiencia. Si la plataforma no le proporciona la visibilidad que necesita o no mejora su rendimiento, consideraría abandonarla. Su objetivo es lograr una operación más eficiente y consolidarse como un líder estratégico. <br>
+
+**2) Segmento 2: Conductores de vehículos pesados**
+
+<div align="center">
+    <img src="../images/chapter-II/User Journey Mapping Segmento 2.png" alt="EUser Journey Mapping Conductores" width="auto" height="670"/>
+</div>
+
+Juan enfrenta problemas operativos diarios, como el uso de herramientas poco intuitivas y tareas administrativas que le quitan tiempo. Se interesa por una app que le ayude a gestionar mejor sus rutas y el estado del vehículo. Al registrarse, se siente inseguro sobre la facilidad de uso de la plataforma. A medida que la usa, experimenta frustración inicial por la falta de claridad en algunas funciones, pero empieza a ver los beneficios de recibir alertas claras sobre rutas y condiciones del vehículo. Si la app no resulta ser fácil de usar o no mejora su eficiencia, podría abandonarla. Juan busca una solución sencilla que le permita enfocarse en lo más importante: conducir de manera segura y eficiente.
+
 ### 2.3.4. Empathy Mapping
+
+Para la elaboración de los Empathy Maps, el equipo partió del conocimiento y observaciones recolectadas durante el análisis de los User Persona. Se colocó al centro de cada mapa al usuario correspondiente (Carlos Mejía y Juan Torres) y se respondieron las preguntas claves sobre su entorno, emociones, comportamientos y necesidades. 
+
+**1) Segmento 1: Gestores de flota** 
+
+<img src="../images/chapter-II/Empathy_Mapping_Segmento1.jpg" alt="Empathy Mapping Gestores" width="auto" height="370"/>
+
+En este mapa, se analizó a José Nuñez, un gestor enfocado en optimizar los procesos operativos de la flota. Del cuadro, se concluye que José Nuñez es muy consciente de los problemas actuales en la gestión logística, especialmente por la falta de integración entre sistemas y la dependencia de tareas manuales. Le preocupa que los errores humanos y la información desactualizada estén afectando su rendimiento y el de su equipo. Busca una solución que le permita tomar decisiones más rápidas y acertadas basadas en datos en tiempo real. Finalmente, José Nuñez aspira a lograr una operación más eficiente, con menos margen de error, y a consolidar su rol como líder estratégico dentro de la empresa.
+
+<br>
+
+**2) Segmento 2: Conductores de vehículos pesados**
+
+<img src="../images/chapter-II/Empathy_Mapping_Segmento2.jpg" alt="Empathy Mapping Conductores" width="auto" height="370"/>
+
+En este mapa, se abordó la experiencia de Victor Nolazco, un conductor con mucha experiencia pero que enfrenta obstáculos operativos en su día a día. Del cuadro, se concluye que Victor siente frustración al lidiar con herramientas poco intuitivas y tareas administrativas que le quitan tiempo. Le preocupa no contar con un sistema práctico que le permita enfocarse en lo más importante: conducir con seguridad y eficiencia. Busca una app o sistema que simplifique sus tareas, le dé claridad sobre su ruta y le permita reportar cualquier problema de forma rápida. Finalmente, Victor aspira a sentirse valorado, respaldado tecnológicamente y a trabajar en un entorno que respete su tiempo y esfuerzo.
+
 ### 2.3.5. Ubiquitous Language
+
+De acuerdo a lo dictaminado por Eric Evans en su libro *Domain-Driven Design: Tackling Complexity in the Heart of Software*, el startup **Flota365** estableció un lenguaje alineado al negocio y de fácil comprensión para cada uno de los miembros de equipo, asegurando una trazabilidad y mantenimiento a futuro en las funcionaliades póstumas tanto dentro de la aplicación como dentro del *core* de los procesos.
+
+* **Fleet (Flota):** Conjunto de vehículos que una organización utiliza para realizar sus operaciones de transporte o logística.
+
+* **Fleet Manager (Gestor de Flota):** Persona responsable de supervisar, controlar y optimizar el uso de los vehículos en la flota.
+
+* **Driver (Conductor):** Persona encargada de operar un vehículo de la flota durante recorridos o actividades asignadas.
+
+* **Trip (Recorrido):** Desplazamiento realizado por un vehículo desde un punto de origen hasta un destino definido, registrando tiempo, distancia y propósito.
+
+* **Mileage (Kilometraje):** Distancia total recorrida por un vehículo, utilizada para control de mantenimiento, consumo de combustible y planificación.
+
+* **Activity Log (Registro de Actividad):** Historial de acciones realizadas por el conductor, como inicio y fin de recorridos, paradas o incidentes.
+
+* **Incident Report (Reporte de Incidencia):** Notificación de un evento inesperado que afecta el recorrido o el vehículo, como fallas mecánicas o accidentes.
+
+* **Maintenance Alert (Alerta de Mantenimiento):** Notificación generada para indicar que un vehículo requiere revisión o reparación preventiva/correctiva.
+
+* **Vehicle Assignment (Asignación de Vehículo):** Proceso mediante el cual un gestor designa un vehículo específico a un conductor para una tarea o recorrido.
+
+* **Digital Proof (Evidencia Digital):** Documento o registro en formato digital (foto, firma o archivo) que valida la ejecución de una actividad en la aplicación.
+
+* **Fuel Record (Registro de Combustible):** Información capturada por el conductor sobre carga de combustible, consumo y costos asociados.
+
+* **Route Optimization (Optimización de Ruta):** Estrategia de planificación para determinar el trayecto más eficiente en términos de tiempo, distancia y consumo.
+
+* **Downtime (Tiempo de Inactividad):** Periodo en el que un vehículo no puede ser utilizado debido a mantenimiento, avería u otras razones operativas.
+
+* **Driver Identification (Identificación del Conductor):** Validación del perfil de un conductor en la aplicación mediante DNI, credenciales o autenticación digital.
+
+* **Operational Report (Reporte Operativo):** Documento generado por el sistema que presenta métricas clave sobre recorridos, incidencias y desempeño de la flota.
+
+* **Compliance Check (Verificación de Cumplimiento):** Evaluación que asegura que el conductor y el vehículo cumplen con regulaciones, permisos y normas establecidas.
+
+* **Geolocation (Geolocalización):** Identificación de la posición en tiempo real de un vehículo o conductor mediante coordenadas GPS.
+
+* **Notification (Notificación):** Mensaje enviado al gestor o conductor a través de la aplicación para informar sobre alertas, asignaciones o incidencias.
+
+* **Performance Indicator (Indicador de Desempeño):** Métrica utilizada para evaluar la eficiencia de la flota, como consumo de combustible, puntualidad o disponibilidad.
+
+* **User Role (Rol de Usuario):** Categoría asignada a cada persona dentro del sistema (ejemplo: gestor o conductor), que determina permisos y accesos en la aplicación.
 
 ## 2.4. Requirements specification
 ### 2.4.1. User Stories
@@ -373,4 +610,3 @@ En esta sección se aborda la investigación tomando como base la recolección d
 #### 2.6.x.6. Bounded Context Software Architecture Code Level Diagrams
 ##### 2.6.x.6.1. Bounded Context Domain Layer Class Diagrams
 ##### 2.6.x.6.2. Bounded Context Database Design Diagram
-
