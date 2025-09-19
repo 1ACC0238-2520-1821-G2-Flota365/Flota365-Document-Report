@@ -31,7 +31,16 @@
 #### 2.5.3.3. Software Architecture Deployment Diagrams
 
 ## 2.6. Tactical-Level Domain-Driven Design
-### 2.6.x. Bounded Context: 
+
+### 2.6.x. Bounded Context
+**Nombre:** Gestión de Flotas  
+**Propósito:** Modelar y automatizar la operación diaria de transporte, la trazabilidad de servicios, el control de mantenimientos y la visibilidad de desempeño de la flota.  
+**Usuarios primarios:** Gestores de flota, conductores.  
+**Ubiquitous language:** flota, vehículo, conductor, servicio, evidencia, mantenimiento preventivo/correctivo, ruta, alerta, reporte operativo, kilometraje, ubicación.  
+**Límites explícitos:** El contexto no aborda facturación, nómina ni gestión comercial; se integra con esos contextos mediante APIs.  
+**Políticas de consistencia:** Consistencia fuerte dentro del agregado Servicio al confirmar evidencias y kilometrajes; eventual para proyecciones y reportes.
+
+---
 #### 2.6.x.1. Domain Layer
 #### 2.6.x.2. Interface Layer
 #### 2.6.x.3. Application Layer
