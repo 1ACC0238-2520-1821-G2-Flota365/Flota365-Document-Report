@@ -83,12 +83,12 @@ Ser la empresa líder en soluciones inteligentes para la gestión de flotas a ni
         <tr>
             <!-- DATOS del integrante 4 -->
             <td>
-                <img src="/images/chapter-I/GiovanyTorres.png" height="120" alt="GiovanyTorres"><br>
+                <img src="../images/chapter-I/Giovany Torres.jpg" height="120" alt="GiovanyTorres"><br>
                 <strong>Torres Apolinario, Giovany Smith</strong><br>
                 U202311601
             </td>
             <td>
-                Estoy cursando el quinto ciclo de mi carrera. Soy una persona responsable que le gusta resolver desafíos junto con el trabajo en equipo. Tengo la capacidad de liderazgo y me gusta aprender nuevas cosas día a día.
+                Estoy cursando el sexto ciclo de mi carrera. Soy una persona responsable que le gusta resolver desafíos junto con el trabajo en equipo. Tengo la capacidad de liderazgo y me gusta aprender nuevas cosas día a día.
             </td>
             <td>
                 Cuento con conocimientos en lenguajes de programación como C++, Python, programación web utilizando HTML y CSS, conocimientos en SQL; así mismo también poseo conocimientos generales en diversas materias como matemáticas y física.
