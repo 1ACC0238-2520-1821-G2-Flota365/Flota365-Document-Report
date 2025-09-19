@@ -61,14 +61,14 @@
 
 | **Campo**                | **Detalle** |
 |--------------------------|-------------|
-| **Nombre**               | |
-| **Entrevistador**        |  |
-| **Edad**                 |  años |
-| **Distrito**             | |
-| **Resumen**              |  |
-| **Tiempo que empieza**   | 0:01 minutos |
-| **Duración de la entrevista** | 00:00 minutos |
-| **URL de la entrevista** | [Ver entrevista]() |
+| **Nombre**               | Eduard Ancasi Carrión|
+| **Entrevistador**        | Renzo Miguel Llerena Delgado |
+| **Edad**                 | 28 años |
+| **Distrito**             | San Juan de Miraflores|
+| **Resumen**              | Eduard es conductor de vehículos pesados que trabaja en Shalon, le parece tedioso que al momento de subir incidencias carazca de motor de busqueda de motivos y rellenar el mensaje manualmente provocando que, dependiendo de la incidencia, demore de poco a mucho tiempo. Le pareceria de mucha ayuda que pueda contar con una plataforma que le facilite el reporte de incidencias, le marque la entrada y salida de vehículos y pueda llegar a enterarse a tiempo real sobre el estado de los vehículos  |
+| **Tiempo que empieza**   | 0:00 minutos |
+| **Duración de la entrevista** | 04:16 minutos |
+| **URL de la entrevista** | [Ver entrevista](https://drive.google.com/file/d/1DgDDDrDjdA8-kAxUMuqnOD7fmm4uERoJ/view?usp=sharing) |
 ### 2.2.3. Análisis de entrevistas
 
 ## 2.3. Needfinding
