@@ -41,7 +41,40 @@
 **Políticas de consistencia:** Consistencia fuerte dentro del agregado Servicio al confirmar evidencias y kilometrajes; eventual para proyecciones y reportes.
 
 ---
-#### 2.6.x.1. Domain Layer
+### 2.6.x.1. Domain Layer
+**Agregados y raíces**  
+- Flota (raíz): id, nombre. Contiene colecciones referenciales de vehículos y conductores.  
+- Vehículo (raíz): id, placa, kmActual, estadoMecánico; reglas para actualizar kilometraje, validar disponibilidad, programar mantenimiento.  
+- Conductor (raíz): id, dni, nombre, licencia; reglas para habilitación y asignación a servicios.  
+- Servicio (raíz): id, vehículoId, conductorId, origen, destino, fecha, kmInicio, kmFin, estadoServicio.  
+- Mantenimiento (raíz): id, vehículoId, tipo, fechaProgramada, fechaEjecución, estado.
+
+**Value Objects**  
+- UbicaciónGPS (lat, lng)  
+- Evidencia (url, comentario, timestamp, tipo)  
+- RangoFechas (desde, hasta)  
+- Placa (valor normalizado)  
+- Kilometraje (valor ≥ 0)
+
+**Servicios de dominio**  
+- PlanificadorMantenimientos  
+- ValidadorServicio  
+- GeneradorAlertas  
+
+**Eventos de dominio**  
+- MantenimientoProgramado  
+- ServicioIniciado  
+- EvidenciaRegistrada  
+- ServicioCompletado  
+
+**Repositorios (interfaces)**  
+- FlotaRepository  
+- VehiculoRepository  
+- ConductorRepository  
+- ServicioRepository  
+- MantenimientoRepository  
+
+---
 #### 2.6.x.2. Interface Layer
 #### 2.6.x.3. Application Layer
 #### 2.6.x.4. Infrastructure Layer
