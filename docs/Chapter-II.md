@@ -57,7 +57,7 @@
 
 #### Segmento Objetivo 2: Conductores de vehículos pesados
 
-##### Entrevistado 1
+##### Entrevistado 1 Segmento Objetivo 2
 
 | **Campo**                | **Detalle** |
 |--------------------------|-------------|
@@ -69,6 +69,19 @@
 | **Tiempo que empieza**   | 0:00 minutos |
 | **Duración de la entrevista** | 04:16 minutos |
 | **URL de la entrevista** | [Ver entrevista](https://drive.google.com/file/d/1DgDDDrDjdA8-kAxUMuqnOD7fmm4uERoJ/view?usp=sharing) |
+
+##### Entrevistado 2 Segmento Objetivo 2
+
+| **Campo**                | **Detalle** |
+|--------------------------|-------------|
+| **Nombre**               | Abigail Gonzales Soria|
+| **Entrevistador**        | Renzo Alonso Villafuerte Tapia |
+| **Edad**                 | 25 años |
+| **Distrito**             | Chancay|
+| **Resumen**              | Abigail Gonzales tiene 25 años, trabaja manejando camiones de carga y lleva varios años en esto. Le toca hacer rutas largas y asegurarme de que todo llegue a tiempo. También se encarga de registrar lo que hace, como el kilometraje o algunas fotos, porque así queda todo en orden. Le gusta bastante su trabajo porque le da la chance de optimizar sus tiempos y mantener todo bajo control, además siempre pone mucho cuidado en la seguridad en carretera.  |
+| **Tiempo que empieza**   | 0:00 minutos |
+| **Duración de la entrevista** | 04:29 minutos |
+| **URL de la entrevista** | [Ver entrevista]([https://drive.google.com/file/d/1DgDDDrDjdA8-kAxUMuqnOD7fmm4uERoJ/view?usp=sharing](https://drive.google.com/drive/folders/1p-aBlTE0CUlz_YwCwX-zmyMeDC8YYntA?usp=drive_link)) |
 ### 2.2.3. Análisis de entrevistas
 
 ## 2.3. Needfinding
