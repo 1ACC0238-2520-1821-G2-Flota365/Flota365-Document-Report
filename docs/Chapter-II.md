@@ -62,7 +62,7 @@ El modelado de **flujos de mensajes de dominio** permitió comprender cómo los 
   - Fallos de login → *LoginFailed*.
 
 Estos flujos hacen visibles las dependencias y políticas de integración entre contextos.
- <img src="/images/chapter-II/structurizr-assignment_lifecycle.png" height="1440" alt="Assignmets-lifecycle"><br>
+ <img src="/images/chapter-II/structurizr-assignment_lifecycl.png" height="1440" alt="Assignmets-lifecycle"><br>
 #### 2.5.1.3. Bounded Context Canvases
 
 Finalmente, se desarrollaron los **Bounded Context Canvases** para detallar las responsabilidades, actores, comandos y eventos de cada contexto.  
