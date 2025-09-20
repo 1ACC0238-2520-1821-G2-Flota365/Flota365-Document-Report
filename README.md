@@ -30,7 +30,7 @@
         Comettant Rubiños, Jessica Elizabeth - U20211C009
 >>>>>>> 1cadd936cdcdb6994a849580e5a7970ae0dfaa85
         <br><br>
-        M- U202
+        Comettant Rubiños, Jessica Elizabeth - U20211C009
         <br><br>
         - U202
         <br><br>
@@ -78,7 +78,11 @@
                 Redacción del primer capítulo de la documentación titulado: <strong><q>Capítulo I: Presentación</q></strong>
             </td>
         </tr>
+<<<<<<< HEAD
                 <tr>
+=======
+        <tr>
+>>>>>>> 20be705a652134c292dd4e19c27f4fa956814d91
             <td>1.3.0</td>
             <td>13/09/2025</td>
             <td>Jessica Comettant Rubiños </td>
@@ -346,8 +350,13 @@ En el siguiente cuadro se describen las acciones realizadas y enunciados de conc
     </tr>
   </tbody>
 <<<<<<< HEAD
+<<<<<<< HEAD
 </table>
 =======
 
 </table>
 >>>>>>> feature-chap-02-Strategic-Level-DDD
+=======
+
+</table>
+>>>>>>> 20be705a652134c292dd4e19c27f4fa956814d91
