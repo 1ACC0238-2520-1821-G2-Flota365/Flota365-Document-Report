@@ -97,7 +97,7 @@ Ser la empresa líder en soluciones inteligentes para la gestión de flotas a ni
         <tr>
             <!-- DATOS del integrante 5 -->
             <td>
-                <img src="/images/chapter-I/PonerFoto.png" height="120" alt="ponernombre"><br>
+                <img src="/images/chapter-I/integrante_05.jpeg" height="120" alt="ponernombre"><br>
                 <strong>Jessica Elizabeth Comettant Rubiños</strong><br>
                 U20211C009
             </td>
@@ -421,4 +421,5 @@ Mediante una selección rigurosa, Flota 365 seleccionó a los siguientes segment
   </li>
 
 </ul>
+
 
