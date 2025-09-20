@@ -26,7 +26,7 @@
         <br><br>
         Llerena Delgado, Renzo Miguel - U202312399
         <br><br>
-        M- U202
+        Comettant Rubiños, Jessica Elizabeth - U20211C009
         <br><br>
         - U202
         <br><br>
@@ -72,6 +72,22 @@
             <td>José Diego Huamani Sánchez</td>
             <td>
                 Redacción del primer capítulo de la documentación titulado: <strong><q>Capítulo I: Presentación</q></strong>
+            </td>
+        </tr>
+                <tr>
+            <td>1.3.0</td>
+            <td>13/09/2025</td>
+            <td>Jessica Comettant Rubiños </td>
+            <td>
+                Redacción del requirement specification de la documentación titulado: <strong><q>Capítulo II</q></strong>
+            </td>
+        </tr>
+        <tr>
+            <td>1.4.0</td>
+            <td>19/09/2025</td>
+            <td>Jessica Comettant Rubiños </td>
+            <td>
+                Creación de presentación y diapositivas
             </td>
         </tr>
     </tbody>
@@ -424,6 +440,7 @@ En el siguiente cuadro se describen las acciones realizadas y enunciados de conc
 #### 1.2.2.3. Lean UX Hypothesis Statements.
 #### 1.2.2.4. Lean UX Canvas.
 ## 1.3. Segmentos objetivo.
+
 
 
 
