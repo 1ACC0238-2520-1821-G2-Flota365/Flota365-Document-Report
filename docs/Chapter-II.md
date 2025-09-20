@@ -675,11 +675,47 @@ Esta capa actúa como el punto de acceso que conecta a los usuarios con los dist
 |GetAllRolesQuery|Consulta que se utiliza para obtener todos los roles.|
 |RoleResourceFromEntityAssembler|Utilidad para convertir las entidades de roles en recursos que se envían en la respuesta.|
 
-
-
-
 #### 2.6.1.3. Application Layer
 
+La capa de aplicación se encarga de coordinar las operaciones del negocio y gestionar la lógica que regula el flujo de información entre la capa de dominio y la de infraestructura. En este nivel residen los servicios que controlan tanto los comandos como las consultas relacionadas con los usuarios, incorporando las reglas de negocio que guían estos procesos. Su función central es proveer los servicios que hacen efectiva la lógica operativa del negocio, facilitando la interacción entre los repositorios (infraestructura) y las entidades del dominio. Además, en esta capa se realizan validaciones de negocio y se ejecutan procesos complejos antes de comunicar los resultados a las demás capas del sistema.
+
+* Servicio:UserCommandServiceImpl  
+**Descripción:** Implementación del servicio de comandos para la gestión de usuarios, incluyendo registro, inicio de sesión y actualización del estado de verificación de apoderados y organizador.||
+
+|Método|Descripción|
+|:-|:-|
+|handle(SignUpCommand)|Maneja el comando de registro de un nuevo usuario. Verifica la unicidad del nombre de usuario. Si todo es válido, crea un nuevo usuario, lo guarda en el repositorio y devuelve el usuario creado.||
+|handle(SignInCommand)|Maneja el comando de inicio de sesión. Busca al usuario por nombre de usuario. Verifica que el usuario existe y que la contraseña coincide. Si es válido, genera un token de autenticación y lo devuelve junto con el usuario.||
+|updateProofingApoderado(UpdateProofingApoderadoCommand)|Actualiza el estado de verificación de un apoderado. Verifica que el usuario tenga el rol adecuado y actualiza el estado en el repositorio.||
+
+|Dependencias|Descripción|
+|:-|:-|
+|UserRepository|Repositorio que maneja las operaciones de persistencia relacionadas con usuarios.||
+|HashingService|Servicio encargado de codificar y verificar contraseñas de usuarios.||
+|TokenService|Servicio que genera tokens de autenticación para usuarios.||
+|RoleRepository|Repositorio que maneja las operaciones de persistencia relacionadas con roles.||
+|User|Agregado que representa al usuario en el sistema.||
+|SignUpCommand|Comando que encapsula la información necesaria para registrar un nuevo usuario.||
+|SignInCommand|Comando que encapsula la información necesaria para iniciar sesión con un usuario.||
+|UpdateProofingApoderadoCommand|Comando que encapsula la información necesaria para actualizar el estado de verificación de un apoderado.||
+
+
+* Servicio:UserQueryServiceImpl  
+**Descripción:** Implementación del servicio de consultas para la gestión de usuarios, permitiendo obtener información sobre usuarios registrados.||
+
+|Método|Descripción|
+|:-|:-|
+|handle(GetUserByUsernameQuery)|Maneja la consulta para obtener un usuario por su nombre de usuario. Devuelve un `Optional<User>` que puede estar vacío si no se encuentra el usuario.||
+|handle(GetUserByIdQuery)|Maneja la consulta para obtener un usuario por su ID. Devuelve un `Optional<User>` que puede estar vacío si no se encuentra el usuario.||
+|handle(GetAllUsersQuery)|Maneja la consulta para obtener todos los usuarios registrados en el sistema. Devuelve una lista de objetos `User`.||
+
+|Dependencias|Descripción|
+|:-|:-|
+|UserRepository|Repositorio que maneja las operaciones de persistencia relacionadas con usuarios.||
+|User|Agregado que representa al usuario en el sistema.||
+|GetUserByUsernameQuery|Consulta que encapsula la información necesaria para buscar un usuario por su nombre de usuario.||
+|GetUserByIdQuery|Consulta que encapsula la información necesaria para buscar un usuario por su ID.||
+|GetAllUsersQuery|Consulta que encapsula la información necesaria para obtener todos los usuarios registrados.||
 
 
 
