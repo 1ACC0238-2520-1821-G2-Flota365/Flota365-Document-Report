@@ -646,6 +646,35 @@ Propósito: Modelar las entidades del dominio, integrando tanto sus atributos co
 
 #### 2.6.1.2. Interface Layer
 
+Esta capa actúa como el punto de acceso que conecta a los usuarios con los distintos servicios del sistema. En ella, los controladores (Controllers) cumplen un rol esencial al encargarse de recibir solicitudes, gestionarlas y devolver las respuestas adecuadas. Por ejemplo, los controladores de autenticación y gestión de usuarios administran procesos como el inicio de sesión y la consulta de perfiles. Su finalidad principal es exponer endpoints (APIs) que permitan la interacción de los usuarios o sistemas externos con la lógica del negocio. Cabe resaltar que esta capa no define reglas de negocio, sino que se limita a orquestar y canalizar las peticiones hacia los servicios pertinentes o a la capa de dominio para su tratamiento.
+
+|Método|Ruta|Descripción|
+|:-|:-|:-|
+|signIn|POST /api/v1/authentication/sign-in|Maneja la solicitud de inicio de sesión. Recibe un objeto `SignInResource` del cuerpo de la solicitud, lo convierte en un comando y llama al servicio de comandos para autenticar al usuario. Si la autenticación es exitosa, devuelve un recurso de usuario autenticado. Si falla, retorna un error 404.|
+|signUp|POST /api/v1/authentication/sign-up|Maneja la solicitud de registro de nuevos usuarios. Recibe un objeto `SignUpResource`, lo convierte en un comando y llama al servicio de comandos para registrar al usuario. Si el registro es exitoso, devuelve un recurso de usuario creado. Si hay un error, retorna un error 400.|
+
+|Dependencias|Descripción|
+|:-|:-|
+|UserCommandService|Servicio encargado de manejar los comandos relacionados con la creación y autenticación de usuarios.|
+|SignInCommandFromResourceAssembler|Utilidad para convertir el recurso de inicio de sesión en un comando.|
+|SignUpCommandFromResourceAssembler|Utilidad para convertir el recurso de registro en un comando.|
+|AuthenticatedUserResourceFromEntityAssembler|Utilidad para convertir el usuario autenticado en un recurso.|
+|UserResourceFromEntityAssembler|Utilidad para convertir el usuario registrado en un recurso.|
+
+- Controlador:  RolesController
+
+**Descripción:** Controlador que maneja los endpoints relacionados con la gestión de roles.
+
+|Método|Ruta|Descripción|
+|:-|:-|:-|
+|getAllRoles|GET /ap/v1/roles|Maneja la solicitud para obtener todos los roles. Llama al servicio de consultas, obtiene la lista de roles y los convierte en recursos para la respuesta. Devuelve una lista de recursos de roles.|
+
+|Dependencias|Descripción|
+|:-|:-|
+|RoleQueryService|Servicio encargado de manejar las consultas relacionadas con roles.|
+|GetAllRolesQuery|Consulta que se utiliza para obtener todos los roles.|
+|RoleResourceFromEntityAssembler|Utilidad para convertir las entidades de roles en recursos que se envían en la respuesta.|
+
 
 
 
