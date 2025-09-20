@@ -98,14 +98,14 @@ Ser la empresa líder en soluciones inteligentes para la gestión de flotas a ni
             <!-- DATOS del integrante 5 -->
             <td>
                 <img src="/images/chapter-I/PonerFoto.png" height="120" alt="ponernombre"><br>
-                <strong>PonerNombre</strong><br>
-                U20
+                <strong>Jessica Elizabeth Comettant Rubiños</strong><br>
+                U20211C009
             </td>
             <td>
-             Poner Descripcion
+                Gracias a las asignaturas correspondientes a la malla curricular de mi carrera, cuento con las habilidades intelectuales propicias para el desarrollo del proyecto. Asimismo, destaco de mi personalidad la empatía, la amabilidad y la capacidad de trabajar en equipo.
             </td>
             <td>
-                poner segundo parrafo
+                 Conocimientos en C++, python y java. Manejo de base de datos relacionales. Frameworks de desarrollo (Angular y Vue). Acreditación en Scrum Fundamentals.
             </td>
         </tr>
     </tbody>
@@ -421,3 +421,4 @@ Mediante una selección rigurosa, Flota 365 seleccionó a los siguientes segment
   </li>
 
 </ul>
+
