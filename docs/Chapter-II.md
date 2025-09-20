@@ -590,15 +590,97 @@ De acuerdo a lo dictaminado por Eric Evans en su libro *Domain-Driven Design: Ta
 ### 2.4.3. Product Backlog
 
 ## 2.5. Strategic-Level Domain-Driven Design
+
 ### 2.5.1. EventStorming
+
+El proceso de **EventStorming** permitió explorar el dominio de la startup desde un nivel estratégico, identificando los principales eventos de negocio, los bounded contexts y las interacciones entre ellos. Esta técnica visual facilitó descubrir la complejidad del sistema, fomentar el entendimiento compartido entre el equipo y establecer una base sólida para la implementación con DDD.
+
 #### 2.5.1.1. Candidate Context Discovery
+
+En esta etapa se identificaron los **bounded contexts** principales que conforman el dominio del sistema de gestión de flotas:
+
+- **Fleet Management BC**: responsable del ciclo de vida de los vehículos (registro, actualización de estado, baja).
+- **Driver Management BC**: gestiona la contratación de conductores, sus licencias y disponibilidad.
+- **Assignments BC**: se encarga de la asignación de vehículos a conductores para la ejecución de rutas.
+- **Maintenance BC**: administra órdenes de mantenimiento y servicios asociados a los vehículos.
+- **Reporting BC**: genera reportes y métricas clave a partir de la información de otros contextos.
+- **Management BC**: supervisa KPIs, managers y la toma de decisiones estratégicas.
+- **Auth BC**: ofrece autenticación, autorización y gestión de usuarios.
+- **Dashboard BC**: concentra información agregada y estadísticas operativas.
+- **Health Monitoring**: provee información sobre el estado de la infraestructura.
+
+Estos contextos encapsulan reglas de negocio específicas y reducen el acoplamiento, permitiendo escalar de forma modular.
+
+<div align="center">
+  <img src="../images/chapter-II/structurizr-candidate_context_discovery.png" wight="auto" height="950" alt="candidate_context_discovery">
+</div>
+
 #### 2.5.1.2. Domain Message Flows Modeling
+
+El modelado de **flujos de mensajes de dominio** permitió comprender cómo los bounded contexts interactúan entre sí mediante **commands** y **events**:
+
+- **Ciclo de vida de una asignación**  
+  - `CreateAssignment` → *AssignmentCreated* → notifica a Driver y Fleet.  
+  - `StartAssignment` → *AssignmentStarted* → actualiza Dashboard.  
+  - `CompleteAssignment` → *AssignmentCompleted* → genera reporte y puede detonar mantenimiento.
+
+- **Ciclo de vida de mantenimiento**  
+  - `CreateMaintenanceOrder` → *MaintenanceOrderCreated* → actualiza estado de vehículo en Fleet.  
+  - `CloseMaintenanceOrder` → *MaintenanceClosed* → alimenta Reporting y actualiza KPIs en Management.
+
+- **Flujo de autenticación**  
+  - `RegisterUser` → *UserRegistered* → puede crear un Manager en Management.  
+  - `LoginUser` → *UserLoggedIn* → emite JWT y actualiza métricas en Dashboard.  
+  - Fallos de login → *LoginFailed*.
+
+Estos flujos hacen visibles las dependencias y políticas de integración entre contextos.
+
+<div align="center">
+  <img src="../images/chapter-II/structurizr-assignment_lifecycl.png" wight="auto" height="450" alt="Assignmets-lifecycle">
+</div>
+ 
 #### 2.5.1.3. Bounded Context Canvases
+
+Finalmente, se desarrollaron los **Bounded Context Canvases** para detallar las responsabilidades, actores, comandos y eventos de cada contexto.  
+
+Ejemplo para **Assignments BC**:
+- **Responsabilidad**: gestionar asignaciones vehículo–conductor.  
+- **Usuarios clave**: Dispatcher, Manager.  
+- **Comandos**: `CreateAssignment`, `StartAssignment`, `CompleteAssignment`.  
+- **Eventos**: `AssignmentCreated`, `AssignmentStarted`, `AssignmentCompleted`.  
+- **Integraciones**: consulta disponibilidad de Drivers, reserva vehículos de Fleet, publica eventos hacia Reporting y Dashboard.  
+
+Este nivel de detalle asegura claridad en la separación de responsabilidades, evita ambigüedades en los límites del dominio y facilita la implementación de la arquitectura en capas (API, Application, Domain, Infrastructure).
+
+<div align="center">
+  <img src="../images/chapter-II/structurizr-assignments_canvas.png" wight="auto" height="450" alt="assignments_canvas" />
+</div>
+
 ### 2.5.2. Context Mapping
+
 ### 2.5.3. Software Architecture
+
+Para lo que respecta este capítulo, se detallará mediante nuestros *diagramas C4* la arquitectura que seguirá nuestro sistema, abarcando cada uno de los componentes y servicios principales que rigen dicho diseño.
+
 #### 2.5.3.1. Software Architecture Context Level Diagrams
+
+Diagrana de primer nivel que muestra las relaciones y cada uno de los flujos de información entre los actores y el sistema.
+
+<div align="center">
+  <img src="../images/chapter-II/C4-Context Diagram.png" alt="Context Diagram" width="auto" height="420"/>
+</div>
+
 #### 2.5.3.2. Software Architecture Container Level Diagrams
+
+<div align="center">
+  <img src="../images/chapter-II/C4-Container Diagram.png" alt="Container Diagram" width="auto" height="420"/>
+</div>
+
 #### 2.5.3.3. Software Architecture Deployment Diagrams
+
+<div align="center">
+ <img src="../images/chapter-II/Deployment Diagram.png" alt="Deployment Diagram" width="auto" height="320" />
+</div>
 
 ## 2.6. Tactical-Level Domain-Driven Design
 ### 2.6.x. Bounded Context: 
