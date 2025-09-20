@@ -683,12 +683,127 @@ Diagrana de primer nivel que muestra las relaciones y cada uno de los flujos de 
 </div>
 
 ## 2.6. Tactical-Level Domain-Driven Design
-### 2.6.x. Bounded Context: 
-#### 2.6.x.1. Domain Layer
-#### 2.6.x.2. Interface Layer
-#### 2.6.x.3. Application Layer
-#### 2.6.x.4. Infrastructure Layer
-#### 2.6.x.5. Bounded Context Software Architecture Component Level Diagrams
-#### 2.6.x.6. Bounded Context Software Architecture Code Level Diagrams
-##### 2.6.x.6.1. Bounded Context Domain Layer Class Diagrams
-##### 2.6.x.6.2. Bounded Context Database Design Diagram
+### 2.6.1. Bounded Context: 
+#### 2.6.1.1. Domain Layer
+
+La capa de dominio es el núcleo de la aplicación, pues en ella se definen los modelos y reglas esenciales que conforman la lógica del negocio. Dentro de este marco, el agregado "User" se establece como la entidad principal que simboliza a los usuarios del sistema, incluyendo sus propiedades y responsabilidades. Esta capa asegura que los conceptos del negocio y sus interacciones se representen y gestionen de manera adecuada.
+
+Propósito: Modelar las entidades del dominio, integrando tanto sus atributos como sus comportamientos, con el fin de reflejar fielmente los elementos centrales de la aplicación, como usuarios, productos, procesos comerciales, entre otros.
+
+* Aggregate: User  
+**Descripción:**  El agregado "Usuario" actúa como la raíz del modelo, encapsulando los datos esenciales de la cuenta y su rol dentro del sistema. Su representación en la base de datos se realiza mediante la tabla users, asegurando la persistencia de esta entidad clave.
+
+|Atributo|Tipo|Descripción|
+|:-|:-|:-|
+|id|Long|Identificador único del usuario (autogenerado).|
+|username|String|Nombre de usuario único del sistema.|
+|password|String|Contraseña del usuario.|
+|roles|Set<Role>|Conjunto de roles asociados al usuario.|
+|proofingApoderado|String|Prueba o evidencia del usuario como apoderado (almacenada como texto).|
+|createdAt|Date|Fecha de creación del usuario (heredado de la clase base).|
+|updatedAt|Date|Fecha de la última actualización del usuario (heredado de la clase base).|
+
+|Método|Descripción|
+|:-|:-|
+|addRoles(List< Role >roles)|Añade una lista de role para el usuario , retorna el usuario con su rol añadido|
+|getAuthorities()|retorna el conjunto de roles (roles) del usuario, que ya implementan la interfaz GrantedAuthority. Esto permite que Spring Security utilice esta información para realizar la autorización de acceso en la aplicación.|
+|isAccountNonExpired()| Indica si la cuenta del usuario no ha expirado. Devuelve true si la cuenta sigue siendo válida.|
+|isAccountNonLocked()| Indica si la cuenta del usuario no está bloqueada. Devuelve true si la cuenta está desbloqueada.|
+|isCredentialsNonExpired()| Indica si las credenciales del usuario (como la contraseña) no han expirado. Devuelve true si las credenciales son válidas.|
+|isEnabled()| Indica si la cuenta del usuario está habilitada. Devuelve true si la cuenta está activa.|
+|getId()|Retorna el id del usuario.||
+|getUsername()| Devuelve el nombre de usuario del usuario (valor incrustado)|
+|getEmail()| Devuelve el correo electrónico del usuario (valor incrustado)|
+|getPassword()| Devuelve la contraseña del usuario (valor incrustado)|
+
+* Value Object: EmailAddress  
+**Descripción:**  Representa una dirección de correo electrónico válida como un objeto de valor embebido.
+
+|Atributo|Tipo|Descripción|
+|:-|:-|:-|
+|email|String|Dirección de correo electrónico validada (no en blanco, máximo 50 caracteres, formato válido de correo).|
+|Método|Descripción||
+|EmailAddress(String email)|Constructor que recibe un correo electrónico y lo valida según las restricciones.||
+|EmailAddress()|Constructor por defecto que inicializa con null .||
+
+#### 2.6.1.2. Interface Layer
+
+Esta capa actúa como el punto de acceso que conecta a los usuarios con los distintos servicios del sistema. En ella, los controladores (Controllers) cumplen un rol esencial al encargarse de recibir solicitudes, gestionarlas y devolver las respuestas adecuadas. Por ejemplo, los controladores de autenticación y gestión de usuarios administran procesos como el inicio de sesión y la consulta de perfiles. Su finalidad principal es exponer endpoints (APIs) que permitan la interacción de los usuarios o sistemas externos con la lógica del negocio. Cabe resaltar que esta capa no define reglas de negocio, sino que se limita a orquestar y canalizar las peticiones hacia los servicios pertinentes o a la capa de dominio para su tratamiento.
+
+|Método|Ruta|Descripción|
+|:-|:-|:-|
+|signIn|POST /api/v1/authentication/sign-in|Maneja la solicitud de inicio de sesión. Recibe un objeto `SignInResource` del cuerpo de la solicitud, lo convierte en un comando y llama al servicio de comandos para autenticar al usuario. Si la autenticación es exitosa, devuelve un recurso de usuario autenticado. Si falla, retorna un error 404.|
+|signUp|POST /api/v1/authentication/sign-up|Maneja la solicitud de registro de nuevos usuarios. Recibe un objeto `SignUpResource`, lo convierte en un comando y llama al servicio de comandos para registrar al usuario. Si el registro es exitoso, devuelve un recurso de usuario creado. Si hay un error, retorna un error 400.|
+
+|Dependencias|Descripción|
+|:-|:-|
+|UserCommandService|Servicio encargado de manejar los comandos relacionados con la creación y autenticación de usuarios.|
+|SignInCommandFromResourceAssembler|Utilidad para convertir el recurso de inicio de sesión en un comando.|
+|SignUpCommandFromResourceAssembler|Utilidad para convertir el recurso de registro en un comando.|
+|AuthenticatedUserResourceFromEntityAssembler|Utilidad para convertir el usuario autenticado en un recurso.|
+|UserResourceFromEntityAssembler|Utilidad para convertir el usuario registrado en un recurso.|
+
+- Controlador:  RolesController
+
+**Descripción:** Controlador que maneja los endpoints relacionados con la gestión de roles.
+
+|Método|Ruta|Descripción|
+|:-|:-|:-|
+|getAllRoles|GET /ap/v1/roles|Maneja la solicitud para obtener todos los roles. Llama al servicio de consultas, obtiene la lista de roles y los convierte en recursos para la respuesta. Devuelve una lista de recursos de roles.|
+
+|Dependencias|Descripción|
+|:-|:-|
+|RoleQueryService|Servicio encargado de manejar las consultas relacionadas con roles.|
+|GetAllRolesQuery|Consulta que se utiliza para obtener todos los roles.|
+|RoleResourceFromEntityAssembler|Utilidad para convertir las entidades de roles en recursos que se envían en la respuesta.|
+
+#### 2.6.1.3. Application Layer
+
+La capa de aplicación se encarga de coordinar las operaciones del negocio y gestionar la lógica que regula el flujo de información entre la capa de dominio y la de infraestructura. En este nivel residen los servicios que controlan tanto los comandos como las consultas relacionadas con los usuarios, incorporando las reglas de negocio que guían estos procesos. Su función central es proveer los servicios que hacen efectiva la lógica operativa del negocio, facilitando la interacción entre los repositorios (infraestructura) y las entidades del dominio. Además, en esta capa se realizan validaciones de negocio y se ejecutan procesos complejos antes de comunicar los resultados a las demás capas del sistema.
+
+* Servicio:UserCommandServiceImpl  
+**Descripción:** Implementación del servicio de comandos para la gestión de usuarios, incluyendo registro, inicio de sesión y actualización del estado de verificación de apoderados y organizador.||
+
+|Método|Descripción|
+|:-|:-|
+|handle(SignUpCommand)|Maneja el comando de registro de un nuevo usuario. Verifica la unicidad del nombre de usuario. Si todo es válido, crea un nuevo usuario, lo guarda en el repositorio y devuelve el usuario creado.||
+|handle(SignInCommand)|Maneja el comando de inicio de sesión. Busca al usuario por nombre de usuario. Verifica que el usuario existe y que la contraseña coincide. Si es válido, genera un token de autenticación y lo devuelve junto con el usuario.||
+|updateProofingApoderado(UpdateProofingApoderadoCommand)|Actualiza el estado de verificación de un apoderado. Verifica que el usuario tenga el rol adecuado y actualiza el estado en el repositorio.||
+
+|Dependencias|Descripción|
+|:-|:-|
+|UserRepository|Repositorio que maneja las operaciones de persistencia relacionadas con usuarios.||
+|HashingService|Servicio encargado de codificar y verificar contraseñas de usuarios.||
+|TokenService|Servicio que genera tokens de autenticación para usuarios.||
+|RoleRepository|Repositorio que maneja las operaciones de persistencia relacionadas con roles.||
+|User|Agregado que representa al usuario en el sistema.||
+|SignUpCommand|Comando que encapsula la información necesaria para registrar un nuevo usuario.||
+|SignInCommand|Comando que encapsula la información necesaria para iniciar sesión con un usuario.||
+|UpdateProofingApoderadoCommand|Comando que encapsula la información necesaria para actualizar el estado de verificación de un apoderado.||
+
+
+* Servicio:UserQueryServiceImpl  
+**Descripción:** Implementación del servicio de consultas para la gestión de usuarios, permitiendo obtener información sobre usuarios registrados.||
+
+|Método|Descripción|
+|:-|:-|
+|handle(GetUserByUsernameQuery)|Maneja la consulta para obtener un usuario por su nombre de usuario. Devuelve un `Optional<User>` que puede estar vacío si no se encuentra el usuario.||
+|handle(GetUserByIdQuery)|Maneja la consulta para obtener un usuario por su ID. Devuelve un `Optional<User>` que puede estar vacío si no se encuentra el usuario.||
+|handle(GetAllUsersQuery)|Maneja la consulta para obtener todos los usuarios registrados en el sistema. Devuelve una lista de objetos `User`.||
+
+|Dependencias|Descripción|
+|:-|:-|
+|UserRepository|Repositorio que maneja las operaciones de persistencia relacionadas con usuarios.||
+|User|Agregado que representa al usuario en el sistema.||
+|GetUserByUsernameQuery|Consulta que encapsula la información necesaria para buscar un usuario por su nombre de usuario.||
+|GetUserByIdQuery|Consulta que encapsula la información necesaria para buscar un usuario por su ID.||
+|GetAllUsersQuery|Consulta que encapsula la información necesaria para obtener todos los usuarios registrados.||
+
+
+
+
+#### 2.6.1.4. Infrastructure Layer
+#### 2.6.1.5. Bounded Context Software Architecture Component Level Diagrams
+#### 2.6.1.6. Bounded Context Software Architecture Code Level Diagrams
+##### 2.6.1.6.1. Bounded Context Domain Layer Class Diagrams
+##### 2.6.1.6.2. Bounded Context Database Design Diagram
