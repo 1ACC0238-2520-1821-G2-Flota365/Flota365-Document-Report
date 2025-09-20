@@ -41,7 +41,9 @@ En esta etapa se identificaron los **bounded contexts** principales que conforma
 
 Estos contextos encapsulan reglas de negocio específicas y reducen el acoplamiento, permitiendo escalar de forma modular.
 
- <img src="/images/chapter-II/structurizr-candidate_context_discovery.png" height="1440" alt="candidate_context_discovery"><br>
+<div align="center">
+  <img src="../images/chapter-II/structurizr-candidate_context_discovery.png" wight="auto" height="950" alt="candidate_context_discovery">
+</div>
 
 #### 2.5.1.2. Domain Message Flows Modeling
 
@@ -62,7 +64,11 @@ El modelado de **flujos de mensajes de dominio** permitió comprender cómo los 
   - Fallos de login → *LoginFailed*.
 
 Estos flujos hacen visibles las dependencias y políticas de integración entre contextos.
- <img src="/images/chapter-II/structurizr-assignment_lifecycl.png" height="1440" alt="Assignmets-lifecycle"><br>
+
+<div align="center">
+  <img src="../images/chapter-II/structurizr-assignment_lifecycl.png" wight="auto" height="450" alt="Assignmets-lifecycle">
+</div>
+ 
 #### 2.5.1.3. Bounded Context Canvases
 
 Finalmente, se desarrollaron los **Bounded Context Canvases** para detallar las responsabilidades, actores, comandos y eventos de cada contexto.  
@@ -75,12 +81,36 @@ Ejemplo para **Assignments BC**:
 - **Integraciones**: consulta disponibilidad de Drivers, reserva vehículos de Fleet, publica eventos hacia Reporting y Dashboard.  
 
 Este nivel de detalle asegura claridad en la separación de responsabilidades, evita ambigüedades en los límites del dominio y facilita la implementación de la arquitectura en capas (API, Application, Domain, Infrastructure).
- <img src="/images/chapter-II/structurizr-assignments_canvas.png" height="1440" alt="assignments_canvas"><br>
+
+<div align="center">
+  <img src="../images/chapter-II/structurizr-assignments_canvas.png" wight="auto" height="450" alt="assignments_canvas" />
+</div>
+
 ### 2.5.2. Context Mapping
+
 ### 2.5.3. Software Architecture
+
+Para lo que respecta este capítulo, se detallará mediante nuestros *diagramas C4* la arquitectura que seguirá nuestro sistema, abarcando cada uno de los componentes y servicios principales que rigen dicho diseño.
+
 #### 2.5.3.1. Software Architecture Context Level Diagrams
+
+Diagrana de primer nivel que muestra las relaciones y cada uno de los flujos de información entre los actores y el sistema.
+
+<div align="center">
+  <img src="../images/chapter-II/C4-Context Diagram.png" alt="Context Diagram" width="auto" height="420"/>
+</div>
+
 #### 2.5.3.2. Software Architecture Container Level Diagrams
+
+<div align="center">
+  <img src="../images/chapter-II/C4-Container Diagram.png" alt="Container Diagram" width="auto" height="420"/>
+</div>
+
 #### 2.5.3.3. Software Architecture Deployment Diagrams
+
+<div align="center">
+ <img src="../images/chapter-II/Deployment Diagram.png" alt="Deployment Diagram" width="auto" height="320" />
+</div>
 
 ## 2.6. Tactical-Level Domain-Driven Design
 ### 2.6.x. Bounded Context: 
