@@ -1042,40 +1042,121 @@ Propósito: Modelar las entidades del dominio, integrando tanto sus atributos co
 
 #### 2.6.1.4. Infrastructure Layer
 
-La capa de infraestructura gestiona la comunicación con sistemas externos, incluyendo bases de datos, servicios web y otros recursos ajenos al núcleo del negocio. En este contexto, el UserRepository se encarga específicamente de almacenar y recuperar información de usuarios, ofreciendo funcionalidades para verificar su existencia y realizar búsquedas en la base de datos. Su propósito principal es facilitar el acceso a los datos externos y asegurar que el sistema pueda interactuar con ellos de manera óptima. Esta capa alberga los componentes repositorio, que son los responsables de mantener la persistencia de las entidades definidas en el dominio. 
 
-* Repositorio: UserRepository  
-**Descripción:** Repositorio que maneja las operaciones de persistencia relacionadas con los usuarios en la base de datos.
+**Descripción**: El **Infrastructure Layer** se encarga de proporcionar acceso a la base de datos, servicios externos y otros detalles técnicos relacionados con la persistencia y la infraestructura subyacente del sistema. Este layer actúa como la implementación real de la persistencia de datos, gestionando la interacción con la base de datos y otros recursos técnicos necesarios para el funcionamiento del sistema.
 
-|Método|Descripción|
-|:-|:-|
-|findByUsername(String username)|Busca un usuario en la base de datos utilizando su nombre de usuario. Devuelve un `Optional<User>`.|
-|existsByUsername(String username)|Verifica si un usuario con el nombre de usuario especificado ya existe en la base de datos. Devuelve un `boolean`.|
-|findById(Long id)|Busca un usuario en la base de datos utilizando su ID. Devuelve un `Optional<User>`.|
-|findAll()|Devuelve una lista de todos los usuarios almacenados en la base de datos.|
-|hasApoderadoRole(Long userId)|Verifica si un usuario tiene el rol de apoderado (basado en `role_id = 3`). Devuelve un `boolean`.|
+**Justificación**: Los diferentes repositorios, como `VehicleRepository`, `DriverRepository`, `AssignmentRepository`, y `MaintenanceRepository`, son responsables de la persistencia de los vehículos, conductores, asignaciones y registros de mantenimiento, respectivamente. Los métodos proporcionados en estos repositorios permiten interactuar directamente con la base de datos para almacenar, recuperar, actualizar y eliminar datos. Este layer asegura que los datos se gestionen correctamente desde la infraestructura subyacente, separando las preocupaciones técnicas de las reglas de negocio. La implementación en esta capa permite que la lógica de negocio en la capa de aplicación permanezca independiente de los detalles técnicos de la persistencia.
 
-|Dependencias|Descripción|
-|:-|:-|
-|User|Clase que representa al usuario en el sistema.||
+### Repositorio: **AssignmentRepository**
 
-* Repositorio: RoleRepository  
+**Descripción**: Repositorio de acceso a datos para la entidad **Assignment**, utilizando **Entity Framework Core (EF Core)** para realizar operaciones de persistencia.
 
-**Descripción:** Repositorio que maneja las operaciones de persistencia relacionadas con los roles en la base de datos.
+| Método                                      | Descripción                                                                                           |
+|---------------------------------------------|-------------------------------------------------------------------------------------------------------|
+| `GetByIdAsync(Guid id)`                     | Busca una asignación específica por su ID.                                                           |
+| `GetAllAsync()`                             | Obtiene todas las asignaciones registradas en el sistema.                                             |
+| `AddAsync(Assignment assignment)`           | Agrega una nueva asignación al sistema y guarda los cambios en la base de datos.                      |
+| `UpdateAsync(Assignment assignment)`        | Actualiza una asignación existente y guarda los cambios en la base de datos.                          |
 
-|Método|Descripción|
-|:-|:-|
-|findByName(Roles name)|Busca un rol en la base de datos utilizando su nombre. Devuelve un `Optional<Role>`.|
-|existsByName(Roles name)|Verifica si un rol con el nombre especificado ya existe en la base de datos. Devuelve un `boolean`.|
-|findById(Long id)|Busca un rol en la base de datos utilizando su ID. Devuelve un `Optional<Role>`.|
-|findAll()|Devuelve una lista de todos los roles almacenados en la base de datos.|
+### Dependencias
 
-|Dependencias|Descripción|
-|:-|:-|
-|Role|Clase que representa un rol en el sistema.||
-|Roles|Valor de objeto que encapsula el nombre del rol.||
+| Dependencia                 | Descripción                                                                                 |
+|-----------------------------|---------------------------------------------------------------------------------------------|
+| `AppDbContext`               | Contexto de la base de datos, utilizado para interactuar con las tablas de la base de datos. |
+| `Assignment`                 | Entidad que representa una asignación en el dominio del sistema.                           |
+| `Entity Framework Core`      | Framework utilizado para las operaciones de persistencia, como `FindAsync`, `ToListAsync`, `AddAsync`, y `Update`. |
+
+### Repositorio: **UserRepository**
+
+**Descripción**: Repositorio de acceso a datos para la entidad **User**, utilizando **Entity Framework Core (EF Core)** para realizar operaciones de persistencia.
+
+| Método                                      | Descripción                                                                                           |
+|---------------------------------------------|-------------------------------------------------------------------------------------------------------|
+| `GetByEmailAsync(string email)`             | Busca un usuario específico por su correo electrónico.                                                |
+| `GetByIdAsync(int id)`                      | Busca un usuario específico por su ID.                                                                |
+| `AddAsync(User user)`                       | Agrega un nuevo usuario al sistema y guarda los cambios en la base de datos.                          |
+| `UpdateAsync(User user)`                    | Actualiza un usuario existente y guarda los cambios en la base de datos.                              |
+| `GetAllAsync()`                             | Obtiene todos los usuarios registrados en el sistema.                                                |
+
+### Dependencias
+
+| Dependencia                 | Descripción                                                                                 |
+|-----------------------------|---------------------------------------------------------------------------------------------|
+| `AppDbContext`               | Contexto de la base de datos, utilizado para interactuar con las tablas de la base de datos. |
+| `User`                       | Entidad que representa un usuario en el dominio del sistema.                                |
+| `Entity Framework Core`      | Framework utilizado para las operaciones de persistencia, como `FindAsync`, `FirstOrDefaultAsync`, `AddAsync`, `Update`, y `ToListAsync`. |
+
+### Repositorio: **DriverRepository**
+
+**Descripción**: Repositorio de acceso a datos para la entidad **Driver**, utilizando **Entity Framework Core (EF Core)** para realizar operaciones de persistencia.
+
+| Método                                      | Descripción                                                                                           |
+|---------------------------------------------|-------------------------------------------------------------------------------------------------------|
+| `GetByIdAsync(int id)`                      | Busca un conductor específico por su ID.                                                              |
+| `GetAllAsync()`                             | Obtiene todos los conductores registrados en el sistema.                                              |
+| `AddAsync(Driver driver)`                   | Agrega un nuevo conductor al sistema y guarda los cambios en la base de datos.                        |
+| `UpdateAsync(Driver driver)`                | Actualiza un conductor existente y guarda los cambios en la base de datos.                            |
+
+### Dependencias
+
+| Dependencia                 | Descripción                                                                                 |
+|-----------------------------|---------------------------------------------------------------------------------------------|
+| `AppDbContext`               | Contexto de la base de datos, utilizado para interactuar con las tablas de la base de datos. |
+| `Driver`                     | Entidad que representa un conductor en el dominio del sistema.                              |
+| `Entity Framework Core`      | Framework utilizado para las operaciones de persistencia, como `FindAsync`, `ToListAsync`, `AddAsync` y `Update`. |
+
+### Repositorio: **VehicleRepository**
+
+**Descripción**: Repositorio de acceso a datos para la entidad **Vehicle**, utilizando **Entity Framework Core (EF Core)** para realizar operaciones de persistencia.
+
+| Método                                      | Descripción                                                                                           |
+|---------------------------------------------|-------------------------------------------------------------------------------------------------------|
+| `GetByIdAsync(int id)`                      | Busca un vehículo específico por su ID.                                                                |
+| `AddAsync(Vehicle vehicle)`                 | Agrega un nuevo vehículo al sistema y guarda los cambios en la base de datos.                          |
+| `UpdateAsync(Vehicle vehicle)`              | Actualiza un vehículo existente y guarda los cambios en la base de datos.                              |
+| `GetAllAsync()`                             | Obtiene todos los vehículos registrados en el sistema.                                                |
+
+### Dependencias
+
+| Dependencia                 | Descripción                                                                                 |
+|-----------------------------|---------------------------------------------------------------------------------------------|
+| `AppDbContext`               | Contexto de la base de datos, utilizado para interactuar con las tablas de la base de datos. |
+| `Vehicle`                    | Entidad que representa un vehículo en el dominio del sistema.                               |
+| `Entity Framework Core`      | Framework utilizado para las operaciones de persistencia, como `FindAsync`, `ToListAsync`, `AddAsync` y `Update`. |
+
+### Repositorio: **FleetRepository**
+
+**Descripción**: Repositorio de acceso a datos para la entidad **Fleet**, utilizando **Entity Framework Core (EF Core)** para realizar operaciones de persistencia.
+
+| Método                                      | Descripción                                                                                           |
+|---------------------------------------------|-------------------------------------------------------------------------------------------------------|
+| `GetByIdAsync(int id)`                      | Busca una flota específica por su ID.                                                                |
+| `GetAllAsync()`                             | Obtiene todas las flotas registradas en el sistema, ordenadas por nombre.                             |
+| `AddAsync(Fleet fleet)`                     | Agrega una nueva flota al sistema y guarda los cambios en la base de datos.                           |
+| `UpdateAsync(Fleet fleet)`                  | Actualiza una flota existente y guarda los cambios en la base de datos.                               |
+| `DeleteAsync(int id)`                       | Elimina una flota específica por su ID.                                                               |
+| `ExistsAsync(int id)`                       | Verifica si una flota con el ID especificado existe en el sistema.                                   |
+
+### Dependencias
+
+| Dependencia                 | Descripción                                                                                 |
+|-----------------------------|---------------------------------------------------------------------------------------------|
+| `AppDbContext`               | Contexto de la base de datos, utilizado para interactuar con las tablas de la base de datos. |
+| `Fleet`                      | Entidad que representa una flota en el dominio del sistema.                                 |
+| `Entity Framework Core`      | Framework utilizado para las operaciones de persistencia, como `FindAsync`, `ToListAsync`, `AddAsync`, `Update`, `Remove` y `AnyAsync`. |
+
 
 #### 2.6.1.5. Bounded Context Software Architecture Component Level Diagrams
+
+Este diagrama de contenedores refleja la estructura y componentes clave de nuestro Sistema de Gestión de Flotas. En él, mostramos cómo interactúan los distintos actores, sistemas y servicios dentro de la plataforma para gestionar y optimizar las asignaciones de vehículos, conductores y mantenimientos. El administrador es el principal usuario del sistema, encargado de gestionar las asignaciones, los vehículos, los conductores y el mantenimiento de los vehículos, mientras que los diversos componentes y servicios como las APIs, servicios de comandos, repositorios y herramientas externas trabajan juntos para facilitar la creación, actualización, almacenamiento y notificación de información clave. Este diagrama nos ayuda a visualizar cómo cada parte del sistema contribuye a una experiencia fluida y eficiente para nuestros usuarios y asegura una gestión efectiva de la flota de vehículos. 
+
+
+<img src="../images/chapter-II/Tactital DDD.PNG" alt="alt text" width="800"/>  
+
+
 #### 2.6.1.6. Bounded Context Software Architecture Code Level Diagrams
 ##### 2.6.1.6.1. Bounded Context Domain Layer Class Diagrams
+
+
 ##### 2.6.1.6.2. Bounded Context Database Design Diagram
+
