@@ -862,34 +862,63 @@ Propósito: Modelar las entidades del dominio, integrando tanto sus atributos co
 
 #### 2.6.1.2. Interface Layer
 
-Esta capa actúa como el punto de acceso que conecta a los usuarios con los distintos servicios del sistema. En ella, los controladores (Controllers) cumplen un rol esencial al encargarse de recibir solicitudes, gestionarlas y devolver las respuestas adecuadas. Por ejemplo, los controladores de autenticación y gestión de usuarios administran procesos como el inicio de sesión y la consulta de perfiles. Su finalidad principal es exponer endpoints (APIs) que permitan la interacción de los usuarios o sistemas externos con la lógica del negocio. Cabe resaltar que esta capa no define reglas de negocio, sino que se limita a orquestar y canalizar las peticiones hacia los servicios pertinentes o a la capa de dominio para su tratamiento.
+**Descripción**: El **Interface Layer** o capa de interfaz define cómo los usuarios o sistemas externos interactúan con el sistema. Los controladores reciben y gestionan las solicitudes HTTP, delegando las operaciones a los servicios de aplicación correspondientes. Este layer facilita la entrada y salida de datos entre el sistema y los usuarios, asegurando que las solicitudes sean procesadas correctamente y que las respuestas se entreguen de manera adecuada.
 
-|Método|Ruta|Descripción|
-|:-|:-|:-|
-|signIn|POST /api/v1/authentication/sign-in|Maneja la solicitud de inicio de sesión. Recibe un objeto `SignInResource` del cuerpo de la solicitud, lo convierte en un comando y llama al servicio de comandos para autenticar al usuario. Si la autenticación es exitosa, devuelve un recurso de usuario autenticado. Si falla, retorna un error 404.|
-|signUp|POST /api/v1/authentication/sign-up|Maneja la solicitud de registro de nuevos usuarios. Recibe un objeto `SignUpResource`, lo convierte en un comando y llama al servicio de comandos para registrar al usuario. Si el registro es exitoso, devuelve un recurso de usuario creado. Si hay un error, retorna un error 400.|
+**Justificación**: Los controladores en esta capa, como `AssignmentController`, `MaintenanceController`, y `VehicleController`, manejan las solicitudes relacionadas con asignaciones de tareas, mantenimiento de vehículos y gestión de flotas. Cada uno de estos controladores se apoya en servicios específicos de la capa de aplicación, como `AssignmentCommandService`, `MaintenanceQueryService` y `VehicleCommandService`, para ejecutar las operaciones necesarias. La capa de interfaz canaliza las solicitudes, realizando las validaciones necesarias y devolviendo las respuestas apropiadas, asegurando una interacción eficiente entre los usuarios y el sistema.
 
-|Dependencias|Descripción|
-|:-|:-|
-|UserCommandService|Servicio encargado de manejar los comandos relacionados con la creación y autenticación de usuarios.|
-|SignInCommandFromResourceAssembler|Utilidad para convertir el recurso de inicio de sesión en un comando.|
-|SignUpCommandFromResourceAssembler|Utilidad para convertir el recurso de registro en un comando.|
-|AuthenticatedUserResourceFromEntityAssembler|Utilidad para convertir el usuario autenticado en un recurso.|
-|UserResourceFromEntityAssembler|Utilidad para convertir el usuario registrado en un recurso.|
 
-- Controlador:  RolesController
+- **Controlador**: AssignmentController
 
-**Descripción:** Controlador que maneja los endpoints relacionados con la gestión de roles.
+**Descripción**: Controlador que maneja los endpoints relacionados con las asignaciones de tareas, permitiendo la creación, inicio y finalización de las asignaciones.
 
-|Método|Ruta|Descripción|
-|:-|:-|:-|
-|getAllRoles|GET /ap/v1/roles|Maneja la solicitud para obtener todos los roles. Llama al servicio de consultas, obtiene la lista de roles y los convierte en recursos para la respuesta. Devuelve una lista de recursos de roles.|
+| Método         | Ruta                                      | Descripción                                                                                          |
+|----------------|-------------------------------------------|------------------------------------------------------------------------------------------------------|
+| `createAssignment` | `POST /api/assignments`                   | Crea una nueva asignación, asignando un vehículo y un conductor a una tarea.                         |
+| `startAssignment`  | `POST /api/assignments/{id}/start`        | Cambia el estado de una asignación a "IN_PROGRESS".                                                   |
+| `completeAssignment` | `POST /api/assignments/{id}/complete`    | Cambia el estado de una asignación a "COMPLETED" y establece la fecha de finalización.               |
 
-|Dependencias|Descripción|
-|:-|:-|
-|RoleQueryService|Servicio encargado de manejar las consultas relacionadas con roles.|
-|GetAllRolesQuery|Consulta que se utiliza para obtener todos los roles.|
-|RoleResourceFromEntityAssembler|Utilidad para convertir las entidades de roles en recursos que se envían en la respuesta.|
+| Dependencias            | Descripción                                                                                 |
+|-------------------------|---------------------------------------------------------------------------------------------|
+| `AssignmentCommandService` | Servicio encargado de manejar los comandos relacionados con la creación, inicio y finalización de asignaciones. |
+| `AssignmentQueryService` | Servicio encargado de manejar las consultas relacionadas con las asignaciones.               |
+| `AssignmentResourceFromEntityAssembler` | Utilidad para convertir las entidades de asignaciones en recursos que se envían en la respuesta. |
+
+---
+
+- **Controlador**: MaintenanceController
+
+**Descripción**: Controlador que maneja los endpoints relacionados con las órdenes de mantenimiento y los registros de servicio, permitiendo crear nuevas órdenes, realizar seguimientos y consultar registros.
+
+| Método          | Ruta                                    | Descripción                                                                                           |
+|-----------------|-----------------------------------------|-------------------------------------------------------------------------------------------------------|
+| `createMaintenanceOrder` | `POST /api/maintenance/orders`           | Crea una nueva orden de mantenimiento para un vehículo.                                                |
+| `getMaintenanceRecords`  | `GET /api/maintenance/records/{id}`      | Obtiene un registro de mantenimiento específico para un vehículo.                                      |
+| `getAllMaintenanceRecords`  | `GET /api/maintenance/records`           | Obtiene todos los registros de mantenimiento de vehículos.                                            |
+
+| Dependencias                | Descripción                                                                                 |
+|-----------------------------|---------------------------------------------------------------------------------------------|
+| `MaintenanceOrderCommandService` | Servicio encargado de manejar los comandos relacionados con la creación de órdenes de mantenimiento. |
+| `MaintenanceRecordQueryService` | Servicio encargado de manejar las consultas relacionadas con los registros de mantenimiento.      |
+| `MaintenanceRecordResourceFromEntityAssembler` | Utilidad para convertir las entidades de mantenimiento en recursos que se envían en la respuesta.   |
+
+---
+
+- **Controlador**: VehicleController
+
+**Descripción**: Controlador que maneja los endpoints relacionados con la gestión de vehículos, incluyendo la creación y consulta de vehículos en la flota.
+
+| Método           | Ruta                                      | Descripción                                                                                          |
+|------------------|-------------------------------------------|------------------------------------------------------------------------------------------------------|
+| `createVehicle`  | `POST /api/vehicles`                      | Crea un nuevo vehículo en la flota, asignando sus características como la placa, marca y modelo.     |
+| `getVehicle`     | `GET /api/vehicles/{id}`                  | Obtiene un vehículo específico a partir de su ID.                                                     |
+| `getAllVehicles` | `GET /api/vehicles`                       | Obtiene todos los vehículos registrados en la flota.                                                 |
+
+| Dependencias              | Descripción                                                                                   |
+|---------------------------|-----------------------------------------------------------------------------------------------|
+| `VehicleCommandService`    | Servicio encargado de manejar los comandos relacionados con la creación y gestión de vehículos. |
+| `VehicleQueryService`      | Servicio encargado de manejar las consultas relacionadas con los vehículos.                    |
+| `VehicleResourceFromEntityAssembler` | Utilidad para convertir las entidades de vehículos en recursos que se envían en la respuesta.  |
+
 
 #### 2.6.1.3. Application Layer
 
