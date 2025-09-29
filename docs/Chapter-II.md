@@ -922,46 +922,121 @@ Propósito: Modelar las entidades del dominio, integrando tanto sus atributos co
 
 #### 2.6.1.3. Application Layer
 
-La capa de aplicación se encarga de coordinar las operaciones del negocio y gestionar la lógica que regula el flujo de información entre la capa de dominio y la de infraestructura. En este nivel residen los servicios que controlan tanto los comandos como las consultas relacionadas con los usuarios, incorporando las reglas de negocio que guían estos procesos. Su función central es proveer los servicios que hacen efectiva la lógica operativa del negocio, facilitando la interacción entre los repositorios (infraestructura) y las entidades del dominio. Además, en esta capa se realizan validaciones de negocio y se ejecutan procesos complejos antes de comunicar los resultados a las demás capas del sistema.
+### Application Layer
 
-* Servicio:UserCommandServiceImpl  
-**Descripción:** Implementación del servicio de comandos para la gestión de usuarios, incluyendo registro, inicio de sesión y actualización del estado de verificación de apoderados y organizador.||
+**Descripción**: El **Application Layer** orquesta las operaciones que deben ejecutarse para cumplir con las necesidades del usuario, coordinando diferentes servicios y repositorios del sistema. Contiene la lógica específica de las acciones que no necesariamente forman parte del dominio principal, pero son esenciales para el funcionamiento de los sistemas de gestión de asignaciones, mantenimiento, vehículos y flotas. Este layer se encarga de coordinar las actividades entre los controladores y el dominio, garantizando que las solicitudes del usuario sean procesadas correctamente.
 
-|Método|Descripción|
-|:-|:-|
-|handle(SignUpCommand)|Maneja el comando de registro de un nuevo usuario. Verifica la unicidad del nombre de usuario. Si todo es válido, crea un nuevo usuario, lo guarda en el repositorio y devuelve el usuario creado.||
-|handle(SignInCommand)|Maneja el comando de inicio de sesión. Busca al usuario por nombre de usuario. Verifica que el usuario existe y que la contraseña coincide. Si es válido, genera un token de autenticación y lo devuelve junto con el usuario.||
-|updateProofingApoderado(UpdateProofingApoderadoCommand)|Actualiza el estado de verificación de un apoderado. Verifica que el usuario tenga el rol adecuado y actualiza el estado en el repositorio.||
+**Justificación**: En este contexto, los servicios `AssignmentCommandService`, `MaintenanceOrderCommandService`, `VehicleCommandService`, y `FleetCommandService` gestionan las reglas de negocio relacionadas con las asignaciones de tareas, órdenes de mantenimiento, vehículos y flotas. Estos servicios se encargan de ejecutar los comandos y consultas relacionadas con la creación, actualización, inicio y finalización de tareas, mantenimiento y gestión de vehículos. La capa de aplicación se comunica con sus respectivos repositorios (`AssignmentRepository`, `MaintenanceOrderRepository`, `VehicleRepository`, `FleetRepository`), asegurando que la lógica de negocio esté correctamente aplicada y que las interacciones con el dominio se realicen de manera eficiente.
 
-|Dependencias|Descripción|
-|:-|:-|
-|UserRepository|Repositorio que maneja las operaciones de persistencia relacionadas con usuarios.||
-|HashingService|Servicio encargado de codificar y verificar contraseñas de usuarios.||
-|TokenService|Servicio que genera tokens de autenticación para usuarios.||
-|RoleRepository|Repositorio que maneja las operaciones de persistencia relacionadas con roles.||
-|User|Agregado que representa al usuario en el sistema.||
-|SignUpCommand|Comando que encapsula la información necesaria para registrar un nuevo usuario.||
-|SignInCommand|Comando que encapsula la información necesaria para iniciar sesión con un usuario.||
-|UpdateProofingApoderadoCommand|Comando que encapsula la información necesaria para actualizar el estado de verificación de un apoderado.||
+### Servicio: AssignmentService
+**Descripción**: Implementación del servicio encargado de gestionar las asignaciones de tareas, permitiendo su creación, inicio y finalización.
 
+| Método                                         | Descripción                                                                                           |
+|------------------------------------------------|-------------------------------------------------------------------------------------------------------|
+| `Create(Guid vehicleId, Guid driverId, string route)` | Crea una nueva asignación para un vehículo y un conductor, asignándolos a una ruta específica.         |
+| `GetAll()`                                     | Obtiene todas las asignaciones existentes en el sistema.                                              |
+| `Start(Guid id)`                               | Inicia una asignación existente, cambiando su estado a "IN_PROGRESS".                                 |
+| `Complete(Guid id)`                            | Completa una asignación existente, cambiando su estado a "COMPLETED" y estableciendo la fecha de finalización. |
 
-* Servicio:UserQueryServiceImpl  
-**Descripción:** Implementación del servicio de consultas para la gestión de usuarios, permitiendo obtener información sobre usuarios registrados.||
+### Dependencias
 
-|Método|Descripción|
-|:-|:-|
-|handle(GetUserByUsernameQuery)|Maneja la consulta para obtener un usuario por su nombre de usuario. Devuelve un `Optional<User>` que puede estar vacío si no se encuentra el usuario.||
-|handle(GetUserByIdQuery)|Maneja la consulta para obtener un usuario por su ID. Devuelve un `Optional<User>` que puede estar vacío si no se encuentra el usuario.||
-|handle(GetAllUsersQuery)|Maneja la consulta para obtener todos los usuarios registrados en el sistema. Devuelve una lista de objetos `User`.||
+| Dependencia                     | Descripción                                                                                 |
+|----------------------------------|---------------------------------------------------------------------------------------------|
+| `IAssignmentRepository`          | Repositorio encargado de manejar la persistencia de las asignaciones.                        |
+| `Assignment`                     | Entidad que representa una asignación de tarea en el dominio.                               |
+| `AssignmentDto`                  | DTO (Data Transfer Object) que representa una asignación para la respuesta.                 |
+| `AssignmentCommandService`       | Servicio que maneja la lógica de negocio asociada con la creación, inicio y finalización de asignaciones. |
 
-|Dependencias|Descripción|
-|:-|:-|
-|UserRepository|Repositorio que maneja las operaciones de persistencia relacionadas con usuarios.||
-|User|Agregado que representa al usuario en el sistema.||
-|GetUserByUsernameQuery|Consulta que encapsula la información necesaria para buscar un usuario por su nombre de usuario.||
-|GetUserByIdQuery|Consulta que encapsula la información necesaria para buscar un usuario por su ID.||
-|GetAllUsersQuery|Consulta que encapsula la información necesaria para obtener todos los usuarios registrados.||
+### Servicio: MaintenanceService
+**Descripción**: Implementación del servicio encargado de gestionar los registros de mantenimiento y servicio de vehículos, permitiendo la creación, obtención, actualización y eliminación de registros de mantenimiento y servicio.
 
+| Método                                         | Descripción                                                                                           |
+|------------------------------------------------|-------------------------------------------------------------------------------------------------------|
+| `CreateMaintenanceRecord(CreateMaintenanceRecordRequest request)` | Crea un nuevo registro de mantenimiento para un vehículo, asignando los detalles de mantenimiento como la descripción, tipo, costo, etc. |
+| `GetAllMaintenanceRecords()`                   | Obtiene todos los registros de mantenimiento de vehículos existentes en el sistema.                  |
+| `GetMaintenanceRecordById(int id)`             | Obtiene un registro específico de mantenimiento a partir de su ID.                                      |
+| `GetMaintenanceRecordsByVehicle(int vehicleId)`| Obtiene todos los registros de mantenimiento asociados a un vehículo específico.                      |
+| `GetOverdueMaintenanceRecords()`               | Obtiene todos los registros de mantenimiento que están atrasados.                                      |
+| `UpdateMaintenanceRecord(int id, UpdateMaintenanceRecordRequest request)` | Actualiza los detalles de un registro de mantenimiento existente.                                      |
+| `DeleteMaintenanceRecord(int id)`              | Elimina un registro de mantenimiento, marcándolo como inactivo (soft delete).                          |
+
+### Dependencias
+
+| Dependencia                         | Descripción                                                                                 |
+|--------------------------------------|---------------------------------------------------------------------------------------------|
+| `IMaintenanceRecordRepository`       | Repositorio encargado de manejar la persistencia de los registros de mantenimiento.         |
+| `MaintenanceRecordDto`               | DTO (Data Transfer Object) que representa un registro de mantenimiento para la respuesta.   |
+| `MaintenanceOrderCommandService`     | Servicio encargado de la lógica de negocio relacionada con las órdenes de mantenimiento.     |
+| `MaintenanceRecord`                  | Entidad que representa un registro de mantenimiento de vehículo en el dominio.              |
+
+### Servicio: VehicleService
+
+**Descripción**: Implementación del servicio encargado de gestionar los vehículos, permitiendo su registro, obtención, actualización, eliminación y asignación de conductores.
+
+| Método                                   | Descripción                                                                                             |
+|------------------------------------------|---------------------------------------------------------------------------------------------------------|
+| `RegisterVehicleAsync(CreateVehicleDto createDto)` | Registra un nuevo vehículo en el sistema, asignando su placa, marca, modelo y otros detalles.          |
+| `GetAllVehiclesAsync()`                  | Obtiene todos los vehículos registrados en el sistema.                                                  |
+| `GetVehicleByIdAsync(int id)`            | Obtiene un vehículo específico por su ID.                                                               |
+| `UpdateVehicleAsync(int id, UpdateVehicleDto updateDto)` | Actualiza un vehículo existente con nueva información, como kilometraje, fechas de servicio, conductor y estado. |
+| `DeleteVehicleAsync(int id)`             | Elimina un vehículo marcándolo como inactivo en lugar de eliminarlo físicamente.                        |
+
+### Dependencias
+
+| Dependencia                   | Descripción                                                                                 |
+|--------------------------------|---------------------------------------------------------------------------------------------|
+| `IVehicleRepository`           | Repositorio encargado de manejar la persistencia de los vehículos.                           |
+| `VehicleDto`                   | DTO (Data Transfer Object) que representa un vehículo para la respuesta.                    |
+| `VehicleCommandService`        | Servicio encargado de la lógica de negocio relacionada con la creación, actualización y gestión de vehículos. |
+
+---
+
+### Servicio: DriverService
+
+**Descripción**: Implementación del servicio encargado de gestionar los conductores, permitiendo su registro, obtención, actualización, eliminación y asignación de vehículos.
+
+| Método                                   | Descripción                                                                                             |
+|------------------------------------------|---------------------------------------------------------------------------------------------------------|
+| `RegisterDriverAsync(CreateDriverDto createDto)` | Registra un nuevo conductor en el sistema, asignando los detalles proporcionados como código, nombre, licencia, etc. |
+| `GetAllDriversAsync()`                   | Obtiene todos los conductores registrados en el sistema.                                                |
+| `GetDriverByIdAsync(int id)`             | Obtiene un conductor específico por su ID.                                                              |
+| `UpdateDriverAsync(int id, UpdateDriverDto updateDto)` | Actualiza la información de un conductor existente, como nombre, licencia, vehículo asignado y estado. |
+| `DeleteDriverAsync(int id)`              | Elimina un conductor del sistema, marcándolo como inactivo (soft delete).                             |
+| `GetDriverStatsAsync()`                  | Obtiene estadísticas sobre los conductores, como total de conductores, conductores activos, inactivos, con licencias expiradas, etc. |
+
+### Dependencias
+
+| Dependencia                   | Descripción                                                                                 |
+|--------------------------------|---------------------------------------------------------------------------------------------|
+| `IDriverRepository`            | Repositorio encargado de manejar la persistencia de los conductores.                         |
+| `DriverDto`                    | DTO (Data Transfer Object) que representa un conductor para la respuesta.                    |
+| `DriverStatsDto`               | DTO que representa las estadísticas de los conductores.                                      |
+
+---
+
+### Servicio: AuthService
+
+**Descripción**: Implementación del servicio encargado de gestionar la autenticación de usuarios, incluyendo el registro, inicio de sesión, actualización de perfil y cambio de contraseña.
+
+| Método                                   | Descripción                                                                                             |
+|------------------------------------------|---------------------------------------------------------------------------------------------------------|
+| `Register(RegisterRequest request)`      | Registra un nuevo usuario en el sistema con la información proporcionada (nombre, correo, contraseña, rol). |
+| `Login(LoginRequest request)`            | Inicia sesión de un usuario, generando un token JWT si las credenciales son correctas.               |
+| `GetUserByIdAsync(int id)`               | Obtiene un usuario específico por su ID.                                                              |
+| `GetUserByEmailAsync(string email)`      | Obtiene un usuario específico por su correo electrónico.                                             |
+| `GetAllUsersAsync()`                     | Obtiene todos los usuarios registrados en el sistema.                                                |
+| `UpdateProfileAsync(int id, UpdateProfileRequest request)` | Actualiza el perfil de un usuario específico, permitiendo cambios en su nombre y apellido.           |
+| `ChangePasswordAsync(int id, ChangePasswordRequest request)` | Cambia la contraseña de un usuario verificando la contraseña actual y actualizando con una nueva.     |
+| `DeactivateUserAsync(int id)`            | Desactiva un usuario, marcándolo como inactivo.                                                      |
+
+### Dependencias
+
+| Dependencia                   | Descripción                                                                                 |
+|--------------------------------|---------------------------------------------------------------------------------------------|
+| `IUserRepository`              | Repositorio encargado de manejar la persistencia de los usuarios.                            |
+| `UserDto`                      | DTO (Data Transfer Object) que representa un usuario para la respuesta.                     |
+| `PasswordHasher<User>`         | Utilidad para la creación y verificación de contraseñas de usuarios.                         |
+| `JwtSecurityTokenHandler`      | Utilidad para la generación y manejo de tokens JWT para la autenticación.                    |
 
 
 
