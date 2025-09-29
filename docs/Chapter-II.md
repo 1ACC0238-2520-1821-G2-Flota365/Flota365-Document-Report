@@ -721,6 +721,40 @@ La capa de aplicación se encarga de coordinar las operaciones del negocio y ges
 
 
 #### 2.6.1.4. Infrastructure Layer
+
+La capa de infraestructura gestiona la comunicación con sistemas externos, incluyendo bases de datos, servicios web y otros recursos ajenos al núcleo del negocio. En este contexto, el UserRepository se encarga específicamente de almacenar y recuperar información de usuarios, ofreciendo funcionalidades para verificar su existencia y realizar búsquedas en la base de datos. Su propósito principal es facilitar el acceso a los datos externos y asegurar que el sistema pueda interactuar con ellos de manera óptima. Esta capa alberga los componentes repositorio, que son los responsables de mantener la persistencia de las entidades definidas en el dominio. 
+
+* Repositorio: UserRepository  
+**Descripción:** Repositorio que maneja las operaciones de persistencia relacionadas con los usuarios en la base de datos.
+
+|Método|Descripción|
+|:-|:-|
+|findByUsername(String username)|Busca un usuario en la base de datos utilizando su nombre de usuario. Devuelve un `Optional<User>`.|
+|existsByUsername(String username)|Verifica si un usuario con el nombre de usuario especificado ya existe en la base de datos. Devuelve un `boolean`.|
+|findById(Long id)|Busca un usuario en la base de datos utilizando su ID. Devuelve un `Optional<User>`.|
+|findAll()|Devuelve una lista de todos los usuarios almacenados en la base de datos.|
+|hasApoderadoRole(Long userId)|Verifica si un usuario tiene el rol de apoderado (basado en `role_id = 3`). Devuelve un `boolean`.|
+
+|Dependencias|Descripción|
+|:-|:-|
+|User|Clase que representa al usuario en el sistema.||
+
+* Repositorio: RoleRepository  
+
+**Descripción:** Repositorio que maneja las operaciones de persistencia relacionadas con los roles en la base de datos.
+
+|Método|Descripción|
+|:-|:-|
+|findByName(Roles name)|Busca un rol en la base de datos utilizando su nombre. Devuelve un `Optional<Role>`.|
+|existsByName(Roles name)|Verifica si un rol con el nombre especificado ya existe en la base de datos. Devuelve un `boolean`.|
+|findById(Long id)|Busca un rol en la base de datos utilizando su ID. Devuelve un `Optional<Role>`.|
+|findAll()|Devuelve una lista de todos los roles almacenados en la base de datos.|
+
+|Dependencias|Descripción|
+|:-|:-|
+|Role|Clase que representa un rol en el sistema.||
+|Roles|Valor de objeto que encapsula el nombre del rol.||
+
 #### 2.6.1.5. Bounded Context Software Architecture Component Level Diagrams
 #### 2.6.1.6. Bounded Context Software Architecture Code Level Diagrams
 ##### 2.6.1.6.1. Bounded Context Domain Layer Class Diagrams
