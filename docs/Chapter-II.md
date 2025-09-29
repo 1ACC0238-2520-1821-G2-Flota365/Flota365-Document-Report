@@ -608,41 +608,257 @@ La capa de dominio es el núcleo de la aplicación, pues en ella se definen los 
 
 Propósito: Modelar las entidades del dominio, integrando tanto sus atributos como sus comportamientos, con el fin de reflejar fielmente los elementos centrales de la aplicación, como usuarios, productos, procesos comerciales, entre otros.
 
+* Aggregate: Assignment  
+**Descripción:**  El agregado "Assignment" actúa como la raíz del modelo, encapsulando los datos esenciales de la asignación de un viaje, como el vehículo, conductor, ruta, estado y fechas clave del viaje. Su representación en la base de datos se realiza mediante la tabla `assignments`, asegurando la persistencia de esta entidad clave.
+
+| Atributo       | Tipo          | Descripción                                                                 |
+|----------------|---------------|-----------------------------------------------------------------------------|
+| `Id`           | `Guid`        | Identificador único de la asignación.                                        |
+| `VehicleId`    | `Guid`        | Identificador único del vehículo asociado a la asignación.                  |
+| `DriverId`     | `Guid`        | Identificador único del conductor asignado.                                  |
+| `Route`        | `string`      | Ruta asignada al viaje (nombre o descripción de la ruta).                    |
+| `Status`       | `string`      | Estado de la asignación: puede ser `PENDING`, `IN_PROGRESS` o `COMPLETED`.   |
+| `AssignedAt`   | `DateTime`    | Fecha y hora en que se asignó el viaje al conductor.                         |
+| `CompletedAt`  | `DateTime?`   | Fecha y hora en que se completó la asignación del viaje. Este campo es opcional (`nullable`).|
+
+
+| Método                                       | Descripción                                                                                         |
+|----------------------------------------------|-----------------------------------------------------------------------------------------------------|
+| `Start()`                                    | Cambia el estado de la asignación de "PENDING" a "IN_PROGRESS". Lanza una excepción si la asignación no está en estado "PENDING". |
+| `Complete()`                                 | Cambia el estado de la asignación de "IN_PROGRESS" a "COMPLETED" y registra la fecha de finalización. Lanza una excepción si la asignación no está en estado "IN_PROGRESS". |
+
+### Interfaz `IAssignmentRepository`
+
+| Método                                       | Descripción                                                                                         |
+|----------------------------------------------|-----------------------------------------------------------------------------------------------------|
+| `GetByIdAsync(Guid id)`                      | Obtiene una asignación de manera asíncrona a partir de su identificador único (`id`).               |
+| `GetAllAsync()`                              | Obtiene todas las asignaciones de manera asíncrona.                                                  |
+| `AddAsync(Assignment assignment)`            | Agrega una nueva asignación al repositorio de manera asíncrona.                                     |
+| `UpdateAsync(Assignment assignment)`         | Actualiza una asignación existente en el repositorio de manera asíncrona.                           |
+
+
+
 * Aggregate: User  
 **Descripción:**  El agregado "Usuario" actúa como la raíz del modelo, encapsulando los datos esenciales de la cuenta y su rol dentro del sistema. Su representación en la base de datos se realiza mediante la tabla users, asegurando la persistencia de esta entidad clave.
 
-|Atributo|Tipo|Descripción|
-|:-|:-|:-|
-|id|Long|Identificador único del usuario (autogenerado).|
-|username|String|Nombre de usuario único del sistema.|
-|password|String|Contraseña del usuario.|
-|roles|Set<Role>|Conjunto de roles asociados al usuario.|
-|proofingApoderado|String|Prueba o evidencia del usuario como apoderado (almacenada como texto).|
-|createdAt|Date|Fecha de creación del usuario (heredado de la clase base).|
-|updatedAt|Date|Fecha de la última actualización del usuario (heredado de la clase base).|
+| Atributo           | Tipo                 | Descripción                                                                                  |
+|--------------------|----------------------|----------------------------------------------------------------------------------------------|
+| `Id`               | `long`               | Identificador único del usuario (autogenerado).                                               |
+| `Username`         | `string`             | Nombre de usuario único del sistema.                                                          |
+| `Password`         | `string`             | Contraseña del usuario.                                                                       |
+| `Roles`            | `HashSet<Role>`      | Conjunto de roles asociados al usuario.                                                      |
+| `ProofingApoderado`| `string`             | Prueba o evidencia del usuario como apoderado (almacenada como texto).                       |
+| `FirstName`        | `string`             | Primer nombre del usuario.                                                                   |
+| `LastName`         | `string`             | Apellido del usuario.                                                                        |
+| `FullName`         | `string`             | Nombre completo del usuario, concatenando `FirstName` y `LastName`.                           |
+| `Email`            | `string`             | Correo electrónico del usuario.                                                              |
+| `IsActive`         | `bool`               | Indica si el usuario está activo o no.                                                        |
+| `CreatedAt`        | `DateTime`           | Fecha de creación del usuario.                                                                |
+| `UpdatedAt`        | `DateTime`           | Fecha de la última actualización del usuario.                                                 |
 
-|Método|Descripción|
-|:-|:-|
-|addRoles(List< Role >roles)|Añade una lista de role para el usuario , retorna el usuario con su rol añadido|
-|getAuthorities()|retorna el conjunto de roles (roles) del usuario, que ya implementan la interfaz GrantedAuthority. Esto permite que Spring Security utilice esta información para realizar la autorización de acceso en la aplicación.|
-|isAccountNonExpired()| Indica si la cuenta del usuario no ha expirado. Devuelve true si la cuenta sigue siendo válida.|
-|isAccountNonLocked()| Indica si la cuenta del usuario no está bloqueada. Devuelve true si la cuenta está desbloqueada.|
-|isCredentialsNonExpired()| Indica si las credenciales del usuario (como la contraseña) no han expirado. Devuelve true si las credenciales son válidas.|
-|isEnabled()| Indica si la cuenta del usuario está habilitada. Devuelve true si la cuenta está activa.|
-|getId()|Retorna el id del usuario.||
-|getUsername()| Devuelve el nombre de usuario del usuario (valor incrustado)|
-|getEmail()| Devuelve el correo electrónico del usuario (valor incrustado)|
-|getPassword()| Devuelve la contraseña del usuario (valor incrustado)|
 
-* Value Object: EmailAddress  
-**Descripción:**  Representa una dirección de correo electrónico válida como un objeto de valor embebido.
+| Método                     | Descripción                                                                                 |
+|----------------------------|---------------------------------------------------------------------------------------------|
+| `UpdateProfile(string firstName, string lastName)` | Actualiza el nombre y apellido del usuario, y establece la fecha de última actualización (`UpdatedAt`). |
+| `UpdateRole(string role)`   | Actualiza el rol del usuario y establece la fecha de última actualización (`UpdatedAt`).      |
+| `SetActive(bool isActive)`  | Establece si el usuario está activo o no, y actualiza la fecha de última actualización (`UpdatedAt`). |
+| `UpdatePassword(string passwordHash)` | Actualiza la contraseña del usuario (almacenada como hash), y establece la fecha de última actualización (`UpdatedAt`). |
 
-|Atributo|Tipo|Descripción|
-|:-|:-|:-|
-|email|String|Dirección de correo electrónico validada (no en blanco, máximo 50 caracteres, formato válido de correo).|
-|Método|Descripción||
-|EmailAddress(String email)|Constructor que recibe un correo electrónico y lo valida según las restricciones.||
-|EmailAddress()|Constructor por defecto que inicializa con null .||
+### Interface `IUserRepository`
+
+| Método                     | Descripción                                                                                 |
+|----------------------------|---------------------------------------------------------------------------------------------|
+| `GetByEmailAsync(string email)` | Obtiene un usuario de manera asíncrona a partir de su correo electrónico.                   |
+| `GetByIdAsync(int id)`      | Obtiene un usuario de manera asíncrona a partir de su identificador único (`id`).           |
+| `GetAllAsync()`             | Obtiene todos los usuarios de manera asíncrona.                                              |
+| `AddAsync(User user)`       | Agrega un nuevo usuario al repositorio de manera asíncrona.                                  |
+| `UpdateAsync(User user)`    | Actualiza un usuario en el repositorio de manera asíncrona.                                  |
+
+* Aggregate: Driver  
+**Descripción:**  El agregado "Driver" actúa como la raíz del modelo, encapsulando los datos esenciales de un conductor, incluyendo su identidad, información de licencia, contacto, estado, y su vehículo asignado. Su representación en la base de datos se realiza mediante la tabla `drivers`, asegurando la persistencia de esta entidad clave.
+
+| Atributo             | Tipo          | Descripción                                                                 |
+|----------------------|---------------|-----------------------------------------------------------------------------|
+| `Id`                 | `int`         | Identificador único del conductor.                                          |
+| `Code`               | `string`      | Código único del conductor.                                                  |
+| `FirstName`          | `string`      | Primer nombre del conductor.                                                |
+| `LastName`           | `string`      | Apellido del conductor.                                                     |
+| `FullName`           | `string`      | Nombre completo del conductor (concatenando `FirstName` y `LastName`).       |
+| `LicenseNumber`      | `string`      | Número de licencia del conductor.                                           |
+| `LicenseExpiryDate`  | `DateTime`    | Fecha de vencimiento de la licencia del conductor.                          |
+| `Phone`              | `string`      | Número de teléfono del conductor.                                           |
+| `Email`              | `string`      | Correo electrónico del conductor.                                           |
+| `ExperienceYears`    | `int`         | Años de experiencia del conductor.                                          |
+| `Status`             | `int`         | Estado del conductor: `1` para activo y `0` para inactivo.                  |
+| `StatusName`         | `string`      | Nombre del estado del conductor, basado en el valor de `Status` (`Active` o `Inactive`). |
+| `AssignedVehicle`    | `string`      | Vehículo asignado al conductor.                                             |
+| `IsActive`           | `bool`        | Indica si el conductor está activo (valor derivado de `Status`).            |
+| `CreatedAt`          | `DateTime`    | Fecha de creación del registro del conductor.                               |
+| `UpdatedAt`          | `DateTime`    | Fecha de la última actualización del registro del conductor.                |
+| `IsLicenseExpiringSoon` | `bool`      | Indica si la licencia está por expirar en los próximos 30 días.             |
+
+
+
+| Método                                   | Descripción                                                                                     |
+|------------------------------------------|-------------------------------------------------------------------------------------------------|
+| `UpdateStatus(int status, string statusName)` | Actualiza el estado del conductor (`Status` y `StatusName`) y establece la fecha de última actualización (`UpdatedAt`). |
+| `AssignVehicle(string vehicleInfo)`      | Asigna un vehículo al conductor y actualiza la fecha de última actualización (`UpdatedAt`).       |
+| `UpdatePersonalInfo(string firstName, string lastName, string phone, string email)` | Actualiza la información personal del conductor (`FirstName`, `LastName`, `Phone`, `Email`) y la fecha de última actualización (`UpdatedAt`). |
+| `UpdateLicense(string licenseNumber, DateTime licenseExpiryDate)` | Actualiza la información de la licencia del conductor (`LicenseNumber`, `LicenseExpiryDate`) y la fecha de última actualización (`UpdatedAt`). |
+| `UpdateExperience(int experienceYears)`  | Actualiza los años de experiencia del conductor y la fecha de última actualización (`UpdatedAt`).  |
+
+* Aggregate: Vehicle  
+**Descripción:**  El agregado "Vehicle" actúa como la raíz del modelo, encapsulando los datos esenciales de un vehículo, incluyendo su placa, marca, modelo, estado, kilometraje, y la información relacionada con su conductor y flota. Su representación en la base de datos se realiza mediante la tabla `vehicles`, asegurando la persistencia de esta entidad clave.
+
+| Atributo            | Tipo          | Descripción                                                                 |
+|---------------------|---------------|-----------------------------------------------------------------------------|
+| `Id`                | `int`         | Identificador único del vehículo.                                           |
+| `LicensePlate`      | `string`      | Placa del vehículo.                                                          |
+| `Brand`             | `string`      | Marca del vehículo.                                                         |
+| `Model`             | `string`      | Modelo del vehículo.                                                        |
+| `Year`              | `int`         | Año de fabricación del vehículo.                                            |
+| `Mileage`           | `int`         | Kilometraje actual del vehículo.                                            |
+| `Status`            | `int`         | Estado del vehículo: `1` para activo y `0` para inactivo.                   |
+| `StatusName`        | `string`      | Nombre del estado del vehículo, basado en el valor de `Status` (`Active` o `Inactive`). |
+| `FleetId`           | `int`         | Identificador de la flota a la que pertenece el vehículo.                   |
+| `FleetName`         | `string`      | Nombre de la flota a la que pertenece el vehículo.                          |
+| `DriverId`          | `int`         | Identificador del conductor asignado al vehículo.                           |
+| `DriverName`        | `string`      | Nombre del conductor asignado al vehículo.                                  |
+| `LastServiceDate`   | `DateTime?`   | Fecha del último servicio realizado al vehículo. Este campo es opcional (`nullable`). |
+| `NextServiceDate`   | `DateTime?`   | Fecha del próximo servicio programado para el vehículo. Este campo es opcional (`nullable`). |
+| `CreatedAt`         | `DateTime`    | Fecha de creación del registro del vehículo.                                |
+| `UpdatedAt`         | `DateTime`    | Fecha de la última actualización del registro del vehículo.                 |
+
+
+| Método                                       | Descripción                                                                                         |
+|----------------------------------------------|-----------------------------------------------------------------------------------------------------|
+| `UpdateStatus(int newStatus, string statusName)` | Actualiza el estado del vehículo (`Status` y `StatusName`) y establece la fecha de última actualización (`UpdatedAt`). |
+| `AssignDriver(int driverId, string driverName)`  | Asigna un conductor al vehículo (`DriverId` y `DriverName`) y actualiza la fecha de última modificación (`UpdatedAt`). |
+| `UpdateMileage(int newMileage)`              | Actualiza el kilometraje del vehículo (`Mileage`) y actualiza la fecha de última modificación (`UpdatedAt`). |
+| `SetServiceDates(DateTime? lastServiceDate, DateTime? nextServiceDate)` | Establece las fechas del último y próximo servicio del vehículo (`LastServiceDate`, `NextServiceDate`) y actualiza la fecha de última modificación (`UpdatedAt`). |
+
+* Aggregate: Fleet  
+**Descripción:**  El agregado "Fleet" actúa como la raíz del modelo, encapsulando los datos esenciales de una flota de vehículos, incluyendo su nombre, descripción, tipo, número de vehículos activos, en mantenimiento y el rendimiento. Su representación en la base de datos se realiza mediante la tabla `fleets`, asegurando la persistencia de esta entidad clave.
+
+| Atributo              | Tipo            | Descripción                                                                 |
+|-----------------------|-----------------|-----------------------------------------------------------------------------|
+| `Id`                  | `int`           | Identificador único de la flota.                                            |
+| `Code`                | `string`        | Código único asignado a la flota.                                           |
+| `Name`                | `string`        | Nombre de la flota.                                                         |
+| `Description`         | `string`        | Descripción de la flota.                                                    |
+| `Type`                | `FleetType`     | Tipo de flota (por ejemplo, flota de vehículos ligeros, pesados, etc.).      |
+| `TypeName`            | `string`        | Nombre del tipo de la flota.                                                |
+| `IsActive`            | `bool`          | Indica si la flota está activa (`true`) o inactiva (`false`).               |
+| `VehicleCount`        | `int`           | Número total de vehículos en la flota.                                      |
+| `ActiveVehicles`      | `int`           | Número de vehículos activos en la flota.                                    |
+| `InMaintenanceVehicles`| `int`          | Número de vehículos en mantenimiento en la flota.                           |
+| `Performance`         | `decimal`       | Rendimiento de la flota (un valor numérico que podría indicar eficiencia).  |
+| `CreatedAt`           | `DateTime`      | Fecha de creación de la flota.                                              |
+| `UpdatedAt`           | `DateTime`      | Fecha de la última actualización de la flota.                               |
+
+### Propiedades calculadas
+
+| Propiedad               | Tipo        | Descripción                                                                 |
+|-------------------------|-------------|-----------------------------------------------------------------------------|
+| `PerformancePercentage`  | `decimal`   | Porcentaje de rendimiento de la flota calculado a partir del valor de `Performance`. |
+| `StatusText`            | `string`    | Representación textual del estado de la flota: "Active" o "Inactive", basado en el valor de `IsActive`. |
+| `VehicleUtilization`    | `decimal`   | Porcentaje de utilización de los vehículos activos respecto al total de vehículos en la flota. Calculado como `(ActiveVehicles / VehicleCount) * 100`. |
+
+
+| Método                                       | Descripción                                                                                         |
+|----------------------------------------------|-----------------------------------------------------------------------------------------------------|
+| `UpdateDetails(string name, string description, FleetType type)` | Actualiza los detalles de la flota, incluyendo el nombre, descripción y tipo, y genera un nuevo código para la flota. Se actualiza la fecha de última modificación (`UpdatedAt`). |
+| `UpdateStatus(bool isActive)`                | Actualiza el estado de la flota (`IsActive`), indicando si está activa o no. Se actualiza la fecha de última modificación (`UpdatedAt`). |
+| `UpdateVehicleStats(int vehicleCount, int activeVehicles, int inMaintenanceVehicles)` | Actualiza las estadísticas de la flota, incluyendo el número de vehículos totales, activos y en mantenimiento. Calcula el rendimiento de la flota (`Performance`) y actualiza la fecha de última modificación (`UpdatedAt`). |
+| `UpdatePerformance(decimal performance)`     | Actualiza el rendimiento de la flota (`Performance`), asegurando que el valor esté entre 0 y 1, y actualiza la fecha de última modificación (`UpdatedAt`). |
+| `GenerateCode(string name, FleetType type)`  | Método privado que genera un código único para la flota basado en su nombre y tipo. No está accesible fuera de la clase. |
+
+### Interfaz `IFleetRepository`
+
+| Método                                       | Descripción                                                                                         |
+|----------------------------------------------|-----------------------------------------------------------------------------------------------------|
+| `GetByIdAsync(int id)`                       | Obtiene una flota de manera asíncrona a partir de su identificador único (`id`).                    |
+| `GetAllAsync()`                              | Obtiene todas las flotas de manera asíncrona.                                                       |
+| `AddAsync(Fleet fleet)`                      | Agrega una nueva flota al repositorio de manera asíncrona.                                          |
+| `UpdateAsync(Fleet fleet)`                   | Actualiza una flota en el repositorio de manera asíncrona.                                           |
+| `DeleteAsync(int id)`                        | Elimina una flota del repositorio a partir de su identificador único (`id`).                        |
+| `ExistsAsync(int id)`                        | Verifica de manera asíncrona si una flota con el identificador dado (`id`) ya existe en el repositorio. |
+
+* Aggregate: MaintenanceRecord  
+**Descripción:**  El agregado "MaintenanceRecord" actúa como la raíz del modelo, encapsulando los datos esenciales de un registro de mantenimiento de un vehículo, incluyendo detalles sobre el vehículo, tipo de mantenimiento, costo, fechas y estado. Su representación en la base de datos se realiza mediante la tabla `maintenance_records`, asegurando la persistencia de esta entidad clave.
+
+| Atributo             | Tipo            | Descripción                                                                 |
+|----------------------|-----------------|-----------------------------------------------------------------------------|
+| `Id`                 | `int`           | Identificador único del registro de mantenimiento.                          |
+| `VehicleId`          | `int`           | Identificador del vehículo al que se le realizó el mantenimiento.           |
+| `VehicleLicensePlate`| `string`        | Placa del vehículo al que se le realizó el mantenimiento.                   |
+| `VehicleModel`       | `string`        | Modelo del vehículo al que se le realizó el mantenimiento.                  |
+| `Description`        | `string`        | Descripción del mantenimiento realizado.                                    |
+| `Type`               | `MaintenanceType`| Tipo de mantenimiento realizado (por ejemplo, preventivo, correctivo).      |
+| `TypeName`           | `string`        | Nombre del tipo de mantenimiento (`Preventive`, `Corrective`, etc.).         |
+| `Cost`               | `decimal`       | Costo del mantenimiento realizado.                                          |
+| `ScheduledDate`      | `DateTime`      | Fecha programada para el mantenimiento.                                     |
+| `CompletedDate`      | `DateTime?`     | Fecha en que se completó el mantenimiento. Este campo es opcional (`nullable`). |
+| `Status`             | `MaintenanceStatus`| Estado del mantenimiento (`Scheduled`, `InProgress`, `Completed`).         |
+| `StatusName`         | `string`        | Nombre del estado del mantenimiento basado en el valor de `Status`.         |
+| `Notes`              | `string`        | Notas adicionales sobre el mantenimiento realizado.                         |
+| `CreatedAt`          | `DateTime`      | Fecha de creación del registro de mantenimiento.                            |
+| `UpdatedAt`          | `DateTime`      | Fecha de la última actualización del registro de mantenimiento.             |
+
+### Propiedades Calculadas
+
+| Propiedad           | Tipo        | Descripción                                                                 |
+|---------------------|-------------|-----------------------------------------------------------------------------|
+| `IsOverdue`         | `bool`      | Indica si el mantenimiento está atrasado, es decir, si no se ha completado y la fecha programada ha pasado. |
+| `DaysOverdue`       | `int`       | Número de días que el mantenimiento está atrasado. Si no está atrasado, es `0`. |
+
+
+| Método                                         | Descripción                                                                                         |
+|------------------------------------------------|-----------------------------------------------------------------------------------------------------|
+| `UpdateDetails(string description, MaintenanceType type, decimal cost, DateTime scheduledDate, string notes)` | Actualiza los detalles del mantenimiento, incluyendo la descripción, tipo, costo, fecha programada y notas adicionales. Se actualiza la fecha de última modificación (`UpdatedAt`). |
+| `UpdateStatus(MaintenanceStatus status, DateTime? completedDate = null)` | Actualiza el estado del mantenimiento (`Status` y `StatusName`). También establece la fecha de finalización del mantenimiento (`CompletedDate`) si se proporciona. Se actualiza la fecha de última modificación (`UpdatedAt`). |
+| `SetVehicleInfo(string licensePlate, string model)` | Actualiza la información del vehículo asociado al mantenimiento, incluyendo la placa del vehículo y el modelo. |
+
+* Aggregate: ServiceRecord  
+**Descripción:**  El agregado "ServiceRecord" actúa como la raíz del modelo, encapsulando los datos esenciales de un registro de servicio de un vehículo, incluyendo detalles sobre el servicio realizado, costo, proveedor de servicio y kilometraje en el momento del servicio. Su representación en la base de datos se realiza mediante la tabla `service_records`, asegurando la persistencia de esta entidad clave.
+
+| Atributo             | Tipo            | Descripción                                                                 |
+|----------------------|-----------------|-----------------------------------------------------------------------------|
+| `Id`                 | `int`           | Identificador único del registro de servicio.                              |
+| `VehicleId`          | `int`           | Identificador del vehículo al que se le realizó el servicio.               |
+| `VehicleLicensePlate`| `string`        | Placa del vehículo al que se le realizó el servicio.                       |
+| `ServiceType`        | `string`        | Tipo de servicio realizado (por ejemplo, cambio de aceite, mantenimiento general). |
+| `Description`        | `string`        | Descripción detallada del servicio realizado.                              |
+| `Cost`               | `decimal`       | Costo del servicio realizado.                                              |
+| `ServiceDate`        | `DateTime`      | Fecha en que se realizó el servicio.                                       |
+| `MileageAtService`   | `int`           | Kilometraje del vehículo al momento de realizar el servicio.               |
+| `ServiceProvider`    | `string`        | Nombre del proveedor o taller que realizó el servicio.                     |
+| `CreatedAt`          | `DateTime`      | Fecha de creación del registro del servicio.                               |
+
+
+| Método                                   | Descripción                                                                                         |
+|------------------------------------------|-----------------------------------------------------------------------------------------------------|
+| `SetVehicleInfo(string licensePlate)`    | Actualiza la placa del vehículo asociado al registro de servicio (`VehicleLicensePlate`). Este método no afecta la fecha de última modificación (`CreatedAt`). |
+
+* Aggregate: Manager  
+**Descripción:**  El agregado "Manager" actúa como la raíz del modelo, encapsulando los datos esenciales de un gerente, incluyendo su nombre, correo electrónico y estado. Su representación en la base de datos se realiza mediante la tabla `managers`, asegurando la persistencia de esta entidad clave.
+
+| Atributo            | Tipo          | Descripción                                                                 |
+|---------------------|---------------|-----------------------------------------------------------------------------|
+| `Id`                | `Guid`        | Identificador único del gerente.                                            |
+| `Name`              | `string`      | Nombre del gerente.                                                          |
+| `Email`             | `string`      | Correo electrónico del gerente.                                              |
+| `Status`            | `string`      | Estado del gerente: por defecto es "ACTIVE", puede ser "ACTIVE" o "INACTIVE".|
+
+
+### Métodos de la interfaz `IManagerRepository`
+
+| Método                                 | Descripción                                                                                             |
+|----------------------------------------|---------------------------------------------------------------------------------------------------------|
+| `GetByIdAsync(Guid id)`                | Obtiene un gerente de manera asíncrona a partir de su identificador único (`id`).                        |
+| `GetAllAsync()`                        | Obtiene todos los gerentes de manera asíncrona.                                                         |
+| `AddAsync(Manager manager)`            | Agrega un nuevo gerente al repositorio de manera asíncrona.                                              |
+
 
 #### 2.6.1.2. Interface Layer
 
