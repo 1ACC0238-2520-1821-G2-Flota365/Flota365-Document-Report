@@ -1,7 +1,8 @@
-<h2 id="introduction">Capítulo 1: Presentación</h2>
+# Capítulo 1: Presentación
+
 La introducción desempeña un papel fundamental en la estructuración y comprensión del proyecto, ya que establece el marco conceptual y contextual sobre el cual se desarrollará el trabajo. En esta sección inicial, se presenta una visión general que permite al lector comprender los objetivos principales que se desean alcanzar, así como los antecedentes que han llevado a la formulación del proyecto. También se delimita el alcance del mismo, es decir, hasta dónde se pretende llegar con el desarrollo de la propuesta. Asimismo, la introducción cumple la función de contextualizar la relevancia del proyecto en un entorno específico, destacando las razones que justifican su realización, los desafíos que se pretenden abordar y los beneficios esperados a partir de su implementación. En suma, esta parte inicial no solo informa, sino que también orienta y motiva al lector a profundizar en el contenido que se presentará a lo largo del documento.
 
-<h3 id="startupProfile">1.1. Startup Profile</h3>
+## 1.1. Startup Profile
 
 El perfil de la startup es un elemento fundamental para comprender la identidad y el rumbo estratégico de una empresa emergente. A través de este perfil, se revela su visión de futuro, sus valores esenciales y la propuesta de valor que la diferencia en el mercado competitivo.
 
@@ -9,7 +10,7 @@ En esta sección se describen los aspectos clave que definen a la startup, inclu
 
 Asimismo, se analizan los objetivos a mediano y largo plazo, junto con las estrategias diseñadas para su crecimiento y consolidación dentro del sector. Entender estos elementos resulta vital para evaluar el potencial de la startup y el impacto que puede generar en su entorno.
 
-<h4 id="descriptionStartup">1.1.1. Descripción de la Startup</h4>
+### 1.1.1. Descripción de la Startup
 
 En un mundo donde la tecnología avanza a un ritmo vertiginoso, Flota365 nace con una visión clara: transformar la forma en que las empresas gestionan sus flotas mediante soluciones tecnológicas inteligentes, escalables y de alta calidad. Nuestra misión es empoderar a empresas de todos los tamaños —desde pequeños emprendimientos hasta grandes corporaciones— con herramientas que optimizan la operación diaria, incrementan la productividad y reducen significativamente la carga operativa.
 
@@ -19,31 +20,101 @@ Nuestro compromiso va más allá de desarrollar software: **en Flota365 estamos 
 
 **Flota365 no es solo una herramienta de gestión de flotas. Es una plataforma de transformación digital** diseñada para acompañar a las empresas en su evolución tecnológica, posicionándolas un paso adelante frente a la competencia.
 
-<strong>Misión:</strong>
+**Misión:**
 
 Desarrollar soluciones tecnológicas de alta calidad para la gestión de flotas, que permitan a empresas de todos los tamaños mejorar su eficiencia operativa, reducir costos y tomar decisiones estratégicas en tiempo real. Nos enfocamos en la innovación continua, la experiencia del usuario y el uso de datos inteligentes para ofrecer sistemas flexibles y seguros que evolucionen junto con nuestros clientes.
 
-<strong>Visión:</strong>
+**Visión:**
 
 Ser la empresa líder en soluciones inteligentes para la gestión de flotas a nivel local y regional, integrando tecnologías emergentes como la **Inteligencia Artificial** y el **análisis predictivo** para automatizar procesos, optimizar operaciones y proporcionar información de valor basada en métricas de rendimiento. Aspiramos a transformar digitalmente a las empresas, impulsando su crecimiento con herramientas escalables, precisas y adaptadas a los desafíos del futuro.
 
-<h4 id="teamProfile">1.1.2. Perfiles de integrantes del equipo</h4>
+### 1.1.2. Perfiles de integrantes del equipo
 
-<table style="width: 100%; border-collapse: collapse;">
+<table style="text-align:center; width:100%; border-collapse:collapse;" border="1">
+    <thead>
         <tr>
-            <td style="width: 30%; border: 1px solid #FFF; padding: 10px; vertical-align: top;">
-            <img src="../images/chapter-I/Jose-Diego.jpg" alt="José Diego Photo" style="display: block; margin: 50 auto 0 auto;"/>
+            <th>Integrantes</th>
+            <th>Descripción</th>
+            <th>Conocimientos</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <!-- DATOS del integrante 1 -->
+            <td>
+                <img src="../images/chapter-I/RenzoLlerena.png" height="120" alt="RenzoLlerena"><br>
+                <strong>Renzo Miguel Llerena Delagado</strong><br>
+                U202312399
             </td>
-            <td style="width: 70%; border: 1px solid #FFF; padding: 10px; vertical-align: top;">
-                <strong>José Diego Huamani Sánchez (U202110458)</strong> - Ingeniería de Software<br><br>
-                Tengo 21 años y actualmente ando formandome en la Univeridad Peruana de Ciencias Aplicadas. Soy un tanto curioso en diferentes aspectos tanto tecnologicos como en la gestión y dirección de proyectos; en donde, mis principales experiencias radican en liderazgo y manejo de equipos en marcos de trabajo Ágiles, análisis de datos y conocimientos en desarrollo web. Espero que mi compromiso y mis ganas de enseñar logren hacer que el proyecto tome un direccionamiento hacia el éxito.
+            <td>
+                Me destaco por ser responsable, trabajador y tener un enfoque en la perfección y la calidad en todos mis proyectos. Disfruto trabajando en equipo, colaborando para alcanzar mis objetivos y siempre buscando superar expectativas. Me mantengo en constante aprendizaje, dispuesto a enfrentar desafíos con una actitud proactiva y resolutiva.
+            </td>
+            <td>
+                Tengo conocimientos en C++, Python, Java, JavaScript, C#, PHP, Hacking ético y HTML.
             </td>
         </tr>
+        <tr>
+            <!-- DATOS del integrante 2 -->
+            <td>
+                <img src="../images/chapter-I/RenzoVillafuerte.png" height="120" alt="RenzoVillafuerte"><br>
+                <strong>Renzo Alonso Villafuerte Tapia</strong><br>
+                U202310670
+            </td>
+            <td>
+                Estudio la carrera de Ingeniería de Software en la UPC. Estoy dispuesto a apoyar a mi equipo en cualquier necesidad técnica, ofreciendo soluciones y compartiendo conocimiento.
+            </td>
+            <td>
+                Tengo amplio conocimiento en programación en C++, incluyendo manejo de estructuras de datos, y programación orientada a objetos. Además, tengo habilidades para analizar y resolver problemas complejos de manera eficiente, gestionar tareas y proyectos asegurando el cumplimiento de plazos, y adaptarme rápidamente a nuevas tecnologías y entornos de trabajo.
+            </td>
+        </tr>
+        <tr>
+            <!-- DATOS del integrante 3 -->
+            <td>
+                <img src="../images/chapter-I/Jose-Diego.jpg" height="120" alt="ponernombre"><br>
+                <strong>José Diego Huamani Sánchez </strong><br>
+                U202110458
+            </td>
+            <td>
+               Tengo 21 años y actualmente ando formandome en la Univeridad Peruana de Ciencias Aplicadas. Soy un tanto curioso en diferentes aspectos tanto tecnologicos como en la gestión y dirección de proyectos
+            </td>
+            <td>
+               Mis principales experiencias radican en liderazgo y manejo de equipos en marcos de trabajo Ágiles, análisis de datos y conocimientos en desarrollo web. Espero que mi compromiso y mis ganas de enseñar logren hacer que el proyecto tome un direccionamiento hacia el éxito.
+            </td>
+        </tr>
+        <tr>
+            <!-- DATOS del integrante 4 -->
+            <td>
+                <img src="../images/chapter-I/Giovany Torres.jpg" height="120" alt="GiovanyTorres"><br>
+                <strong>Giovany Smith, Torres Apolinario</strong><br>
+                U202311601
+            </td>
+            <td>
+                Estoy cursando el sexto ciclo de mi carrera. Soy una persona responsable que le gusta resolver desafíos junto con el trabajo en equipo. Tengo la capacidad de liderazgo y me gusta aprender nuevas cosas día a día.
+            </td>
+            <td>
+                Cuento con conocimientos en lenguajes de programación como C++, Python, programación web utilizando HTML y CSS, conocimientos en SQL; así mismo también poseo conocimientos generales en diversas materias como matemáticas y física.
+            </td>
+        </tr>
+        <tr>
+            <!-- DATOS del integrante 5 -->
+            <td>
+                <img src="../images/chapter-I/integrante_05.jpeg" height="120" alt="ponernombre"><br>
+                <strong>Jessica Elizabeth Comettant Rubiños</strong><br>
+                U20211C009
+            </td>
+            <td>
+                Gracias a las asignaturas correspondientes a la malla curricular de mi carrera, cuento con las habilidades intelectuales propicias para el desarrollo del proyecto. Asimismo, destaco de mi personalidad la empatía, la amabilidad y la capacidad de trabajar en equipo.
+            </td>
+            <td>
+                 Conocimientos en C++, python y java. Manejo de base de datos relacionales. Frameworks de desarrollo (Angular y Vue). Acreditación en Scrum Fundamentals.
+            </td>
+        </tr>
+    </tbody>
 </table>
 
-<h3 id="solutionProfile">1.2. Solution Profile</h4>
+## 1.2. Solution Profile
 
-<h4 id="Antecedents">1.2.1. Antecedentes y problemática</h4>
+### 1.2.1. Antecedentes y problemática
 
 **Antecedentes**
 
@@ -171,9 +242,9 @@ Incluye desarrollo de la plataforma web, integración con sistemas GPS y costos 
 
 - Retorno alto gracias a la reducción de costos por ineficiencias, menor cantidad de servicios perdidos, optimización del mantenimiento y mejor gestión operativa.
 
-<h4 id="leanUXProcess">1.2.2. Lean UX Process</h4>
+### 1.2.2. Lean UX Process
 
-<h4 id="problemStatement">1.2.2.1. Lean UX Problem Statements</h4>
+#### 1.2.2.1. Lean UX Problem Statements
 
 **Problem Statement 1: Gestores de flota**
 
@@ -193,9 +264,10 @@ Sin embargo, hemos observado que los conductores siguen lidiando con procesos ma
 
 **¿Cómo podríamos mejorar Flota365 para que los conductores de transporte puedan registrar de forma ágil sus actividades diarias, enviar evidencias fácilmente y sentirse parte de un sistema que reconoce su desempeño, lo cual se evidenciará en mayor puntualidad, disminución de errores en la documentación y aumento en la satisfacción del conductor?**
 
-<h4 id="assumptions">1.2.2.2. Lean UX Assumptions</h4>
+#### 1.2.2.2. Lean UX Assumptions
 
 **Business Assumptions:**
+
 <br>
 
 **Sabremos que hemos tenido éxito cuando observemos los siguientes cambios en el comportamiento de nuestros usuarios:**
@@ -286,7 +358,7 @@ Flota365 debe tener una interfaz moderna, limpia y adaptable tanto para escritor
 - Los gestores deben tener acceso a información analítica y funcionalidades avanzadas para la gestión operativa.
 <br>
 
-<h4 id="hypohesisStatements">1.2.2.3. Lean UX Hypothesis Statements</h4>
+#### 1.2.2.3. Lean UX Hypothesis Statements
 
 1) **Creemos que** permitir búsquedas por placa del vehículo o DNI del conductor, junto con filtros por rango de fechas,
 **para** gestores que necesitan monitorear actividades específicas en diferentes periodos y vehículos,
@@ -308,11 +380,13 @@ Flota365 debe tener una interfaz moderna, limpia y adaptable tanto para escritor
 **para** diferenciarnos de la competencia y facilitar la adopción,
 **sabremos que la estrategia es exitosa** cuando recibamos comentarios positivos sobre el precio en encuestas y entrevistas, y observemos un crecimiento sostenido de nuevos usuarios.
 
+#### 1.2.2.4. Lean UX Canvas
 
-<h4 id="UXCanvas">1.2.2.4. Lean UX Canvas</h4>
-<img src="" alt="Lean UX Canvas" width="auto" height="430"/>
+<div align="center">
+    <img src="../images/chapter-I/Lean_UX _Canvas.jpg" alt="Lean UX Canvas" width="auto" height="430"/>
+</div>
 
-<h4 id="objectiveSegment">1.3. Segmentos objetivo</h4>
+## 1.3. Segmentos objetivo
 
 Mediante una selección rigurosa, Flota 365 seleccionó a los siguientes segmentos objetivos, esto por su enorme relevancia, contribución y monitoreo en el procesos gestión de flotas. Dichos segmentos, incluyen a los *managers* (gestores de flotas) y los conductores de vehiculos de transporte pesados que seguidamente, se procederá a describir a cada uno de ellos, detallando sus caractéristicas demográficas y su relevancia del por qué de su inclusión en nuesro marco de mercado objetivo:
 
