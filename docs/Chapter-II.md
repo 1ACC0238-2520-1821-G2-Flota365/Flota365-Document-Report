@@ -740,6 +740,14 @@ De acuerdo a lo dictaminado por Eric Evans en su libro *Domain-Driven Design: Ta
 
 El proceso de **EventStorming** permitió explorar el dominio de la startup desde un nivel estratégico, identificando los principales eventos de negocio, los bounded contexts y las interacciones entre ellos. Esta técnica visual facilitó descubrir la complejidad del sistema, fomentar el entendimiento compartido entre el equipo y establecer una base sólida para la implementación con DDD.
 
+<div align="center">
+    <img src="../images/chapter-II/EventStorming - Tags.jpg" alt="EventStorming Post It" />
+    <br>
+    <img src="../images/chapter-II/EventStorming - Domain Events - Flota365.jpg" alt="Domain Events - Flota365" />
+</div>
+
+*Evidencia del desarrollo del primer paso del DDD*
+
 #### 2.5.1.1. Candidate Context Discovery
 
 En esta etapa se identificaron los **bounded contexts** principales que conforman el dominio del sistema de gestión de flotas:
@@ -828,7 +836,9 @@ Diagrana de primer nivel que muestra las relaciones y cada uno de los flujos de 
 </div>
 
 ## 2.6. Tactical-Level Domain-Driven Design
-### 2.6.1. Bounded Context: 
+
+### 2.6.1. Bounded Context
+
 #### 2.6.1.1. Domain Layer
 
 La capa de dominio es el núcleo de la aplicación, pues en ella se definen los modelos y reglas esenciales que conforman la lógica del negocio. Dentro de este marco, el agregado "User" se establece como la entidad principal que simboliza a los usuarios del sistema, incluyendo sus propiedades y responsabilidades. Esta capa asegura que los conceptos del negocio y sus interacciones se representen y gestionen de manera adecuada.
@@ -1384,10 +1394,8 @@ Este diagrama de contenedores refleja la estructura y componentes clave de nuest
 #### 2.6.1.6. Bounded Context Software Architecture Code Level Diagrams
 ##### 2.6.1.6.1. Bounded Context Domain Layer Class Diagrams
 
-
 ##### 2.6.1.6.2. Bounded Context Database Design Diagram
 
 El diagrama de base de datos para el Bounded Context de Gestión de Flotas detalla el esquema relacional que soporta la persistencia del modelo de dominio. La tabla principal vehicles incluye columnas como id (PK, autoincremental) y campos de auditoría (created_at, updated_at). La tabla drivers contiene columnas como id (PK), first_name, last_name, license_number, entre otras.
 
 La relación uno-a-muchos entre drivers y vehicles nos muestra que un conductor puede estar asignado a múltiples vehículos, lo que facilita la asignación de vehículos a conductores. Además, la relación entre assignments (asignaciones) y vehicles nos permite gestionar las asignaciones de vehículos a tareas, mostrando cómo cada vehículo puede ser asignado a diversas tareas a lo largo del tiempo.
-
