@@ -32,7 +32,7 @@ Ser la empresa líder en soluciones inteligentes para la gestión de flotas a ni
 <table style="width: 100%; border-collapse: collapse;">
         <tr>
             <td style="width: 30%; border: 1px solid #FFF; padding: 10px; vertical-align: top;">
-            <img src="../images/Jose-Diego.jpg" alt="José Diego Photo" style="display: block; margin: 50 auto 0 auto;"/>
+            <img src="../images/chapter-I/Jose-Diego.jpg" alt="José Diego Photo" style="display: block; margin: 50 auto 0 auto;"/>
             </td>
             <td style="width: 70%; border: 1px solid #FFF; padding: 10px; vertical-align: top;">
                 <strong>José Diego Huamani Sánchez (U202110458)</strong> - Ingeniería de Software<br><br>

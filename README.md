@@ -1,5 +1,5 @@
 <div align="center">
-    <img src="./images/UPC-Logo.png" alt="UPC Logo" width="auto" height="120"/>
+    <img src="./images/chapter-I/UPC-Logo.png" alt="UPC Logo" width="auto" height="120"/>
     <h1>Universidad Peruana de Ciencias Aplicadas</h1>
     <p>
         <br>
@@ -30,7 +30,7 @@
         Comettant Rubiños, Jessica Elizabeth - U20211C009
 >>>>>>> 1cadd936cdcdb6994a849580e5a7970ae0dfaa85
         <br><br>
-        M- U202
+        Comettant Rubiños, Jessica Elizabeth - U20211C009
         <br><br>
         - U202
         <br><br>
@@ -78,7 +78,7 @@
                 Redacción del primer capítulo de la documentación titulado: <strong><q>Capítulo I: Presentación</q></strong>
             </td>
         </tr>
-                <tr>
+        <tr>
             <td>1.3.0</td>
             <td>13/09/2025</td>
             <td>Jessica Comettant Rubiños </td>
