@@ -1,7 +1,8 @@
-<h2 id="introduction">Capítulo 1: Presentación</h2>
+# Capítulo 1: Presentación
+
 La introducción desempeña un papel fundamental en la estructuración y comprensión del proyecto, ya que establece el marco conceptual y contextual sobre el cual se desarrollará el trabajo. En esta sección inicial, se presenta una visión general que permite al lector comprender los objetivos principales que se desean alcanzar, así como los antecedentes que han llevado a la formulación del proyecto. También se delimita el alcance del mismo, es decir, hasta dónde se pretende llegar con el desarrollo de la propuesta. Asimismo, la introducción cumple la función de contextualizar la relevancia del proyecto en un entorno específico, destacando las razones que justifican su realización, los desafíos que se pretenden abordar y los beneficios esperados a partir de su implementación. En suma, esta parte inicial no solo informa, sino que también orienta y motiva al lector a profundizar en el contenido que se presentará a lo largo del documento.
 
-<h3 id="startupProfile">1.1. Startup Profile</h3>
+## 1.1. Startup Profile
 
 El perfil de la startup es un elemento fundamental para comprender la identidad y el rumbo estratégico de una empresa emergente. A través de este perfil, se revela su visión de futuro, sus valores esenciales y la propuesta de valor que la diferencia en el mercado competitivo.
 
@@ -9,7 +10,7 @@ En esta sección se describen los aspectos clave que definen a la startup, inclu
 
 Asimismo, se analizan los objetivos a mediano y largo plazo, junto con las estrategias diseñadas para su crecimiento y consolidación dentro del sector. Entender estos elementos resulta vital para evaluar el potencial de la startup y el impacto que puede generar en su entorno.
 
-<h4 id="descriptionStartup">1.1.1. Descripción de la Startup</h4>
+### 1.1.1. Descripción de la Startup
 
 En un mundo donde la tecnología avanza a un ritmo vertiginoso, Flota365 nace con una visión clara: transformar la forma en que las empresas gestionan sus flotas mediante soluciones tecnológicas inteligentes, escalables y de alta calidad. Nuestra misión es empoderar a empresas de todos los tamaños —desde pequeños emprendimientos hasta grandes corporaciones— con herramientas que optimizan la operación diaria, incrementan la productividad y reducen significativamente la carga operativa.
 
@@ -19,18 +20,18 @@ Nuestro compromiso va más allá de desarrollar software: **en Flota365 estamos 
 
 **Flota365 no es solo una herramienta de gestión de flotas. Es una plataforma de transformación digital** diseñada para acompañar a las empresas en su evolución tecnológica, posicionándolas un paso adelante frente a la competencia.
 
-<strong>Misión:</strong>
+**Misión:**
 
 Desarrollar soluciones tecnológicas de alta calidad para la gestión de flotas, que permitan a empresas de todos los tamaños mejorar su eficiencia operativa, reducir costos y tomar decisiones estratégicas en tiempo real. Nos enfocamos en la innovación continua, la experiencia del usuario y el uso de datos inteligentes para ofrecer sistemas flexibles y seguros que evolucionen junto con nuestros clientes.
 
-<strong>Visión:</strong>
+**Visión:**
 
 Ser la empresa líder en soluciones inteligentes para la gestión de flotas a nivel local y regional, integrando tecnologías emergentes como la **Inteligencia Artificial** y el **análisis predictivo** para automatizar procesos, optimizar operaciones y proporcionar información de valor basada en métricas de rendimiento. Aspiramos a transformar digitalmente a las empresas, impulsando su crecimiento con herramientas escalables, precisas y adaptadas a los desafíos del futuro.
 
-<h4 id="teamProfile">1.1.2. Perfiles de integrantes del equipo</h4>
+### 1.1.2. Perfiles de integrantes del equipo
 
 <table style="text-align:center; width:100%; border-collapse:collapse;" border="1">
-    <thead style="background-color:#f2f2f2;">
+    <thead>
         <tr>
             <th>Integrantes</th>
             <th>Descripción</th>
@@ -41,7 +42,7 @@ Ser la empresa líder en soluciones inteligentes para la gestión de flotas a ni
         <tr>
             <!-- DATOS del integrante 1 -->
             <td>
-                <img src="/images/chapter-I/RenzoLlerena.png" height="120" alt="RenzoLlerena"><br>
+                <img src="../images/chapter-I/RenzoLlerena.png" height="120" alt="RenzoLlerena"><br>
                 <strong>Renzo Miguel Llerena Delagado</strong><br>
                 U202312399
             </td>
@@ -55,7 +56,7 @@ Ser la empresa líder en soluciones inteligentes para la gestión de flotas a ni
         <tr>
             <!-- DATOS del integrante 2 -->
             <td>
-                <img src="/images/chapter-I/RenzoVillafuerte.png" height="120" alt="RenzoVillafuerte"><br>
+                <img src="../images/chapter-I/RenzoVillafuerte.png" height="120" alt="RenzoVillafuerte"><br>
                 <strong>Renzo Alonso Villafuerte Tapia</strong><br>
                 U202310670
             </td>
@@ -69,7 +70,7 @@ Ser la empresa líder en soluciones inteligentes para la gestión de flotas a ni
         <tr>
             <!-- DATOS del integrante 3 -->
             <td>
-                <img src="../images/Jose-Diego.jpg" height="120" alt="ponernombre"><br>
+                <img src="../images/chapter-I/Jose-Diego.jpg" height="120" alt="ponernombre"><br>
                 <strong>José Diego Huamani Sánchez </strong><br>
                 U202110458
             </td>
@@ -84,7 +85,7 @@ Ser la empresa líder en soluciones inteligentes para la gestión de flotas a ni
             <!-- DATOS del integrante 4 -->
             <td>
                 <img src="../images/chapter-I/Giovany Torres.jpg" height="120" alt="GiovanyTorres"><br>
-                <strong>Torres Apolinario, Giovany Smith</strong><br>
+                <strong>Giovany Smith, Torres Apolinario</strong><br>
                 U202311601
             </td>
             <td>
@@ -97,7 +98,7 @@ Ser la empresa líder en soluciones inteligentes para la gestión de flotas a ni
         <tr>
             <!-- DATOS del integrante 5 -->
             <td>
-                <img src="/images/chapter-I/integrante_05.jpeg" height="120" alt="ponernombre"><br>
+                <img src="../images/chapter-I/integrante_05.jpeg" height="120" alt="ponernombre"><br>
                 <strong>Jessica Elizabeth Comettant Rubiños</strong><br>
                 U20211C009
             </td>
@@ -111,12 +112,9 @@ Ser la empresa líder en soluciones inteligentes para la gestión de flotas a ni
     </tbody>
 </table>
 
+## 1.2. Solution Profile
 
-
-
-<h3 id="solutionProfile">1.2. Solution Profile</h4>
-
-<h4 id="Antecedents">1.2.1. Antecedentes y problemática</h4>
+### 1.2.1. Antecedentes y problemática
 
 **Antecedentes**
 
@@ -244,9 +242,9 @@ Incluye desarrollo de la plataforma web, integración con sistemas GPS y costos 
 
 - Retorno alto gracias a la reducción de costos por ineficiencias, menor cantidad de servicios perdidos, optimización del mantenimiento y mejor gestión operativa.
 
-<h4 id="leanUXProcess">1.2.2. Lean UX Process</h4>
+### 1.2.2. Lean UX Process
 
-<h4 id="problemStatement">1.2.2.1. Lean UX Problem Statements</h4>
+#### 1.2.2.1. Lean UX Problem Statements
 
 **Problem Statement 1: Gestores de flota**
 
@@ -266,9 +264,10 @@ Sin embargo, hemos observado que los conductores siguen lidiando con procesos ma
 
 **¿Cómo podríamos mejorar Flota365 para que los conductores de transporte puedan registrar de forma ágil sus actividades diarias, enviar evidencias fácilmente y sentirse parte de un sistema que reconoce su desempeño, lo cual se evidenciará en mayor puntualidad, disminución de errores en la documentación y aumento en la satisfacción del conductor?**
 
-<h4 id="assumptions">1.2.2.2. Lean UX Assumptions</h4>
+#### 1.2.2.2. Lean UX Assumptions
 
 **Business Assumptions:**
+
 <br>
 
 **Sabremos que hemos tenido éxito cuando observemos los siguientes cambios en el comportamiento de nuestros usuarios:**
@@ -359,7 +358,7 @@ Flota365 debe tener una interfaz moderna, limpia y adaptable tanto para escritor
 - Los gestores deben tener acceso a información analítica y funcionalidades avanzadas para la gestión operativa.
 <br>
 
-<h4 id="hypohesisStatements">1.2.2.3. Lean UX Hypothesis Statements</h4>
+#### 1.2.2.3. Lean UX Hypothesis Statements
 
 1) **Creemos que** permitir búsquedas por placa del vehículo o DNI del conductor, junto con filtros por rango de fechas,
 **para** gestores que necesitan monitorear actividades específicas en diferentes periodos y vehículos,
@@ -381,11 +380,13 @@ Flota365 debe tener una interfaz moderna, limpia y adaptable tanto para escritor
 **para** diferenciarnos de la competencia y facilitar la adopción,
 **sabremos que la estrategia es exitosa** cuando recibamos comentarios positivos sobre el precio en encuestas y entrevistas, y observemos un crecimiento sostenido de nuevos usuarios.
 
+#### 1.2.2.4. Lean UX Canvas
 
-<h4 id="UXCanvas">1.2.2.4. Lean UX Canvas</h4>
-<img src="" alt="Lean UX Canvas" width="auto" height="430"/>
+<div align="center">
+    <img src="../images/chapter-I/Lean_UX _Canvas.jpg" alt="Lean UX Canvas" width="auto" height="430"/>
+</div>
 
-<h4 id="objectiveSegment">1.3. Segmentos objetivo</h4>
+## 1.3. Segmentos objetivo
 
 Mediante una selección rigurosa, Flota 365 seleccionó a los siguientes segmentos objetivos, esto por su enorme relevancia, contribución y monitoreo en el procesos gestión de flotas. Dichos segmentos, incluyen a los *managers* (gestores de flotas) y los conductores de vehiculos de transporte pesados que seguidamente, se procederá a describir a cada uno de ellos, detallando sus caractéristicas demográficas y su relevancia del por qué de su inclusión en nuesro marco de mercado objetivo:
 
@@ -419,7 +420,4 @@ Mediante una selección rigurosa, Flota 365 seleccionó a los siguientes segment
       <li>Principales intereses: Seguridad vial, facilidad en el registro de su trabajo, optimización de tiempos de entrega, reducción de carga administrativa</li>
     </ul>
   </li>
-
 </ul>
-
-
