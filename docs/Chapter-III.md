@@ -29,6 +29,54 @@ Con **Flota365**, queremos ser más que un software: buscamos convertirnos en el
 
 #### 3.1.1.1. General Style Guidelines
 
+**Colores**
+
+Hemos distribuido nuestra paleta de colores en 3 categorías (desde la más prioritaria hasta las complementarias).
+
+* **Paleta principal**: Fondos blancos (#fff) como base para maximizar la legibilidad, turquesaclaro (#6CDAE7) como color primario, gris oscuro (#333) para textos principales.
+
+<br>
+
+<p align="center">
+  <img src="../images/chapter-III//Primary-Color-Palette.png" alt="Primary Color Palette" width="500px" height="auto"/>
+</p>
+
+<br>
+
+* **Paleta secundaria**: Gris claro (#f9f9f9) para secciones alternas, gris medio (#ddd) para los bordes y separadores, negro (#121212) para la sección del *footer* de nuestro landing page y para dar contraste a los elementos.
+
+<br>
+
+<p align="center">
+  <img src="../images/chapter-III//Secondary-Color-Palette.png" alt="Primary Color Palette" width="500px" height="auto"/>
+</p>
+
+<br>
+
+* **Colores funcionales**: Se reserva el uso de verde (#4CAF50) para indicadores de éxito, rojo(#F44336) para errores y amarillo (#FFC107) para advertencias. 
+
+<br>
+
+<p align="center">
+  <img src="../images/chapter-III//Additional-Color-Palette.png" alt="Primary Color Palette" width="500px" height="auto"/>
+</p>
+
+<br>
+
+**Typography**
+
+La tipografía empleada será **Arial** con sus respectivas variantes como los son Regular, Bold y SemiBold. La principal razon de su elección es por su excelente legibilidad en diferentes tipos de pantallas y su disponibilidad universal en los dispositivos tecnológicos que usamos hoy en día (celulares, ordenadores, tabletas, etc)
+
+El tamaño de letra que se utilizará para cada parte del contenido web será mediante la siguiente distribución:
+
+1. **Títulos principales**: segmentado en el tipo de tamaño de 2.25rem (36px).
+2. **Subtítulos**: segmentado entre 1.5 rem (25px) a 1.75 rem (28px).
+3. **Cuerpo del texto**: segmentado en 1 rem (16px) con un interlineado de 1.6px.
+
+Con estos detalle, se logrará un alto contrates entre el texto y el fondo, dando mayor accesbilidad en un ratio mínimo de 4.5:1 según WCAG 2.1 AA.
+
+Esta combinación cromática reflejará cada uno de valores que tiene la marca del cual queremos transmitir al público.
+
 ### 3.1.2. Information Architecture
 #### 3.1.2.1. Organization Systems
 #### 3.1.2.2. Labelling Systems
