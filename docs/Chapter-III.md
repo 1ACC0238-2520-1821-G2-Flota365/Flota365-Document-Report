@@ -1,5 +1,32 @@
 ## 3.1. Product design
 ### 3.1.1. Style Guidelines
+
+La plataforma **Flota365** ha sido diseñada para transmitir confianza, eficiencia e innovación desde el primer momento. Sabemos que nuestros usuarios —gerentes, supervisores y dueños de empresas— enfrentan diariamente el desafío de mantener sus operaciones de transporte bajo control, y queremos acompañarlos con una experiencia clara, intuitiva y segura.  
+
+Por eso, apostamos por un diseño visual limpio y moderno, utilizando como color principal un **azul vibrante (#00AEEF)**, que simboliza dinamismo, confianza y tecnología. Este tono refleja nuestro compromiso con la transparencia y el control en tiempo real, mientras que los espacios equilibrados y las tipografías sencillas garantizan una navegación fluida y profesional. Cada detalle en Flota365 está pensado para que supervisar, analizar y optimizar la gestión de flotas sea una tarea simple y efectiva.  
+
+---
+
+## Brand Overview  
+
+En **Flota365** creemos que la gestión de flotas no debería ser un proceso complejo ni desgastante. Detectamos cómo muchas empresas, sin importar su tamaño, se enfrentan a altos costos, falta de visibilidad y procesos poco eficientes al controlar sus vehículos y conductores. Nuestra propuesta nace de esa necesidad: brindar una herramienta tecnológica que transforme la forma en que las organizaciones supervisan y toman decisiones estratégicas.  
+
+Con **Flota365** no solo entregamos software, sino una plataforma integral que ayuda a las compañías a reducir su carga operativa, optimizar recursos y elevar su rentabilidad. Nos enfocamos en que cada empresa tenga acceso a información precisa y oportuna, basada en métricas de rendimiento y análisis de datos inteligentes, para que puedan adelantarse a los retos del mercado con decisiones sólidas.  
+
+---
+
+## Brand Name  
+
+El nombre **Flota365** refleja de manera directa y moderna nuestro propósito: ofrecer un sistema de gestión de flotas disponible todos los días del año, sin interrupciones. Es un nombre sencillo, digital y memorable, que transmite disponibilidad constante y compromiso con la continuidad del negocio.  
+
+Nuestro logo, compuesto por la silueta estilizada de un automóvil dentro de un recuadro azul, representa movilidad, innovación y simplicidad. Este diseño refuerza nuestra identidad: una solución accesible y confiable, que acompaña a los equipos de trabajo en su día a día con herramientas que les permiten avanzar hacia un futuro más eficiente.  
+
+---
+
+Con **Flota365**, queremos ser más que un software: buscamos convertirnos en el socio tecnológico que impulse a las empresas a crecer, evolucionar y liderar con control total sobre sus operaciones.  
+
+<img src="../images/chapter-III/logo.png" alt="Empathy Mapping Conductores" width="auto" height="auto"/>
+
 #### 3.1.1.1. General Style Guidelines
 
 ### 3.1.2. Information Architecture
