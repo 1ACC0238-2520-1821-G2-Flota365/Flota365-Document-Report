@@ -284,6 +284,31 @@ Ambos perfiles contarán con una **búsqueda global** dentro de la app, con auto
 
 #### 3.1.2.5. Navigation Systems
 
+A continuación, presentamos los **sistemas de navegación** que implementaremos en **Flota365** para asegurar que nuestros usuarios puedan desplazarse de manera rápida, clara y sin fricciones dentro de la plataforma, tanto desde la landing page como desde la aplicación móvil.  
+
+---
+
+## En la Landing Page  
+
+Nuestra landing page contará con un **menú principal fijo** en la parte superior, con enlaces directos a las secciones clave: *Inicio, Acerca de, Precios, Características y Contacto*.  
+Este menú permanecerá siempre visible mientras el usuario se desplace por la página, garantizando un acceso ágil sin necesidad de hacer scroll manual extensivo.  
+
+Además, se incluirán **botones destacados** como *“Comience su prueba gratuita”*, diseñados para guiar al visitante hacia la acción principal de la plataforma. Estos llamados a la acción estarán estratégicamente ubicados en los apartados más relevantes, reforzando la conversión del usuario.  
+
+## En la aplicación móvil  
+
+En la app de Flota365, la navegación estará diseñada para adaptarse al perfil de cada usuario mediante un **bottom navigation bar** que permitirá acceder rápidamente a las secciones principales: Inicio, Vehículos, Rutas, Notificaciones y Perfil. La experiencia será ágil e intuitiva, con una pantalla de inicio dinámica que mostrará accesos directos a las funciones más utilizadas según el tipo de usuario, como asignación de viajes, alertas de seguridad o seguimiento en tiempo real.  
+
+### Personalización según rol  
+
+Dependiendo del tipo de usuario que inicie sesión (conductor o gestor de flota), el contenido y la navegación variarán para mostrar funcionalidades específicas:  
+
+- **Conductores**: tendrán accesos rápidos a sus viajes asignados, historial de recorridos, alertas de mantenimiento del vehículo y registro de incidencias en ruta.  
+- **Gestores de flota**: contarán con opciones de supervisión de vehículos, control de rutas, monitoreo en tiempo real, generación de reportes y gestión de alertas.  
+
+Gracias a estos sistemas, aseguramos una navegación fluida, segmentada y enfocada en las necesidades específicas de cada usuario dentro de Flota365.  
+
+
 ### 3.1.3. Landing Page UI Design
 #### 3.1.3.1. Landing Page Wireframe
 #### 3.1.3.2. Landing Page Mock-up
