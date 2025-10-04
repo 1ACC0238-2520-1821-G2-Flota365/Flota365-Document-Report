@@ -38,6 +38,22 @@ El primer sprint es una etapa importante en nuestro marco de gestión de proyect
 
 #### 4.2.1.1. Sprint Planning 1
 
+El sprint planning es una reunion antes de cada sprint en la metodologia Scrum donde el equipo elige las user stories que va a transformar en un producto tangible. Tambien define que como se van a separar los trabajos y quien sera responsable. Nuestro objetivo sera construir un plan resolubre en un tiempo determinado que sera lo que dure el sprint, para crearlo fomentaremos la colaboracion para que todos sepan y entiendas los objetivos y prioridades.  
+
+| Sprint #| Sprint 1|
+| -- | -- |
+| **Sprint Planning Background**||
+| **Date**| 01/10/2025|
+| **Time**| 17:00 AM|
+| **Location**| Discord (Reunión virtual)|
+| **Prepared By**| Torres Apolinario, Giovany Smith|
+| **Attendees (to planning meeting)** | Huamani Sánchez José Diego, Llerena Delgado Renzo Miguel, Comettant Rubiños Jessica Elizabeth, Villafuerte Tapia Renzo Alonso, Torres Apolinario Giovany Smith|
+| **Sprint Goal & User Stories**||
+| **Sprint 1 Goal**| Nuestro enfoque está en finalizar el informe , desplegar nuestra Landing Page desde el repositorio de GitHub y avanzar bounded context del aplicativo (Tanto IAM como applications). Creemos que esto entrega una experiencia de usuario optimizada a nuestros clientes. Esto se confirmará cuando todas las tareas se muevan a la columna "Terminado" en Trello. |
+| **Sprint 1 Velocity**| ------ |
+| **Sum of Story Points**| 19 |  
+
+
 #### 4.2.1.2. Sprint Backlog n
 #### 4.2.1.3. Development Evidence for Sprint Review
 #### 4.2.1.4. Testing Suite Evidence for Sprint Review
