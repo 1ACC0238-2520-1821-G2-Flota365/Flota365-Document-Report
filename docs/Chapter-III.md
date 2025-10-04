@@ -127,6 +127,93 @@ En esta sección, describimos cómo **Flota365** organiza su propuesta de valor 
 Con esta organización, **Flota365** asegura que tanto gestores como conductores encuentren en la plataforma una herramienta clara, práctica y poderosa, alineada con sus responsabilidades y objetivos diarios.
 
 #### 3.1.2.2. Labelling Systems
+
+En esta sección presentamos el **sistema de etiquetado** que define de manera clara y accesible la organización de la información dentro de la aplicación **Flota365** y su landing page. Nuestro objetivo es que cada usuario —ya sea gestor de flota, conductor o visitante interesado— pueda navegar de manera intuitiva, comprendiendo siempre dónde se encuentra y qué acción puede realizar.  
+
+---
+
+## Etiquetado de la Landing Page  
+
+La landing page de **Flota365** ha sido diseñada con una estructura simple y directa, donde cada sección refleja el valor de la plataforma y facilita el acceso a sus funcionalidades principales. Los encabezados definidos son:  
+
+- **Inicio / Home**  
+  Página principal que recibe al usuario con el logo de Flota365 y una frase representativa que resume nuestra propuesta: transformar la gestión de flotas con soluciones inteligentes.  
+
+- **Acerca de / About Us**  
+  Sección dedicada a contar nuestra historia, misión, visión y propósito. Aquí explicamos cómo Flota365 busca innovar en la gestión de flotas y acompañar a las empresas en su transformación digital.  
+
+- **Precios / Pricing**  
+  Presentamos de manera clara y transparente los planes de suscripción disponibles, adaptados a empresas de diferentes tamaños y necesidades. Incluye comparativos de funcionalidades para que el usuario elija la opción más conveniente.  
+
+- **Características / Features**  
+  Detalle de las funcionalidades principales de Flota365, organizadas por beneficios clave como monitoreo en tiempo real, optimización de rutas, gestión de mantenimiento y generación de reportes.  
+
+- **Contacto / Contact Us**  
+  Espacio donde mostramos nuestros canales de comunicación (correo, formulario de contacto y redes sociales). Aquí los usuarios pueden solicitar una demostración, resolver dudas o establecer vínculos comerciales.  
+
+---
+
+Con este sistema de etiquetado, **Flota365** garantiza que la información esté siempre organizada, accesible y alineada con las expectativas de cada visitante, facilitando la comprensión del valor de la plataforma y guiando al usuario hacia la acción deseada.  
+
+# Etiquetado por tipo de usuario en la aplicación móvil  
+
+Reconociendo que diferentes usuarios tienen necesidades distintas, **Flota365** define etiquetas específicas para cada perfil. De esta forma, aseguramos que tanto los gestores de flota como los conductores encuentren de manera rápida las funciones más relevantes para su rol, sin perder claridad ni simplicidad en la navegación.  
+
+---
+
+## Segmento: Gestores de Flota  
+
+- **Dashboard / Panel de control**  
+  Vista general con indicadores clave: estado de la flota, vehículos activos, incidencias y métricas en tiempo real.  
+
+- **Rutas / Routes**  
+  Gestión y asignación de rutas a conductores, con opciones de optimización automática y seguimiento en vivo.  
+
+- **Mantenimiento / Maintenance**  
+  Sección para programar, registrar y monitorear mantenimientos preventivos y correctivos.  
+
+- **Conductores / Drivers**  
+  Listado de conductores con sus perfiles, desempeño y métricas de seguridad.  
+
+- **Reportes / Reports**  
+  Generación de informes sobre consumo, tiempos, incidencias y costos, exportables en distintos formatos.  
+
+---
+
+## Segmento: Conductores de Vehículos Pesados  
+
+- **Mis Rutas / My Routes**  
+  Listado de rutas asignadas con indicaciones paso a paso, tiempos estimados y puntos de entrega.  
+
+- **Registrar Evidencias / Evidence Log**  
+  Subida rápida de fotos, kilometraje y ubicación para documentar entregas o incidencias.  
+
+- **Check-in / Check-out**  
+  Funcionalidad para iniciar y finalizar jornada, con registro automático de horarios y kilometraje.  
+
+- **Seguridad Vial / Safety**  
+  Consejos y alertas de seguridad en ruta, además de notificaciones en caso de comportamiento riesgoso detectado por la app.  
+
+- **Historial / History**  
+  Resumen de viajes realizados, tiempos de entrega y rendimiento personal.  
+
+---
+
+## Funcionalidades Comunes a Ambos Segmentos  
+
+- **Notificaciones / Notifications**  
+  Alertas sobre incidencias, mantenimiento pendiente, nuevas asignaciones o mensajes de coordinación.  
+
+- **Soporte / Help**  
+  Acceso a centro de ayuda, FAQs y contacto directo con el equipo de soporte.  
+
+- **Perfil / Profile**  
+  Información personal y configuración básica del usuario (idioma, notificaciones, preferencias).  
+
+---
+
+Con este etiquetado, la aplicación móvil de **Flota365** logra un balance entre personalización para cada perfil y consistencia general, asegurando que cada usuario tenga a mano exactamente lo que necesita para desempeñar su rol de forma eficiente.
+
 #### 3.1.2.3. SEO Tags and Meta Tags
 #### 3.1.2.4. Searching Systems
 #### 3.1.2.5. Navigation Systems
