@@ -97,7 +97,154 @@ git commit -m “<type>[optional scope]: <title>“ -m “<description”
 
 ### 4.1.3. Source Code Style Guide & Conventions
 
-
+- ### HTML 
+    - #### Use Lowercase Element Names:
+        Es recomendable utilizar minúsculas o lowercase para los nombres de los elementos HTML.
+        ~~~ 
+      <body>
+            <p>This is a paragraph</p>
+      <body>
+       ~~~
+    - #### Close All HTML Elements:
+        Es recomendable cerrar todos los elementos HTML correctamente.
+        ~~~ 
+      <body>
+            <p>This is a paragraph</p>
+            <p>This is another paragraph</p>
+      <body>
+       ~~~
+    - #### Use Lowercase Attribute Names:
+        Es recomendable utilizar minúsculas para los nombres de los atributos HTML.
+      ~~~ 
+      <a href="https://www.w3schools.com/html/">Visit our HTMLtutorial</a>
+       ~~~
+    - #### Always Specify alt, width, and height for Images:
+      Es recomendable seguir estas convenciones en caso de que la imagen no se pueda mostrar, lo que ayuda a mejorar la accesibilidad del contenido.
+      ~~~ 
+      <img src="html5.gif" alt="HTML5" 
+      style="width:128px;height:128px">
+      ~~~ 
+    - #### Spaces and Equal Signs:
+      Se recomienda no utilizar espacios en blanco entre las entidades para mejorar la legibilidad.
+      ~~~ 
+      <link rel="stylesheet" href="styles.css">
+      ~~~ 
+- ### CSS
+    - #### ID and Class Naming
+      Es recomendable utilizar nombres de clases e id's significativos que expresen claramente el propósito del elemento.
+      ~~~ 
+      #gallery {}
+      #login {}
+      .video {}
+       ~~~
+    - #### ID and Class Name Style
+      Se recomienda utilizar nombres cortos para nombrar ids o clases, pero lo suficientemente descriptivos para entender su propósito.
+      ~~~ 
+      #nav {}
+      .author {}
+      ~~~
+    - #### Shorthand Properties
+      Se recomienda utilizar propiedades CSS de forma abreviada siempre que sea posible para hacer el código más eficiente y comprensible.
+       ~~~ 
+       border-top: 0;
+       font: 100%/1.6 palatino, georgia, serif;
+       padding: 0 1em 2em;
+       ~~~ 
+    - #### 0 and Units
+      Es recomendable evitar especificar la unidad después del valor 0 en propiedades que lo permitan, ya que esto ayuda a reducir el tamaño del código y mejora su legibilidad.
+       ~~~ 
+       margin: 0;
+       padding: 0;
+       ~~~
+     - #### Declaration Order
+       Se recomienda ordenar las declaraciones en orden alfabético para facilitar el mantenimiento y la recordación del código.
+       ~~~ 
+        background: fuchsia;
+        border: 1px solid;
+        border-radius: 4px;
+        color: black;
+        text-align: center;
+        text-indent: 2em;
+       ~~~
+- ### JAVASCRIPT
+     - #### Use expanded syntax
+       Cada línea de JavaScript debería estar en una nueva línea, con la llave de apertura en la misma línea de su declaración y la llave de cierre en una nueva línea al final.
+       ~~~ 
+       function myFunc() {
+        console.log('Hello!');
+       };
+       ~~~
+     - #### Variable naming
+       Para el nombre de las variables, se recomienda utilizar lowerCamelCase. 
+       ~~~ 
+       let playerScore = 0;
+       let speed = distance / time;
+       ~~~  
+     - #### Declaring variables
+       Para la declaración de variables, es recomendable utilizar las palabras reservadas let y const en lugar de var.
+       ~~~ 
+       const myName = 'Chris';
+       console.log(myName);
+       let myAge = '40';
+       myAge++;
+       console.log('Happy birthday!');
+       ~~~ 
+     - #### Function naming
+       Para el nombre de las funciones, se recomienda utilizar lowerCamelCase.
+       ~~~ 
+       function sayHello() {
+       alert('Hello!');
+       };
+       ~~~
+- ### LENGUAJE GHERKIN
+    - #### Descriptive and concise titles for scenarios
+      Utilizar títulos descriptivos y concisos para los escenarios.
+      ~~~ 
+      Feature: Login
+        Scenario: Successful login
+          Given a user is on the login page     
+          When they enter valid credentials     
+          Then they should be logged in successfully      
+      ~~~
+    - #### Follow the Given-When-Then structure consistently.
+      Seguir la estructura de Given-When-Then de manera consistente.
+      ~~~ 
+      Scenario: Adding items to the shopping cart
+        Given the user is on the shopping page
+        When they add an item to the cart
+        Then the item should appear in the cart 
+      ~~~
+    - #### Focus on business-readable language
+      Centrarse en un lenguaje legible para el negocio, evitando detalles técnicos de implementación.
+      ~~~ 
+      Scenario: Changing user settingst
+        Given the user is logged in
+        When they navigate to the settings page
+        Then they should be able to update their profile
+      ~~~
+    - ####  Utilize Scenario Outline for scenarios with multiple similar cases.
+      Utilizar Scenario Outline para escenarios con múltiples casos similares.
+      ~~~ 
+      Scenario Outline: Searching for products
+        Given the user is on the search page
+        When they search for "<product>"
+        Then they should see search results for "<product>"
+      
+      Examples:
+        | product  |
+        | Laptop   |
+        | Smartphone |
+      ~~~
+    - #### Add comments to provide additional context
+      Agregar comentarios para proporcionar contexto adicional o explicaciones cuando sea necesario.
+      ~~~ 
+      # This scenario checks the functionality of the logout feature
+      Scenario: User logout
+        Given the user is logged in
+        When they click on the logout button
+        Then they should be redirected to the login page      
+      ~~~
+      
 ### 4.1.4. Software Deployment Configuration
 
 ## 4.2. Landing Page & Mobile Application Implementation
