@@ -78,7 +78,54 @@ Con estos detalle, se logrará un alto contrates entre el texto y el fondo, dand
 Esta combinación cromática reflejará cada uno de valores que tiene la marca del cual queremos transmitir al público.
 
 ### 3.1.2. Information Architecture
+En esta sección, describimos cómo **Flota365** organiza su propuesta de valor para responder a las necesidades de sus dos segmentos principales: **gestores de flota** y **conductores de vehículos pesados**. A través de una arquitectura clara, eficiente y adaptada a cada perfil, buscamos que tanto los responsables de la gestión como los conductores tengan acceso a herramientas sencillas, prácticas y orientadas a la productividad.  
+
 #### 3.1.2.1. Organization Systems
+
+## Segmento: Gestores de Flota  
+
+### Jerárquica  
+- **Panel de control centralizado:** Los gestores podrán visualizar toda la información de su flota organizada por categorías como mantenimiento, consumo de combustible, cumplimiento normativo y rendimiento de cada unidad.  
+- **Historial de vehículos:** Acceso a registros detallados de mantenimiento, fallas, y rutas históricas de cada vehículo para una supervisión estructurada y ordenada.  
+
+### Secuencial  
+- **Flujo de gestión de rutas:** Un sistema que guía a los gestores paso a paso en la creación, asignación y supervisión de rutas, asegurando control en cada fase del proceso operativo.  
+- **Procesos de mantenimiento preventivo:** La plataforma organiza las tareas de mantenimiento en un flujo secuencial: identificación de la necesidad, programación, ejecución y validación del servicio.  
+
+### Matricial  
+- **Tablero de métricas operativas:** Los gestores tendrán un dashboard que cruza información clave como consumo de combustible, tiempos de entrega, kilometraje y alertas de riesgo.  
+- **Comparativos de rendimiento:** Posibilidad de visualizar en una matriz el desempeño de cada conductor o unidad, facilitando la toma de decisiones estratégicas.  
+
+---
+
+## Segmento: Conductores de Vehículos Pesados  
+
+### Jerárquica  
+- **Registro de evidencias:** Los conductores podrán organizar y subir fotos, kilometraje y ubicación de cada viaje en secciones definidas, lo que garantiza orden y trazabilidad en su trabajo.  
+- **Agenda de tareas:** Acceso jerárquico a las órdenes de entrega, organizadas por prioridad, destino y tiempo de ejecución.  
+
+### Secuencial  
+- **Guía de ruta digital:** El sistema acompaña a los conductores de manera paso a paso en la ejecución de su jornada: inicio de viaje, seguimiento en ruta, registro de incidencias y finalización.  
+- **Reporte diario:** Flujo de llenado sencillo y secuencial para completar los reportes al final de cada turno sin pérdida de tiempo ni carga administrativa excesiva.  
+
+### Matricial  
+- **Optimización de tiempos de entrega:** Un tablero que cruza tiempos de llegada, paradas realizadas y velocidad promedio para dar a los conductores retroalimentación clara sobre su desempeño.  
+- **Alertas y seguridad vial:** Un sistema matricial que combina datos de ubicación, velocidad y comportamiento de manejo para prevenir riesgos y reforzar la seguridad en carretera.  
+
+---
+
+## Funcionalidades Comunes a Ambos Segmentos  
+
+### Jerárquica  
+- **Menú principal adaptable:** Una interfaz que organiza de manera clara las funciones clave (rutas, reportes, métricas, mantenimiento), accesibles tanto para gestores como para conductores.  
+
+### Matricial  
+- **Sistema de comunicación interna:** Un espacio que cruza información de gestores y conductores en tiempo real, permitiendo retroalimentación rápida y coordinación eficiente entre ambos roles.  
+
+---
+
+Con esta organización, **Flota365** asegura que tanto gestores como conductores encuentren en la plataforma una herramienta clara, práctica y poderosa, alineada con sus responsabilidades y objetivos diarios.
+
 #### 3.1.2.2. Labelling Systems
 #### 3.1.2.3. SEO Tags and Meta Tags
 #### 3.1.2.4. Searching Systems
