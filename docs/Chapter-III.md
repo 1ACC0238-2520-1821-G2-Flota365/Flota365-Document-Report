@@ -215,6 +215,41 @@ Reconociendo que diferentes usuarios tienen necesidades distintas, **Flota365** 
 Con este etiquetado, la aplicación móvil de **Flota365** logra un balance entre personalización para cada perfil y consistencia general, asegurando que cada usuario tenga a mano exactamente lo que necesita para desempeñar su rol de forma eficiente.
 
 #### 3.1.2.3. SEO Tags and Meta Tags
+
+En esta sección detallamos las etiquetas **SEO y Meta Tags** que utilizamos para mejorar la visibilidad de **Flota365** en buscadores y app stores. Esto nos permitirá llegar a más empresas y profesionales interesados en optimizar la gestión de sus flotas mediante una plataforma digital moderna, confiable y escalable. Hemos definido títulos, descripciones y palabras clave para cada entorno: **landing page, aplicación web y aplicación móvil**.  
+
+---
+
+## Para el sitio web estático (Landing Page)  
+
+- **Title:** Flota365 - Gestión Inteligente de Flotas en Tiempo Real  
+- **Description:** Flota365 ofrece soluciones tecnológicas para optimizar el control de vehículos, rutas y conductores, aumentando la eficiencia operativa y reduciendo costos.  
+- **Keywords:** fleet management, flota inteligente, gestión de vehículos, optimización de rutas, control en tiempo real, logística digital  
+- **Authors:** Flota365 team  
+
+---
+
+## Para la aplicación web  
+
+- **Title:** Flota365 - Plataforma Web de Gestión de Flotas  
+- **Description:** Supervisa tu flota con Flota365 desde cualquier lugar. Administra rutas, conductores y mantenimiento con métricas precisas y reportes personalizados.  
+- **Keywords:** fleet management system, gestión de flotas online, reportes de transporte, logística empresarial, monitoreo vehicular, software de flotas  
+- **Authors:** Flota365 team  
+
+---
+
+## Para la aplicación móvil  
+
+- **Title:** Flota365 - Control de Tu Flota desde el Móvil  
+- **Description:** Lleva la gestión de tu flota en la palma de tu mano. Flota365 móvil te permite seguir rutas, registrar evidencias y recibir notificaciones en tiempo real.  
+- **Keywords:** fleet mobile app, gestión de flotas móvil, app transporte, conductores conectados, logística digital, monitoreo en tiempo real  
+- **Authors:** Flota365 team  
+
+---
+
+Con estas etiquetas, **Flota365** asegura una presencia digital sólida y optimizada, mejorando el alcance en buscadores y aumentando la visibilidad en entornos móviles y web.  
+
+
 #### 3.1.2.4. Searching Systems
 #### 3.1.2.5. Navigation Systems
 
