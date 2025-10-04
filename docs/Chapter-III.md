@@ -251,6 +251,37 @@ Con estas etiquetas, **Flota365** asegura una presencia digital sólida y optimi
 
 
 #### 3.1.2.4. Searching Systems
+
+En esta sección explicamos los **sistemas de búsqueda** que implementaremos en **Flota365**, diferenciando la experiencia entre la landing page y la aplicación móvil. Nuestro objetivo es asegurar que cada usuario acceda fácilmente a la información y funcionalidades que necesita, de acuerdo con el entorno en el que interactúe.  
+
+---
+
+## En el sitio web estático (Landing Page)  
+
+La landing page de **Flota365** no contará con un sistema de búsqueda interno, ya que la información estará organizada de manera clara en secciones bien definidas: *Inicio, Acerca de, Precios, Características y Contacto*.  
+De esta forma, los visitantes podrán navegar de manera intuitiva a través del menú principal y acceder rápidamente a la información esencial sin necesidad de realizar búsquedas adicionales.  
+
+---
+
+## En la aplicación móvil  
+
+### Perfil: Gestores de Flota  
+
+- **Buscar vehículos**: localizar unidades por placa, estado o ubicación.  
+- **Filtrar mantenimientos**: búsqueda por estado (pendiente, en curso, finalizado) o fecha.  
+- **Buscar conductores**: acceso rápido a perfiles por nombre o desempeño.  
+- **Explorar reportes**: filtros por periodo, sede o tipo de operación.  
+
+### Perfil: Conductores  
+
+- **Buscar rutas**: localización de rutas activas por fecha o destino.  
+- **Historial de viajes**: búsqueda por fecha, vehículo o cliente.  
+- **Mantenimientos pendientes**: alertas asociadas al vehículo asignado.  
+
+### Funcionalidades comunes  
+
+Ambos perfiles contarán con una **búsqueda global** dentro de la app, con autocompletado, que permitirá localizar cualquier sección (ej. “mis rutas”, “notificaciones”, “soporte”). Además, el módulo de **Soporte** integrará un buscador interno en FAQs y tutoriales para resolver dudas de forma ágil.  
+
 #### 3.1.2.5. Navigation Systems
 
 ### 3.1.3. Landing Page UI Design
