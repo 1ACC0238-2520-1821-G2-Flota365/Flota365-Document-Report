@@ -313,7 +313,10 @@ Gracias a estos sistemas, aseguramos una navegación fluida, segmentada y enfoca
 
 ### 3.1.3. Landing Page UI Design
 #### 3.1.3.1. Landing Page Wireframe
+<img  src="https://github.com/user-attachments/assets/3a4a6c2d-d5cb-4e47-b536-1df780a36433" /> 
+
 #### 3.1.3.2. Landing Page Mock-up
+<img src="https://github.com/user-attachments/assets/8098c17c-c86d-493b-a3b4-34c8ac9f684b" />
 
 ### 3.1.4. Mobile Applications UX/UI Design
 #### 3.1.4.1. Mobile Applications Wireframes
