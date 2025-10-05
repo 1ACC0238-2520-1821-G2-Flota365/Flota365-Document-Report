@@ -28,7 +28,7 @@ La gestión de la configuración del software es fundamental para nuestro trabaj
   
     Imagen de evidencia de uso
   
-    ![alt text](../images/chapter-IV/figmaaa.jpg)
+    ![alt text](../images/chapter-IV/Figma%20EVI.PNG)
   
   * ### Software Development
     * ### HTML5
