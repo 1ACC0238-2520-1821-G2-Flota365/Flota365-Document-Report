@@ -332,6 +332,22 @@ Gracias a estos sistemas, aseguramos una navegación fluida, segmentada y enfoca
 
 #### 3.1.4.2. Mobile Applications Wireflow Diagrams
 #### 3.1.4.3. Mobile Applications Mock-ups
+
+##### Sección Suscripción
+![Image](https://github.com/user-attachments/assets/f321e32c-21a8-42dc-a4f0-b84409bfe582)
+
+##### Sección Inicio y Registro de usuario
+![Image](https://github.com/user-attachments/assets/9e7b8c71-1e58-4441-bf19-a05123cd83ae)
+
+##### Segmento: Gestor de Flota
+![Image](https://github.com/user-attachments/assets/ad254182-c88d-46f0-a859-4cd81974d773)
+![Image](https://github.com/user-attachments/assets/d0a390b8-fabd-4443-8658-0f80a13b77b8)
+
+##### Segmento: Conductor de vehiculos pesados
+![Image](https://github.com/user-attachments/assets/b24a72e2-274e-4e21-8269-c24b3998558a)
+![Image](https://github.com/user-attachments/assets/a3d76a8a-5143-4bb2-855a-6f2bc98b45eb)
+
+
 #### 3.1.4.4. Mobile Applications User Flow Diagrams
 #### 3.1.4.5. Mobile Applications Prototyping
 
