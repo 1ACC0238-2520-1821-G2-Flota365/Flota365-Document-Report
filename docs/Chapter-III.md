@@ -63,6 +63,8 @@ Hemos distribuido nuestra paleta de colores en 3 categorías (desde la más prio
 
 <br>
 
+![Image](https://github.com/user-attachments/assets/ef1d29c7-49d6-45a3-93e0-cad34e4947c4) 
+
 **Typography**
 
 La tipografía empleada será **Arial** con sus respectivas variantes como los son Regular, Bold y SemiBold. La principal razon de su elección es por su excelente legibilidad en diferentes tipos de pantallas y su disponibilidad universal en los dispositivos tecnológicos que usamos hoy en día (celulares, ordenadores, tabletas, etc)
@@ -349,5 +351,15 @@ Gracias a estos sistemas, aseguramos una navegación fluida, segmentada y enfoca
 
 
 #### 3.1.4.4. Mobile Applications User Flow Diagrams
+
+##### User Goal: Iniciar Sesión
+![Image](https://github.com/user-attachments/assets/23708fa3-917e-4b15-9cb7-f8f2ba6793d9)
+
+##### User Goal: Funciones Conductor
+![Image](https://github.com/user-attachments/assets/38a69909-ad2e-4a75-9907-24fa5c172fca)
+
+##### User Goal: Funciones Gestor de Flota
+![Image](https://github.com/user-attachments/assets/e51376c5-ab10-42c2-a842-65ed7498efe2) 
+
 #### 3.1.4.5. Mobile Applications Prototyping
 
