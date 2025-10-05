@@ -315,6 +315,21 @@ Gracias a estos sistemas, aseguramos una navegación fluida, segmentada y enfoca
 
 ### 3.1.4. Mobile Applications UX/UI Design
 #### 3.1.4.1. Mobile Applications Wireframes
+
+##### Sección Suscripción
+![Image](https://github.com/user-attachments/assets/6b78e1f3-e341-4fa8-ae27-f8fadb33bf7f)
+
+##### Sección Inicio y Registro de usuario
+![Image](https://github.com/user-attachments/assets/8b2804ce-001b-4370-85c9-98203ae0b142)
+
+##### Segmento: Gestor de Flota
+![Image](https://github.com/user-attachments/assets/93c95ec9-3db5-4b35-b15c-ba7f46846c00)
+![Image](https://github.com/user-attachments/assets/7cba5e4c-13e8-4f44-a43e-cbac2c9be083)
+
+##### Segmento: Conductor de vehiculos pesados
+![Image](https://github.com/user-attachments/assets/fd8ba29c-fc4b-4630-82a4-f171e01c6d4d)
+![Image](https://github.com/user-attachments/assets/d54354e7-aff6-4d83-aaf9-f0fa1c1a876f)
+
 #### 3.1.4.2. Mobile Applications Wireflow Diagrams
 #### 3.1.4.3. Mobile Applications Mock-ups
 #### 3.1.4.4. Mobile Applications User Flow Diagrams
