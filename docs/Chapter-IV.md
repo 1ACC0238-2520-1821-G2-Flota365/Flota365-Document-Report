@@ -15,12 +15,12 @@ La gestión de la configuración del software es fundamental para nuestro trabaj
     ![alt text](../images/chapter-IV/Meet.png)
   
   * ### Requirement Management
-    * ### Structurizr
+    * ### Draw.io
     Se trata de una suite de herramientas que posibilita la creación colaborativa de modelos C4 para representar de forma gráfica nuestros productos.
     
     Imagen de evidencia de uso
   
-    ![alt text](../images/chapter-IV/struct.png)
+    ![alt text](../images/chapter-IV/Draw.io.tool.png)
   
   * ### Product UX/UI Design
     * ### Figma
@@ -93,7 +93,6 @@ git commit -m “<type>[optional scope]: <title>“ -m “<description”
 7. chore: Used for changes in the build process or maintenance tasks that are not directly related to the code itself.
 8. perf: Describes performance improvements in the code.
 ~~~
-
 
 ### 4.1.3. Source Code Style Guide & Conventions
 
@@ -246,6 +245,39 @@ git commit -m “<type>[optional scope]: <title>“ -m “<description”
       ~~~
       
 ### 4.1.4. Software Deployment Configuration
+
+En esta sección encontramos el detalle de como será el proceso de configuración de despliegue de las soluciones propuestas por Flota365. Cada una cuenta con herramientas que, por familiaridad del equipo, utilizará para dar mayor agilidad en proudcción y que nuestros usuarios lo puedan estar utilizando lo más pronto posible en sus actividades rutinarias.
+
+A continuación comenzaremos por:
+
+**Landing Page**
+
+El landing page se desplegará como una página web estática, haciendo uso de <a href="https://docs.github.com/es/pages">Github Pages</a>. Este producto de **Github** permite alojar aplicaciones web estáticas de forma sencilla y escalable, proporcionando un entorno escalable para el Landing Page de Flota365.
+
+* Proceso de Despliegue:
+
+1. En primer lugar, nos dirijimos a nuestro repostorio donde tenemos alojado nuestro *landing page* y procedemos a seleccionar la opción *Settings* de nuestro repositorio de Github.
+
+![Settings](../images/chapter-IV/Settings_Github.png)
+
+2. Dentro de dicho apartado, en el menú de la barra lateral procederemos a buscar la opción que tenga el nombre de *Pages*.
+
+![Pages-option](../images/chapter-IV/Pages-Section_Github.png)
+
+3. En el subtítulo que tenga el nombre de **Build and deployment**, en la parte de *branch*, seleccionaremos la rama que queremos desplegar nuestra solución - como nosotros usamos *conventional commits* y *conventional branches*, usamos la rama **main** como rama de despliegue a producción.
+Adicional, seleccionamos a partir de que nivel de carpetas queremos que comience a monitorear Github nuestro proyecto que utilizará en el despliegue.
+
+![brach-selected](../images/chapter-IV/Main-Branch-Selected_Github.png)
+
+<br>
+
+![Deployment-option](../images/chapter-IV/Deployment_Landing-Github.png)
+
+4. Finalmente, esperamos a que nuestra configuración sea procesada y nos brinde un enlace como este:
+
+![Final-deployment-result](../images/chapter-IV/Final-Step-to-Deploy-Github.png)
+
+Con todos estos pasos, el despliegue de nuestra solución estará en cuestión de minutos y con la posiblidad de seguir escalando con más herramientas o servicios que nuestros amigos de **Github** tienen por ofrecernos.
 
 ## 4.2. Landing Page & Mobile Application Implementation
 ### 4.2.1. Sprint n  
