@@ -72,20 +72,75 @@
                 Redacción del primer capítulo de la documentación titulado: <strong><q>Capítulo I: Presentación</q></strong>
             </td>
         </tr>
+<<<<<<< Updated upstream
                 <tr>
             <td>1.3.0</td>
             <td>13/09/2025</td>
             <td>Jessica Comettant Rubiños </td>
+=======
+        <tr>
+            <td>1.2.0</td>
+            <td>10/09/2025</td>
+            <td>José Diego Huamani Sánchez</td>
+>>>>>>> Stashed changes
             <td>
-                Redacción del requirement specification de la documentación titulado: <strong><q>Capítulo II</q></strong>
+                Redacción del <strong><q>Capítulo II:  Requirements Development and Software Solution Design</q> de los puntos 2.1. Competidores, 2.1.1. Análisis competitivo, 2.1.1. Diseño de entrevistas, 2.2.3. Needfinding, 2.3.1. User Personas, 2.3.2. User Task Matrix, 2.3.3. User Journey Mapping, 2.3.4. Empathy Mapping, 2.3.5. Ubiquitous Mapping.</strong>
+            </td>
+        </tr>
+        <tr>
+            <td>1.2.0</td>
+            <td>11/09/2025</td>
+            <td>José Diego Huamani Sánchez</td>
+            <td>
+                Redacción del <strong><q>Capítulo II:  Requirements Development and Software Solution Design</q> de los puntos 2.4. Requirements specification, 2.4.1. User Stories, 2.4.2. Impact Mapping y el 2.4.3. Product Backlog</strong>
+            </td>
+        </tr>
+        <tr>
+            <td>1.2.0</td>
+            <td>11/09/2025</td>
+            <td>Renzo Miguel Llerena Delgado</td>
+            <td>
+                Redacción del <strong><q>Capítulo II:  Requirements Development and Software Solution Design</q> de los puntos 2.5.1. EventStorming, 2.5.1.1. Candidate Context Discovery, 2.5.1.2. Domain Message Flows Modeling, 2.5.1.3. Bounded Context Canvases</strong>
+            </td>
+        </tr>
+        <tr>
+            <td>1.2.0</td>
+            <td>13/09/2025</td>
+            <td>Renzo Alonso Villafuerte Tapia</td>
+            <td>
+                Redacción del <strong><q>Capítulo II:  Requirements Development and Software Solution Design</q> del punto 2.5.2. Context Mapping</strong>
+            </td>
+        </tr>
+        <tr>
+            <td>1.2.0</td>
+            <td>13/09/2025</td>
+            <td>José Diego Huamani Sánchez</td>
+            <td>
+                Redacción del <strong><q>Capítulo II:  Requirements Development and Software Solution Design</q> de los puntos 2.5.3. Software Architecture, 2.5.3.1. Software Architecture Context Level Diagrams, 2.5.3.2. Software Architecture Container Level Diagrams y 2.5.3.3. Software Architecture Deployment Level Diagrams</strong>
+            </td>
+        </tr>
+        <tr>
+            <td>1.2.0</td>
+            <td>15/09/2025</td>
+            <td>Giovany Smith Torres Apolinario</td>
+            <td>
+                Redacción del <strong><q>Capítulo II:  Requirements Development and Software Solution Design</q> de los puntos 2.6. Tactical-Level Domain-Driven Design, 2.6.1. Bounded Context, 2.6.1.1. Domain Layer, 2.6.1.2. Interface Layer, 2.6.1.3. Application Layer, 2.6.1.4. Infrastructure Layer, 2.6.1.5 Bounded Context Software Architecture Component Level Diagrams, 2.6.1.6. Bounded Context Software Architecture Code Level Diagrams, 2.6.1.6.1. Bounded Context Domain Layer Class Diagrams y 2.6.1.6.2. Bounded Context Database Design Diagram</strong>
+            </td>
+        </tr>
+        <tr>
+            <td>1.3.0</td>
+            <td>23/09/2025</td>
+            <td>Giovany Smith Torres Apolinario</td>
+            <td>
+                Redacción del <strong><q>Capítulo III:  Solution UI/UX Design</q> de los puntos 3.1. Product design, 3.1.1. Style Guidelines, 3.1.1.1. General Style Guidelines, 3.1.2. Information Architecture, 3.1.2.1. Organization System, 3.1.2.2. Labelling Systems, 3.1.2.3. SEO Tags and Meta Tags, 3.1.2.4. Searching Systems, 3.1.2.5. Navigation Systems y 3.1.3. Landing Page UI Design.
             </td>
         </tr>
         <tr>
             <td>1.4.0</td>
-            <td>19/09/2025</td>
+            <td>01/10/2025</td>
             <td>Jessica Comettant Rubiños </td>
             <td>
-                Creación de presentación y diapositivas
+                Redacción del <strong><q>Capítulo III:  Solution UI/UX Design</q> del punto 3.1.4. Mobile Applications UX/UI Design, 3.1.4.1. Mobile Applications Wireframes, 3.1.4.2. Mobile Applications Wireflow Diagrmas, 3.1.4.3. Mobile Applications Mock-ups, 3.4.1.4. Mobile Applications User Flow Digrams y 3.1.4.5. Mobile Applications Prototyping.
             </td>
         </tr>
     </tbody>
@@ -97,12 +152,12 @@
 
 **Link de los repositorios de la organización**: https://github.com/1ACC0238-2520-1821-G2-Flota365
 
-**Reporte de colaboración de la entrega del TB1:**
+### Reporte de colaboración de la entrega del TB1:
 
 En esta primera entrega (TB1), nuestro objetivo principal fue la creación de nuestra startup. Todos los miembros del equipo Flota365 participaron activamente en la elaboración del informe, utilizando herramientas colaborativas como GitHub, UXPressia, Miro, entre otros. A continuación, vamos a presentar los diagramas de flujo que representan los commits realizados por cada miembro del equipo:
 
 <div align="center">
-  <img src="../Document-Report/images/Project Report Collaboration Insights/TB1-Project Report Collaboration Insights-Flota365.png" alt="Graphic TB1 - Project Report Collaboration Insights" style="width: 600px;" />
+  <img src="images/Project Report Collaboration Insights/TB1-Project Report Collaboration Insights-Flota365.png" alt="Graphic TB1 - Project Report Collaboration Insights" style="width: 600px;" />
 </div>
 
 Este gráfico muestra la cantidad de commits realizados por cada integrante durante la elaboración del TB1.
@@ -110,6 +165,14 @@ Este gráfico muestra la cantidad de commits realizados por cada integrante dura
 Este gráfico ofrece una representación visual de las clonaciones registradas en nuestro repositorio y la cantidad de visitantes a lo largo del tiempo.
 
 Estas evidencias demuestran una colaboración equilibrada y efectiva, con cada miembro aportando significativamente al desarrollo del informe.
+
+### Reporte de colaboración de la entrega del TP1:
+
+En esta entrega (TP1), nuestro objetivo principal fue la creación de nuestro **Solution UI/UX Design** para representar el prototipo visual de nuestra *mobile* como nuestra *landing page*, y el detalle de las herramientas y configuraciones que usaremos en el desarrollo para nuestro primer Sprint que será evaluado por nuestros *stakeholders*. El equipo trabajó de manera colaborativa utilizando herramientas como GitHub, Miro, Trello, Figma, UXPressia y Discord para coordinar las actividades y desarrollar el informe correspondiente. A continuación, vamos a presentar los diagramas de flujo que representan los commits realizados por cada miembro del equipo Flota365:
+
+<div align="center">
+  <img src="images/Project Report Collaboration Insights/TP1-Project Report Collaboration Insights-Flota365.png" alt="Graphic TP1 - Project Report Collaboration Insights" style="width: 600px;" />
+</div>
 
 ## Contenido
 
@@ -336,8 +399,11 @@ En el siguiente cuadro se describen las acciones realizadas y enunciados de conc
         <br><br>
       <td style="padding: 10px; border: 1px solid #ccc;">
         <strong>TB1:</strong><br>
+        Concluimos que, a través del desarrollo del primer avance del proyecto Flota365, el equipo logró actualizar y aplicar conceptos fundamentales del desarrollo profesional en ingeniería de software, fortaleciendo conocimientos en metodologías modernas como Lean UX y Domain-Driven Design. Este proceso permitió integrar teoría y práctica para analizar de manera profunda la problemática de la mala gestión y los sobrecostos en flotas vehiculares, realizar un análisis competitivo, definir segmentos objetivos (conductores y gestores de flotas), y construir una base sólida de User Stories y Product Backlog que servirán como cimiento técnico y funcional del proyecto.
         <br><br>
         <br><br>
+        <strong>TP:</strong><br>
+        Durante esta segunda etapa del proyecto Flota365, el equipo fortaleció y actualizó sus conocimientos en diseño de soluciones de software, aplicando principios avanzados de UI/UX Design orientados a la experiencia del usuario. A través del desarrollo del Product Design, Style Guidelines, Information Architecture y los prototipos de la Landing Page y la Mobile Application, el equipo consolidó habilidades prácticas en arquitectura de información, navegación, etiquetado y diseño visual, integrando criterios de accesibilidad, usabilidad y optimización SEO, fundamentales para el desarrollo profesional en ingeniería de software.
       </td>
     </tr>
     <tr>
@@ -351,8 +417,11 @@ En el siguiente cuadro se describen las acciones realizadas y enunciados de conc
         <br><br>
       <td style="padding: 10px; border: 1px solid #ccc;">
         <strong>TB1:</strong><br>
+        Concluimos que el primer avance del proyecto Flota365 permitió al equipo reconocer la importancia del aprendizaje continuo para afrontar los retos que implica el desarrollo de soluciones de software complejas y centradas en el usuario. Durante esta etapa, el equipo adquirió y reforzó nuevos conocimientos relacionados con investigación de usuarios, modelado estratégico y táctico en DDD, y análisis de experiencias en el mercado, comprendiendo que la actualización constante de competencias y la adaptabilidad ante nuevas herramientas y enfoques metodológicos son esenciales para el éxito profesional y la evolución del proyecto.
         <br><br>
-        <br><br>        
+        <br><br>
+        <strong>TP:</strong><br>
+        Esta entrega permitió al equipo reconocer la relevancia del aprendizaje permanente como componente esencial del desempeño profesional en el desarrollo de proyectos de software. La implementación de prácticas como la gestión de configuraciones, control de versiones, despliegue, validación con usuarios y evaluación heurística, impulsó la adquisición continua de conocimientos técnicos y metodológicos, demostrando que la mejora constante y la retroalimentación iterativa son pilares para garantizar la calidad y evolución de las soluciones desarrolladas.
       </td>
     </tr>
   </tbody>
