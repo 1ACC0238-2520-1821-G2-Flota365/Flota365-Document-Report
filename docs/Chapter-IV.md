@@ -58,6 +58,51 @@ El sprint planning es una reunion antes de cada sprint en la metodologia Scrum d
 #### 4.2.1.3. Development Evidence for Sprint Review
 #### 4.2.1.4. Testing Suite Evidence for Sprint Review
 #### 4.2.1.5. Execution Evidence for Sprint Review
+
+En este Sprint, los miembros del equipo de desarrollo de software de Aventis han completado y desplegado la Landing Page. A continuación, mostramos imágenes que demuestran cómo nuestra página presenta de manera clara e intuitiva la información sobre nuestro producto y nuestra empresa.
+
+<br>
+
+![deploy](../images/chapter-IV/Landing%20Evi1.PNG)
+<br>
+
+![deploy](../images/chapter-IV/Landing%20Evi2.PNG)
+<br>
+
+![deploy](../images/chapter-IV/Landing%20Evi3.PNG)
+<br>
+
+![deploy](../images/chapter-IV/Landing%20Evi4.PNG)
+<br>
+
+![deploy](../images/chapter-IV/Landing%20Evi5.PNG)
+<br>
+
+![deploy](../images/chapter-IV/Landing%20Evi6.PNG)
+<br>
+
+En segundo lugar ,se avanzo el bounded context IAM y applications tanto en backend como en frontend :
+
+Backend - Swagger:
+
+![alt text](assets/images/swagger.png) 
+
+Frontend - AndroidStudio:  
+
+![alt text](assets/images/AS.png)
+
+![alt text](assets/images/asdos.png)
+
+![alt text](assets/images/astres.png)
+
+![alt text](assets/images/ascuatro.png)
+
+![alt text](assets/images/ascinco.png)
+
+![alt text](assets/images/applications1.png)
+
+![alt text](assets/images/applications2.png)
+
 #### 4.2.1.6. Services Documentation Evidence for Sprint Review
 #### 4.2.1.7. Software Deployment Evidence for Sprint Review
 #### 4.2.1.8. Team Collaboration Insights during Sprint
