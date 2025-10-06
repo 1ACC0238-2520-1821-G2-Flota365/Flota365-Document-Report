@@ -187,6 +187,29 @@ Durante este Sprint, el equipo se centró en la implementación y despliegue de 
 
 #### 4.2.1.8. Team Collaboration Insights during Sprint
 
+En esta sección se muestra un análisis detallado del trabajo colaborativo realizado por el equipo durante el Sprint. Las actividades se gestionaron bajo una metodología ágil, lo que facilitó una comunicación constante y una coordinación eficiente entre los integrantes. Se presentan además capturas de los analíticos de colaboración y de los commits en GitHub, que reflejan las aportaciones individuales de cada miembro.
+
+---
+
+### **Diseño y Desarrollo**
+
+- **Frontend:** Desarrollo integral de la landing page, abarcando la creación de secciones, aplicación de estilos y adaptación responsive para distintos dispositivos.  
+- **Backend:** Implementación de funcionalidades esenciales junto con la configuración inicial del servidor y los servicios requeridos.  
+- **Codificación:** Ejecución de tareas de programación, pruebas funcionales y mejoras iterativas durante el proceso de desarrollo.  
+
+---
+
+### **Documentación y Despliegue**
+
+- **Documentación:** Elaboración de documentación técnica y visual con descripciones detalladas y evidencias gráficas del proceso.  
+- **Despliegue:** Configuración y puesta en marcha del entorno de pruebas, asegurando el funcionamiento integrado del frontend y backend.  
+
+**Landing Page**
+
+![Commits](../images/chapter-IV/LandingTrab%20Evi.PNG)
+
+**Report:**
+
 ## 4.3. Validation Interviews
 ### 4.3.1. Diseño de Entrevistas
 ### 4.3.2. Registro de Entrevistas
