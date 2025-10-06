@@ -24,19 +24,13 @@
         <br><br>
         Huamani Sánchez, José Diego - U202110458
         <br><br>
-<<<<<<< HEAD
-        Llerena Delgado, Renzo Miguel - U202312399
-=======
         Comettant Rubiños, Jessica Elizabeth - U20211C009
->>>>>>> 1cadd936cdcdb6994a849580e5a7970ae0dfaa85
         <br><br>
         Comettant Rubiños, Jessica Elizabeth - U20211C009
         <br><br>
-        - U202
+        Villafuerte Tapia, Renzo Alonso - U202310670
         <br><br>
-         - U202
-        <br><br>
-        - U202
+        Torres Apolinario, Giovany Smith - U202311601
         <br><br>
     </p>
     <h3>Septiembre, 2025</h3>
@@ -78,7 +72,7 @@
                 Redacción del primer capítulo de la documentación titulado: <strong><q>Capítulo I: Presentación</q></strong>
             </td>
         </tr>
-        <tr>
+                <tr>
             <td>1.3.0</td>
             <td>13/09/2025</td>
             <td>Jessica Comettant Rubiños </td>
@@ -99,6 +93,23 @@
 
 ## Project Report Collaboration Insights
 
+**Link del repositorio-Informe**: https://github.com/1ACC0238-2520-1821-G2-Flota365/Flota365-Document-Report
+
+**Link de los repositorios de la organización**: https://github.com/1ACC0238-2520-1821-G2-Flota365
+
+**Reporte de colaboración de la entrega del TB1:**
+
+En esta primera entrega (TB1), nuestro objetivo principal fue la creación de nuestra startup. Todos los miembros del equipo Flota365 participaron activamente en la elaboración del informe, utilizando herramientas colaborativas como GitHub, UXPressia, Miro, entre otros. A continuación, vamos a presentar los diagramas de flujo que representan los commits realizados por cada miembro del equipo:
+
+<div align="center">
+  <img src="../Document-Report/images/Project Report Collaboration Insights/TB1-Project Report Collaboration Insights-Flota365.png" alt="Graphic TB1 - Project Report Collaboration Insights" style="width: 600px;" />
+</div>
+
+Este gráfico muestra la cantidad de commits realizados por cada integrante durante la elaboración del TB1.
+
+Este gráfico ofrece una representación visual de las clonaciones registradas en nuestro repositorio y la cantidad de visitantes a lo largo del tiempo.
+
+Estas evidencias demuestran una colaboración equilibrada y efectiva, con cada miembro aportando significativamente al desarrollo del informe.
 
 ## Contenido
 
