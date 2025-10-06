@@ -149,6 +149,42 @@ Frontend - AndroidStudio:
 
 #### 4.2.1.6. Services Documentation Evidence for Sprint Review
 #### 4.2.1.7. Software Deployment Evidence for Sprint Review
+
+**Resumen**
+
+Durante este Sprint, el equipo se centró en la implementación y despliegue de la landing page. Las tareas incluyeron la preparación del entorno, la configuración de recursos y la publicación inicial del sitio web. A continuación, se detalla el proceso seguido para completar el despliegue de la landing page.
+
+---
+
+## **Actividades Realizadas**
+
+### **Creación de Cuentas y Configuración de Recursos**
+- **Proveedor de Hosting:** Se seleccionó y configuró el servicio de hosting encargado de alojar la landing page.  
+- **Entorno de Trabajo:** Se establecieron los entornos de desarrollo y producción para facilitar las pruebas y futuras actualizaciones.
+
+### **Configuración de Proyectos para Integración**
+- **Repositorio de Código:** Se configuró un repositorio en GitHub para gestionar versiones e integrar procesos de despliegue continuo.  
+- **Automatización:** Se implementaron scripts y herramientas que permiten automatizar el proceso de despliegue, reduciendo errores manuales.
+
+### **Despliegue de la Landing Page**
+- **Carga de Archivos:** Se transfirieron los archivos y recursos necesarios al servidor de hosting.  
+- **Verificación:** Se realizaron pruebas de funcionamiento para garantizar que la landing page se desplegara correctamente y estuviera accesible en la web.
+
+
+**Deploy del Landing Page**
+![deploy](../images/chapter-IV/Deploy%20Landing.PNG)
+<br>
+
+![deploy](../images/chapter-IV/Deployment_Landing-Github.png)
+**Capturas de Pantalla**
+
+- Repositorio de Landing Page:
+  ![alt text](../images/chapter-IV/Repo%20Landingpage.PNG)
+
+**Enlace al Repositorio**: https://github.com/1ACC0238-2520-1821-G2-Flota365/Flota365-Landing-Page
+
+**Link deploy Landing Page:** https://1acc0238-2520-1821-g2-flota365.github.io/Flota365-Landing-Page/
+
 #### 4.2.1.8. Team Collaboration Insights during Sprint
 
 ## 4.3. Validation Interviews
