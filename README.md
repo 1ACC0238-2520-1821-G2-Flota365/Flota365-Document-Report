@@ -24,7 +24,7 @@
         <br><br>
         Huamani Sánchez, José Diego - U202110458
         <br><br>
-        Llerena Delgado, Renzo Miguel - U202312399
+        Comettant Rubiños, Jessica Elizabeth - U20211C009
         <br><br>
         Comettant Rubiños, Jessica Elizabeth - U20211C009
         <br><br>
@@ -72,7 +72,7 @@
                 Redacción del primer capítulo de la documentación titulado: <strong><q>Capítulo I: Presentación</q></strong>
             </td>
         </tr>
-        <tr>
+                <tr>
             <td>1.3.0</td>
             <td>13/09/2025</td>
             <td>Jessica Comettant Rubiños </td>
@@ -356,4 +356,5 @@ En el siguiente cuadro se describen las acciones realizadas y enunciados de conc
       </td>
     </tr>
   </tbody>
+
 </table>
