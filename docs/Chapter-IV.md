@@ -54,8 +54,24 @@ El sprint planning es una reunion antes de cada sprint en la metodologia Scrum d
 | **Sum of Story Points**| 19 |  
 
 
-#### 4.2.1.2. Sprint Backlog n
+#### 4.2.1.2. Sprint Backlog 1
 #### 4.2.1.3. Development Evidence for Sprint Review
+Landing Page:
+
+|Repository |Branch| Commit Id | Commit Message| Commit Message Body| Date|
+|----|-----|---------------------|----------------------------------------|---------------------------------------------------------|------------|
+|Flota365/landing-page|develop| 2753d07           | feat(header): add the header and navigations  | the access with differents informative articles about Flota365 Startup | 05/10/2025 |
+|Flota365/landing-page|develop| 184f6f5           | feat(hero): add the new version of Hero Section o n the Flota365 Landing Page         | Added hero section with headline | 05/10/2025 |
+|Flota365/landing-page|develop| a831a7f           | feat(features): add the primordial features  | features of Flota365 offers our customers         | 05/10/2025 |
+|Flota365/landing-page|develop| 74000b4           | feat(about): add the first vertion of About section    | Implemented company info section with team photos       | 05/10/2025 |
+|Flota365/landing-page|develop| c5ab48a           | feat(contact): Add contact information | add the contact forms into the Landing Page of Flota465 | 05/10/2025 |
+|Flota365/landing-page|develop| 3473e3f           | Chore(colors): update the color palette     | Implemented apply into the new navigation items  | 05/10/2025 |
+|Flota365/landing-page|develop| 681332a           | feat(stats): add the stadistics   | Implemented information about the advantage to use Flota365   | 05/10/2025 |
+|Flota365/landing-page|develop| 932bd47           | feat(team): add the group of developers | Implemented  team member of Flota365 into the Landing Page   | 05/10/2025 |
+|Flota365/landing-page|develop| 71f42b3           | feat(footer): add Footer   | content that descripve the differents informative article about the service   | 05/10/2025 |
+
+
+
 #### 4.2.1.4. Testing Suite Evidence for Sprint Review
 #### 4.2.1.5. Execution Evidence for Sprint Review
 
