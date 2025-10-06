@@ -24,7 +24,7 @@
         <br><br>
         Huamani Sánchez, José Diego - U202110458
         <br><br>
-        Comettant Rubiños, Jessica Elizabeth - U20211C009
+        Comettant Rubiños, Jessica Elizabeth - u20211c009
         <br><br>
         Comettant Rubiños, Jessica Elizabeth - U20211C009
         <br><br>
