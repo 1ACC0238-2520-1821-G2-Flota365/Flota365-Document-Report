@@ -1,7 +1,8 @@
+# Capítulo 2: Requirements Development and Software Solution Design
+
 ## 2.1. Competidores
 ### 2.1.1. Análisis competitivo
 ### 2.1.2. Estrategias y tácticas frente a competidores
-
 ## 2.2. Entrevistas
 ### 2.2.1. Diseño de entrevistas
 <h4 id="interviewDesing">Preguntas para segmento 1 - Gestores de flota:</h4>
@@ -90,9 +91,6 @@
 ### 2.3.3. User Journey Mapping
 ### 2.3.4. Empathy Mapping
 ### 2.3.5. Ubiquitous Language
-
-## 2.4. Requirements specification
-### 2.4.1. User Stories
 ### 2.4.2. Impact Mapping
 ### 2.4.3. Product Backlog
 
@@ -108,13 +106,12 @@
 #### 2.5.3.3. Software Architecture Deployment Diagrams
 
 ## 2.6. Tactical-Level Domain-Driven Design
-### 2.6.x. Bounded Context: 
-#### 2.6.x.1. Domain Layer
-#### 2.6.x.2. Interface Layer
-#### 2.6.x.3. Application Layer
-#### 2.6.x.4. Infrastructure Layer
-#### 2.6.x.5. Bounded Context Software Architecture Component Level Diagrams
-#### 2.6.x.6. Bounded Context Software Architecture Code Level Diagrams
-##### 2.6.x.6.1. Bounded Context Domain Layer Class Diagrams
-##### 2.6.x.6.2. Bounded Context Database Design Diagram
-
+#### 2.6.1. Bounded Context
+#### 2.6.1.1. Domain Layer
+#### 2.6.1.2. Interface Layer
+#### 2.6.1.3. Application Layer
+#### 2.6.1.4 Infrastructure Layer
+#### 2.6.1.5. Bounded Context Software Architecture Component Level Diagrams
+#### 2.6.1.6. Bounded Context Software Architecture Code Level Diagrams
+#### 2.6.1.6.1. Bounded Context Domain Layer Class Diagrams
+#### 2.6.1.6.2. Bounded Context Database Design Diagram
