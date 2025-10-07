@@ -106,7 +106,9 @@ En segundo lugar ,se avanzo el bounded context IAM y applications tanto en backe
 
 Backend - Swagger:
 
-![alt text](assets/images/swagger.png) 
+![alt text](../images/chapter-IV/Swagger1.PNG) 
+![alt text](../images/chapter-IV/Swagger2.PNG) 
+![alt text](../images/chapter-IV/Swagger3.PNG) 
 
 Frontend - AndroidStudio:  
 
