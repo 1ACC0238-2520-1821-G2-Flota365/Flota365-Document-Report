@@ -138,4 +138,22 @@ Las siguientes preguntas están organizadas según los dos segmentos clave del p
 ---
 
 ### 4.3.2. Registro de Entrevistas
+
+
+#### Segmento Objetivo 2: Conductores de vehículos pesados
+
+##### Entrevistado 1 Segmento Objetivo 2
+
+| **Campo**                | **Detalle** |
+|--------------------------|-------------|
+| **Nombre**               | Eduard Ancasi Carrión|
+| **Entrevistador**        | Renzo Miguel Llerena Delgado |
+| **Edad**                 | 28 años |
+| **Distrito**             | San Juan de Miraflores|
+| **Resumen**              | Eduard es conductor de vehículos pesados que trabaja en Shalon, le parece a el que nuestro avance necesita implementar la funcion de inteligencia artifical de forma completa, ya que el observa que eso sería un gran cambio con respecto a como podría trabajar el en su empresa, y que habría demasiada demanda si encuentran el servicio a un precio accesible para poder usarlo. 
+Le parece que nuestra aplicacion movil necesita tener una estructura más organizada para facilitar el uso de gente inexperta con la tecnología y también implementando la funcionalidad de la ia|
+| **Tiempo que empieza**   | 0:00 minutos |
+| **Duración de la entrevista** | 08:30 minutos |
+| **URL de la entrevista** | [Ver entrevista](https://drive.google.com/file/d/1lUyPkyNbrGfA9RZqERBFRNFBWAkkM0x7/view?usp=sharing) |
+
 ### 4.3.3. Evaluaciones según heurísticas
