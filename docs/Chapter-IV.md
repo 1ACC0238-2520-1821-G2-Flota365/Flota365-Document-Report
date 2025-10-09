@@ -280,17 +280,483 @@ Adicional, seleccionamos a partir de que nivel de carpetas queremos que comience
 Con todos estos pasos, el despliegue de nuestra solución estará en cuestión de minutos y con la posiblidad de seguir escalando con más herramientas o servicios que nuestros amigos de **Github** tienen por ofrecernos.
 
 ## 4.2. Landing Page & Mobile Application Implementation
-### 4.2.1. Sprint n  
-#### 4.2.1.1. Sprint Planning n
-#### 4.2.1.2. Sprint Backlog n
+
+En esta sección se describe de manera integral el proceso de implementación, pruebas, documentación y despliegue de los distintos componentes que conforman la solución Flota365.
+
+Se incluye el desarrollo de la **Landing Page**, diseñada como punto de entrada y presentación del producto ante el público general, así como la implementación del **Backend** y las **aplicaciones móviles**, que constituyen el núcleo funcional de la propuesta.
+
+A lo largo de esta sección se detalla cómo se abordó cada fase del ciclo de vida del desarrollo de software, desde la planificación inicial y el diseño, hasta la ejecución de pruebas y el despliegue en entornos de producción. Asimismo, se documentan las tecnologías empleadas, los principales desafíos enfrentados y las soluciones adoptadas para garantizar que cada componente cumpla con los requisitos establecidos y proporcione una experiencia de usuario óptima, confiable y escalable.
+
+### 4.2.1. Sprint 1
+
+Este archivo describe el trabajo realizado durante el Sprint 1 del proyecto Flota365. 
+El enfoque principal fue el desarrollo y despliegue de la Landing Page, cuyo propósito es ofrecer una primera impresión positiva y brindar información esencial a los potenciales clientes de la plataforma.
+
+#### 4.2.1.1. Sprint Planning 1
+
+En esta sección, se presentará el sprint planning 1 donde se describirá de manera detallada cada una de las evidencias planificadas e implementación tanto en el *Landing Page*, *Web Service* y *Mobile Application*. Asimismo, se evidenciaron los avances del proyeto e *insights* de colaboración en equipo mediante nuestro organización de Github.
+
+<table>
+    <thead>
+        <tr>
+            <th>Sprint #</th>
+            <th>Sprint 1</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td colspan="2"><b>Sprint Planning Background</b></td>
+        </tr>
+        <tr>
+            <td>Date</td>
+            <td>2025/10/01</td>
+        </tr>
+        <tr>
+            <td>Time</td>
+            <td>12:28 AM</td>
+        </tr>
+        <tr>
+            <td>Location</td>
+            <td>Discord</td>
+        </tr>
+        <tr>
+            <td>Prepared by</td>
+            <td>José Diego Huamani Sánchez</td>
+        </tr>
+        <tr>
+            <td>Atendees (to planning meeting)</td>
+            <td>
+                Todos los miembros del equipo Flota365
+            </td>
+        </tr>
+        <tr>
+            <td>Sprint 1 Review Summary</td>
+            <td>
+                Dado que es el primer sprint que se está llevando a cabo, no se está considerando los <em>Review Summary</em> ya que no hemos recibido ninguno en el sprint anterior.
+            </td>
+        </tr>
+        <tr>
+            <td>Sprint 1 Retrospective Summary</td>
+            <td>
+                Al ser el primer Sprint, se planea el desarrollo de nuestra landing page mediante el uso de herramientas web nativas como HTML5, CSS3 y JavaScript. Adicional a ello, se tendrá la primera versión del aplicativo móvil que, meadiante el uso de tecnologías como Kotlin y Jetpack Compose, se modelará las vistas core que nuestros segmentos objetivos necesitan - tanto para los gestores de flota como los conductores; este estará conectado a un servicio web, hecho con C#12 y NET.9 donde, mediante una arquitectura Domain Driven Design, estableceremos la conexión entre nuestro servicio con nuestra interfaz móvil.
+                Únicamente lo que se desplegará para este entregable es la landing page, usando Github Pages, como el servicio web usando Railways - donde cualquier usuario puede acceder al servicio y visualizar el contenido.
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2"><b>Sprint Goal & User Stories</b></td>
+        </tr>
+        <tr>
+            <td>Sprint 1 Velocity</td>
+            <td>
+                40
+            </td>
+        </tr>
+        <tr>
+            <td>Sum of story points</td>
+            <td>
+                40
+            </td>
+        </tr>
+    </tbody>
+</table>
+
+#### 4.2.1.2. Sprint Backlog 1
 #### 4.2.1.3. Development Evidence for Sprint Review
 #### 4.2.1.4. Testing Suite Evidence for Sprint Review
 #### 4.2.1.5. Execution Evidence for Sprint Review
 #### 4.2.1.6. Services Documentation Evidence for Sprint Review
+
+En esta sección se presentan los endpoints desarrollados en el presente sprint y se adjuntan captura de las acciones CRUD realizadas con OpenAPI.
+
+Se ajunta el enlace del repositorio de la API en Github: <a href="https://underground-tuesday-renworkplace-1e2821cb.koyeb.app/swagger/index.html">https://underground-tuesday-renworkplace-1e2821cb.koyeb.app/swagger/index.html</a>
+
+
+<table border="1" style="border-collapse: collapse; text-align: left;">
+  <thead>
+    <tr>
+      <th>Bounded Context</th>
+      <td colspan="3">Auth</td>
+    </tr>
+    <tr>
+      <th>Entity</th>
+      <th>Endpoint URL</th>
+      <th>Swagger</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>User</td>
+      <td>
+        POST: /api/Auth/register <br>
+        POST: /api/Auth/login <br>
+        GET: /api/Auth/profile/{id} <br>
+        PUT: /api/Auth/profile/{id} <br>
+        GET: /api/Auth/profile <br>
+        POST: /api/Auth/change-password/{id} <br>
+        GET: /api/Auth/users <br>
+        DELETE: api/Auth/users/{id} <br>
+        GET: /api/Auth/health
+      </td>
+      <td>
+        <img src="../images/chapter-IV/Auth-Endpoint-Web-Services.png" alt="Swagger API Authentication endpoints" style="width:500px;">
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<br>
+
+<table border="1" style="border-collapse: collapse; text-align: left;">
+  <thead>
+    <tr>
+      <th>Bounded Context</th>
+      <td colspan="3">Dashboard</td>
+    </tr>
+    <tr>
+      <th>Entity</th>
+      <th>Endpoint URL</th>
+      <th>Swagger</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>User</td>
+      <td>
+        GET: /api/Dashboard/stats <br>
+        GET: /api/Dashboard/active-vehicles <br>
+        GET: /apu/Dashboard/fleet-summary
+      </td>
+      <td>
+        <img src="../images/chapter-IV/Dashboard-Endpoint-Web-Services.png" alt="Swagger API Dashboard endpoints" style="width:500px;">
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<br>
+
+<table border="1" style="border-collapse: collapse; text-align: left;">
+  <thead>
+    <tr>
+      <th>Bounded Context</th>
+      <td colspan="3">Driver</td>
+    </tr>
+    <tr>
+      <th>Entity</th>
+      <th>Endpoint URL</th>
+      <th>Swagger</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>User</td>
+      <td>
+        POST: /api/Drivers <br>
+        GET: /api/Driver <br>
+        GET: /api/Driver/{id} <br>
+        PUT: /api/Driver/{id} <br>
+        DELETE: /api/Driver/{id} <br>
+        GET: /api/Driver/stats
+      </td>
+      <td>
+        <img src="../images/chapter-IV/Driver-Endpoint-Web-Services.png" alt="Swagger API Drivers endpoints" style="width:500px;">
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<br>
+
+<table border="1" style="border-collapse: collapse; text-align: left;">
+  <thead>
+    <tr>
+      <th>Bounded Context</th>
+      <td colspan="3">Vehicle</td>
+    </tr>
+    <tr>
+      <th>Entity</th>
+      <th>Endpoint URL</th>
+      <th>Swagger</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>User</td>
+      <td>
+        POST: /api/Vehicle <br>
+        GET: /api/Vehice <br>
+        GET: /api/Vehicle/{id} <br>
+        PUT: /api/Vehicle/{id} <br>
+        DELETE: /api/Vehicle/{id}
+      </td>
+      <td>
+        <img src="../images/chapter-IV/Vehicle-Endpoint-Web-Services.png" alt="Swagger API Vehicles endpoints" style="width:500px;">
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<br>
+
+<table border="1" style="border-collapse: collapse; text-align: left;">
+  <thead>
+    <tr>
+      <th>Bounded Context</th>
+      <td colspan="3">Fleets</td>
+    </tr>
+    <tr>
+      <th>Entity</th>
+      <th>Endpoint URL</th>
+      <th>Swagger</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>User</td>
+      <td>
+        GET: /api/Fleets <br>
+        POST: /api/Fleets <br>
+        GET: /api/Fleets/{id} <br>
+        PUT: /api/Fleets/{id} <br>
+        DELETE: /api/Fleets/{id} <br>
+      </td>
+      <td>
+        <img src="../images/chapter-IV/Fleets-Endpoint-Web-Services.png" alt="Swagger API Fleets endpoints" style="width:500px;">
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<br>
+
+<table border="1" style="border-collapse: collapse; text-align: left;">
+  <thead>
+    <tr>
+      <th>Bounded Context</th>
+      <td colspan="3">Maintenance</td>
+    </tr>
+    <tr>
+      <th>Entity</th>
+      <th>Endpoint URL</th>
+      <th>Swagger</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>User</td>
+      <td>
+        GET: /api/Maintenance/records <br>
+        POST: /api/Maintenance/records <br>
+        GET: /api/Maintenance/records/{id} <br>
+        PUT: /api/Maintenance/records/{id} <br>
+        DELETE: /api/Maintenance/records/{id} <br>
+        GET: /api/Maintenance/records/{id} <br>
+        GET: /api/Maintenance/records/vehicles/{vehicleId} <br>
+        GET: /api/Maintenance/records/overdue <br>
+        GET: /api/Maintenance/services <br>
+        POST: /api/Maintenance/services <br>
+        GET: /api/Maintenance/services/{id} <br>
+        DELETE: /api/Maintenance/services/{id} <br>
+        GET: /api/Maintenance/services/vehicle/{vehicleId} <br>
+      </td>
+      <td>
+        <img src="../images/chapter-IV/Maintenance-Endpoint-Web-Services.png" alt="Swagger API Maintenance endpoints" style="width:500px;">
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<br>
+
+<table border="1" style="border-collapse: collapse; text-align: left;">
+  <thead>
+    <tr>
+      <th>Bounded Context</th>
+      <td colspan="3">Manager</td>
+    </tr>
+    <tr>
+      <th>Entity</th>
+      <th>Endpoint URL</th>
+      <th>Swagger</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>User</td>
+      <td>
+        POST: /api/Manager <br>
+        GET: /api/Manager
+      </td>
+      <td>
+        <img src="../images/chapter-IV/Manager-Endpoint-Web-Services.png" alt="Swagger API Manager endpoints" style="width:500px;">
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<br>
+
+<table border="1" style="border-collapse: collapse; text-align: left;">
+  <thead>
+    <tr>
+      <th>Bounded Context</th>
+      <td colspan="3">Report</td>
+    </tr>
+    <tr>
+      <th>Entity</th>
+      <th>Endpoint URL</th>
+      <th>Swagger</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>User</td>
+      <td>
+        POST: /api/Report <br>
+        GET: /api/Report
+      </td>
+      <td>
+        <img src="../images/chapter-IV/Report-Endpoint-Web-Services.png" alt="Swagger API Report endpoints" style="width:500px;">
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<br>
+
+<table border="1" style="border-collapse: collapse; text-align: left;">
+  <thead>
+    <tr>
+      <th>Bounded Context</th>
+      <td colspan="3">Health</td>
+    </tr>
+    <tr>
+      <th>Entity</th>
+      <th>Endpoint URL</th>
+      <th>Swagger</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>User</td>
+      <td>
+        GET: /api/Health <br>
+        GET: /api/Health/info
+      </td>
+      <td>
+        <img src="../images/chapter-IV/Health-Endpoint-Web-Services.png" alt="Swagger API Health endpoints" style="width:500px;">
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<table border="1" style="border-collapse: collapse; text-align: left;">
+  <thead>
+    <tr>
+      <th>Bounded Context</th>
+      <td colspan="3">Assignment</td>
+    </tr>
+    <tr>
+      <th>Entity</th>
+      <th>Endpoint URL</th>
+      <th>Swagger</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>User</td>
+      <td>
+        POST: /api/Assignment <br>
+        GET: /api/Assignment <br>
+        PUT: /api/Assignment/{id}/start <br>
+        PUT: /api/Assignment/{ID}/complete
+      </td>
+      <td>
+        <img src="../images/chapter-IV/Assignment-Endpoint-Web-Services.png" alt="Swagger API Assignment endpoints" style="width:500px;">
+      </td>
+    </tr>
+  </tbody>
+</table>
+
 #### 4.2.1.7. Software Deployment Evidence for Sprint Review
+
+
+
 #### 4.2.1.8. Team Collaboration Insights during Sprint
 
+Para esta sección del documentos, añadimos los insights realizados durante el sprint, tanto de la realización de la aplicación web, como el landing page:
+
+Insight del Static Web App, donde se muestran los commits realizados en el ultimo mes del repositorio de
+
+
 ## 4.3. Validation Interviews
+
+Para validar nuestros entregables, realizaremos entrevistas con nuestros segmentos objetivos, los cuales vienen a ser: Gestores de Flota y Conductores de vehículos pesados. El propósito es recopilar su opinión sobre la utilidad, claridad y facilidad de uso de solución propuesta por el team Flota365.
+
+Las preguntas se plantearán de forma cercana pero estructurada, buscando obtener un feedback honesto sobre aspectos como la navegación, el diseño, la funcionalidad y el valor percibido en su trabajo diario.
+
+Es por ello que, a continuación, se detallarán las preguntas y los principales hallazgos obtenidos a partir de sus respuestas.
+
 ### 4.3.1. Diseño de Entrevistas
+
+Para validar nuestros entregables (Landing Page y aplicación web), realizaremos entrevistas con nuestros segmentos objetivos, los cuales vienen a ser: *Gestores de Flota* y *Conductores de vehículos pesados*. El propósito es recopilar su opinión sobre la utilidad, claridad y facilidad de uso de solución propuesta por el team **VSC Visionaries**.
+
+Las preguntas se plantearán de forma cercana pero estructurada, buscando obtener un *feedback* honesto sobre aspectos como la navegación, el diseño, la funcionalidad y el valor percibido en su trabajo diario.
+
+Es por ello que, a continuación, se detallarán las preguntas y los principales hallazgos obtenidos a partir de sus respuestas.
+
+<h4 id="interviewsDesingValidation">5.3.1. Diseño de Entrevistas</h4>
+
+**Preguntas generales**:
+
+1. ¿Qué fue lo primero que pensaste al ver la página/aplicación?
+
+2. ¿Sientes que está claro de qué trata la herramienta? ¿Qué entendiste que hace?
+
+3. ¿Encontraste algo confuso o que te hizo dudar? ¿Cuál parte?
+
+4. ¿Te parece fácil de navegar? ¿Por qué sí o por qué no?
+
+5. Si tuvieras que explicarle esta plataforma a un compañero, ¿cómo lo harías?
+
+6. ¿Sientes que esta herramienta realmente te ayudaría en tu día a día? ¿Por qué?
+
+7. ¿Qué te pareció el diseño visual? ¿Muy cargado, muy vacío o bien balanceado?
+
+8. ¿Notas algo que falte o que crees que sería útil agregar?
+
+
+**Preguntas para el segmento #1 - Gestores de Flota**:
+
+1. ¿Cómo te fue registrando tus recorridos o actividades en la app? ¿Te pareció sencillo o algo complicado?
+
+2. ¿Te sentiste cómodo tomando y subiendo una foto del kilometraje? ¿Te pareció rápido?
+
+3. ¿Hay algo que te gustaría que la app hiciera automáticamente por ti (por ejemplo, registrar el kilometraje sin tener que escribir)?
+
+4. ¿Cuánto tiempo te tomaría usar la app al terminar un recorrido? ¿Crees que ese tiempo está bien o debería ser menor?
+
+5. ¿Te parece clara la forma en que se guardan o muestran tus registros?
+
+**Preguntas para el segmento #2 - Conductores de vehículos Pesados**:
+
+1. ¿Pudiste encontrar fácilmente los datos que buscabas (por placa, fecha, etc.)?
+
+2. ¿Qué tan útil te parece el sistema de reportes en PDF o Excel? ¿Lo usarías frecuentemente?
+
+3. ¿Te gustaría que los reportes fueran más visuales (gráficos, alertas, etc.)?
+
+4. ¿Cómo compararías esta herramienta con lo que usas actualmente para llevar el control de tu flota?
+
+5. ¿Sientes que tienes el control y visibilidad necesarios desde esta aplicación?
+
+6. ¿Agregarías algún tipo de alerta o recordatorio automático? ¿De qué tipo?
+
+7. ¿El flujo de filtros y búsqueda se siente natural o hubo pasos innecesarios?
+
+**Cierre - Opinión Final**:
+
+- ¿Te gustaría participar en futuras mejoras como tester o dando sugerencias?
+
 ### 4.3.2. Registro de Entrevistas
 ### 4.3.3. Evaluaciones según heurísticas
