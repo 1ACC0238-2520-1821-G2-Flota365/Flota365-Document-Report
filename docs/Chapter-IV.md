@@ -139,8 +139,8 @@ Frontend - AndroidStudio:
 ![alt text](../images/chapter-IV/Dashboard.png)
 ##### Pantalla de DriverFleet
 ![alt text](../images/chapter-IV/DriverFleet.png)
-
-![alt text](assets/images/applications2.png)
+##### Pantalla de ManagerRegistration
+![alt text](../images/chapter-IV/ManagerRegistration.png)
 
 #### 4.2.1.6. Services Documentation Evidence for Sprint Review
 
