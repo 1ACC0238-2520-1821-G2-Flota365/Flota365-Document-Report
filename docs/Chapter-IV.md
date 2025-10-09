@@ -1,9 +1,6 @@
 # 4. Product Implementation & Validation
 
 ## 4.1. Software Configuration Management
-
-La gestión de la configuración del software es fundamental para nuestro trabajo, ya que nos ayuda a controlar de manera exacta los componentes de nuestro proyecto, como el código fuente, los documentos de diseño y los recursos digitales. De esta manera, aseguramos que todos los miembros del equipo utilicen la misma versión de los archivos, lo que facilita la cooperación entre desarrolladores, diseñadores y otros profesionales involucrados.
-
 ### 4.1.1. Software Development Environment Configuration
 ### 4.1.2. Source Code Management
 ### 4.1.3. Source Code Style Guide & Conventions
