@@ -132,12 +132,11 @@ Frontend - AndroidStudio:
 ##### Pantalla de LoginForm
 ![alt text](../images/chapter-IV/LoginForm.png)
 ##### Pantalla de Reportes
-
 ![alt text](../images/chapter-IV/ReportsScreen.png)
-
-![alt text](assets/images/ascuatro.png)
-
-![alt text](assets/images/ascinco.png)
+##### Pantalla de RoleSection
+![alt text](../images/chapter-IV/RoleSection.png)
+##### Pantalla de Dashboard
+![alt text](../images/chapter-IV/Dashboard.png)
 
 ![alt text](assets/images/applications1.png)
 
