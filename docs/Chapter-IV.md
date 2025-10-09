@@ -126,9 +126,11 @@ Backend - Swagger:
 Frontend - AndroidStudio:  
 
 ##### Pantalla de OnBoarding
-![alt text](assets/images/OnBoarding.png)
-
-![alt text](assets/images/.png)
+![alt text](../images/chapter-IV/OnBoarding.png)
+##### Pantalla de LoginWelcome
+![alt text](../images/chapter-IV/LoginWelcome.png)
+##### Pantalla de LoginForm
+![alt text](../images/chapter-IV/LoginForm.png)
 ##### Pantalla de Reportes
 
 ![alt text](../images/chapter-IV/ReportsScreen.png)
