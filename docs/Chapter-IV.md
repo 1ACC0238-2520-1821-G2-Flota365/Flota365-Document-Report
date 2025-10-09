@@ -125,11 +125,13 @@ Backend - Swagger:
 
 Frontend - AndroidStudio:  
 
-![alt text](assets/images/AS.png)
+##### Pantalla de OnBoarding
+![alt text](assets/images/OnBoarding.png)
 
-![alt text](assets/images/asdos.png)
+![alt text](assets/images/.png)
+##### Pantalla de Reportes
 
-![alt text](assets/images/astres.png)
+![alt text](../images/chapter-IV/ReportsScreen.png)
 
 ![alt text](assets/images/ascuatro.png)
 
