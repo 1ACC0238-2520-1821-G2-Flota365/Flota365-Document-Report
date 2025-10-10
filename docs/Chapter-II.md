@@ -1468,6 +1468,10 @@ Este diagrama de contenedores refleja la estructura y componentes clave de nuest
 
 ##### 2.6.1.6.2. Bounded Context Database Design Diagram
 
+<div align="center">
+  <img src="../images/chapter-II/DatabaseDiagrams.jpeg" wight="auto" height="450" alt="Database">
+</div>
+
 El diagrama de base de datos para el Bounded Context de Gestión de Flotas detalla el esquema relacional que soporta la persistencia del modelo de dominio. La tabla principal vehicles incluye columnas como id (PK, autoincremental) y campos de auditoría (created_at, updated_at). La tabla drivers contiene columnas como id (PK), first_name, last_name, license_number, entre otras.
 
 La relación uno-a-muchos entre drivers y vehicles nos muestra que un conductor puede estar asignado a múltiples vehículos, lo que facilita la asignación de vehículos a conductores. Además, la relación entre assignments (asignaciones) y vehicles nos permite gestionar las asignaciones de vehículos a tareas, mostrando cómo cada vehículo puede ser asignado a diversas tareas a lo largo del tiempo.
