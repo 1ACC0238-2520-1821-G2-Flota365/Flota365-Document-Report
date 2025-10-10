@@ -11,6 +11,68 @@ El desarrollo, testeo y despliegue de nuestra landing page es importante para qu
 
 ### 4.2.1. Sprint 1
 
+### Project Management
+  * ### Meet
+    Una herramienta de videoconferencias que posibilita la comunicación en tiempo real del grupo para reuniones de coordinación.
+  
+    Imagen de evidencia de uso
+  
+    ![alt text](../images/chapter-IV/GoogleMeet.png)
+
+
+    ![alt text](../images/chapter-IV/MeetEvidence.png)
+    
+  * ### Requirement Management
+    * ### Draw.io
+    Se trata de una suite de herramientas que posibilita la creación colaborativa de modelos C4 para representar de forma gráfica nuestros productos.
+    
+    Imagen de evidencia de uso
+  
+    ![alt text](../images/chapter-IV/Draw.io.tool.png)
+  
+  * ### Product UX/UI Design
+    * ### Figma
+    Herramienta visual que facilita la creación de wireframes y mockups.
+  
+    Imagen de evidencia de uso
+  
+    ![alt text](../images/chapter-IV/Figma%20EVI.PNG)
+  
+  * ### Software Development
+    * ### HTML5
+    Lenguaje de etiquetado orientado a crear páginas web.
+  
+    Imagen de evidencia de uso
+  
+    ![alt text](../images/chapter-IV/HTML%20EVI.PNG)
+  
+    * ### CSS
+    Lenguaje de diseño gráfico utilizado para dar formato al código escrito en HTML.
+  
+    Imagen de evidencia de uso
+  
+    ![alt text](../images/chapter-IV/CSS%20EVI.PNG)
+  
+    * ### Javascript
+    Lenguaje de programación orientado a objetos dinámico que utilizamos para implementar funcionalidades en un documento HTML.
+  
+    Imagen de evidencia de uso
+  
+    ![alt text](../images/chapter-IV/JS%20EVI.PNG)
+  
+  * ### Software Documentation
+    * ### Github
+    Plataforma utilizada para el alojamiento de versiones del código fuente de un proyecto. Es una herramienta ampliamente popular en el trabajo colaborativo de programadores.  
+
+    ![alt text](../images/chapter-IV/Github%20EVI.PNG)
+  
+  * ### Software Documentation
+    * ### Github Pages
+    Una plataforma que posibilita la realización de despliegues simples directamente desde un repositorio de GitHub.  
+
+    ![alt text](../images/chapter-IV/githubpagess.png)
+    
+### 4.1.2. Source Code Management
 El primer sprint es una etapa importante en nuestro marco de gestión de proyectos de metodología ágil Scrum. En este periodo, agendamos reuniones con el objetivo de conocer mejor las características de cada integrante, y delegamos tareas para materializar el diseño y funcionalidades ya establecidas, para transformarlos en un landing page funcional y que cumple las heurísticas.  
 
 #### 4.2.1.1. Sprint Planning 1
@@ -147,6 +209,91 @@ Frontend - AndroidStudio:
 ##### Pantalla de ManagerRegistration
 ![alt text](../images/chapter-IV/ManagerRegistration.png)
 
+## 4.2. Landing Page & Mobile Application Implementation
+
+En esta sección se describe de manera integral el proceso de implementación, pruebas, documentación y despliegue de los distintos componentes que conforman la solución Flota365.
+
+Se incluye el desarrollo de la **Landing Page**, diseñada como punto de entrada y presentación del producto ante el público general, así como la implementación del **Backend** y las **aplicaciones móviles**, que constituyen el núcleo funcional de la propuesta.
+
+A lo largo de esta sección se detalla cómo se abordó cada fase del ciclo de vida del desarrollo de software, desde la planificación inicial y el diseño, hasta la ejecución de pruebas y el despliegue en entornos de producción. Asimismo, se documentan las tecnologías empleadas, los principales desafíos enfrentados y las soluciones adoptadas para garantizar que cada componente cumpla con los requisitos establecidos y proporcione una experiencia de usuario óptima, confiable y escalable.
+
+### 4.2.1. Sprint 1
+
+Este archivo describe el trabajo realizado durante el Sprint 1 del proyecto Flota365. 
+El enfoque principal fue el desarrollo y despliegue de la Landing Page, cuyo propósito es ofrecer una primera impresión positiva y brindar información esencial a los potenciales clientes de la plataforma.
+
+#### 4.2.1.1. Sprint Planning 1
+
+En esta sección, se presentará el sprint planning 1 donde se describirá de manera detallada cada una de las evidencias planificadas e implementación tanto en el *Landing Page*, *Web Service* y *Mobile Application*. Asimismo, se evidenciaron los avances del proyeto e *insights* de colaboración en equipo mediante nuestro organización de Github.
+
+<table>
+    <thead>
+        <tr>
+            <th>Sprint #</th>
+            <th>Sprint 1</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td colspan="2"><b>Sprint Planning Background</b></td>
+        </tr>
+        <tr>
+            <td>Date</td>
+            <td>2025/10/01</td>
+        </tr>
+        <tr>
+            <td>Time</td>
+            <td>12:28 AM</td>
+        </tr>
+        <tr>
+            <td>Location</td>
+            <td>Discord</td>
+        </tr>
+        <tr>
+            <td>Prepared by</td>
+            <td>José Diego Huamani Sánchez</td>
+        </tr>
+        <tr>
+            <td>Atendees (to planning meeting)</td>
+            <td>
+                Todos los miembros del equipo Flota365
+            </td>
+        </tr>
+        <tr>
+            <td>Sprint 1 Review Summary</td>
+            <td>
+                Dado que es el primer sprint que se está llevando a cabo, no se está considerando los <em>Review Summary</em> ya que no hemos recibido ninguno en el sprint anterior.
+            </td>
+        </tr>
+        <tr>
+            <td>Sprint 1 Retrospective Summary</td>
+            <td>
+                Al ser el primer Sprint, se planea el desarrollo de nuestra landing page mediante el uso de herramientas web nativas como HTML5, CSS3 y JavaScript. Adicional a ello, se tendrá la primera versión del aplicativo móvil que, meadiante el uso de tecnologías como Kotlin y Jetpack Compose, se modelará las vistas core que nuestros segmentos objetivos necesitan - tanto para los gestores de flota como los conductores; este estará conectado a un servicio web, hecho con C#12 y NET.9 donde, mediante una arquitectura Domain Driven Design, estableceremos la conexión entre nuestro servicio con nuestra interfaz móvil.
+                Únicamente lo que se desplegará para este entregable es la landing page, usando Github Pages, como el servicio web usando Railways - donde cualquier usuario puede acceder al servicio y visualizar el contenido.
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2"><b>Sprint Goal & User Stories</b></td>
+        </tr>
+        <tr>
+            <td>Sprint 1 Velocity</td>
+            <td>
+                40
+            </td>
+        </tr>
+        <tr>
+            <td>Sum of story points</td>
+            <td>
+                40
+            </td>
+        </tr>
+    </tbody>
+</table>
+
+#### 4.2.1.2. Sprint Backlog 1
+#### 4.2.1.3. Development Evidence for Sprint Review
+#### 4.2.1.4. Testing Suite Evidence for Sprint Review
+#### 4.2.1.5. Execution Evidence for Sprint Review
 #### 4.2.1.6. Services Documentation Evidence for Sprint Review
 
 En esta sección se presentan los endpoints desarrollados en el presente sprint y se adjuntan captura de las acciones CRUD realizadas con OpenAPI.
@@ -463,6 +610,14 @@ Se ajunta el enlace del repositorio de la API en Github: <a href="https://underg
 
 #### 4.2.1.7. Software Deployment Evidence for Sprint Review
 
+
+
+#### 4.2.1.8. Team Collaboration Insights during Sprint
+
+Para esta sección del documentos, añadimos los insights realizados durante el sprint, tanto de la realización de la aplicación web, como el landing page:
+
+Insight del Static Web App, donde se muestran los commits realizados en el ultimo mes del repositorio de
+
 **Resumen**
 
 Durante este Sprint, el equipo se centró en la implementación y despliegue de la landing page. Las tareas incluyeron la preparación del entorno, la configuración de recursos y la publicación inicial del sitio web. A continuación, se detalla el proceso seguido para completar el despliegue de la landing page.
@@ -524,6 +679,73 @@ En esta sección se muestra un análisis detallado del trabajo colaborativo real
 **Report:**
 
 ## 4.3. Validation Interviews
+
+Para validar nuestros entregables, realizaremos entrevistas con nuestros segmentos objetivos, los cuales vienen a ser: Gestores de Flota y Conductores de vehículos pesados. El propósito es recopilar su opinión sobre la utilidad, claridad y facilidad de uso de solución propuesta por el team Flota365.
+
+Las preguntas se plantearán de forma cercana pero estructurada, buscando obtener un feedback honesto sobre aspectos como la navegación, el diseño, la funcionalidad y el valor percibido en su trabajo diario.
+
+Es por ello que, a continuación, se detallarán las preguntas y los principales hallazgos obtenidos a partir de sus respuestas.
+
 ### 4.3.1. Diseño de Entrevistas
+
+Para validar nuestros entregables (Landing Page y aplicación web), realizaremos entrevistas con nuestros segmentos objetivos, los cuales vienen a ser: *Gestores de Flota* y *Conductores de vehículos pesados*. El propósito es recopilar su opinión sobre la utilidad, claridad y facilidad de uso de solución propuesta por el team **VSC Visionaries**.
+
+Las preguntas se plantearán de forma cercana pero estructurada, buscando obtener un *feedback* honesto sobre aspectos como la navegación, el diseño, la funcionalidad y el valor percibido en su trabajo diario.
+
+Es por ello que, a continuación, se detallarán las preguntas y los principales hallazgos obtenidos a partir de sus respuestas.
+
+<h4 id="interviewsDesingValidation">5.3.1. Diseño de Entrevistas</h4>
+
+**Preguntas generales**:
+
+1. ¿Qué fue lo primero que pensaste al ver la página/aplicación?
+
+2. ¿Sientes que está claro de qué trata la herramienta? ¿Qué entendiste que hace?
+
+3. ¿Encontraste algo confuso o que te hizo dudar? ¿Cuál parte?
+
+4. ¿Te parece fácil de navegar? ¿Por qué sí o por qué no?
+
+5. Si tuvieras que explicarle esta plataforma a un compañero, ¿cómo lo harías?
+
+6. ¿Sientes que esta herramienta realmente te ayudaría en tu día a día? ¿Por qué?
+
+7. ¿Qué te pareció el diseño visual? ¿Muy cargado, muy vacío o bien balanceado?
+
+8. ¿Notas algo que falte o que crees que sería útil agregar?
+
+
+**Preguntas para el segmento #1 - Gestores de Flota**:
+
+1. ¿Cómo te fue registrando tus recorridos o actividades en la app? ¿Te pareció sencillo o algo complicado?
+
+2. ¿Te sentiste cómodo tomando y subiendo una foto del kilometraje? ¿Te pareció rápido?
+
+3. ¿Hay algo que te gustaría que la app hiciera automáticamente por ti (por ejemplo, registrar el kilometraje sin tener que escribir)?
+
+4. ¿Cuánto tiempo te tomaría usar la app al terminar un recorrido? ¿Crees que ese tiempo está bien o debería ser menor?
+
+5. ¿Te parece clara la forma en que se guardan o muestran tus registros?
+
+**Preguntas para el segmento #2 - Conductores de vehículos Pesados**:
+
+1. ¿Pudiste encontrar fácilmente los datos que buscabas (por placa, fecha, etc.)?
+
+2. ¿Qué tan útil te parece el sistema de reportes en PDF o Excel? ¿Lo usarías frecuentemente?
+
+3. ¿Te gustaría que los reportes fueran más visuales (gráficos, alertas, etc.)?
+
+4. ¿Cómo compararías esta herramienta con lo que usas actualmente para llevar el control de tu flota?
+
+5. ¿Sientes que tienes el control y visibilidad necesarios desde esta aplicación?
+
+6. ¿Agregarías algún tipo de alerta o recordatorio automático? ¿De qué tipo?
+
+7. ¿El flujo de filtros y búsqueda se siente natural o hubo pasos innecesarios?
+
+**Cierre - Opinión Final**:
+
+- ¿Te gustaría participar en futuras mejoras como tester o dando sugerencias?
+
 ### 4.3.2. Registro de Entrevistas
 ### 4.3.3. Evaluaciones según heurísticas
