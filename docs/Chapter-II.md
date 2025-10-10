@@ -301,7 +301,8 @@ En esta sección se aborda la investigación tomando como base la recolección d
 ### 2.2.3. Análisis de entrevistas
 
 ## 2.3. Needfinding
-
+En esta sección el equipo explica y presenta los artefactos resultantes del proceso de análisis de la información recolectada. Aquí se incluye secciones internas para **User Personas**, **User Task Matrix**, **User Journey Maps**, **Empathy Mapping** y **As-Is Scenario Mapping**:
+En esta sección el equipo explica y presenta los artefactos resultantes del proceso de análisis de la información recolectada. Aquí se incluye secciones internas para User Personas, User Task Matrix, User Journey Maps, Empathy Mapping y As-Is Scenario Mapping:
 ### 2.3.1. User Personas
 ### 2.3.2. User Task Matrix
 ### 2.3.3. User Journey Mapping
