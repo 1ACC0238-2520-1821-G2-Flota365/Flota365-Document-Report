@@ -12,7 +12,10 @@ La gestión de la configuración del software es fundamental para nuestro trabaj
   
     Imagen de evidencia de uso
   
-    ![alt text](../images/chapter-IV/Meet.png)
+    ![alt text](../images/chapter-IV/GoogleMeet.png)
+
+
+    ![alt text](../images/chapter-IV/MeetEvidence.png)
   
   * ### Requirement Management
     * ### Draw.io
