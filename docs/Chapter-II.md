@@ -1464,7 +1464,23 @@ Este diagrama de contenedores refleja la estructura y componentes clave de nuest
 
 
 #### 2.6.1.6. Bounded Context Software Architecture Code Level Diagrams
+
+<div align="center">
+  <img src="../images/chapter-II/DiagramaPaquetes.jpeg" wight="auto" height="450" alt="Database">
+</div>
+
+<div align="center">
+  <img src="../images/chapter-II/IAM.jpeg" wight="auto" height="450" alt="Database">
+</div>
+
 ##### 2.6.1.6.1. Bounded Context Domain Layer Class Diagrams
+<div align="center">
+  <img src="../images/chapter-II/BoundedContext1.jpeg" wight="auto" height="450" alt="Database">
+</div>
+
+<div align="center">
+  <img src="../images/chapter-II/BoundedContext2.jpeg" wight="auto" height="450" alt="Database">
+</div>
 
 ##### 2.6.1.6.2. Bounded Context Database Design Diagram
 
