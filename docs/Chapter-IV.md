@@ -288,68 +288,6 @@ El desarrollo, testeo y despliegue de nuestra landing page es importante para qu
 
 ### 4.2.1. Sprint 1
 
-### Project Management
-  * ### Meet
-    Una herramienta de videoconferencias que posibilita la comunicación en tiempo real del grupo para reuniones de coordinación.
-  
-    Imagen de evidencia de uso
-  
-    ![alt text](../images/chapter-IV/GoogleMeet.png)
-
-
-    ![alt text](../images/chapter-IV/MeetEvidence.png)
-    
-  * ### Requirement Management
-    * ### Draw.io
-    Se trata de una suite de herramientas que posibilita la creación colaborativa de modelos C4 para representar de forma gráfica nuestros productos.
-    
-    Imagen de evidencia de uso
-  
-    ![alt text](../images/chapter-IV/Draw.io.tool.png)
-  
-  * ### Product UX/UI Design
-    * ### Figma
-    Herramienta visual que facilita la creación de wireframes y mockups.
-  
-    Imagen de evidencia de uso
-  
-    ![alt text](../images/chapter-IV/Figma%20EVI.PNG)
-  
-  * ### Software Development
-    * ### HTML5
-    Lenguaje de etiquetado orientado a crear páginas web.
-  
-    Imagen de evidencia de uso
-  
-    ![alt text](../images/chapter-IV/HTML%20EVI.PNG)
-  
-    * ### CSS
-    Lenguaje de diseño gráfico utilizado para dar formato al código escrito en HTML.
-  
-    Imagen de evidencia de uso
-  
-    ![alt text](../images/chapter-IV/CSS%20EVI.PNG)
-  
-    * ### Javascript
-    Lenguaje de programación orientado a objetos dinámico que utilizamos para implementar funcionalidades en un documento HTML.
-  
-    Imagen de evidencia de uso
-  
-    ![alt text](../images/chapter-IV/JS%20EVI.PNG)
-  
-  * ### Software Documentation
-    * ### Github
-    Plataforma utilizada para el alojamiento de versiones del código fuente de un proyecto. Es una herramienta ampliamente popular en el trabajo colaborativo de programadores.  
-
-    ![alt text](../images/chapter-IV/Github%20EVI.PNG)
-  
-  * ### Software Documentation
-    * ### Github Pages
-    Una plataforma que posibilita la realización de despliegues simples directamente desde un repositorio de GitHub.  
-
-    ![alt text](../images/chapter-IV/githubpagess.png)
-    
-### 4.1.2. Source Code Management
 El primer sprint es una etapa importante en nuestro marco de gestión de proyectos de metodología ágil Scrum. En este periodo, agendamos reuniones con el objetivo de conocer mejor las características de cada integrante, y delegamos tareas para materializar el diseño y funcionalidades ya establecidas, para transformarlos en un landing page funcional y que cumple las heurísticas.  
 
 #### 4.2.1.1. Sprint Planning 1
