@@ -740,14 +740,6 @@ Se ajunta el enlace del repositorio de la API en Github: <a href="https://underg
 
 #### 4.2.1.7. Software Deployment Evidence for Sprint Review
 
-
-
-#### 4.2.1.8. Team Collaboration Insights during Sprint
-
-Para esta sección del documentos, añadimos los insights realizados durante el sprint, tanto de la realización de la aplicación web, como el landing page:
-
-Insight del Static Web App, donde se muestran los commits realizados en el ultimo mes del repositorio de
-
 **Resumen**
 
 Durante este Sprint, el equipo se centró en la implementación y despliegue de la landing page. Las tareas incluyeron la preparación del entorno, la configuración de recursos y la publicación inicial del sitio web. A continuación, se detalla el proceso seguido para completar el despliegue de la landing page.
