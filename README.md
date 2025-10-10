@@ -24,7 +24,7 @@
         <br><br>
         Huamani Sánchez, José Diego - U202110458
         <br><br>
-        Comettant Rubiños, Jessica Elizabeth - u20211c009
+        Llerena Delgado, Renzo Miguel - u202312399
         <br><br>
         Comettant Rubiños, Jessica Elizabeth - U20211C009
         <br><br>
@@ -506,3 +506,4 @@ En el siguiente cuadro se describen las acciones realizadas y enunciados de conc
     </tr>
   </tbody>
 </table>
+
