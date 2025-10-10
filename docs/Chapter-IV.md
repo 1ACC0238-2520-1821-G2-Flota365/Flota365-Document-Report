@@ -933,4 +933,3 @@ Las siguientes preguntas están organizadas según los dos segmentos clave del p
 | **Duración de la entrevista** | 08:30 minutos |
 | **URL de la entrevista** | [Ver entrevista](https://drive.google.com/file/d/1lUyPkyNbrGfA9RZqERBFRNFBWAkkM0x7/view?usp=sharing) |
 
-### 4.3.3. Evaluaciones según heurísticas
