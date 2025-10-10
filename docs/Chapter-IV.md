@@ -798,7 +798,18 @@ En esta sección se muestra un análisis detallado del trabajo colaborativo real
 
 ![Commits](../images/chapter-IV/LandingTrab%20Evi.PNG)
 
+
 **Report:**
+
+![Commits](../images/chapter-IV/reportCommits.jpeg)
+
+**Backend**
+
+![Commits](../images/chapter-IV/backendCommits.jpeg)
+
+**Mobile App**
+
+![Commits](../images/chapter-IV/mobileCommits.jpeg)
 
 ## 4.3. Validation Interviews
 
