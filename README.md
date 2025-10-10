@@ -26,7 +26,7 @@
         <br><br>
         Comettant Rubiños, Jessica Elizabeth - u20211c009
         <br><br>
-        Comettant Rubiños, Jessica Elizabeth - U20211C009
+        Llerena Delgado, Renzo Miguel; - U202312399
         <br><br>
         Villafuerte Tapia, Renzo Alonso - U202310670
         <br><br>
@@ -506,3 +506,4 @@ En el siguiente cuadro se describen las acciones realizadas y enunciados de conc
     </tr>
   </tbody>
 </table>
+
