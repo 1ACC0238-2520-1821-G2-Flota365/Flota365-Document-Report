@@ -364,5 +364,4 @@ Gracias a estos sistemas, aseguramos una navegación fluida, segmentada y enfoca
 ##### User Goal: Funciones Gestor de Flota
 ![Image](https://github.com/user-attachments/assets/e51376c5-ab10-42c2-a842-65ed7498efe2) 
 
-#### 3.1.4.5. Mobile Applications Prototyping
 
