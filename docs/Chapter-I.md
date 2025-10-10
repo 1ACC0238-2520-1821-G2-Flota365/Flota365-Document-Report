@@ -11,7 +11,7 @@
 #### 1.2.2.2. Lean UX Assumptions
 #### 1.2.2.3. Lean UX Hypothesis Statements
 
-<<<<<<< HEAD
+## 1.3. Segmentos objetivo
 1) **Creemos que** permitir búsquedas por placa del vehículo o DNI del conductor, junto con filtros por rango de fechas,
 **para** gestores que necesitan monitorear actividades específicas en diferentes periodos y vehículos,
 **Sabremos que esto funciona** cuando cuando el número de consultas y generación de reportes aumente progresivamente, y los usuarios reporten mayor control y visibilidad.
@@ -73,6 +73,4 @@ Mediante una selección rigurosa, Flota 365 seleccionó a los siguientes segment
     </ul>
   </li>
 </ul>
-=======
-## 1.3. Segmentos objetivo
->>>>>>> 9563d5fc45898b22a77e639a02cfa0f5390fc5f1
+>>>

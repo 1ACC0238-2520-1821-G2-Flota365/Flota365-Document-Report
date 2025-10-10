@@ -1,7 +1,8 @@
 # Capítulo 2: Requirements Development and Software Solution Design
 
 ## 2.1. Competidores
-<<<<<<< HEAD
+### 2.1.1. Análisis competitivo
+### 2.1.2. Estrategias y tácticas frente a competidores
 ## 2.1. Competidores
 En esta sección se presenta la identificación y descripción de los principales competidores de Flota365, tanto directos como indirectos. Estos actores del mercado cuentan con propuestas basadas en productos digitales similares o con enfoques que abordan parcialmente el mismo problema que nuestra solución. La comparación busca evidenciar las características esenciales de cada alternativa y contextualizar el entorno competitivo en el que se desarrollará Flota365.
 
@@ -20,11 +21,8 @@ Multinacional canadiense especializada en soluciones de telemática y software d
 
 Empresa peruana que ofrece un sistema web de gestión de flotas, con funcionalidades orientadas al monitoreo y control de vehículos.
 
-=======
->>>>>>> 9563d5fc45898b22a77e639a02cfa0f5390fc5f1
 ### 2.1.1. Análisis competitivo
 ### 2.1.2. Estrategias y tácticas frente a competidores
-<<<<<<< HEAD
 Tras un análisis detallado de los principales competidores de Flota365 —AFE Logistics, RDA Mobility, Geotab e iLab Perú— se han identificado oportunidades estratégicas clave para fortalecer nuestra propuesta de valor, diferenciarnos y consolidar nuestra posición en el mercado. Las siguientes estrategias se fundamentan en las fortalezas, debilidades y amenazas encontradas, con tácticas específicas orientadas a maximizar la eficiencia y satisfacción del cliente.
 
 **1) Estrategias basadas en fortalezas**
@@ -220,9 +218,6 @@ Mantener comunicación constante con los usuarios para evolucionar el producto s
 
 En esta sección se aborda la investigación tomando como base la recolección de información en base a entrevistas a representantes de los segmentos objetivo. Es decir, entrevistaremos a nuestro público objetivo para asi tener más de cerca algunos testimonios y poder trabajar en base a ellos.
 
-
-=======
->>>>>>> 9563d5fc45898b22a77e639a02cfa0f5390fc5f1
 ## 2.2. Entrevistas
 ### 2.2.1. Diseño de entrevistas
 <h4 id="interviewDesing">Preguntas para segmento 1 - Gestores de flota:</h4>
@@ -306,19 +301,17 @@ En esta sección se aborda la investigación tomando como base la recolección d
 ### 2.2.3. Análisis de entrevistas
 
 ## 2.3. Needfinding
-<<<<<<< HEAD
-En esta sección el equipo explica y presenta los artefactos resultantes del proceso de análisis de la información recolectada. Aquí se incluye secciones internas para **User Personas**, **User Task Matrix**, **User Journey Maps**, **Empathy Mapping** y **As-Is Scenario Mapping**:
 
-En esta sección el equipo explica y presenta los artefactos resultantes del proceso de análisis de la información recolectada. Aquí se incluye secciones internas para User Personas, User Task Matrix, User Journey Maps, Empathy Mapping y As-Is Scenario Mapping:
-
-=======
->>>>>>> 9563d5fc45898b22a77e639a02cfa0f5390fc5f1
 ### 2.3.1. User Personas
 ### 2.3.2. User Task Matrix
 ### 2.3.3. User Journey Mapping
 ### 2.3.4. Empathy Mapping
 ### 2.3.5. Ubiquitous Language
-<<<<<<< HEAD
+### 2.4.2. Impact Mapping
+### 2.4.3. Product Backlog
+
+## 2.5. Strategic-Level Domain-Driven Design
+### 2.5.1. EventStorming
 
 De acuerdo a lo dictaminado por Eric Evans en su libro *Domain-Driven Design: Tackling Complexity in the Heart of Software*, el startup **Flota365** estableció un lenguaje alineado al negocio y de fácil comprensión para cada uno de los miembros de equipo, asegurando una trazabilidad y mantenimiento a futuro en las funcionaliades póstumas tanto dentro de la aplicación como dentro del *core* de los procesos.
 
@@ -519,13 +512,6 @@ De acuerdo a lo dictaminado por Eric Evans en su libro *Domain-Driven Design: Ta
 
 El proceso de **EventStorming** permitió explorar el dominio de la startup desde un nivel estratégico, identificando los principales eventos de negocio, los bounded contexts y las interacciones entre ellos. Esta técnica visual facilitó descubrir la complejidad del sistema, fomentar el entendimiento compartido entre el equipo y establecer una base sólida para la implementación con DDD.
 
-=======
-### 2.4.2. Impact Mapping
-### 2.4.3. Product Backlog
-
-## 2.5. Strategic-Level Domain-Driven Design
-### 2.5.1. EventStorming
->>>>>>> 9563d5fc45898b22a77e639a02cfa0f5390fc5f1
 #### 2.5.1.1. Candidate Context Discovery
 #### 2.5.1.2. Domain Message Flows Modeling
 #### 2.5.1.3. Bounded Context Canvases
@@ -543,7 +529,8 @@ El proceso de **EventStorming** permitió explorar el dominio de la startup desd
 #### 2.6.1.4 Infrastructure Layer
 #### 2.6.1.5. Bounded Context Software Architecture Component Level Diagrams
 #### 2.6.1.6. Bounded Context Software Architecture Code Level Diagrams
-<<<<<<< HEAD
+#### 2.6.1.6.1. Bounded Context Domain Layer Class Diagrams
+#### 2.6.1.6.2. Bounded Context Database Design Diagram
 ##### 2.6.1.6.1. Bounded Context Domain Layer Class Diagrams
 
 ##### 2.6.1.6.2. Bounded Context Database Design Diagram
@@ -551,8 +538,4 @@ El proceso de **EventStorming** permitió explorar el dominio de la startup desd
 El diagrama de base de datos para el Bounded Context de Gestión de Flotas detalla el esquema relacional que soporta la persistencia del modelo de dominio. La tabla principal vehicles incluye columnas como id (PK, autoincremental) y campos de auditoría (created_at, updated_at). La tabla drivers contiene columnas como id (PK), first_name, last_name, license_number, entre otras.
 
 La relación uno-a-muchos entre drivers y vehicles nos muestra que un conductor puede estar asignado a múltiples vehículos, lo que facilita la asignación de vehículos a conductores. Además, la relación entre assignments (asignaciones) y vehicles nos permite gestionar las asignaciones de vehículos a tareas, mostrando cómo cada vehículo puede ser asignado a diversas tareas a lo largo del tiempo.
----
-=======
-#### 2.6.1.6.1. Bounded Context Domain Layer Class Diagrams
-#### 2.6.1.6.2. Bounded Context Database Design Diagram
->>>>>>> 9563d5fc45898b22a77e639a02cfa0f5390fc5f1
+

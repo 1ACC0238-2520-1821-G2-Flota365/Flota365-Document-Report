@@ -688,64 +688,116 @@ Es por ello que, a continuación, se detallarán las preguntas y los principales
 
 ### 4.3.1. Diseño de Entrevistas
 
-Para validar nuestros entregables (Landing Page y aplicación web), realizaremos entrevistas con nuestros segmentos objetivos, los cuales vienen a ser: *Gestores de Flota* y *Conductores de vehículos pesados*. El propósito es recopilar su opinión sobre la utilidad, claridad y facilidad de uso de solución propuesta por el team **VSC Visionaries**.
+Segmento encontrado: 
 
-Las preguntas se plantearán de forma cercana pero estructurada, buscando obtener un *feedback* honesto sobre aspectos como la navegación, el diseño, la funcionalidad y el valor percibido en su trabajo diario.
+- Gestores de flota
 
-Es por ello que, a continuación, se detallarán las preguntas y los principales hallazgos obtenidos a partir de sus respuestas.
+- Conductores de vehículos pesados
 
-<h4 id="interviewsDesingValidation">5.3.1. Diseño de Entrevistas</h4>
+Antes de realizar las entrevistas, consideramos necesario realizar un análisis previo que nos permita entender mejor a nuestros públicos objetivo. Para ello, hemos diseñado una serie de preguntas específicas para cada segmento (gestores de flota y conductores de vehículos pesados), con el fin de orientar nuestras entrevistas de manera más eficiente y alineada a sus realidades operativas.
 
-**Preguntas generales**:
+En particular, previo a entrevistar a nuestro segmento principal de gestores de flota, consideramos importante contar con un primer prototipo funcional de nuestra plataforma de gestión vehicular. Este prototipo será probado por usuarios reales de ambos segmentos, y en ese contexto proponemos una batería de preguntas cualitativas orientadas a observar el uso de la solución (registro de incidencias, seguimiento de mantenimientos, disponibilidad de datos para decisiones en tiempo real), identificar posibles puntos de fricción y validar nuestras suposiciones de diseño.
 
-1. ¿Qué fue lo primero que pensaste al ver la página/aplicación?
+Las siguientes preguntas están organizadas según los dos segmentos clave del proyecto (gestores de flota y conductores) y nos permitirán recoger percepciones reales sobre la experiencia de uso inicial, facilitando así un proceso iterativo de mejora del producto, con foco en la reducción de tiempos muertos, la prevención de fallas y la optimización del control operativo de la flota.
 
-2. ¿Sientes que está claro de qué trata la herramienta? ¿Qué entendiste que hace?
+## Segmento 1 — Gestores de flota (uso en app)
 
-3. ¿Encontraste algo confuso o que te hizo dudar? ¿Cuál parte?
+### 1) Primera impresión y registro
+- ¿Cómo describirías tu experiencia inicial al abrir la app por primera vez?
+- ¿El registro de tu perfil y de la empresa fue claro desde el teléfono? ¿Qué pasos te generaron dudas?
+- ¿El tour inicial o ayudas en pantalla te orientaron para empezar?
 
-4. ¿Te parece fácil de navegar? ¿Por qué sí o por qué no?
+### 2) Inicio de sesión y pantalla principal
+- Al iniciar sesión, ¿qué fue lo primero que notaste del **tablero** (estado de flota, alertas, mantenimientos, incidencias)?
+- ¿Identificaste rápido las **prioridades del día** (vehículos con alerta, mantenimientos próximos, incidencias abiertas)?
+- ¿Qué mejorarías de la pantalla principal para tomar decisiones más rápido desde el móvil?
 
-5. Si tuvieras que explicarle esta plataforma a un compañero, ¿cómo lo harías?
+### 3) Navegación general
+- ¿Pudiste moverte por la app sin ayuda? ¿En qué momento te perdiste o no supiste qué hacer?
+- ¿Qué tan fácil fue encontrar **Reportes**, **Mantenimientos**, **Incidencias** y **Conductores**?
+- ¿Localizaste el **tutorial** o **centro de ayuda** dentro del menú? ¿Fue útil?
 
-6. ¿Sientes que esta herramienta realmente te ayudaría en tu día a día? ¿Por qué?
+### 4) Configuración de flota en app
+- ¿Cómo te fue configurando **vehículos** (placa, odómetro, póliza/seguro, vencimientos) desde el teléfono?
+- ¿Fue claro **asignar conductores** a vehículos y definir **umbrales** (km/días) para mantenimiento?
+- ¿Qué datos pedirías menos/antes para hacerlo más rápido en móvil?
 
-7. ¿Qué te pareció el diseño visual? ¿Muy cargado, muy vacío o bien balanceado?
+### 5) Alta de vehículos y confirmaciones
+- ¿El flujo para **agregar/editar vehículos** fue evidente y confiable?
+- ¿Los **mensajes de confirmación** (guardado, cambios, errores) son claros en app?
+- ¿Necesitas ver una **bitácora de cambios** en móvil para confiar en el registro?
 
-8. ¿Notas algo que falte o que crees que sería útil agregar?
+### 6) Usabilidad y percepción general
+- ¿La app se percibe **rápida, fluida y estable**? ¿En qué momento se sintió lenta?
+- ¿Qué funciones te resultaron más útiles en el día a día (alertas de mantenimiento, costos, incidencias, KPIs)?
+- Si pudieras **reordenar** secciones o accesos rápidos, ¿qué pondrías primero?
 
+### 7) Seguridad y confianza
+- ¿Qué te haría sentir mayor seguridad en app (roles y permisos, 2FA, registros de auditoría)?
+- ¿Qué nivel de detalle necesitas en **notificaciones** (p. ej., “mantenimiento programado”, “incidencia cerrada”)?
 
-**Preguntas para el segmento #1 - Gestores de Flota**:
+### 8) Interés y adopción futura
+- ¿La app te ayudaría a **reducir tiempos muertos, costos de mantenimiento o siniestros**? ¿Por qué?
+- ¿La recomendarías a otros gestores de tu organización? ¿Qué condiciones (precio, soporte, integraciones) serían clave?
 
-1. ¿Cómo te fue registrando tus recorridos o actividades en la app? ¿Te pareció sencillo o algo complicado?
+---
 
-2. ¿Te sentiste cómodo tomando y subiendo una foto del kilometraje? ¿Te pareció rápido?
+## Segmento 2 — Conductores de vehículos pesados (app)
 
-3. ¿Hay algo que te gustaría que la app hiciera automáticamente por ti (por ejemplo, registrar el kilometraje sin tener que escribir)?
+### 1) Primera impresión y registro
+- ¿Cómo describirías tu experiencia inicial al abrir la app?
+- ¿El registro y la **asignación del vehículo** fueron claros desde el teléfono?
+- ¿El **tour** o ejemplos (fotos de referencia, campos sugeridos) te ayudaron a empezar?
 
-4. ¿Cuánto tiempo te tomaría usar la app al terminar un recorrido? ¿Crees que ese tiempo está bien o debería ser menor?
+### 2) Inicio de sesión y pantalla principal
+- Al iniciar sesión, ¿pudiste identificar qué hacer primero (p. ej., **checklist preoperacional**, reporte de km, cargar combustible)?
+- ¿Las **alertas del vehículo** (luces de check, vencimientos) se entienden de un vistazo?
 
-5. ¿Te parece clara la forma en que se guardan o muestran tus registros?
+### 3) Navegación general
+- ¿Pudiste moverte sin ayuda? ¿En qué punto te perdiste?
+- ¿Qué tan fácil fue encontrar el botón de **Reportar incidencia**, el **Historial** y el **tutorial**?
 
-**Preguntas para el segmento #2 - Conductores de vehículos Pesados**:
+### 4) Formularios del conductor
+- ¿Cómo te fue con los formularios de **checklist pre y post viaje**, **odómetro**, **fotos** y **comentarios**?
+- ¿Qué campos te parecieron innecesarios o repetidos?
+- ¿Qué evidencias (fotos, videos, audio) te gustaría adjuntar de forma más rápida?
 
-1. ¿Pudiste encontrar fácilmente los datos que buscabas (por placa, fecha, etc.)?
+### 5) Reporte de incidencias y comunicación
+- ¿El flujo para **enviar una incidencia** fue claro y rápido?
+- ¿La **confirmación** de envío te dio confianza (número de ticket, estado, tiempo estimado)?
+- ¿Cuánto tiempo sueles perder contactando a tu jefe por un problema? ¿La app lo reduce?
 
-2. ¿Qué tan útil te parece el sistema de reportes en PDF o Excel? ¿Lo usarías frecuentemente?
+### 6) Usabilidad y percepción general
+- ¿La app se mantuvo **rápida y usable** durante la ruta (conectividad limitada, modo offline)?
+- ¿Qué funciones fueron más útiles (alertas de mantenimiento, checklist guiado, mensajería, mapas, historial)?
+- ¿Qué eliminarías o simplificarías?
 
-3. ¿Te gustaría que los reportes fueran más visuales (gráficos, alertas, etc.)?
+### 7) Seguridad y confianza
+- ¿Qué te haría sentir más seguro: **confirmaciones claras**, **contacto rápido con taller/soporte**, **botón SOS**?
+- ¿Cómo te sientes con el **GPS** y el registro de datos del vehículo? ¿Qué transparencia esperas sobre su uso?
 
-4. ¿Cómo compararías esta herramienta con lo que usas actualmente para llevar el control de tu flota?
+### 8) Interés y uso futuro
+- Si la app mostrara **estado del vehículo**, **próximo mantenimiento** y **alertas** en tiempo real, ¿la usarías a diario? ¿Por qué?
+- ¿La recomendarías a otros conductores? ¿Qué la haría **imprescindible** para ti?
 
-5. ¿Sientes que tienes el control y visibilidad necesarios desde esta aplicación?
-
-6. ¿Agregarías algún tipo de alerta o recordatorio automático? ¿De qué tipo?
-
-7. ¿El flujo de filtros y búsqueda se siente natural o hubo pasos innecesarios?
-
-**Cierre - Opinión Final**:
-
-- ¿Te gustaría participar en futuras mejoras como tester o dando sugerencias?
+---
 
 ### 4.3.2. Registro de Entrevistas
+
+
+#### Segmento Objetivo 2: Conductores de vehículos pesados
+
+##### Entrevistado 1 Segmento Objetivo 2
+
+| **Campo**                | **Detalle** |
+|--------------------------|-------------|
+| **Nombre**               | Eduard Ancasi Carrión|
+| **Entrevistador**        | Renzo Miguel Llerena Delgado |
+| **Edad**                 | 28 años |
+| **Distrito**             | San Juan de Miraflores|
+| **Resumen**              | Eduard es conductor de vehículos pesados que trabaja en Shalon, le parece a el que nuestro avance necesita implementar la funcion de inteligencia artifical de forma completa, ya que el observa que eso sería un gran cambio con respecto a como podría trabajar el en su empresa, y que habría demasiada demanda si encuentran el servicio a un precio accesible para poder usarlo. Le parece que nuestra aplicacion movil necesita tener una estructura más organizada para facilitar el uso de gente inexperta con la tecnología y también implementando la funcionalidad de la ia|
+| **Tiempo que empieza**   | 0:00 minutos |
+| **Duración de la entrevista** | 08:30 minutos |
+| **URL de la entrevista** | [Ver entrevista](https://drive.google.com/file/d/1lUyPkyNbrGfA9RZqERBFRNFBWAkkM0x7/view?usp=sharing) |
+
 ### 4.3.3. Evaluaciones según heurísticas
