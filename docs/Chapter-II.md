@@ -381,14 +381,14 @@ En esta sección se aborda la investigación tomando como base la recolección d
 
 | **Campo**                | **Detalle** |
 |--------------------------|-------------|
-| **Nombre**               |  |
-| **Entrevistador**        | |
-| **Edad**                 |  |
-| **Distrito**             |  |
-| **Resumen**              |s|
+| **Nombre**               | Ariana Ramirez |
+| **Entrevistador**        | Renzo Llerena|
+| **Edad**                 | 28 años |
+| **Distrito**             | San Juan de Miraflores |
+| **Resumen**              |Ariana es una gestora de flotas que tiene la necesidad de generar los reportes a tiempo real porque en su trabajo le exigen generarlos con la mayor rapidez posible|
 | **Tiempo que empieza**   | 0:00 minutos |
-| **Duración de la entrevista** | 0:00 minutos |
-| **URL de la entrevista** | [Ver entrevista]() |
+| **Duración de la entrevista** | 3:00 minutos |
+| **URL de la entrevista** | [Ver entrevista](https://drive.google.com/file/d/1MKlbd5a68YYj_AlIP4lZ2hcR1fTtuDr3/view?usp=sharing) |
 
 #### Segmento Objetivo 2: Conductores de vehículos pesados
 
