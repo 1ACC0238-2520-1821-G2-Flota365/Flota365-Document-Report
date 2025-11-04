@@ -918,6 +918,21 @@ Las siguientes preguntas están organizadas según los dos segmentos clave del p
 ### 4.3.2. Registro de Entrevistas
 
 
+#### Segmento Objetivo 1: Gestores de flota
+
+##### Entrevistado 1 Segmento Objetivo 1
+
+| **Campo**                | **Detalle** |
+|--------------------------|-------------|
+| **Nombre**               | Ariana Ramirez|
+| **Entrevistador**        | Renzo Miguel Llerena Delgado |
+| **Edad**                 | 28 años |
+| **Distrito**             | San Juan de Miraflores|
+| **Resumen**              | A Ariana le parece que a nuestra aplicacion le faltaria añadir mas interfaz visual como para una aplicacion movil ya que algunas interfaces le parecen confusas y que sigamos desarrollando la funcion de rastreo de vehiculos por medio de gps |
+| **Duración de la entrevista** | 08:22 minutos |
+| **URL de la entrevista** | [Ver entrevista](https://drive.google.com/file/d/1wB30wOJnFaTQuDe239yptUSicUAx_fVO/view?usp=sharing) |
+
+
 #### Segmento Objetivo 2: Conductores de vehículos pesados
 
 ##### Entrevistado 1 Segmento Objetivo 2
