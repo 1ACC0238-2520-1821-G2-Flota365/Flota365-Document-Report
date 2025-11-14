@@ -933,6 +933,16 @@ Las siguientes preguntas están organizadas según los dos segmentos clave del p
 | **URL de la entrevista** | [Ver entrevista](https://drive.google.com/file/d/1wB30wOJnFaTQuDe239yptUSicUAx_fVO/view?usp=sharing) |
 
 
+| **Campo**                | **Detalle** |
+|--------------------------|-------------|
+| **Nombre**               | Renato Calvo|
+| **Entrevistador**        | Renzo Miguel Llerena Delgado |
+| **Edad**                 | 25 años |
+| **Distrito**             | San Isidro|
+| **Resumen**              | A Renato le parece intuitiva la aplicación y recomendaría a sus compañeros, gestores de flota, su uso. Lo único que cree que se puede mejorar es el aspecto de reportes que le parece un poco desordenado el aspecto visual|
+| **Duración de la entrevista** | 07:09 minutos |
+| **URL de la entrevista** | [Ver entrevista]([https://drive.google.com/file/d/1wB30wOJnFaTQuDe239yptUSicUAx_fVO/view?usp=sharing](https://drive.google.com/file/d/1UhtyC9_bsUVF8azpNJjpUdbOfvqsse6R/view?usp=sharing)) |
+
 #### Segmento Objetivo 2: Conductores de vehículos pesados
 
 ##### Entrevistado 1 Segmento Objetivo 2
