@@ -1175,35 +1175,6 @@ Las siguientes preguntas están organizadas según los dos segmentos clave del p
 
 ### 4.3.2. Registro de Entrevistas
 
-<<<<<<< Updated upstream
-
-#### Segmento Objetivo 1: Gestores de flota
-
-##### Entrevistado 1 Segmento Objetivo 1
-
-| **Campo**                | **Detalle** |
-|--------------------------|-------------|
-| **Nombre**               | Ariana Ramirez|
-| **Entrevistador**        | Renzo Miguel Llerena Delgado |
-| **Edad**                 | 28 años |
-| **Distrito**             | San Juan de Miraflores|
-| **Resumen**              | A Ariana le parece que a nuestra aplicacion le faltaria añadir mas interfaz visual como para una aplicacion movil ya que algunas interfaces le parecen confusas y que sigamos desarrollando la funcion de rastreo de vehiculos por medio de gps |
-| **Duración de la entrevista** | 08:22 minutos |
-| **URL de la entrevista** | [Ver entrevista](https://drive.google.com/file/d/1wB30wOJnFaTQuDe239yptUSicUAx_fVO/view?usp=sharing) |
-
-
-| **Campo**                | **Detalle** |
-|--------------------------|-------------|
-| **Nombre**               | Renato Calvo|
-| **Entrevistador**        | Renzo Miguel Llerena Delgado |
-| **Edad**                 | 25 años |
-| **Distrito**             | San Isidro|
-| **Resumen**              | A Renato le parece intuitiva la aplicación y recomendaría a sus compañeros, gestores de flota, su uso. Lo único que cree que se puede mejorar es el aspecto de reportes que le parece un poco desordenado el aspecto visual|
-| **Duración de la entrevista** | 07:09 minutos |
-| **URL de la entrevista** | [Ver entrevista](https://drive.google.com/file/d/1UhtyC9_bsUVF8azpNJjpUdbOfvqsse6R/view?usp=sharing) |
-
-=======
->>>>>>> Stashed changes
 #### Segmento Objetivo 2: Conductores de vehículos pesados
 
 ##### Entrevistado 1 Segmento Objetivo 2
