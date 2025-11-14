@@ -992,7 +992,7 @@ Durante este Sprint, el equipo se centró en la implementación y despliegue de 
 
 <br>
 
-#### 4.2.1.8. Team Collaboration Insights during Sprint
+#### 4.2.1.8. Team Collaboration Insights during Sprint #1
 
 En esta sección se muestra un análisis detallado del trabajo colaborativo realizado por el equipo durante el Sprint. Las actividades se gestionaron bajo una metodología ágil, lo que facilitó una comunicación constante y una coordinación eficiente entre los integrantes. Se presentan además capturas de los analíticos de colaboración y de los commits en GitHub, que reflejan las aportaciones individuales de cada miembro.
 
@@ -1036,6 +1036,50 @@ En esta sección se muestra un análisis detallado del trabajo colaborativo real
 ![Commits](../images/chapter-IV/mobileCommits.jpeg)
 
 <br>
+
+
+
+### 4.2.2. Sprint 2
+
+En este sprint 2 continuamos con el desarrollo del proyecto dentro del marco ágil de Scrum. Esta etapa se centró en la **implementación completa de la aplicación móvil Android**, abarcando los dos segmentos principales del sistema: **Conductores** y **Gestores de Flota**. Durante este sprint también se avanzó en la construcción de la **aplicación Flutter**, específicamente la parte destinada al **segmento de Conductores**, garantizando su integración con los servicios ya disponibles.
+
+Las actividades del sprint incluyeron la conexión directa con el **backend totalmente desplegado**, permitiendo realizar pruebas end-to-end sobre funcionalidades críticas. Asimismo, se desarrollaron interfaces, flujos de navegación y componentes interactivos que aseguraran una experiencia de uso fluida y coherente para cada segmento. El objetivo principal fue consolidar una aplicación operativa, conectada y funcional, capaz de soportar los procesos definidos para ambos perfiles de usuario.
+
+### 4.2.2.1. Sprint Planning 2
+
+Durante la planificación del sprint, se priorizaron las **user stories** asociadas al desarrollo de las funcionalidades Android para Conductores y Gestores de Flota, así como los componentes iniciales de la aplicación Flutter orientada a Conductores. Se definieron tareas técnicas relacionadas con la integración con el backend, la implementación de pantallas, controladores, servicios de comunicación y manejo de estados.
+
+El equipo alineó esfuerzos y responsabilidades, garantizando que las actividades asignadas permitieran avanzar de manera consistente hacia la entrega de una aplicación móvil estable, conectada y adecuada a las necesidades de ambos segmentos del sistema. Además, se fomentó la colaboración continua para asegurar una comprensión compartida del alcance y los objetivos del sprint.
+
+
+| Sprint # | Sprint 2 |
+| -- | -- |
+| **Sprint Planning Background** | |
+| **Date** | 27/10/2025 |
+| **Time** | 11:00 AM |
+| **Location** | Google Meet (Reunión virtual) |
+| **Prepared By** | Torres Apolinario, Giovany Smith |
+| **Attendees (to planning meeting)** | Huamani Sánchez José Diego, Llerena Delgado Renzo Miguel, Villafuerte Tapia Renzo Alonso |
+| **Sprint Goal & User Stories** | |
+| **Sprint 2 Goal** | Desarrollar la aplicación Android completa para Conductores y Gestores de Flota, integrada al backend, y avanzar con el desarrollo de la app Flutter para el segmento Conductores. |
+| **Sprint 2 Velocity** | 19 |
+| **Sum of Story Points** | 19 |
+
+
+#### 4.2.2.2. Sprint Backlog 2
+
+#### 4.2.2.3. Development Evidence for Sprint Review
+
+#### 4.2.2.4. Testing Suite Evidence for Sprint Review
+
+#### 4.2.2.5. Execution Evidence for Sprint Review
+
+#### 4.2.2.6. Services Documentation Evidence for Sprint Review
+
+#### 4.2.2.7. Software Deployment Evidence for Sprint Review
+
+#### 4.2.2.8. Team Collaboration Insights during Sprint
+
 
 ## 4.3. Validation Interviews
 
