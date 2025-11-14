@@ -390,6 +390,19 @@ En esta sección se aborda la investigación tomando como base la recolección d
 | **Duración de la entrevista** | 3:00 minutos |
 | **URL de la entrevista** | [Ver entrevista](https://drive.google.com/file/d/1MKlbd5a68YYj_AlIP4lZ2hcR1fTtuDr3/view?usp=sharing) |
 
+##### Entrevistado 2
+
+| **Campo**                | **Detalle** |
+|--------------------------|-------------|
+| **Nombre**               | Renato Calvo |
+| **Entrevistador**        | Renzo Llerena|
+| **Edad**                 | 25 años |
+| **Distrito**             | San Isidro |
+| **Resumen**              |Renato es un gestor de flotas que en su empresa no tienen una logística para recibir reportes o monitorear vehículos usan mensajería por whatsapp lo que termina por acabar teniendo problemas recibiendo actualizaciones a tiempo real|
+| **Tiempo que empieza**   | 0:00 minutos |
+| **Duración de la entrevista** | 4:19 minutos |
+| **URL de la entrevista** | [Ver entrevista](https://drive.google.com/file/d/18MXGycB0BxFtCcvU_UZdYmy83QWNumsI/view?usp=sharing) |
+
 #### Segmento Objetivo 2: Conductores de vehículos pesados
 
 ##### Entrevistado 1 Segmento Objetivo 2
