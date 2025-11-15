@@ -6,7 +6,6 @@ En esta sección se presenta la identificación y descripción de los principale
 
 Se han identificado los siguientes competidores directos de Flota 365, todos con presencia en el mercado latinoamericano y con soluciones digitales para la gestión de flotas:
 
-
 **- RDA Mobility**
 
 Empresa con presencia en Argentina, Colombia y Uruguay, que ofrece soluciones de renting corporativo, gestión de flotas y telemetría vehicular.
@@ -20,9 +19,10 @@ Multinacional canadiense especializada en soluciones de telemática y software d
 Empresa peruana que ofrece un sistema web de gestión de flotas, con funcionalidades orientadas al monitoreo y control de vehículos.
 
 ### 2.1.1. Análisis competitivo
+
 El análisis competitivo tiene como finalidad profundizar en el conocimiento que tiene Flota365 sobre el resto de sus competidores. Para ello, se ha elaborado un *Competitive Analysis Landscape*, el cual organiza de manera estructurada los aspectos clave de cada actor analizado, incluyendo perfil general, estrategia de marketing, características del producto, precios y canales de distribución. Finalmente, se incorpora un análisis FODA que permite visualizar de forma clara las fortalezas, debilidades, oportunidades y amenazas, tanto propias como de los competidores. 
+
 <br>
-</br>
 
 <table border="1" cellpadding="8" cellspacing="0" style="border-collapse:collapse; width:100%; font-family:Arial, sans-serif;">
     <tr>
@@ -140,7 +140,10 @@ El análisis competitivo tiene como finalidad profundizar en el conocimiento que
     </tr>
 </table>
 
+<br>
+
 ### 2.1.2. Estrategias y tácticas frente a competidores
+
 Tras un análisis detallado de los principales competidores de Flota365 —AFE Logistics, RDA Mobility, Geotab e iLab Perú— se han identificado oportunidades estratégicas clave para fortalecer nuestra propuesta de valor, diferenciarnos y consolidar nuestra posición en el mercado. Las siguientes estrategias se fundamentan en las fortalezas, debilidades y amenazas encontradas, con tácticas específicas orientadas a maximizar la eficiencia y satisfacción del cliente.
 
 **1) Estrategias basadas en fortalezas**
@@ -332,14 +335,15 @@ Diseñar funcionalidades a medida según el giro del cliente (agrícola, carga l
 Mantener comunicación constante con los usuarios para evolucionar el producto según sus comentarios.
 
 
-<h3 id="interviews">2.2. Entrevistas</h4>
+## 2.2. Entrevistas
 
 En esta sección se aborda la investigación tomando como base la recolección de información en base a entrevistas a representantes de los segmentos objetivo. Es decir, entrevistaremos a nuestro público objetivo para asi tener más de cerca algunos testimonios y poder trabajar en base a ellos.
 
+<br>
 
-## 2.2. Entrevistas
 ### 2.2.1. Diseño de entrevistas
-<h4 id="interviewDesing">Preguntas para segmento 1 - Gestores de flota:</h4>
+
+#### Preguntas para segmento 1 - Gestores de flota:
 
 1: ¿Cuál es tu rol actual y qué responsabilidades tienes en la gestión de la flota?
 
@@ -359,7 +363,9 @@ En esta sección se aborda la investigación tomando como base la recolección d
 
 9: ¿Qué tan importante es para ti tener reportes automáticos ?¿Pagarías por una plataforma que te de toda la información de tu flota y con ello evitar perdidas monetarias innecesarias?
 
-<h4 id="interviewDesing">Preguntas para segmento 2 - Conductores de vehículos pesados:</h4>
+<br>
+
+#### Preguntas para segmento 2 - Conductores de vehículos pesados:
 
 1: ¿Qué tan fácil o difícil es para ti completar estos registros manualmente? ¿Qué parte del proceso te resulta más tediosa o complicada?
 
@@ -374,21 +380,39 @@ En esta sección se aborda la investigación tomando como base la recolección d
 
 6: ¿Cuál es tu mayor preocupación cuando presentas  problemas mecánicos durante el viaje? ¿Cómo una app podría ayudarte a prevenir estos problemas?
 
+<br>
+
 ### 2.2.2. Registro de entrevistas
+
 #### Segmento Objetivo 1: Gestores de flota
 
 ##### Entrevistado 1
 
 | **Campo**                | **Detalle** |
 |--------------------------|-------------|
-| **Nombre**               |  |
-| **Entrevistador**        | |
-| **Edad**                 |  |
-| **Distrito**             |  |
-| **Resumen**              |s|
+| **Nombre**               | Ariana Ramirez |
+| **Entrevistador**        | Renzo Llerena|
+| **Edad**                 | 28 años |
+| **Distrito**             | San Juan de Miraflores |
+| **Resumen**              |Ariana es una gestora de flotas que tiene la necesidad de generar los reportes a tiempo real porque en su trabajo le exigen generarlos con la mayor rapidez posible|
 | **Tiempo que empieza**   | 0:00 minutos |
-| **Duración de la entrevista** | 0:00 minutos |
-| **URL de la entrevista** | [Ver entrevista]() |
+| **Duración de la entrevista** | 3:00 minutos |
+| **URL de la entrevista** | [Ver entrevista](https://drive.google.com/file/d/1MKlbd5a68YYj_AlIP4lZ2hcR1fTtuDr3/view?usp=sharing) |
+
+##### Entrevistado 2
+
+| **Campo**                | **Detalle** |
+|--------------------------|-------------|
+| **Nombre**               | Renato Calvo |
+| **Entrevistador**        | Renzo Llerena|
+| **Edad**                 | 25 años |
+| **Distrito**             | San Isidro |
+| **Resumen**              |Renato es un gestor de flotas que en su empresa no tienen una logística para recibir reportes o monitorear vehículos usan mensajería por whatsapp lo que termina por acabar teniendo problemas recibiendo actualizaciones a tiempo real|
+| **Tiempo que empieza**   | 0:00 minutos |
+| **Duración de la entrevista** | 4:19 minutos |
+| **URL de la entrevista** | [Ver entrevista](https://drive.google.com/file/d/18MXGycB0BxFtCcvU_UZdYmy83QWNumsI/view?usp=sharing) |
+
+<br>
 
 #### Segmento Objetivo 2: Conductores de vehículos pesados
 
@@ -405,6 +429,8 @@ En esta sección se aborda la investigación tomando como base la recolección d
 | **Duración de la entrevista** | 04:16 minutos |
 | **URL de la entrevista** | [Ver entrevista](https://drive.google.com/file/d/1DgDDDrDjdA8-kAxUMuqnOD7fmm4uERoJ/view?usp=sharing) |
 
+<br>
+
 ##### Entrevistado 2 Segmento Objetivo 2
 
 | **Campo**                | **Detalle** |
@@ -417,12 +443,20 @@ En esta sección se aborda la investigación tomando como base la recolección d
 | **Tiempo que empieza**   | 0:00 minutos |
 | **Duración de la entrevista** | 04:29 minutos |
 | **URL de la entrevista** | [Ver entrevista](https://drive.google.com/drive/folders/1p-aBlTE0CUlz_YwCwX-zmyMeDC8YYntA?usp=drive_link) |
+
+<br>
+
 ### 2.2.3. Análisis de entrevistas
 
+<br>
+
 ## 2.3. Needfinding
+
 En esta sección el equipo explica y presenta los artefactos resultantes del proceso de análisis de la información recolectada. Aquí se incluye secciones internas para **User Personas**, **User Task Matrix**, **User Journey Maps**, **Empathy Mapping** y **As-Is Scenario Mapping**:
 
 En esta sección el equipo explica y presenta los artefactos resultantes del proceso de análisis de la información recolectada. Aquí se incluye secciones internas para User Personas, User Task Matrix, User Journey Maps, Empathy Mapping y As-Is Scenario Mapping:
+
+<br>
 
 ### 2.3.1. User Personas
 
@@ -445,6 +479,8 @@ Para los conductores de vehículos pesados se elaboró el User Persona de **Vict
 <div align="center">
     <img src="../images/chapter-II/Victor Manuel Nolazco Herrera.png" alt="User Persona Gestores" width="420" height="670"/>
 </div>
+
+<br>
 
 ### 2.3.2. User Task Matrix
 
@@ -579,6 +615,7 @@ Para los conductores de vehículos pesados se elaboró el User Persona de **Vict
 </table>
 
 En este cuadro se utilizan los números del uno al tres para representar cuánta importancia y frecuencia posee una actividad frente al usuario que la realiza. En el caso de la frecuencia, el uno equivale a una actividad poco frecuente; el dos, más o menos frecuente y; el tres, muy frecuente. Por otro lado, en el caso de la importancia, el uno significa que la actividad no tiene mucha importancia para el usuario; el dos, que no es tan importante y; el tres, que es una actividad de suma importancia.
+
 <br>
 
 ### 2.3.3. User Journey Mapping
@@ -601,6 +638,8 @@ Carlos es consciente de los problemas en la gestión logística, como la falta d
 
 Juan enfrenta problemas operativos diarios, como el uso de herramientas poco intuitivas y tareas administrativas que le quitan tiempo. Se interesa por una app que le ayude a gestionar mejor sus rutas y el estado del vehículo. Al registrarse, se siente inseguro sobre la facilidad de uso de la plataforma. A medida que la usa, experimenta frustración inicial por la falta de claridad en algunas funciones, pero empieza a ver los beneficios de recibir alertas claras sobre rutas y condiciones del vehículo. Si la app no resulta ser fácil de usar o no mejora su eficiencia, podría abandonarla. Juan busca una solución sencilla que le permita enfocarse en lo más importante: conducir de manera segura y eficiente.
 
+<br>
+
 ### 2.3.4. Empathy Mapping
 
 Para la elaboración de los Empathy Maps, el equipo partió del conocimiento y observaciones recolectadas durante el análisis de los User Persona. Se colocó al centro de cada mapa al usuario correspondiente (Carlos Mejía y Juan Torres) y se respondieron las preguntas claves sobre su entorno, emociones, comportamientos y necesidades. 
@@ -618,6 +657,8 @@ En este mapa, se analizó a José Nuñez, un gestor enfocado en optimizar los pr
 <img src="../images/chapter-II/Empathy_Mapping_Segmento2.jpg" alt="Empathy Mapping Conductores" width="auto" height="370"/>
 
 En este mapa, se abordó la experiencia de Victor Nolazco, un conductor con mucha experiencia pero que enfrenta obstáculos operativos en su día a día. Del cuadro, se concluye que Victor siente frustración al lidiar con herramientas poco intuitivas y tareas administrativas que le quitan tiempo. Le preocupa no contar con un sistema práctico que le permita enfocarse en lo más importante: conducir con seguridad y eficiencia. Busca una app o sistema que simplifique sus tareas, le dé claridad sobre su ruta y le permita reportar cualquier problema de forma rápida. Finalmente, Victor aspira a sentirse valorado, respaldado tecnológicamente y a trabajar en un entorno que respete su tiempo y esfuerzo.
+
+<br>
 
 ### 2.3.5. Ubiquitous Language
 
@@ -663,8 +704,10 @@ De acuerdo a lo dictaminado por Eric Evans en su libro *Domain-Driven Design: Ta
 
 * **User Role (Rol de Usuario):** Categoría asignada a cada persona dentro del sistema (ejemplo: gestor o conductor), que determina permisos y accesos en la aplicación.
 
+<br>
 
 ## 2.4. Requirements specification
+
 ### 2.4.1. User Stories
 
 | Story ID | User | Priority | Epic | Title | Description | Acceptance Criteria |
@@ -713,7 +756,9 @@ De acuerdo a lo dictaminado por Eric Evans en su libro *Domain-Driven Design: Ta
 | US42     | Desarrollador | Alta | 7 | Historial de mantenimientos | Como desarrollador, quiero implementar el historial de mantenimientos por vehículo, para que el gestor pueda revisar los servicios realizados. | **Given** que soy un desarrollador, **When** llamo al endpoint de mantenimientos, **Then** devuelve una lista detallada con tipo de servicio, fecha y técnico responsable. **Given** que el gestor consulta, **When** aplica filtros, **Then** el sistema muestra los resultados filtrados. |
 | US43     | Desarrollador | Alta | 7 | Exportación de reportes | Como desarrollador, quiero generar archivos PDF o Excel con información del sistema, para que el gestor pueda descargar reportes. | **Given** que soy un desarrollador, **When** llamo al endpoint de exportación de reportes, **Then** se genera un archivo en formato PDF o Excel. **Given** que el gestor tiene filtros aplicados, **When** exporta, **Then** los filtros se respetan en el archivo exportado. |
 
-<h3 id="impactMapping"> 2.4.2. Impact Mapping </h3>
+<br>
+
+### 2.4.2. Impact Mapping
 
 <table border="1" cellpadding="6" cellspacing="0">
   <tbody>
@@ -759,66 +804,45 @@ De acuerdo a lo dictaminado por Eric Evans en su libro *Domain-Driven Design: Ta
       <td>Crear el backend y los endpoints</td>
       <td>US34,US35,US36,US37,US38,US39,US40,US41,US42,US43</td>
     </tr>
-      
   </tbody>
 </table>
 
+<br>
 
-<h3 id="impactMapping"> 2.4.3. Product Backlog </h3>
+### 2.4.3. Product Backlog
+
 # Product Backlog
 
-| #  | User Story ID | Título                                   | Descripción                                                                                                                                     | Story Points | Prioridad |
-|----|---------------|------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------|--------------|-----------|
-| 1  | US09          | Registro de vehículo                     | Como gestor quiero registrar los vehículos para llevar un control de la flota.                                                                  | 5            | Alta      |
-| 2  | US18          | Ver vehículos en uso                     | Como gestor de flota, quiero ver qué vehículos están en uso para tomar decisiones rápidamente.                                                   | 5            | Alta      |
-| 3  | US19          | Resolver incidencias                     | Como gestor de flota, quiero saber si hay incidencias, para resolverlas lo más rápido posible.                                                   | 5            | Alta      |
-| 4  | US10          | Delegar vehículo                         | Como gestor quiero delegar un vehículo a un conductor para que él pueda usarlo.                                                                  | 5            | Alta      |
-| 5  | US32          | Monitoreo de la flota                    | Como gestor, quiero monitorear la flota para saber el estado del vehículo.                                                                        | 5            | Alta      |
-| 6  | US14          | Información del vehículo                 | Como conductor, quiero consultar el estado técnico del vehículo antes de usarlo, para asegurarme de que está en condiciones.                      | 3            | Alta      |
-| 7  | US16          | Registro de pausas                       | Como conductor, quiero registrar descansos o pausas durante el servicio, para que queden reflejados en la asignación.                             | 2            | Media     |
-| 8  | US17          | Confirmación de evidencia                | Como conductor, quiero recibir una confirmación cuando se registre mi evidencia de uso, para asegurarme de que fue enviada correctamente.        | 2            | Alta      |
-| 9  | US13          | Reportar incidencia                      | Como conductor, quiero reportar una incidencia durante el uso del vehículo, para notificar al gestor de cualquier problema.                        | 5            | Alta      |
-| 10 | US15          | Registro de combustible                   | Como conductor, quiero registrar el combustible cargado al vehículo, para llevar control del consumo.                                            | 5            | Alta      |
-| 11 | US01          | Landing Page informativa                 | Como gestor, quiero ver información sobre la empresa, para decidir si la plataforma es confiable.                                                 | 2            | Baja      |
-| 12 | US04          | Switcher de idiomas                      | Como gestor o conductor, quiero poder cambiar el idioma entre español e inglés para entender el contenido fácilmente.                           | 3            | Alta      |
-| 13 | US02          | Responsive                               | Como gestor o conductor, quiero que la página sea responsive, para usarla cómodamente desde cualquier dispositivo móvil.                          | 3            | Alta      |
-| 14 | US12          | Información del conductor                | Como conductor, quiero ver mis datos personales para saber que están correctos.                                                                  | 2            | Alta      |
-| 15 | US05          | Tema de colores                          | Como gestor o conductor, deseo cambiar el tema de colores de la interfaz, para personalizar mi experiencia.                                       | 2            | Media     |
-| 16 | US08          | Alerta de cerrar sesión                  | Como gestor o conductor, deseo recibir una alerta al cerrar sesión para confirmar que se cierra correctamente.                                 | 2            | Media     |
-| 17 | US07          | Registro de nuevo usuario                | Como gestor, quiero registrarme en la plataforma, para probar las funcionalidades y evaluar su utilidad.                                          | 3            | Alta      |
-| 18 | US06          | Vista de developers                      | Como gestor, quiero saber quiénes son los desarrolladores, para tener mayor confianza en la plataforma.                                           | 1            | Baja      |
-| 19 | US11          | Footer informativo                       | Como gestor, quiero ver un footer con información útil como contacto, términos, y redes sociales.                                               | 1            | Baja      |
-| 20 | US21          | Asignar técnico                          | Como gestor de flota, quiero asignar técnicos a las órdenes de mantenimiento, para asegurar que las tareas se realicen a tiempo.                   | 2            | Baja      |
-| 21 | US22          | Cambio de contraseña                     | Como conductor o gestor, quiero cambiar mi contraseña para mantener la seguridad de mi cuenta.                                                   | 2            | Baja      |
-| 22 | US23          | Estadísticas del conductor               | Como conductor, quiero ver mis estadísticas de rendimiento para mejorar mi desempeño.                                                            | 3            | Media     |
-| 23 | US24          | Cambiar foto de perfil                   | Como conductor o gestor, quiero cambiar mi foto de perfil para personalizar mi cuenta.                                                           | 1            | Baja      |
-| 24 | US25          | Solicitud de cambio de turno             | Como conductor, quiero solicitar un cambio de turno para organizar mejor mi jornada.                                                             | 2            | Media     |
-| 25 | US26          | Visualización de vehículo asignado       | Como conductor, quiero ver claramente cuál es mi vehículo asignado del día para evitar confusiones.                                                | 2            | Alta      |
-| 26 | US27          | Rutas completadas vs planificadas        | Como gestor, quiero ver cuántas rutas fueron completadas frente a las planificadas, para evaluar el cumplimiento de los objetivos.               | 5            | Alta      |
-| 27 | US28          | Análisis predictivo con IA               | Como gestor, quiero recibir predicciones basadas en IA sobre el estado de los vehículos, para prevenir posibles fallas durante el servicio.       | 8            | Alta      |
-| 28 | US29          | Historial de análisis de IA              | Como gestor quiero un historial de los análisis hechos por la inteligencia artificial para poder ver a detalle la información.                    | 3            | Media     |
-| 29 | US30          | Filtros de reportes                      | Como gestor, quiero tener filtros de reportes para poder hacer una búsqueda más rápida.                                                          | 5            | Alta      |
-| 30 | US31          | Limpieza de filtros                      | Como gestor, quiero limpiar los filtros aplicados, para hacer otra búsqueda por filtro.                                                          | 2            | Media     |
-| 31 | US33          | Exportar reporte                         | Como gestor, quiero exportar el listado de vehículos para tener un reporte en físico.                                                            | 5            | Baja      |
-| 32 | US39          | Asignación de vehículo a conductor       | Como desarrollador, quiero guardar la relación entre conductor y vehículo en el sistema.                                                          | 5            | Alta      |
-| 33 | US38          | CRUD de vehículos                        | Como desarrollador, quiero exponer endpoints para crear, leer, actualizar y eliminar vehículos para permitir la gestión desde el frontend.         | 8            | Alta      |
-| 34 | US40          | Historial de incidencias                 | Como desarrollador, quiero registrar incidencias para que los conductores puedan reportar problemas y el gestor pueda revisarlos.                 | 5            | Alta      |
-| 35 | US41          | Reporte de consumo de combustible        | Como desarrollador, quiero registrar el consumo de combustible para llevar el control por vehículo y por conductor.                                | 5            | Alta      |
-| 36 | US42          | Historial de mantenimientos              | Como desarrollador, quiero listar los mantenimientos realizados a los vehículos con filtros.                                                     | 5            | Alta      |
-| 37 | US43          | Exportación de reportes (Excel o PDF)    | Como desarrollador, quiero permitir la exportación de reportes en Excel o PDF para que los gestores puedan descargar los reportes generados.       | 5            | Alta      |
-| 38 | US20          | Validación de datos de pausas            | Como desarrollador, quiero validar los datos de pausas ingresados por el conductor para asegurar que sean correctos.                              | 3            | Media     |
-| 39 | US15          | Registro de combustible                   | Como conductor, quiero registrar el combustible cargado al vehículo, para llevar control del consumo.                                            | 5            | Alta      |
-| 40 | US22          | Cambio de contraseña                     | Como conductor o gestor, quiero cambiar mi contraseña para mantener la seguridad de mi cuenta.                                                   | 2            | Baja      |
-| 41 | US24          | Cambiar foto de perfil                   | Como conductor o gestor, quiero cambiar mi foto de perfil para personalizar mi cuenta.                                                           | 1            | Baja      |
-| 42 | US25          | Solicitud de cambio de turno             | Como conductor, quiero solicitar un cambio de turno para organizar mejor mi jornada.                                                             | 2            | Baja      |
-| 43 | US37          | Middleware de autenticación              | Como desarrollador, quiero validar el token JWT en endpoints protegidos, para asegurar que solo usuarios autorizados accedan.                    | 5            | Alta      | 
+| ID   | Title                                          | ID Feature | Title Feature | Description                                                                                                                   | Estimation (Hours) | Assigned To | Status |
+|------|------------------------------------------------|------------|---------------|-------------------------------------------------------------------------------------------------------------------------------|--------------------|-------------|--------|
+| US10 | Delegar vehículo                               |            |               | Implementación de asignación de vehículo a conductor desde el backend y visualización en la app del Gestor.                  | 6h                 | Team Dev    | Done   |
+| US13 | Reportar incidencia                             |            |               | Backend + mobile conductor: registro de incidencia con descripción, tipo y carga de imagen (Flutter).                         | 8h                 | Team Dev    | Done   |
+| US16 | Registro de pausas                              |            |               | Funcionalidad en Flutter para registrar pausas; backend calcula duración y lo vincula a la asignación.                       | 5h                 | Team Dev    | Done   |
+| US17 | Confirmación de evidencia                       |            |               | Confirmación de envío de evidencia al backend y notificación en la app del conductor.                                         | 4h                 | Team Dev    | Done   |
+| US20 | Asignar mantenimiento                           |            |               | Registro de mantenimiento preventivo desde el backend + notificación al conductor.                                           | 7h                 | Team Dev    | Done   |
+| US23 | Estadísticas personales del conductor           |            |               | Endpoint + vista inicial en Flutter para mostrar viajes realizados y métricas del conductor.                                 | 8h                 | Team Dev    | Done   |
+| US26 | Visualización de vehículo asignado              |            |               | Vista principal del conductor mostrando su vehículo asignado consumiendo el endpoint actualizado.                             | 5h                 | Team Dev    | Done   |
+| US30 | Filtros de reportes                             |            |               | Implementación de filtros dinámicos en backend + integración en el módulo de gestión del Gestor (Kotlin).                    | 6h                 | Team Dev    | Done   |
+| US31 | Limpieza de filtros                             |            |               | Funcionalidad del frontend Gestor y soporte desde backend para restaurar filtros.                                            | 3h                 | Team Dev    | Done   |
+| US32 | Monitoreo de la flota                           |            |               | Vista del Gestor mostrando estado actual de vehículos; endpoints de estado operativo y alertas.                              | 10h                | Team Dev    | Done   |
+| US35 | Registro de usuarios                            |            |               | Endpoint de registro (Clean Architecture) con validación de datos y persistencia.                                            | 6h                 | Team Dev    | Done   |
+| US36 | Inicio de sesión con JWT                        |            |               | Implementación completa de login con generación de token JWT.                                                                | 5h                 | Team Dev    | Done   |
+| US37 | Middleware de autenticación                     |            |               | Verificación de JWT en endpoints protegidos bajo arquitectura modular.                                                       | 4h                 | Team Dev    | Done   |
+| US38 | CRUD de vehículos                               |            |               | Implementación del módulo de vehículos (Create, Read, Update, Delete) en backend.                                            | 8h                 | Team Dev    | Done   |
+| US39 | Asignación de vehículo a conductor              |            |               | Lógica completa de asignación respetando estados del vehículo y validaciones.                                                | 6h                 | Team Dev    | Done   |
+| US40 | Historial de incidencias                        |            |               | Backend: endpoints de registro y consulta con filtros; integración básica en vistas.                                          | 7h                 | Team Dev    | Done   |
+| US41 | Reporte de consumo de combustible               |            |               | Registro de combustible y foto del ticket; integración con historial del vehículo.                                           | 7h                 | Team Dev    | Done   |
+| US42 | Historial de mantenimientos                     |            |               | Listado filtrable de mantenimientos realizados por vehículo; endpoints y estructura de datos.                                | 8h                 | Team Dev    | Done   |
 
-
+<br>
 
 ## 2.5. Strategic-Level Domain-Driven Design
+
 ### 2.5.1. EventStorming
 
 El proceso de **EventStorming** permitió explorar el dominio de la startup desde un nivel estratégico, identificando los principales eventos de negocio, los bounded contexts y las interacciones entre ellos. Esta técnica visual facilitó descubrir la complejidad del sistema, fomentar el entendimiento compartido entre el equipo y establecer una base sólida para la implementación con DDD.
+
+<br>
 
 #### 2.5.1.1. Candidate Context Discovery
 
@@ -840,72 +864,161 @@ Estos contextos encapsulan reglas de negocio específicas y reducen el acoplamie
   <img src="../images/chapter-II/structurizr-candidate_context_discovery.png" wight="auto" height="950" alt="candidate_context_discovery">
 </div>
 
+<br>
+
 #### 2.5.1.2. Domain Message Flows Modeling
 
-El modelado de **flujos de mensajes de dominio** permitió comprender cómo los bounded contexts interactúan entre sí mediante **commands** y **events**:
+En relación con los *Domain Message Flows Modeling*, se eligieron los flujos más relevantes para nuestro modelo de negocio, donde para esta oportunidad, se involucra los privilegios del usuario, planificación, creación de conductores y seguimiento.
 
-- **Ciclo de vida de una asignación**  
-  - `CreateAssignment` → *AssignmentCreated* → notifica a Driver y Fleet.  
-  - `StartAssignment` → *AssignmentStarted* → actualiza Dashboard.  
-  - `CompleteAssignment` → *AssignmentCompleted* → genera reporte y puede detonar mantenimiento.
-
-- **Ciclo de vida de mantenimiento**  
-  - `CreateMaintenanceOrder` → *MaintenanceOrderCreated* → actualiza estado de vehículo en Fleet.  
-  - `CloseMaintenanceOrder` → *MaintenanceClosed* → alimenta Reporting y actualiza KPIs en Management.
-
-- **Flujo de autenticación**  
-  - `RegisterUser` → *UserRegistered* → puede crear un Manager en Management.  
-  - `LoginUser` → *UserLoggedIn* → emite JWT y actualiza métricas en Dashboard.  
-  - Fallos de login → *LoginFailed*.
-
-Estos flujos hacen visibles las dependencias y políticas de integración entre contextos.
+**Configuración de los privilegios de la cuenta del Conductor:**
 
 <div align="center">
-  <img src="../images/chapter-II/structurizr-assignment_lifecycl.png" wight="auto" height="450" alt="Assignmets-lifecycle">
+  <img src="../images/chapter-II/Configuring driver account - Modeling.jpg" wight="500" height="auto" alt="Configuring driver account - Flow Modeling">
 </div>
+
+<br>
+
+**Planificación de rutas de viaje para conductores:**
+
+<div align="center">
+  <img src="../images/chapter-II/Planning travel routes - Modeling.jpg" wight="500" height="auto" alt="Planning travel routes - Flow Modeling">
+</div>
+
+<br>
+
+**Creación de nuevos conductores para el servicio de flotas:**
+
+<div align="center">
+  <img src="../images/chapter-II/Create new drivers - Modeling.jpg" wight="500" height="auto" alt="Create new drivers - Flow Modeling">
+</div>
+
+<br>
+
+**Seguimiento del proceso histórico de los viajes de los conductores:**
  
+<div align="center">
+  <img src="../images/chapter-II/Tracking historical process - Modeling.jpg" wight="500" height="auto" alt="racking historical process - Flow Modeling">
+</div>
+
+<br>
+
 #### 2.5.1.3. Bounded Context Canvases
 
-Finalmente, se desarrollaron los **Bounded Context Canvases** para detallar las responsabilidades, actores, comandos y eventos de cada contexto.  
-
-Ejemplo para **Assignments BC**:
-- **Responsabilidad**: gestionar asignaciones vehículo–conductor.  
-- **Usuarios clave**: Dispatcher, Manager.  
-- **Comandos**: `CreateAssignment`, `StartAssignment`, `CompleteAssignment`.  
-- **Eventos**: `AssignmentCreated`, `AssignmentStarted`, `AssignmentCompleted`.  
-- **Integraciones**: consulta disponibilidad de Drivers, reserva vehículos de Fleet, publica eventos hacia Reporting y Dashboard.  
-
-Este nivel de detalle asegura claridad en la separación de responsabilidades, evita ambigüedades en los límites del dominio y facilita la implementación de la arquitectura en capas (API, Application, Domain, Infrastructure).
+De acuerdo con los **Boundend contexts** definidos en puntos anteriores, se crearon sus respectivos **Bounded Context Canvases**:
 
 <div align="center">
-  <img src="../images/chapter-II/structurizr-assignments_canvas.png" wight="auto" height="450" alt="assignments_canvas" />
+  <img src="../images/chapter-II/Bounded Context Canva - User Management Context.jpg" wight="500" height="auto" alt="User & Profile Management Context - Canva">
 </div>
 
+<br>
+
+<div align="center">
+  <img src="../images/chapter-II/Bounded Context Canva - Drivers Management Context.jpg" wight="500" height="auto" alt="Drivers Management Context - Canva">
+</div>
+
+<br>
+
+<div align="center">
+  <img src="../images/chapter-II/Bounded Context Canva - Vehicle Management Context.jpg" wight="500" height="auto" alt="Vehicle Management Context - Canva">
+</div>
+
+<br>
+
+<div align="center">
+  <img src="../images/chapter-II/Bounded Context Canva - Operation Context.jpg" wight="500" height="auto" alt="Operation Context - Canva">
+</div>
+
+<br>
+
 ### 2.5.2. Context Mapping
+
+En esta sección, explicamos y evidenciamos nuestro proceso de elaboración de un conjunto de mapas de contexto, los cuales visualizan las relaciones estructurales entre los contextos limitados identificados en nuestro proyecto. Para ello, revisamos minuciosamente la información recolectada, utilizándola para proponer y refinar diseños candidatos que ilustran cómo interactúan estos contextos dentro del sistema. Este análisis estructural nos permite entender y alinear claramente los contextos para alcanzar los objetivos del negocio de manera eficiente.
+
+<br>
+
+**User & Profile Management Context**
+
+<div align="center">
+  <img src="../images/chapter-II/User & Profile Management Context.jpg" wight="500" height="auto" alt="User & Profile Management - Context Mapping">
+</div>
+
+<br>
+
+**Drivers Management Context**
+
+<div align="center">
+  <img src="../images/chapter-II/Drivers Management Context.jpg" wight="500" height="auto" alt="Drivers Management - Context Mapping">
+</div>
+
+<br>
+
+**Vehicle Management Context**
+
+<div align="center">
+  <img src="../images/chapter-II/Vehicle Management Context.jpg" wight="500" height="auto" alt="Vehicle Management - Context Mapping">
+</div>
+
+<br>
+
+**Operations Context**
+
+<div align="center">
+  <img src="../images/chapter-II/Operations Context.jpg" wight="500" height="auto" alt="Operation - Context Mapping">
+</div>
+
+<br>
+
+**Context Mapping Details**
+
+1. **User & Profile Management Context ↔ Drivers Management Context:** El Drivers Management Context depende del User & Profile Management Context para validar la identidad y el rol de cada conductor dentro del sistema. Antes de gestionar información como disponibilidad, historial de actividad o estado operativo, se debe asegurar que el usuario esté autenticado y asociado correctamente a un perfil con permisos de conductor. De esta manera, se garantiza que solo usuarios autorizados puedan interactuar con la gestión de conductores.
+
+2. **Drivers Management Context ↔ Vehicle Management Context:** El Drivers Management Context consulta al Vehicle Management Context para validar qué vehículos se encuentran disponibles y con documentación vigente antes de asignarlos o asociarlos a un conductor. De forma recíproca, el Vehicle Management Context puede requerir información del conductor (como su estado operativo o historial) para determinar si es elegible para recibir una asignación temporal. Esta coordinación garantiza una asignación segura y conforme a las reglas del negocio.
+
+3.**Vehicle Management Context ↔ Operations Context:** El Operations Context depende del Vehicle Management Context para verificar que el vehículo asignado tenga documentación al día y se encuentre en estado operativo antes de iniciar una operación. Así, se garantiza que cada Orden de Transporte cumpla las condiciones reglamentarias necesarias, evitando incidentes o infracciones durante el servicio.
+
+<br>
+
+<div align="center">
+  <img src="../images/chapter-II/Context Mapping - Flota465.jpg" wight="500" height="auto" alt="Flota 365 - Context Mapping">
+</div>
+
+<br>
+
+**Enlace del Context Mapping:** <a href="https://miro.com/welcomeonboard/aTFsb0swOGFVVVVnMjRmOGR1MkZTUkpqelpYQ3NNeHNFUkZhRmlwdW9FR0lxM2FVV0pHVkd5K1h4eGhneTFta3NwYXVDQnVWTzdzVWczODVCVThFbTZKd21YMlp3SVJxMjFWaStYV20xTzEwVC9Dai91UHYvTVQ5MzJJNU9tNnRBS2NFMDFkcUNFSnM0d3FEN050ekl3PT0hdjE=?share_link_id=846137589856">https://miro.com/welcomeonboard/aTFsb0swOGFVVVVnMjRmOGR1MkZTUkpqelpYQ3NNeHNFUkZhRmlwdW9FR0lxM2FVV0pHVkd5K1h4eGhneTFta3NwYXVDQnVWTzdzVWczODVCVThFbTZKd21YMlp3SVJxMjFWaStYV20xTzEwVC9Dai91UHYvTVQ5MzJJNU9tNnRBS2NFMDFkcUNFSnM0d3FEN050ekl3PT0hdjE=?share_link_id=846137589856</a>
+
+<br>
 
 ### 2.5.3. Software Architecture
 
 Para lo que respecta este capítulo, se detallará mediante nuestros *diagramas C4* la arquitectura que seguirá nuestro sistema, abarcando cada uno de los componentes y servicios principales que rigen dicho diseño.
+
+<br>
 
 #### 2.5.3.1. Software Architecture Context Level Diagrams
 
 Diagrana de primer nivel que muestra las relaciones y cada uno de los flujos de información entre los actores y el sistema.
 
 <div align="center">
-  <img src="../images/chapter-II/C4-Context Diagram.png" alt="Context Diagram" width="auto" height="420"/>
+  <img src="../images/chapter-II/Context Diagram - Flota365.png" alt="Context Diagram" width="600" height="auto"/>
 </div>
+
+<br>
 
 #### 2.5.3.2. Software Architecture Container Level Diagrams
 
 <div align="center">
-  <img src="../images/chapter-II/C4-Container Diagram.png" alt="Container Diagram" width="auto" height="420"/>
+  <img src="../images/chapter-II/Container Diagram - Flota365.png" alt="Container Diagram" width="600" height="auto"/>
 </div>
+
+<br>
 
 #### 2.5.3.3. Software Architecture Deployment Diagrams
 
 <div align="center">
- <img src="../images/chapter-II/Deployment Diagram.png" alt="Deployment Diagram" width="auto" height="320" />
+ <img src="../images/chapter-II/Deployment Diagram - Flota365.png" alt="Deployment Diagram" width="600" height="auto" />
 </div>
+
+<br>
 
 ## 2.6. Tactical-Level Domain-Driven Design
 
@@ -1065,6 +1178,8 @@ Propósito: Modelar las entidades del dominio, integrando tanto sus atributos co
 | `CreatedAt`           | `DateTime`      | Fecha de creación de la flota.                                              |
 | `UpdatedAt`           | `DateTime`      | Fecha de la última actualización de la flota.                               |
 
+<br>
+
 ### Propiedades calculadas
 
 | Propiedad               | Tipo        | Descripción                                                                 |
@@ -1081,6 +1196,8 @@ Propósito: Modelar las entidades del dominio, integrando tanto sus atributos co
 | `UpdateVehicleStats(int vehicleCount, int activeVehicles, int inMaintenanceVehicles)` | Actualiza las estadísticas de la flota, incluyendo el número de vehículos totales, activos y en mantenimiento. Calcula el rendimiento de la flota (`Performance`) y actualiza la fecha de última modificación (`UpdatedAt`). |
 | `UpdatePerformance(decimal performance)`     | Actualiza el rendimiento de la flota (`Performance`), asegurando que el valor esté entre 0 y 1, y actualiza la fecha de última modificación (`UpdatedAt`). |
 | `GenerateCode(string name, FleetType type)`  | Método privado que genera un código único para la flota basado en su nombre y tipo. No está accesible fuera de la clase. |
+
+<br>
 
 ### Interfaz `IFleetRepository`
 
@@ -1114,6 +1231,8 @@ Propósito: Modelar las entidades del dominio, integrando tanto sus atributos co
 | `CreatedAt`          | `DateTime`      | Fecha de creación del registro de mantenimiento.                            |
 | `UpdatedAt`          | `DateTime`      | Fecha de la última actualización del registro de mantenimiento.             |
 
+<br>
+
 ### Propiedades Calculadas
 
 | Propiedad           | Tipo        | Descripción                                                                 |
@@ -1144,6 +1263,7 @@ Propósito: Modelar las entidades del dominio, integrando tanto sus atributos co
 | `ServiceProvider`    | `string`        | Nombre del proveedor o taller que realizó el servicio.                     |
 | `CreatedAt`          | `DateTime`      | Fecha de creación del registro del servicio.                               |
 
+<br>
 
 | Método                                   | Descripción                                                                                         |
 |------------------------------------------|-----------------------------------------------------------------------------------------------------|
@@ -1159,6 +1279,7 @@ Propósito: Modelar las entidades del dominio, integrando tanto sus atributos co
 | `Email`             | `string`      | Correo electrónico del gerente.                                              |
 | `Status`            | `string`      | Estado del gerente: por defecto es "ACTIVE", puede ser "ACTIVE" o "INACTIVE".|
 
+<br>
 
 ### Métodos de la interfaz `IManagerRepository`
 
@@ -1168,13 +1289,13 @@ Propósito: Modelar las entidades del dominio, integrando tanto sus atributos co
 | `GetAllAsync()`                        | Obtiene todos los gerentes de manera asíncrona.                                                         |
 | `AddAsync(Manager manager)`            | Agrega un nuevo gerente al repositorio de manera asíncrona.                                              |
 
+<br>
 
 #### 2.6.1.2. Interface Layer
 
 **Descripción**: El **Interface Layer** o capa de interfaz define cómo los usuarios o sistemas externos interactúan con el sistema. Los controladores reciben y gestionan las solicitudes HTTP, delegando las operaciones a los servicios de aplicación correspondientes. Este layer facilita la entrada y salida de datos entre el sistema y los usuarios, asegurando que las solicitudes sean procesadas correctamente y que las respuestas se entreguen de manera adecuada.
 
 **Justificación**: Los controladores en esta capa, como `AssignmentController`, `MaintenanceController`, y `VehicleController`, manejan las solicitudes relacionadas con asignaciones de tareas, mantenimiento de vehículos y gestión de flotas. Cada uno de estos controladores se apoya en servicios específicos de la capa de aplicación, como `AssignmentCommandService`, `MaintenanceQueryService` y `VehicleCommandService`, para ejecutar las operaciones necesarias. La capa de interfaz canaliza las solicitudes, realizando las validaciones necesarias y devolviendo las respuestas apropiadas, asegurando una interacción eficiente entre los usuarios y el sistema.
-
 
 - **Controlador**: AssignmentController
 
@@ -1228,6 +1349,7 @@ Propósito: Modelar las entidades del dominio, integrando tanto sus atributos co
 | `VehicleQueryService`      | Servicio encargado de manejar las consultas relacionadas con los vehículos.                    |
 | `VehicleResourceFromEntityAssembler` | Utilidad para convertir las entidades de vehículos en recursos que se envían en la respuesta.  |
 
+<br>
 
 #### 2.6.1.3. Application Layer
 
@@ -1237,7 +1359,10 @@ Propósito: Modelar las entidades del dominio, integrando tanto sus atributos co
 
 **Justificación**: En este contexto, los servicios `AssignmentCommandService`, `MaintenanceOrderCommandService`, `VehicleCommandService`, y `FleetCommandService` gestionan las reglas de negocio relacionadas con las asignaciones de tareas, órdenes de mantenimiento, vehículos y flotas. Estos servicios se encargan de ejecutar los comandos y consultas relacionadas con la creación, actualización, inicio y finalización de tareas, mantenimiento y gestión de vehículos. La capa de aplicación se comunica con sus respectivos repositorios (`AssignmentRepository`, `MaintenanceOrderRepository`, `VehicleRepository`, `FleetRepository`), asegurando que la lógica de negocio esté correctamente aplicada y que las interacciones con el dominio se realicen de manera eficiente.
 
+<br>
+
 ### Servicio: AssignmentService
+
 **Descripción**: Implementación del servicio encargado de gestionar las asignaciones de tareas, permitiendo su creación, inicio y finalización.
 
 | Método                                         | Descripción                                                                                           |
@@ -1246,6 +1371,8 @@ Propósito: Modelar las entidades del dominio, integrando tanto sus atributos co
 | `GetAll()`                                     | Obtiene todas las asignaciones existentes en el sistema.                                              |
 | `Start(Guid id)`                               | Inicia una asignación existente, cambiando su estado a "IN_PROGRESS".                                 |
 | `Complete(Guid id)`                            | Completa una asignación existente, cambiando su estado a "COMPLETED" y estableciendo la fecha de finalización. |
+
+<br>
 
 ### Dependencias
 
@@ -1256,7 +1383,10 @@ Propósito: Modelar las entidades del dominio, integrando tanto sus atributos co
 | `AssignmentDto`                  | DTO (Data Transfer Object) que representa una asignación para la respuesta.                 |
 | `AssignmentCommandService`       | Servicio que maneja la lógica de negocio asociada con la creación, inicio y finalización de asignaciones. |
 
+<br>
+
 ### Servicio: MaintenanceService
+
 **Descripción**: Implementación del servicio encargado de gestionar los registros de mantenimiento y servicio de vehículos, permitiendo la creación, obtención, actualización y eliminación de registros de mantenimiento y servicio.
 
 | Método                                         | Descripción                                                                                           |
@@ -1269,6 +1399,8 @@ Propósito: Modelar las entidades del dominio, integrando tanto sus atributos co
 | `UpdateMaintenanceRecord(int id, UpdateMaintenanceRecordRequest request)` | Actualiza los detalles de un registro de mantenimiento existente.                                      |
 | `DeleteMaintenanceRecord(int id)`              | Elimina un registro de mantenimiento, marcándolo como inactivo (soft delete).                          |
 
+<br>
+
 ### Dependencias
 
 | Dependencia                         | Descripción                                                                                 |
@@ -1277,6 +1409,8 @@ Propósito: Modelar las entidades del dominio, integrando tanto sus atributos co
 | `MaintenanceRecordDto`               | DTO (Data Transfer Object) que representa un registro de mantenimiento para la respuesta.   |
 | `MaintenanceOrderCommandService`     | Servicio encargado de la lógica de negocio relacionada con las órdenes de mantenimiento.     |
 | `MaintenanceRecord`                  | Entidad que representa un registro de mantenimiento de vehículo en el dominio.              |
+
+<br>
 
 ### Servicio: VehicleService
 
@@ -1290,6 +1424,8 @@ Propósito: Modelar las entidades del dominio, integrando tanto sus atributos co
 | `UpdateVehicleAsync(int id, UpdateVehicleDto updateDto)` | Actualiza un vehículo existente con nueva información, como kilometraje, fechas de servicio, conductor y estado. |
 | `DeleteVehicleAsync(int id)`             | Elimina un vehículo marcándolo como inactivo en lugar de eliminarlo físicamente.                        |
 
+<br>
+
 ### Dependencias
 
 | Dependencia                   | Descripción                                                                                 |
@@ -1298,7 +1434,7 @@ Propósito: Modelar las entidades del dominio, integrando tanto sus atributos co
 | `VehicleDto`                   | DTO (Data Transfer Object) que representa un vehículo para la respuesta.                    |
 | `VehicleCommandService`        | Servicio encargado de la lógica de negocio relacionada con la creación, actualización y gestión de vehículos. |
 
----
+<br>
 
 ### Servicio: DriverService
 
@@ -1313,6 +1449,8 @@ Propósito: Modelar las entidades del dominio, integrando tanto sus atributos co
 | `DeleteDriverAsync(int id)`              | Elimina un conductor del sistema, marcándolo como inactivo (soft delete).                             |
 | `GetDriverStatsAsync()`                  | Obtiene estadísticas sobre los conductores, como total de conductores, conductores activos, inactivos, con licencias expiradas, etc. |
 
+<br>
+
 ### Dependencias
 
 | Dependencia                   | Descripción                                                                                 |
@@ -1321,7 +1459,7 @@ Propósito: Modelar las entidades del dominio, integrando tanto sus atributos co
 | `DriverDto`                    | DTO (Data Transfer Object) que representa un conductor para la respuesta.                    |
 | `DriverStatsDto`               | DTO que representa las estadísticas de los conductores.                                      |
 
----
+<br>
 
 ### Servicio: AuthService
 
@@ -1338,6 +1476,8 @@ Propósito: Modelar las entidades del dominio, integrando tanto sus atributos co
 | `ChangePasswordAsync(int id, ChangePasswordRequest request)` | Cambia la contraseña de un usuario verificando la contraseña actual y actualizando con una nueva.     |
 | `DeactivateUserAsync(int id)`            | Desactiva un usuario, marcándolo como inactivo.                                                      |
 
+<br>
+
 ### Dependencias
 
 | Dependencia                   | Descripción                                                                                 |
@@ -1347,14 +1487,15 @@ Propósito: Modelar las entidades del dominio, integrando tanto sus atributos co
 | `PasswordHasher<User>`         | Utilidad para la creación y verificación de contraseñas de usuarios.                         |
 | `JwtSecurityTokenHandler`      | Utilidad para la generación y manejo de tokens JWT para la autenticación.                    |
 
-
+<br>
 
 #### 2.6.1.4. Infrastructure Layer
-
 
 **Descripción**: El **Infrastructure Layer** se encarga de proporcionar acceso a la base de datos, servicios externos y otros detalles técnicos relacionados con la persistencia y la infraestructura subyacente del sistema. Este layer actúa como la implementación real de la persistencia de datos, gestionando la interacción con la base de datos y otros recursos técnicos necesarios para el funcionamiento del sistema.
 
 **Justificación**: Los diferentes repositorios, como `VehicleRepository`, `DriverRepository`, `AssignmentRepository`, y `MaintenanceRepository`, son responsables de la persistencia de los vehículos, conductores, asignaciones y registros de mantenimiento, respectivamente. Los métodos proporcionados en estos repositorios permiten interactuar directamente con la base de datos para almacenar, recuperar, actualizar y eliminar datos. Este layer asegura que los datos se gestionen correctamente desde la infraestructura subyacente, separando las preocupaciones técnicas de las reglas de negocio. La implementación en esta capa permite que la lógica de negocio en la capa de aplicación permanezca independiente de los detalles técnicos de la persistencia.
+
+<br>
 
 ### Repositorio: **AssignmentRepository**
 
@@ -1367,6 +1508,8 @@ Propósito: Modelar las entidades del dominio, integrando tanto sus atributos co
 | `AddAsync(Assignment assignment)`           | Agrega una nueva asignación al sistema y guarda los cambios en la base de datos.                      |
 | `UpdateAsync(Assignment assignment)`        | Actualiza una asignación existente y guarda los cambios en la base de datos.                          |
 
+<br>
+
 ### Dependencias
 
 | Dependencia                 | Descripción                                                                                 |
@@ -1374,6 +1517,8 @@ Propósito: Modelar las entidades del dominio, integrando tanto sus atributos co
 | `AppDbContext`               | Contexto de la base de datos, utilizado para interactuar con las tablas de la base de datos. |
 | `Assignment`                 | Entidad que representa una asignación en el dominio del sistema.                           |
 | `Entity Framework Core`      | Framework utilizado para las operaciones de persistencia, como `FindAsync`, `ToListAsync`, `AddAsync`, y `Update`. |
+
+<br>
 
 ### Repositorio: **UserRepository**
 
@@ -1387,6 +1532,8 @@ Propósito: Modelar las entidades del dominio, integrando tanto sus atributos co
 | `UpdateAsync(User user)`                    | Actualiza un usuario existente y guarda los cambios en la base de datos.                              |
 | `GetAllAsync()`                             | Obtiene todos los usuarios registrados en el sistema.                                                |
 
+<br>
+
 ### Dependencias
 
 | Dependencia                 | Descripción                                                                                 |
@@ -1394,6 +1541,8 @@ Propósito: Modelar las entidades del dominio, integrando tanto sus atributos co
 | `AppDbContext`               | Contexto de la base de datos, utilizado para interactuar con las tablas de la base de datos. |
 | `User`                       | Entidad que representa un usuario en el dominio del sistema.                                |
 | `Entity Framework Core`      | Framework utilizado para las operaciones de persistencia, como `FindAsync`, `FirstOrDefaultAsync`, `AddAsync`, `Update`, y `ToListAsync`. |
+
+<br>
 
 ### Repositorio: **DriverRepository**
 
@@ -1406,6 +1555,8 @@ Propósito: Modelar las entidades del dominio, integrando tanto sus atributos co
 | `AddAsync(Driver driver)`                   | Agrega un nuevo conductor al sistema y guarda los cambios en la base de datos.                        |
 | `UpdateAsync(Driver driver)`                | Actualiza un conductor existente y guarda los cambios en la base de datos.                            |
 
+<br>
+
 ### Dependencias
 
 | Dependencia                 | Descripción                                                                                 |
@@ -1413,6 +1564,8 @@ Propósito: Modelar las entidades del dominio, integrando tanto sus atributos co
 | `AppDbContext`               | Contexto de la base de datos, utilizado para interactuar con las tablas de la base de datos. |
 | `Driver`                     | Entidad que representa un conductor en el dominio del sistema.                              |
 | `Entity Framework Core`      | Framework utilizado para las operaciones de persistencia, como `FindAsync`, `ToListAsync`, `AddAsync` y `Update`. |
+
+<br>
 
 ### Repositorio: **VehicleRepository**
 
@@ -1425,6 +1578,8 @@ Propósito: Modelar las entidades del dominio, integrando tanto sus atributos co
 | `UpdateAsync(Vehicle vehicle)`              | Actualiza un vehículo existente y guarda los cambios en la base de datos.                              |
 | `GetAllAsync()`                             | Obtiene todos los vehículos registrados en el sistema.                                                |
 
+<br>
+
 ### Dependencias
 
 | Dependencia                 | Descripción                                                                                 |
@@ -1432,6 +1587,8 @@ Propósito: Modelar las entidades del dominio, integrando tanto sus atributos co
 | `AppDbContext`               | Contexto de la base de datos, utilizado para interactuar con las tablas de la base de datos. |
 | `Vehicle`                    | Entidad que representa un vehículo en el dominio del sistema.                               |
 | `Entity Framework Core`      | Framework utilizado para las operaciones de persistencia, como `FindAsync`, `ToListAsync`, `AddAsync` y `Update`. |
+
+<br>
 
 ### Repositorio: **FleetRepository**
 
@@ -1446,6 +1603,8 @@ Propósito: Modelar las entidades del dominio, integrando tanto sus atributos co
 | `DeleteAsync(int id)`                       | Elimina una flota específica por su ID.                                                               |
 | `ExistsAsync(int id)`                       | Verifica si una flota con el ID especificado existe en el sistema.                                   |
 
+<br>
+
 ### Dependencias
 
 | Dependencia                 | Descripción                                                                                 |
@@ -1454,14 +1613,15 @@ Propósito: Modelar las entidades del dominio, integrando tanto sus atributos co
 | `Fleet`                      | Entidad que representa una flota en el dominio del sistema.                                 |
 | `Entity Framework Core`      | Framework utilizado para las operaciones de persistencia, como `FindAsync`, `ToListAsync`, `AddAsync`, `Update`, `Remove` y `AnyAsync`. |
 
+<br>
 
 #### 2.6.1.5. Bounded Context Software Architecture Component Level Diagrams
 
 Este diagrama de contenedores refleja la estructura y componentes clave de nuestro Sistema de Gestión de Flotas. En él, mostramos cómo interactúan los distintos actores, sistemas y servicios dentro de la plataforma para gestionar y optimizar las asignaciones de vehículos, conductores y mantenimientos. El administrador es el principal usuario del sistema, encargado de gestionar las asignaciones, los vehículos, los conductores y el mantenimiento de los vehículos, mientras que los diversos componentes y servicios como las APIs, servicios de comandos, repositorios y herramientas externas trabajan juntos para facilitar la creación, actualización, almacenamiento y notificación de información clave. Este diagrama nos ayuda a visualizar cómo cada parte del sistema contribuye a una experiencia fluida y eficiente para nuestros usuarios y asegura una gestión efectiva de la flota de vehículos. 
 
-
 <img src="../images/chapter-II/Tactital DDD.PNG" alt="alt text" width="800"/>  
 
+<br>
 
 #### 2.6.1.6. Bounded Context Software Architecture Code Level Diagrams
 
@@ -1469,18 +1629,27 @@ Este diagrama de contenedores refleja la estructura y componentes clave de nuest
   <img src="../images/chapter-II/DiagramaPaquetes.jpeg" wight="auto" height="450" alt="Database">
 </div>
 
+<br>
+
 <div align="center">
   <img src="../images/chapter-II/IAM.jpeg" wight="auto" height="450" alt="Database">
 </div>
 
+<br>
+
 ##### 2.6.1.6.1. Bounded Context Domain Layer Class Diagrams
+
 <div align="center">
   <img src="../images/chapter-II/BoundedContext1.jpeg" wight="auto" height="450" alt="Database">
 </div>
 
+<br>
+
 <div align="center">
   <img src="../images/chapter-II/BoundedContext2.jpeg" wight="auto" height="450" alt="Database">
 </div>
+
+<br>
 
 ##### 2.6.1.6.2. Bounded Context Database Design Diagram
 

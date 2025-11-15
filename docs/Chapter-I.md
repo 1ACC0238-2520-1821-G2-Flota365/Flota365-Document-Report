@@ -2,6 +2,8 @@
 
 La introducción desempeña un papel fundamental en la estructuración y comprensión del proyecto, ya que establece el marco conceptual y contextual sobre el cual se desarrollará el trabajo. En esta sección inicial, se presenta una visión general que permite al lector comprender los objetivos principales que se desean alcanzar, así como los antecedentes que han llevado a la formulación del proyecto. También se delimita el alcance del mismo, es decir, hasta dónde se pretende llegar con el desarrollo de la propuesta. Asimismo, la introducción cumple la función de contextualizar la relevancia del proyecto en un entorno específico, destacando las razones que justifican su realización, los desafíos que se pretenden abordar y los beneficios esperados a partir de su implementación. En suma, esta parte inicial no solo informa, sino que también orienta y motiva al lector a profundizar en el contenido que se presentará a lo largo del documento.
 
+<br>
+
 ## 1.1. Startup Profile
 
 El perfil de la startup es un elemento fundamental para comprender la identidad y el rumbo estratégico de una empresa emergente. A través de este perfil, se revela su visión de futuro, sus valores esenciales y la propuesta de valor que la diferencia en el mercado competitivo.
@@ -9,6 +11,8 @@ El perfil de la startup es un elemento fundamental para comprender la identidad 
 En esta sección se describen los aspectos clave que definen a la startup, incluyendo su origen, las motivaciones que impulsaron su creación, el problema específico que busca solucionar y el enfoque innovador que emplea para posicionarse frente a sus competidores.
 
 Asimismo, se analizan los objetivos a mediano y largo plazo, junto con las estrategias diseñadas para su crecimiento y consolidación dentro del sector. Entender estos elementos resulta vital para evaluar el potencial de la startup y el impacto que puede generar en su entorno.
+
+<br>
 
 ### 1.1.1. Descripción de la Startup
 
@@ -27,6 +31,8 @@ Desarrollar soluciones tecnológicas de alta calidad para la gestión de flotas,
 **Visión:**
 
 Ser la empresa líder en soluciones inteligentes para la gestión de flotas a nivel local y regional, integrando tecnologías emergentes como la **Inteligencia Artificial** y el **análisis predictivo** para automatizar procesos, optimizar operaciones y proporcionar información de valor basada en métricas de rendimiento. Aspiramos a transformar digitalmente a las empresas, impulsando su crecimiento con herramientas escalables, precisas y adaptadas a los desafíos del futuro.
+
+<br>
 
 ### 1.1.2. Perfiles de integrantes del equipo
 
@@ -95,22 +101,10 @@ Ser la empresa líder en soluciones inteligentes para la gestión de flotas a ni
                 Cuento con conocimientos en lenguajes de programación como C++, Python, programación web utilizando HTML y CSS, conocimientos en SQL; así mismo también poseo conocimientos generales en diversas materias como matemáticas y física.
             </td>
         </tr>
-        <tr>
-            <!-- DATOS del integrante 5 -->
-            <td>
-                <img src="../images/chapter-I/integrante_05.jpeg" height="120" alt="ponernombre"><br>
-                <strong>Jessica Elizabeth Comettant Rubiños</strong><br>
-                U20211C009
-            </td>
-            <td>
-                Gracias a las asignaturas correspondientes a la malla curricular de mi carrera, cuento con las habilidades intelectuales propicias para el desarrollo del proyecto. Asimismo, destaco de mi personalidad la empatía, la amabilidad y la capacidad de trabajar en equipo.
-            </td>
-            <td>
-                 Conocimientos en C++, python y java. Manejo de base de datos relacionales. Frameworks de desarrollo (Angular y Vue). Acreditación en Scrum Fundamentals.
-            </td>
-        </tr>
     </tbody>
 </table>
+
+<br>
 
 ## 1.2. Solution Profile
 
@@ -135,6 +129,8 @@ Las empresas enfrentan serias deficiencias en el control operativo del servicio 
 - Ausencia de reportes claros y actualizados que permitan evaluar el rendimiento de la operación.
 
 Estas problemáticas impactan directamente en la **eficiencia**, generan mayores costos operativos y disminuyen la calidad del servicio al cliente.
+
+<br>
 
 **What?**
 
@@ -242,6 +238,8 @@ Incluye desarrollo de la plataforma web, integración con sistemas GPS y costos 
 
 - Retorno alto gracias a la reducción de costos por ineficiencias, menor cantidad de servicios perdidos, optimización del mantenimiento y mejor gestión operativa.
 
+<br>
+
 ### 1.2.2. Lean UX Process
 
 #### 1.2.2.1. Lean UX Problem Statements
@@ -263,6 +261,8 @@ Hemos observado que los gestores de flota no cuentan con una visión centralizad
 Sin embargo, hemos observado que los conductores siguen lidiando con procesos manuales y poco claros para registrar sus actividades, lo que genera desmotivación, errores en los reportes y poca conexión con el resto del equipo operativo. Esta situación ha disminuido la precisión del seguimiento de entregas y ha incrementado los conflictos en la validación de recorridos y evidencias.
 
 **¿Cómo podríamos mejorar Flota365 para que los conductores de transporte puedan registrar de forma ágil sus actividades diarias, enviar evidencias fácilmente y sentirse parte de un sistema que reconoce su desempeño, lo cual se evidenciará en mayor puntualidad, disminución de errores en la documentación y aumento en la satisfacción del conductor?**
+
+<br>
 
 #### 1.2.2.2. Lean UX Assumptions
 
@@ -294,13 +294,11 @@ Nuestros usuarios principales son **gestores de flota** y **conductores de vehí
 
 - Los conductores valoran herramientas rápidas, simples y confiables para registrar su trabajo diario sin complicaciones.
 
-
 <br>
 
 **2) ¿Dónde encaja nuestro producto en su vida o trabajo?**
 
 Encaja directamente en sus **actividades laborales**. Flota365 se convierte en una herramienta esencial para supervisar, registrar y optimizar las operaciones diarias de transporte. Para los gestores, es un panel de control completo. Para los conductores, una app funcional y accesible para evidenciar su trabajo diario.
-
 
 <br>
 
@@ -345,6 +343,7 @@ Características clave que deben estar presentes:
 - Notificaciones de alertas críticas (ej. fallas, mantenimientos vencidos).
 
 - Integración con sistemas GPS y ERP existentes en la empresa.
+
 <br>
 
 **5) ¿Cómo debe verse nuestro producto y cómo comportarse?**
@@ -356,6 +355,7 @@ Flota365 debe tener una interfaz moderna, limpia y adaptable tanto para escritor
 - Los conductores deben poder registrar datos en pocos pasos.
 
 - Los gestores deben tener acceso a información analítica y funcionalidades avanzadas para la gestión operativa.
+
 <br>
 
 #### 1.2.2.3. Lean UX Hypothesis Statements
@@ -380,11 +380,15 @@ Flota365 debe tener una interfaz moderna, limpia y adaptable tanto para escritor
 **para** diferenciarnos de la competencia y facilitar la adopción,
 **sabremos que la estrategia es exitosa** cuando recibamos comentarios positivos sobre el precio en encuestas y entrevistas, y observemos un crecimiento sostenido de nuevos usuarios.
 
+<br>
+
 #### 1.2.2.4. Lean UX Canvas
 
 <div align="center">
     <img src="../images/chapter-I/Lean_UX _Canvas.jpg" alt="Lean UX Canvas" width="auto" height="430"/>
 </div>
+
+<br>
 
 ## 1.3. Segmentos objetivo
 
@@ -393,6 +397,7 @@ Mediante una selección rigurosa, Flota 365 seleccionó a los siguientes segment
 <p><strong>Gestores de flota:</strong></p>
 <ul>
   <li><strong>Descripción:</strong> Los gestores de flota son los encargados de supervisar y optimizar el uso de los vehículos dentro de una flota. Tienen la responsabilidad de garantizar la eficiencia operativa, el cumplimiento de la normativa, y la maximización de la productividad. Están enfocados en la gestión del mantenimiento preventivo, la planificación de rutas, la supervisión de los conductores y la toma de decisiones basadas en datos operativos y de rendimiento.</li>
+  <br>
   <li><strong>Características Demográficas:</strong>
     <ul>
       <li>Edad: 30 a 55 años</li>
@@ -406,9 +411,12 @@ Mediante una selección rigurosa, Flota 365 seleccionó a los siguientes segment
   </li>
 </ul>
 
+<br>
+
 <p><strong>Conductores de vehículos pesados:</strong></p>
 <ul>
   <li><strong>Descripción:</strong> Los conductores de vehículos pesados son los encargados de operar las unidades de carga, siguiendo las rutas asignadas y entregando mercancías o servicios de acuerdo con los tiempos establecidos. Además, deben asegurarse de realizar una adecuada documentación de su trabajo, incluyendo la carga de evidencias como fotos, kilometraje y ubicación, como parte de su labor diaria.</li>
+  <br>
   <li><strong>Características Demográficas:</strong>
     <ul>
       <li>Edad: 25 a 50 años</li>
@@ -421,4 +429,3 @@ Mediante una selección rigurosa, Flota 365 seleccionó a los siguientes segment
     </ul>
   </li>
 </ul>
-
