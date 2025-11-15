@@ -1040,7 +1040,7 @@ Diagrana de primer nivel que muestra las relaciones y cada uno de los flujos de 
 #### 2.5.3.3. Software Architecture Deployment Diagrams
 
 <div align="center">
- <img src="../images/chapter-II/Deployment Diagram.png" alt="Deployment Diagram" width="auto" height="320" />
+ <img src="../images/chapter-II/Deployment Diagram - Flota365.png" alt="Deployment Diagram" width="600" height="auto" />
 </div>
 
 <br>

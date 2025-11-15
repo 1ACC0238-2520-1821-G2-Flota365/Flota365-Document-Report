@@ -184,6 +184,22 @@
               Mejora de la elaboración del <q>Capítulo II:  Requirements Development and Software Solution Design</q> de los puntos 2.4. Requirements Specification, 2.5.3.1. Software Architecture Context Level Diagrams, 2.5.3.2. Software Architecture Container Level Diagrams y 2.5.3.3. Software Architecture Deployment Diagrams
             </td>
         </tr>
+        <tr>
+            <td>2.0.0</td>
+            <td>09/11/2025</td>
+            <td>José Diego Huamani Sánchez</td>
+            <td>
+              Redacción del <q>Capítulo IV:  Product Implementation & Validation</q> del punto 4.2.2. Sprint 2, 4.2.2.1. Sprint Planning 2, 4.2.2.2. Sprint Backlog 2, 4.2.2.3. Development Evidence for Sprint Review, 4.2.2.4. Testing Suite Evidence for Sprint Review,4.2.2.5. Execution Evidence for Sprint Review, 4.2.2.6. Services Documentation Evidence for Sprint Review, 4.2.2.7. Software Deployment Evidence for Sprint Review, 4.2.2.8. Team Collaboration Insights during Sprint.
+            </td>
+        </tr>
+        <tr>
+            <td>2.0.0</td>
+            <td>11/11/2025</td>
+            <td>José Diego Huamani Sánchez</td>
+            <td>
+              Redacción del Glosario, Conclusiones y recomendaciones de cada uno de los entregables, segmentación de nuestra bibliografía, descripción de nuestros Validations Interviews y agregación de los videos de Validation App, About the Team y About the Product.
+            </td>
+        </tr>
     </tbody>
 </table>
 
@@ -232,7 +248,7 @@ Dejándo del lado la parte de desarrolló de software, en base al último *feedb
 Es por ello que, a continuación se presentará los diagramas de flujo que representan cada uno de los *commits* realizados por cada uno de los miembros del equipo de Flota 365:
 
 <div align="center">
-  <img src="images/Project Report Collaboration Insights/TP1-Project Report Collaboration Insights-Flota365.png" alt="Graphic TP1 - Project Report Collaboration Insights" style="width: 600px;" />
+  <img src="images/Project Report Collaboration Insights/TB2-Project Report Collaboration Insights-Flota365.png" alt="Graphic TB2 - Project Report Collaboration Insights" style="width: 600px;" />
 </div>
 
 <br>
@@ -506,6 +522,18 @@ En el siguiente cuadro se describen las acciones realizadas y enunciados de conc
         <br><br>
         <strong>Comettant Rubiños, Jessica</strong><br>
         Fortaleíó sus competencias en UX/UI avanzado y prototipado funcional, aportando significativamente al desarrollo de la interfaz móvil del sistema. Mi trabajo se basó en la aplicación de principios de diseño responsivo y usabilidad, integrando los lineamientos definidos en los Style Guidelines para garantizar coherencia visual entre los distintos componentes del ecosistema digital. Mi desempeño demuestra una actualización constante en herramientas y tendencias de diseño aplicadas a soluciones móviles.
+        <strong>Huamani Sánchez, José Diego</strong><br>
+        Actualicé y amplié mis conocimientos en desarrollo móvil con Kotlin, enfocándome en la implementación de interfaces más intuitivas y accesibles para el gestor de flota. Aprendí a integrar buenas prácticas de UX y técnicas modernas de navegación y manejo de estados. Además, revisé y aplicó criterios de usabilidad para optimizar el flujo principal de la aplicación.
+        <br><br>
+        <strong>Llerena Delgado, Renzo Miguel</strong><br>
+        Durante este sprint fortalecí mi dominio de Clean Architecture y Domain-Driven Design, aplicándolos para completar el diseño modular del backend en .NET 8. Adicionalmente, profundicé en prácticas de versionamiento y despliegue continuo para asegurar la consistencia del Web Services entregado. Mi contribución permitió consolidar la base técnica necesaria para la escalabilidad del sistema.
+        <br><br>
+        <strong>Villafuerte Tapia, Renzo Alonso</strong><br>
+        Actualicé mis conocimientos en metodologías de análisis y validación de requerimientos. Ejecuté entrevistas de validación y revisé flujos del sistema junto a usuarios representativos. También afiné competencias en documentación técnica, elaborando materiales audiovisuales (About the Team / About the Product) y asegurando trazabilidad entre análisis previo y resultados obtenidos.
+        <br><br>
+        <strong>Torres Apolinario, Giovany Smith</strong><br>
+        Fortalecí mis capacidades en el desarrollo con Flutter, creando la primera versión funcional de la aplicación para el segmento de conductores. Durante este proceso internalicé conceptos de manejo de widgets, rutas y controladores. Mi aprendizaje permitió entregar un módulo estable capaz de registrar check-in, check-out e incidencias.
+        <br><br>
       <td style="padding: 10px; border: 1px solid #ccc;">
         <strong>TB1:</strong><br>
         Concluimos que, a través del desarrollo del primer avance del proyecto Flota365, el equipo logró actualizar y aplicar conceptos fundamentales del desarrollo profesional en ingeniería de software, fortaleciendo conocimientos en metodologías modernas como Lean UX y Domain-Driven Design. Este proceso permitió integrar teoría y práctica para analizar de manera profunda la problemática de la mala gestión y los sobrecostos en flotas vehiculares, realizar un análisis competitivo, definir segmentos objetivos (conductores y gestores de flotas), y construir una base sólida de User Stories y Product Backlog que servirán como cimiento técnico y funcional del proyecto.
@@ -513,6 +541,10 @@ En el siguiente cuadro se describen las acciones realizadas y enunciados de conc
         <br><br>
         <strong>TP:</strong><br>
         Durante esta segunda etapa del proyecto Flota365, el equipo fortaleció y actualizó sus conocimientos en diseño de soluciones de software, aplicando principios avanzados de UI/UX Design orientados a la experiencia del usuario. A través del desarrollo del Product Design, Style Guidelines, Information Architecture y los prototipos de la Landing Page y la Mobile Application, el equipo consolidó habilidades prácticas en arquitectura de información, navegación, etiquetado y diseño visual, integrando criterios de accesibilidad, usabilidad y optimización SEO, fundamentales para el desarrollo profesional en ingeniería de software.
+        <br><br>
+        <br><br>
+        <strong>TB2:</strong><br>
+        Durante esta tercera etapa del proyecto Flota365, consolidamos competencias técnicas y metodológicas esenciales para el desarrollo del proyecto. Cada integrante actualizó conocimientos en su área —backend, Kotlin, Flutter y validación— lo que nos permitió integrar componentes coherentes y funcionales dentro de Flota365. Este proceso reforzó nuestra capacidad para aprender, incorporar nuevas tecnologías y aplicarlas directamente en un entorno real de desarrollo de software.
       </td>
     </tr>
     <tr>
@@ -551,6 +583,19 @@ En el siguiente cuadro se describen las acciones realizadas y enunciados de conc
         <br><br>
         <strong>Comettant Rubiños, Jessica</strong><br>
         Evidenció una mentalidad de aprendizaje continuo al refinar la experiencia del usuario en base a pruebas iterativas y feedback de los stakeholders. Mi apertura a la mejora del diseño, exploración de nuevas herramientas de prototipado y sensibilidad hacia la accesibilidad digital destacan su compromiso con la innovación constante y su crecimiento como profesional del diseño centrado en el usuario.
+                <br><br>
+        <strong>TP1:</strong><br>
+        <strong>Huamani Sánchez, José Diego</strong><br>
+        Reconocí la importancia del aprendizaje permanente al tener que adoptar lineamientos de diseño UX para mejorar la experiencia del gestor de flota. Comprendí que el desarrollo móvil no solo depende del dominio del lenguaje, sino también de metodologías de diseño centradas en el usuario, lo que me motivó a revisar patrones y directrices modernas.
+        <br><br>
+        <strong>Llerena Delgado, Renzo Miguel</strong><br>
+        Evidencié la necesidad de aprendizaje continuo al enfrentarme a patrones arquitectónicos avanzados como Clean Architecture y DDD. Para integrar correctamente estas prácticas debí investigar, comparar enfoques y ajustar decisiones técnicas durante el sprint. Este proceso reforzó mi habilidad de adaptación ante la evolución constante del ecosistema backend.
+        <br><br>
+        <strong>Villafuerte Tapia, Renzo Alonso</strong><br>
+        Al liderar las validaciones y revisiones del análisis previo, identifiqué la necesidad constante de aprender sobre metodologías colaborativas y herramientas que permiten alinear el producto con las expectativas de los usuarios. Este proceso implicó reevaluar supuestos, actualizar criterios y mejorar la forma de comunicar resultados de manera más clara y estructurada.
+        <br><br>
+        <strong>Torres Apolinario, Giovany Smith</strong><br>
+        Al iniciar el desarrollo en Flutter, integré nuevas herramientas, bibliotecas y convenciones propias del framework, demostrando una clara disposición al aprendizaje continuo. Recurrí a documentación oficial, foros especializados y pruebas experimentales para asegurar que la aplicación de conductores cumpla un estándar mínimo de calidad desde esta primera versión.
       <td style="padding: 10px; border: 1px solid #ccc;">
         <strong>TB1:</strong><br>
         Concluimos que el primer avance del proyecto Flota365 permitió al equipo reconocer la importancia del aprendizaje continuo para afrontar los retos que implica el desarrollo de soluciones de software complejas y centradas en el usuario. Durante esta etapa, el equipo adquirió y reforzó nuevos conocimientos relacionados con investigación de usuarios, modelado estratégico y táctico en DDD, y análisis de experiencias en el mercado, comprendiendo que la actualización constante de competencias y la adaptabilidad ante nuevas herramientas y enfoques metodológicos son esenciales para el éxito profesional y la evolución del proyecto.
@@ -558,6 +603,10 @@ En el siguiente cuadro se describen las acciones realizadas y enunciados de conc
         <br><br>
         <strong>TP:</strong><br>
         Esta entrega permitió al equipo reconocer la relevancia del aprendizaje permanente como componente esencial del desempeño profesional en el desarrollo de proyectos de software. La implementación de prácticas como la gestión de configuraciones, control de versiones, despliegue, validación con usuarios y evaluación heurística, impulsó la adquisición continua de conocimientos técnicos y metodológicos, demostrando que la mejora constante y la retroalimentación iterativa son pilares para garantizar la calidad y evolución de las soluciones desarrolladas.
+        <br><br>
+        <br><br>
+        <strong>TB2:</strong><br>
+        Esta entrega permitió al equipo reafirmamos que el aprendizaje permanente es indispensable para la construcción de soluciones de software de calidad. Las exigencias del sprint nos impulsaron a adquirir nuevos conocimientos, refinar habilidades existentes y adaptarnos a herramientas que no dominábamos completamente. Esta experiencia nos permitió comprender que el desarrollo profesional es un proceso continuo, profundamente ligado a la evolución tecnológica y a las necesidades cambiantes de los usuarios.
       </td>
     </tr>
   </tbody>

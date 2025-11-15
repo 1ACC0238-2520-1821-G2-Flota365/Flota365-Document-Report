@@ -511,8 +511,6 @@ Durante el primer sprint backlog, reunimos las historias de usuario relacionadas
 
 #### 4.2.1.3. Development Evidence for Sprint Review
 
-<br>
-
 **Landing Page**:
 
 |Repository |Branch| Commit Id | Commit Message| Commit Message Body| Date|
@@ -556,7 +554,7 @@ Evidencia de prueba unitaria al Flota365-API
 
 #### 4.2.1.5. Execution Evidence for Sprint Review
 
-En este Sprint, los miembros del equipo de desarrollo de software de Aventis han completado y desplegado la Landing Page. A continuación, mostramos imágenes que demuestran cómo nuestra página presenta de manera clara e intuitiva la información sobre nuestro producto y nuestra empresa.
+En este Sprint, los miembros del equipo de desarrollo de software de Flota365 han completado y desplegado la Landing Page. A continuación, mostramos imágenes que demuestran cómo nuestra página presenta de manera clara e intuitiva la información sobre nuestro producto y nuestra empresa.
 
 <br>
 
@@ -1001,7 +999,9 @@ En esta sección se muestra un análisis detallado del trabajo colaborativo real
 ### **Diseño y Desarrollo**
 
 - **Frontend:** Desarrollo integral de la landing page, abarcando la creación de secciones, aplicación de estilos y adaptación responsive para distintos dispositivos.  
+
 - **Backend:** Implementación de funcionalidades esenciales junto con la configuración inicial del servidor y los servicios requeridos.  
+
 - **Codificación:** Ejecución de tareas de programación, pruebas funcionales y mejoras iterativas durante el proceso de desarrollo.  
 
 <br>
@@ -1009,6 +1009,7 @@ En esta sección se muestra un análisis detallado del trabajo colaborativo real
 ### **Documentación y Despliegue**
 
 - **Documentación:** Elaboración de documentación técnica y visual con descripciones detalladas y evidencias gráficas del proceso.  
+
 - **Despliegue:** Configuración y puesta en marcha del entorno de pruebas, asegurando el funcionamiento integrado del frontend y backend.
 
 <br>
@@ -1037,8 +1038,6 @@ En esta sección se muestra un análisis detallado del trabajo colaborativo real
 
 <br>
 
-
-
 ### 4.2.2. Sprint 2
 
 En este sprint 2 continuamos con el desarrollo del proyecto dentro del marco ágil de Scrum. Esta etapa se centró en la **implementación completa de la aplicación móvil Android**, abarcando los dos segmentos principales del sistema: **Conductores** y **Gestores de Flota**. Durante este sprint también se avanzó en la construcción de la **aplicación Flutter**, específicamente la parte destinada al **segmento de Conductores**, garantizando su integración con los servicios ya disponibles.
@@ -1051,7 +1050,6 @@ Durante la planificación del sprint, se priorizaron las **user stories** asocia
 
 El equipo alineó esfuerzos y responsabilidades, garantizando que las actividades asignadas permitieran avanzar de manera consistente hacia la entrega de una aplicación móvil estable, conectada y adecuada a las necesidades de ambos segmentos del sistema. Además, se fomentó la colaboración continua para asegurar una comprensión compartida del alcance y los objetivos del sprint.
 
-
 | Sprint # | Sprint 2 |
 | -- | -- |
 | **Sprint Planning Background** | |
@@ -1061,25 +1059,595 @@ El equipo alineó esfuerzos y responsabilidades, garantizando que las actividade
 | **Prepared By** | Torres Apolinario, Giovany Smith |
 | **Attendees (to planning meeting)** | Huamani Sánchez José Diego, Llerena Delgado Renzo Miguel, Villafuerte Tapia Renzo Alonso |
 | **Sprint Goal & User Stories** | |
-| **Sprint 2 Goal** | Desarrollar la aplicación Android completa para Conductores y Gestores de Flota, integrada al backend, y avanzar con el desarrollo de la app Flutter para el segmento Conductores. |
+| **Sprint 2 Goal** | Mejorar los puntos de nivel de arquitectura C4 de la aplicación así como Desarrollar la aplicación Android completa para el segmento de Gestores de Flota, integrada al backend, y avanzar con el desarrollo de la app Flutter para el segmento Conductores. |
 | **Sprint 2 Velocity** | 19 |
 | **Sum of Story Points** | 19 |
 
+<br>
 
 #### 4.2.2.2. Sprint Backlog 2
 
+El Spring Backlog 2 consolidó la evolución técnica y funcional del proyecto Flota365, enfocándose en la entrega de componentes clave para ambos segmentos de usuarios: gestores de flota y conductores. Durante esta iteración se priorizó la construcción y estabilización de las aplicaciones móviles, así como la finalización del Web Services que soporta la operación de todo el ecosistema.
+
+En primer lugar, se desarrolló la versión actualizada de la aplicación móvil para gestores de flota, construida en Kotlin, incorporando mejoras significativas en la interfaz, navegación y usabilidad. Esta versión integró principios de UX y optimizó los flujos esenciales como asignación de vehículos, monitoreo de rutas y visualización de incidencias.
+
+Paralelamente, se implementó la primera versión funcional de la aplicación Flutter orientada al segmento de conductores. Esta entrega incluyó las capacidades de check-in, check-out, registro de incidencias y visualización del vehículo asignado, asegurando un flujo operativo eficiente desde dispositivos móviles.
+
+De manera complementaria, se completó el 100% del Web Services, desarrollado en C# bajo .NET 8, utilizando una arquitectura monolito modular basada en Clean Architecture y Domain-Driven Design. Esta versión final estableció los módulos, entidades y servicios necesarios para garantizar la comunicación confiable entre aplicaciones y la centralización de la lógica de negocio.
+
+Finalmente, el sprint incluyó la corrección de observaciones del entregable anterior, así como actividades de validación con usuarios reales mediante entrevistas, pruebas de usabilidad y revisión de los flujos implementados. Esto permitió ajustar funcionalidades y asegurar que la solución responda adecuadamente a los requisitos del dominio logístico.
+
+<br>
+
+![alt text](../images/chapter-IV/Scrum%20Board%20-%20Sprint%202%20-%20Flota365.png) 
+
+| Sprint # | Sprint 2 |
+|-----------|-----------|
+
+| User Story |  | Work-Item / Task |  |  |  |  |  |
+|-------------|--|------------------|--|--|--|--|--|
+| ID | Title | ID | Title | Description | Estimation (Hours) | Assigned To | Status |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| US01 | Landing Page informativa | TA001 | Integración visual de landing page | Diseñar e implementar la estructura principal de la landing page informativa, incluyendo secciones de presentación y CTA. | 2 | Huamani Sánchez, José Diego | Done |
+| US02 | Responsive | TA002 | Adaptación responsive del sitio | Implementar diseño responsive para dispositivos móviles y tablets, garantizando accesibilidad y buena experiencia de usuario. | 1 | Huamani Sánchez, José Diego | Done |
+| US03 | Comparador de planes | TA003 | Desarrollo de módulo comparador | Crear un componente que permita comparar distintos planes o servicios mediante tablas dinámicas o tarjetas. | 4 | Torres Apolinario, Giovany Smith | Done |
+| US04 | Switcher de idiomas | TA004 | Implementación de selector de idioma | Añadir un switcher que permita cambiar entre idiomas (por ejemplo, español e inglés) usando i18n o similar. | 3 | Comettant Rubiños, Jessica Elizabeth | Done |
+| US05 | Tema de colores | TA005 | Configuración de paleta de colores | Definir y aplicar un sistema de temas (claro/oscuro) con variables globales de color y componentes adaptativos. | 2 | Comettant Rubiños, Jessica Elizabeth | Done |
+| US06 | Vista de developers | TA006 | Construcción de vista para desarrolladores | Diseñar una vista con documentación técnica y herramientas de prueba para el equipo de desarrollo. | 3 | Torres Apolinario, Giovany Smith | Done |
+| US07 | Registro de nuevo usuario | TA007 | Implementación del formulario de registro | Crear un formulario de registro con validaciones y conexión al backend para nuevos usuarios. | 3 | Renzo Miguel Llerena Delgado | Done |
+| US09 | Registro de vehículo | TA008 | Formulario de registro vehicular | Desarrollar un formulario para registrar datos de vehículos con validación y confirmación visual. | 2 | Renzo Miguel Llerena Delgado | Done |
+| US11 | Footer informativo | TA009 | Creación del pie de página informativo | Diseñar un footer con enlaces de contacto, políticas de privacidad y redes sociales. | 2 | Huamani Sánchez, José Diego  | Done |
+| US12 | Información conductor | TA010 | Visualización de datos del conductor | Implementar componente que muestre información detallada del conductor (nombre, licencia, historial). | 1 | Renzo Alonso Villafuerte Tapia  | Done |
+| US14 | Información del vehículo | TA011 | Módulo de detalles del vehículo | Crear una vista con los datos completos del vehículo: modelo, placa, estado y revisiones. | 3 | NARenzo Alonso Villafuerte Tapia ME | Done |
+
+<br>
+
+**Link de Trello**: https://trello.com/invite/b/69177f6ba3ab36f73ee521a5/ATTId55d067d884ae22ef95d41c56da1386c70D00649/sprint-2-flota365
+
+<br>
+
 #### 4.2.2.3. Development Evidence for Sprint Review
+
+**Mobile Application - Kotlin**:
+
+|Repository |Branch| Commit Id | Commit Message| Commit Message Body| Date|
+|----|-----|---------------------|----------------------------------------|---------------------------------------------------------|------------|
+|Flota365/landing-page|develop| 2753d07           | feat(header): add the header and navigations  | the access with differents informative articles about Flota365 Startup | 05/10/2025 |
+|Flota365/landing-page|develop| 184f6f5           | feat(hero): add the new version of Hero Section o n the Flota365 Landing Page         | Added hero section with headline | 05/10/2025 |
+|Flota365/landing-page|develop| a831a7f           | feat(features): add the primordial features  | features of Flota365 offers our customers         | 05/10/2025 |
+|Flota365/landing-page|develop| 74000b4           | feat(about): add the first vertion of About section    | Implemented company info section with team photos       | 05/10/2025 |
+|Flota365/landing-page|develop| c5ab48a           | feat(contact): Add contact information | add the contact forms into the Landing Page of Flota465 | 05/10/2025 |
+|Flota365/landing-page|develop| 3473e3f           | Chore(colors): update the color palette     | Implemented apply into the new navigation items  | 05/10/2025 |
+|Flota365/landing-page|develop| 681332a           | feat(stats): add the stadistics   | Implemented information about the advantage to use Flota365   | 05/10/2025 |
+|Flota365/landing-page|develop| 932bd47           | feat(team): add the group of developers | Implemented  team member of Flota365 into the Landing Page   | 05/10/2025 |
+|Flota365/landing-page|develop| 71f42b3           | feat(footer): add Footer   | content that descripve the differents informative article about the service   | 05/10/2025 |
+
+<br>
+
+**Mobile Application - Flutter**:
+
+|Repository |Branch| Commit Id | Commit Message| Commit Message Body| Date|
+|----|-----|---------------------|----------------------------------------|---------------------------------------------------------|------------|
+|Flota365/landing-page|develop| 2753d07           | feat(header): add the header and navigations  | the access with differents informative articles about Flota365 Startup | 05/10/2025 |
+|Flota365/landing-page|develop| 184f6f5           | feat(hero): add the new version of Hero Section o n the Flota365 Landing Page         | Added hero section with headline | 05/10/2025 |
+|Flota365/landing-page|develop| a831a7f           | feat(features): add the primordial features  | features of Flota365 offers our customers         | 05/10/2025 |
+|Flota365/landing-page|develop| 74000b4           | feat(about): add the first vertion of About section    | Implemented company info section with team photos       | 05/10/2025 |
+|Flota365/landing-page|develop| c5ab48a           | feat(contact): Add contact information | add the contact forms into the Landing Page of Flota465 | 05/10/2025 |
+|Flota365/landing-page|develop| 3473e3f           | Chore(colors): update the color palette     | Implemented apply into the new navigation items  | 05/10/2025 |
+|Flota365/landing-page|develop| 681332a           | feat(stats): add the stadistics   | Implemented information about the advantage to use Flota365   | 05/10/2025 |
+|Flota365/landing-page|develop| 932bd47           | feat(team): add the group of developers | Implemented  team member of Flota365 into the Landing Page   | 05/10/2025 |
+|Flota365/landing-page|develop| 71f42b3           | feat(footer): add Footer   | content that descripve the differents informative article about the service   | 05/10/2025 |
+
+<br>
+
+**Web Service**:
+
+|Repository |Branch| Commit Id | Commit Message| Commit Message Body| Date|
+|----|-----|---------------------|----------------------------------------|---------------------------------------------------------|------------|
+|Flota365/landing-page|develop| 2753d07           | feat(header): add the header and navigations  | the access with differents informative articles about Flota365 Startup | 05/10/2025 |
+|Flota365/landing-page|develop| 184f6f5           | feat(hero): add the new version of Hero Section o n the Flota365 Landing Page         | Added hero section with headline | 05/10/2025 |
+|Flota365/landing-page|develop| a831a7f           | feat(features): add the primordial features  | features of Flota365 offers our customers         | 05/10/2025 |
+|Flota365/landing-page|develop| 74000b4           | feat(about): add the first vertion of About section    | Implemented company info section with team photos       | 05/10/2025 |
+|Flota365/landing-page|develop| c5ab48a           | feat(contact): Add contact information | add the contact forms into the Landing Page of Flota465 | 05/10/2025 |
+|Flota365/landing-page|develop| 3473e3f           | Chore(colors): update the color palette     | Implemented apply into the new navigation items  | 05/10/2025 |
+|Flota365/landing-page|develop| 681332a           | feat(stats): add the stadistics   | Implemented information about the advantage to use Flota365   | 05/10/2025 |
+|Flota365/landing-page|develop| 932bd47           | feat(team): add the group of developers | Implemented  team member of Flota365 into the Landing Page   | 05/10/2025 |
+|Flota365/landing-page|develop| 71f42b3           | feat(footer): add Footer   | content that descripve the differents informative article about the service   | 05/10/2025 |
+
+<br>
 
 #### 4.2.2.4. Testing Suite Evidence for Sprint Review
 
+Para el presente entregable, el equipo ha tomado la decisión estratégica de priorizar la consolidación de la funcionalidad principal de la plataforma, sentando así una línea base estable para la validación final.
+
+El esfuerzo de este Sprint se enfocó en los siguientes objetivos críticos:
+
+1. Finalizar la versión funcional de la aplicación de Gestores (Kotlin), asegurando que el core del producto esté completo.
+
+2. vistas y flujos esenciales.
+
+3. Subsanar las observaciones de la documentación de la entrega anterior.
+
+Debido a este enfoque centrado en la construcción y la corrección, la implementación formal de scripts de pruebas (testing) fue planificada para el siguiente ciclo.
+
+**Próximos Pasos: Fase de Pruebas**
+
+Habiendo alcanzado una versión funcionalmente estable, el último Sprint se dedicará de manera intensiva a la fase de Aseguramiento de Calidad (QA). Se ejecutará un plan de pruebas enfocado en:
+
+* Validar la funcionalidad integral (end-to-end) de ambos productos.
+
+* Identificar y corregir bugs de comportamiento.
+
+* Revisar aspectos básicos de seguridad antes del despliegue final.
+
 #### 4.2.2.5. Execution Evidence for Sprint Review
+
+Para el logro de este proyecto, se realizó el despliegue tanto de la versión final de la aplicación móvil para el segmento de Gestores de Flota y se desarrolló la primera versión la aplicación móvil para el segmento de Coductores. Adicional a ello, se realizó las últimas mejoras para en su versión final el Web Service.
+
+**Backend - Swagger:**
+
+<a href="https://underground-tuesday-renworkplace-1e2821cb.koyeb.app/swagger/index.html">https://underground-tuesday-renworkplace-1e2821cb.koyeb.app/swagger/index.html</a>
+
+![alt text](../images/chapter-IV/Swagger1.PNG)
+
+<br>
+
+![alt text](../images/chapter-IV/Swagger2.PNG) 
+
+<br>
+
+![alt text](../images/chapter-IV/Swagger3.PNG)
+
+<br>
+
+**Mobile Application - Kotlin:**
+
+![alt text](../images/chapter-IV/Kotlin%20Execute1.jfif)
+
+<br>
+
+![alt text](../images/chapter-IV/Kotlin%20Execute2.jfif)
+
+<br>
+
+![alt text](../images/chapter-IV/Kotlin%20Execute3.jfif)
+
+<br>
+
+**Mobile Application - Flutter:**
+
+![alt text](../images/chapter-IV/)
+
+<br>
+
+![alt text](../images/chapter-IV/)
+
+<br>
+
+![alt text](../images/chapter-IV/)
+
+<br>
 
 #### 4.2.2.6. Services Documentation Evidence for Sprint Review
 
+A continuación, se detalla el progreso del *Web Serivce*, presentando los endpoints que habilitan las nuevas funcionalidades desarrolladas en este Sprint.
+
+Se incluye la validación de las operaciones CRUD (Crear, Leer, Actualizar, Borrar) mediante pruebas ejecutadas en la plataforma de **OpenAPI.** Adicionalmente, se adjunta el enlace de acceso al repositorio de la API en GitHub para la consulta del código fuente:" <a href="https://underground-tuesday-renworkplace-1e2821cb.koyeb.app/swagger/index.html">https://underground-tuesday-renworkplace-1e2821cb.koyeb.app/swagger/index.html</a>
+
+<table border="1" style="border-collapse: collapse; text-align: left;">
+  <thead>
+    <tr>
+      <th>Bounded Context</th>
+      <td colspan="3">Auth</td>
+    </tr>
+    <tr>
+      <th>Entity</th>
+      <th>Endpoint URL</th>
+      <th>Swagger</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>User</td>
+      <td>
+        POST: /api/Auth/register <br>
+        POST: /api/Auth/login <br>
+        GET: /api/Auth/profile/{id} <br>
+        PUT: /api/Auth/profile/{id} <br>
+        GET: /api/Auth/profile <br>
+        POST: /api/Auth/change-password/{id} <br>
+        GET: /api/Auth/users <br>
+        DELETE: api/Auth/users/{id} <br>
+        GET: /api/Auth/health
+      </td>
+      <td>
+        <img src="../images/chapter-IV/Auth-Endpoint-Web-Services.png" alt="Swagger API Authentication endpoints" style="width:500px;">
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<br>
+
+<table border="1" style="border-collapse: collapse; text-align: left;">
+  <thead>
+    <tr>
+      <th>Bounded Context</th>
+      <td colspan="3">Dashboard</td>
+    </tr>
+    <tr>
+      <th>Entity</th>
+      <th>Endpoint URL</th>
+      <th>Swagger</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>User</td>
+      <td>
+        GET: /api/Dashboard/stats <br>
+        GET: /api/Dashboard/active-vehicles <br>
+        GET: /apu/Dashboard/fleet-summary
+      </td>
+      <td>
+        <img src="../images/chapter-IV/Dashboard-Endpoint-Web-Services.png" alt="Swagger API Dashboard endpoints" style="width:500px;">
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<br>
+
+<table border="1" style="border-collapse: collapse; text-align: left;">
+  <thead>
+    <tr>
+      <th>Bounded Context</th>
+      <td colspan="3">Driver</td>
+    </tr>
+    <tr>
+      <th>Entity</th>
+      <th>Endpoint URL</th>
+      <th>Swagger</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>User</td>
+      <td>
+        POST: /api/Drivers <br>
+        GET: /api/Driver <br>
+        GET: /api/Driver/{id} <br>
+        PUT: /api/Driver/{id} <br>
+        DELETE: /api/Driver/{id} <br>
+        GET: /api/Driver/stats
+      </td>
+      <td>
+        <img src="../images/chapter-IV/Driver-Endpoint-Web-Services.png" alt="Swagger API Drivers endpoints" style="width:500px;">
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<br>
+
+<table border="1" style="border-collapse: collapse; text-align: left;">
+  <thead>
+    <tr>
+      <th>Bounded Context</th>
+      <td colspan="3">Vehicle</td>
+    </tr>
+    <tr>
+      <th>Entity</th>
+      <th>Endpoint URL</th>
+      <th>Swagger</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>User</td>
+      <td>
+        POST: /api/Vehicle <br>
+        GET: /api/Vehice <br>
+        GET: /api/Vehicle/{id} <br>
+        PUT: /api/Vehicle/{id} <br>
+        DELETE: /api/Vehicle/{id}
+      </td>
+      <td>
+        <img src="../images/chapter-IV/Vehicle-Endpoint-Web-Services.png" alt="Swagger API Vehicles endpoints" style="width:500px;">
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<br>
+
+<table border="1" style="border-collapse: collapse; text-align: left;">
+  <thead>
+    <tr>
+      <th>Bounded Context</th>
+      <td colspan="3">Fleets</td>
+    </tr>
+    <tr>
+      <th>Entity</th>
+      <th>Endpoint URL</th>
+      <th>Swagger</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>User</td>
+      <td>
+        GET: /api/Fleets <br>
+        POST: /api/Fleets <br>
+        GET: /api/Fleets/{id} <br>
+        PUT: /api/Fleets/{id} <br>
+        DELETE: /api/Fleets/{id} <br>
+      </td>
+      <td>
+        <img src="../images/chapter-IV/Fleets-Endpoint-Web-Services.png" alt="Swagger API Fleets endpoints" style="width:500px;">
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<br>
+
+<table border="1" style="border-collapse: collapse; text-align: left;">
+  <thead>
+    <tr>
+      <th>Bounded Context</th>
+      <td colspan="3">Maintenance</td>
+    </tr>
+    <tr>
+      <th>Entity</th>
+      <th>Endpoint URL</th>
+      <th>Swagger</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>User</td>
+      <td>
+        GET: /api/Maintenance/records <br>
+        POST: /api/Maintenance/records <br>
+        GET: /api/Maintenance/records/{id} <br>
+        PUT: /api/Maintenance/records/{id} <br>
+        DELETE: /api/Maintenance/records/{id} <br>
+        GET: /api/Maintenance/records/{id} <br>
+        GET: /api/Maintenance/records/vehicles/{vehicleId} <br>
+        GET: /api/Maintenance/records/overdue <br>
+        GET: /api/Maintenance/services <br>
+        POST: /api/Maintenance/services <br>
+        GET: /api/Maintenance/services/{id} <br>
+        DELETE: /api/Maintenance/services/{id} <br>
+        GET: /api/Maintenance/services/vehicle/{vehicleId} <br>
+      </td>
+      <td>
+        <img src="../images/chapter-IV/Maintenance-Endpoint-Web-Services.png" alt="Swagger API Maintenance endpoints" style="width:500px;">
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<br>
+
+<table border="1" style="border-collapse: collapse; text-align: left;">
+  <thead>
+    <tr>
+      <th>Bounded Context</th>
+      <td colspan="3">Manager</td>
+    </tr>
+    <tr>
+      <th>Entity</th>
+      <th>Endpoint URL</th>
+      <th>Swagger</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>User</td>
+      <td>
+        POST: /api/Manager <br>
+        GET: /api/Manager
+      </td>
+      <td>
+        <img src="../images/chapter-IV/Manager-Endpoint-Web-Services.png" alt="Swagger API Manager endpoints" style="width:500px;">
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<br>
+
+<table border="1" style="border-collapse: collapse; text-align: left;">
+  <thead>
+    <tr>
+      <th>Bounded Context</th>
+      <td colspan="3">Report</td>
+    </tr>
+    <tr>
+      <th>Entity</th>
+      <th>Endpoint URL</th>
+      <th>Swagger</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>User</td>
+      <td>
+        POST: /api/Report <br>
+        GET: /api/Report
+      </td>
+      <td>
+        <img src="../images/chapter-IV/Report-Endpoint-Web-Services.png" alt="Swagger API Report endpoints" style="width:500px;">
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<br>
+
+<table border="1" style="border-collapse: collapse; text-align: left;">
+  <thead>
+    <tr>
+      <th>Bounded Context</th>
+      <td colspan="3">Health</td>
+    </tr>
+    <tr>
+      <th>Entity</th>
+      <th>Endpoint URL</th>
+      <th>Swagger</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>User</td>
+      <td>
+        GET: /api/Health <br>
+        GET: /api/Health/info
+      </td>
+      <td>
+        <img src="../images/chapter-IV/Health-Endpoint-Web-Services.png" alt="Swagger API Health endpoints" style="width:500px;">
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<br>
+
+<table border="1" style="border-collapse: collapse; text-align: left;">
+  <thead>
+    <tr>
+      <th>Bounded Context</th>
+      <td colspan="3">Assignment</td>
+    </tr>
+    <tr>
+      <th>Entity</th>
+      <th>Endpoint URL</th>
+      <th>Swagger</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>User</td>
+      <td>
+        POST: /api/Assignment <br>
+        GET: /api/Assignment <br>
+        PUT: /api/Assignment/{id}/start <br>
+        PUT: /api/Assignment/{ID}/complete
+      </td>
+      <td>
+        <img src="../images/chapter-IV/Assignment-Endpoint-Web-Services.png" alt="Swagger API Assignment endpoints" style="width:500px;">
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<br>
+
 #### 4.2.2.7. Software Deployment Evidence for Sprint Review
+
+En esta entrega desplegamos la primera versión móvil dirigida a **gestores de flota** (Kotlin). El backend y la landing page ya estaban desplegados; la presente evidencia documenta el proceso de subida de la APK a **Firebase App Distribution** para distribución interna y pruebas.
+
+**1. Acceso a Firebase:**
+
+Accedí al Project Console de Firebase y verifiqué la pantalla de bienvenida del proyecto para confirmar que estoy trabajando sobre el proyecto correcto.
+
+![Commits Web Services](../images/chapter-IV/Firebase%20Home%20-%20Deployment.jfif)
+
+<br>
+
+**2. Ir a App Distribution**
+
+En el panel lateral de Firebase seleccioné "App Distribution" dentro de la sección de Release & Quality (o Distribución de apps según el idioma). Esta vista muestra las versiones publicadas y la opción para crear una nueva versión. (Insertar captura 2).
+
+![Commits Web Services](../images/chapter-IV/Firebase%20App%20Distribution%20-%20Deployment.jfif)
+
+<br>
+
+**3. Generar APK desde Android Studio**
+
+Abrí Android Studio y desde el menú Build → Generate Signed Bundle / APK inicié la construcción del artefacto. En el diálogo seleccioné APK (en lugar de Android App Bundle) y continué. (Insertar captura 3 mostrando el diálogo con la opción APK seleccionada).
+
+![Commits Web Services](../images/chapter-IV/Generate%20APK%20File%20-%20Deployment.jfif)
+
+<br>
+
+![Commits Web Services](../images/chapter-IV/APK%20File%20Generated%20-%20Deployment.jfif)
+
+* **Nota de seguridad:** la generación requiere el *keystore* y su contraseña; no incluí ningún valor secreto en las capturas. Asegúrate de difuminar/ocultar rutas o contraseñas si aparecen.
+
+<br>
+
+**4. Proveer KeyStore y credenciales de firma**
+
+En el diálogo completé la ruta al KeyStore path, el KeyStore password, el key alias y su password. Confirmé y presioné Next para continuar con la firma y la generación del APK. (Insertar captura 4 que muestre el campo KeyStore path, con la ruta visible pero sin exponer contraseñas).
+
+![Commits Web Services](../images/chapter-IV/Stablish%20secure%20key%20APK%20-%20Deployment.jfif)
+
+* **Precaución:** nunca publicar contraseñas ni el contenido del keystore; si las capturas contienen datos sensibles, difuminarlos antes de añadirlas al informe.
+
+<br>
+
+**5. Selección de variante / branch y generación**
+
+Elegí la variante de compilación release (o la variante que el equipo define para producción interna) y ejecuté la generación del APK. Verifiqué en la consola de Android Studio que la compilación finalizó correctamente y que el archivo .apk fue creado en la ruta de salida indicada. (Insertar captura 5 con la consola de Build mostrando BUILD SUCCESSFUL y la ruta del APK).
+
+![Commits Web Services](../images/chapter-IV/Publish%20APK%20into%20a%20brach%20-%20Deployment.jfif)
+
+<br>
+
+**6. Subida a Firebase App Distribution**
+
+Volví a Firebase → App Distribution y arrastré el archivo app-release.apk al área "Drag & drop APK to create new release". Completé el formulario de versión (versionName / versionCode y notas de release) y seleccioné los testers o los grupos de prueba. Inicié el proceso de publicación. (Insertar captura 6 del área de arrastre con el archivo ya cargado y la pantalla de metadata antes de publicar).
+
+![Commits Web Services](../images/chapter-IV/Load%20APK%20File%20in%20Firebase%20-%20Deployment.jfif)
+
+<br>
+
+**7. Confirmación de publicación**
+
+Una vez completada la subida, Firebase muestra un resumen de la versión publicada con su estado (por ejemplo, "Published" o "Ready") y los testers reciben la notificación. Capturé la pantalla final donde se evidencia la versión disponible y el historial de distribuciones.
+
+<br>
 
 #### 4.2.2.8. Team Collaboration Insights during Sprint
 
+En este Sprint, el esfuerzo se ha centrado en la implementación simultánea de la Aplicación Móvil y el servicio Web (API) que la respalda.
+
+Con el fin de medir y transparentar el progreso, el siguiente informe desglosa las métricas de colaboración del equipo (obtenidas de GitHub). Estos indicadores demuestran cómo la contribución individual de cada miembro se alinea con la distribución de tareas planificada, confirmando la ejecución efectiva del trabajo asignado en las distintas fases del desarrollo.
+
+* **Web Services**
+
+Resumen de la participación individual y la distribución del esfuerzo en el desarrollo de los Servicios Web. Estos datos muestran la contribución registrada por cada integrante para cumplir con los objetivos del Sprint.
+
+![Commits Web Services](../images/chapter-IV/Web%20Service%20Insight%20-%20Report.png)
+
+<br>
+
+* **Landing Page**
+
+A través de las métricas de colaboración de GitHub - basado en el desarrollo de nuestra *Landing Page*, ofrecemos una visión transparente del esfuerzo individual y colectivo; asegurando la rendición de cuentas (accountability) y confirmar que el trabajo se alinea con los objetivos estratégicos de la iteración.
+
+![Commits Landing Page](../images/chapter-IV/Landing%20Page%20Insight%20-%20Report.png)
+
+<br>
+
+**Mobile App**
+
+Detalle de la participación y el progreso aportado por cada miembro del equipo en el desarrollo de la Aplicación Móvil. Estos indicadores reflejan cómo se distribuyó la responsabilidad de construcción del frontend y la ejecución de las tareas asignadas a cada integrante.
+
+**1. Kotlin:**
+
+![Commits Kotlin Mobile App](../images/chapter-IV/Kotlin%20App%20Insight%20-%20Report.png)
+
+<br>
+
+**2. Flutter:**
+
+![Commits Flutter Mobile App](../images/chapter-IV/Flutter%20App%20Insight%20-%20Report.png)
+
+<br>
 
 ## 4.3. Validation Interviews
 
@@ -1219,6 +1787,33 @@ Las siguientes preguntas están organizadas según los dos segmentos clave del p
 
 ### 4.3.2. Registro de Entrevistas
 
+#### Segmento Objetivo 1: Gestores de flota
+
+##### Entrevistado 1 Segmento Objetivo 1
+
+| **Campo**                | **Detalle** |
+|--------------------------|-------------|
+| **Nombre**               | Ariana Ramirez|
+| **Entrevistador**        | Renzo Miguel Llerena Delgado |
+| **Edad**                 | 28 años |
+| **Distrito**             | San Juan de Miraflores|
+| **Resumen**              | A Ariana le parece que a nuestra aplicacion le faltaria añadir mas interfaz visual como para una aplicacion movil ya que algunas interfaces le parecen confusas y que sigamos desarrollando la funcion de rastreo de vehiculos por medio de gps |
+| **Duración de la entrevista** | 08:22 minutos |
+| **URL de la entrevista** | [Ver entrevista](https://drive.google.com/file/d/1wB30wOJnFaTQuDe239yptUSicUAx_fVO/view?usp=sharing) |
+
+
+| **Campo**                | **Detalle** |
+|--------------------------|-------------|
+| **Nombre**               | Renato Calvo|
+| **Entrevistador**        | Renzo Miguel Llerena Delgado |
+| **Edad**                 | 25 años |
+| **Distrito**             | San Isidro|
+| **Resumen**              | A Renato le parece intuitiva la aplicación y recomendaría a sus compañeros, gestores de flota, su uso. Lo único que cree que se puede mejorar es el aspecto de reportes que le parece un poco desordenado el aspecto visual|
+| **Duración de la entrevista** | 07:09 minutos |
+| **URL de la entrevista** | [Ver entrevista](https://drive.google.com/file/d/1UhtyC9_bsUVF8azpNJjpUdbOfvqsse6R/view?usp=sharing) |
+
+<br>
+
 #### Segmento Objetivo 2: Conductores de vehículos pesados
 
 ##### Entrevistado 1 Segmento Objetivo 2
@@ -1233,3 +1828,181 @@ Las siguientes preguntas están organizadas según los dos segmentos clave del p
 | **Tiempo que empieza**   | 0:00 minutos |
 | **Duración de la entrevista** | 08:30 minutos |
 | **URL de la entrevista** | [Ver entrevista](https://drive.google.com/file/d/1lUyPkyNbrGfA9RZqERBFRNFBWAkkM0x7/view?usp=sharing) |
+
+<br>
+
+# Conclusiones
+
+## Conclusiones y recomendaciones
+
+* **TB1**:
+
+Durante este sprint se desarrollaron actividades clave para comprender a profundidad el dominio del problema y definir las bases de la solución propuesta para Flota365. A través de entrevistas, análisis de escenarios, sesiones de EventStorming y elaboración de wireframes, logramos obtener una visión clara de las necesidades de los gestores de flota y conductores, así como de los procesos operativos que se deben optimizar.
+
+Complementariamente, construimos los primeros elementos arquitectónicos del sistema, como los context maps y los diagramas estructurados de interacción, lo cual permitió establecer los límites funcionales, las dependencias y las responsabilidades de cada módulo dentro de la plataforma. Este trabajo colaborativo no solo consolidó un entendimiento compartido entre el equipo, sino que también sentó los cimientos para un diseño escalable, alineado al negocio y centrado en el usuario.
+
+El proceso reforzó la importancia de combinar técnicas de análisis de dominio con prácticas de diseño orientadas a la experiencia del usuario, demostrando que una solución tecnológica efectiva requiere tanto claridad en los flujos operativos como una arquitectura bien definida.
+
+* **TP1**:
+
+En este segundo entregable se abordó un trabajo decisivo para consolidar la arquitectura conceptual y funcional de Flota365. Se revisaron y corrigieron elementos fundamentales del análisis inicial, incluyendo el EventStorming, la definición de los Bounded Contexts y la trazabilidad del flujo de dominio. Este proceso permitió depurar inconsistencias, reforzar el entendimiento del negocio y afinar los límites de responsabilidad de cada módulo, asegurando una visión más precisa y consistente de la solución.
+
+Sobre esta base refinada, se inició la implementación de la primera versión de la aplicación dirigida al segmento de gestores de flota. Esta versión se centró en las funcionalidades core: visualización del dashboard operativo, seguimiento de rutas, gestión de vehículos, creación de nuevos conductores y asignación de unidades. Para garantizar un desarrollo escalable y mantenible, el equipo adoptó Clean Architecture como patrón arquitectónico, una elección adecuada para entornos mobile que requieren modularidad, separación de responsabilidades y capacidad de evolución en futuras iteraciones.
+
+* **TB2**:
+
+En esta tercera entrega se consolidaron avances clave que marcan un punto de inflexión en el desarrollo integral de Flota365. Se completó al 100% el backend del sistema, implementado como un Web Service monolito modular, sustentado en Clean Architecture y principios de Domain-Driven Design (DDD). Esta combinación permitió estructurar una API robusta, escalable y organizada en capas independientes, preservando la separación entre dominio, aplicación e infraestructura. Gracias a ello, el equipo pudo garantizar un backend extensible y preparado para futuros módulos sin comprometer su mantenibilidad.
+
+Paralelamente, se desplegó la primera versión de la landing page oficial de Flota365, desarrollada con tecnologías web nativas (HTML5, CSS3 y JavaScript ES6). Este sitio proporciona una presentación moderna y clara del valor de la plataforma, actuando como punto de entrada para clientes potenciales y facilitando la difusión del producto.
+
+En cuanto al desarrollo móvil, el equipo liberó la nueva versión del módulo para gestores de flota, implementado en Kotlin, ahora con una interfaz significativamente mejorada. Esta versión incorpora principios de UX centrados en la usabilidad y claridad operativa, optimizando la visualización del estado de la flota, la asignación de vehículos y la gestión operativa diaria.
+
+Finalmente, se lanzó la primera versión de la aplicación para conductores, desarrollada con Flutter. Este componente introduce funcionalidades esenciales como check-in y check-out, permitiendo que los conductores registren el inicio y fin de sus operaciones, la unidad asignada y las incidencias ocurridas durante el trayecto. Estas capacidades no solo fortalecen la trazabilidad operacional, sino que también habilitan un canal de comunicación directa y confiable entre el conductor y el gestor de flota.
+
+## Video App Validation
+
+![App Validation Background Video](../images/chapter-IV/Video%20Validate%20App.png)
+
+* **Enlace del video:** <a href="https://www.youtube.com/watch?v=w7eizS0Nv6w">https://www.youtube.com/watch?v=w7eizS0Nv6w</a>
+
+## Video About the product
+
+![App Validation Background Video](../images/chapter-IV/Video%20About%20The%20Product.png)
+
+* **Enlace del video:** <a href="https://youtu.be/PgJkLZSe23Q">https://www.youtube.com/watch?v=w7eizS0Nv6w</a>
+
+
+## Video About the team
+
+# Glosario
+
+## Dominio de Negocio - Flota365
+
+**1. Gestor de Flota**
+
+- Responsable de administrar vehículos, conductores, rutas y documentación. Supervisa las operaciones y toma decisiones para mantener la flota en funcionamiento óptimo.
+
+**2. Conductor**
+
+- Usuario encargado de ejecutar los viajes asignados. Registra actividades, kilometraje, estados y evidencias durante cada operación.
+
+**3. Asignación de Vehículo**
+
+- Proceso mediante el cual un vehículo es asociado de forma temporal a un conductor para realizar un viaje u operación específica.
+
+**4. Orden de Transporte**
+
+- Documento digital que formaliza el inicio de una operación, definiendo conductor asignado, vehículo, punto de partida, destino y tipo de carga.
+
+**5. Inicio de Operación**
+
+- Momento en que el conductor inicia oficialmente su recorrido, activando la trazabilidad del viaje.
+
+**6. Cierre de Operación**
+
+- Registro final que marca el término del recorrido. Incluye kilometraje final, entrega realizada y observaciones.
+
+**7. Disponibilidad del Conductor**
+
+- Estado que indica si un conductor está apto para nuevas asignaciones. Considera tiempo de descanso, suspensiones y tareas en curso.
+
+**8. Documentación Vigente**
+
+- Documentación legal requerida para que un vehículo pueda operar (SOAT, revisión técnica, permisos). Su vigencia condiciona las operaciones.
+
+<br>
+
+## Arquitectura de Software y Servicios
+
+**9. Backend**
+
+- Conjunto de lógica de negocio, reglas, validaciones y acceso a datos. Se ejecuta en el servidor y expone funcionalidades mediante APIs o servicios.
+
+**10. API (Application Programming Interface)**
+
+- Interfaz que permite la comunicación entre sistemas. En Flota365 se usa para enviar y recibir información entre las apps móviles y el servidor.
+
+**11. Web Service**
+
+- Servicio accesible por la web que permite intercambiar datos. Puede ser REST, SOAP u otro formato.
+
+- Un backend contiene la lógica y un web service es solo un punto de acceso.
+
+**12. Arquitectura C4**
+
+- Modelo de documentación arquitectónica que describe el sistema en cuatro niveles:
+Contexto → Contenedores → Componentes → Código.
+
+**13. Bounded Context**
+
+- Subdominio delimitado que encapsula reglas, lenguaje y procesos propios. Permite organizar el sistema por áreas funcionales claras.
+
+**14. Event Storming**
+
+- Metodología visual para mapear eventos, comandos, actores, reglas y procesos del negocio de forma colaborativa.
+
+<br>
+
+## Diseño de Interfaces (UI/UX)
+
+**15. UI (User Interface)**
+
+- Componentes visuales de la interfaz: botones, formularios, colores, tipografías, diagramación, etc.
+
+**16. UX (User Experience)**
+
+- Percepción general del usuario respecto al uso del sistema: facilidad, fluidez, tiempo de tarea y satisfacción.
+
+**17. Prototipo de Alta Fidelidad**
+
+- Representación visual casi idéntica a la versión final de la aplicación. Simula flujos y pantallas completas antes del desarrollo.
+
+**18. Landing Page**
+
+- Página web de presentación o marketing centrada en comunicar un producto o captar leads.
+
+- No es una aplicación web funcional.
+
+**19. Web Application**
+
+- Aplicación interactiva con funcionalidades, procesos internos y acceso autenticado. Es dinámica y responde a la lógica del servidor.
+
+<br>
+
+## Conceptos Técnicos y Patrones Comunes
+
+**20. Arquitectura Cliente-Servidor**
+
+- Modelo donde el cliente (app móvil o web) solicita información y el servidor la procesa y responde.
+
+**21. JSON (JavaScript Object Notation)**
+
+- Formato estándar para enviar datos entre cliente y servidor. Se utiliza en las APIs de Flota365.
+
+**22. Integración Continua (CI/CD)**
+
+- Práctica que automatiza pruebas, despliegues y compilación del sistema. Asegura entregas rápidas y confiables.
+
+**23. Token / JWT (JSON Web Token)**
+
+- Mecanismo de autenticación que confirma la identidad del usuario en las solicitudes a la API.
+
+**24. Repository Pattern**
+
+- Patrón usado para gestionar el acceso a datos, separando la lógica de consulta de la lógica de negocio.
+
+<br>
+
+# Bibliografía
+
+- Refactoring.Guru. (s.f.). Design patterns. <a href="https://refactoring.guru/es/design-patterns">https://refactoring.guru/es/design-patterns</a>
+
+- Gothelf, J., & Seiden, J. (2021). Lean UX: Designing great products with agile teams (3rd ed.). O’Reilly Media.
+
+- Evans, E. (2004). Domain-driven design: Tackling complexity in the heart of software. Addison-Wesley.
+
+- Vernon, V. (s.f.). Domain-driven design reference: Definitions and pattern summaries. <a href="https://domainlanguage.com/ddd/reference/">https://domainlanguage.com/ddd/reference/</a>
+
+- Martin, R. C. (2017). Clean architecture: A craftsman's guide to software structure and design. Prentice Hall.
+
+- The C4 model for visualising software architecture. (2024). <a href="https://c4model.com/">https://c4model.com/</a>
