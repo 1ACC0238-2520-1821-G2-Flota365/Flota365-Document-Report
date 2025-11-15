@@ -1098,7 +1098,7 @@ Finalmente, el sprint incluyó la corrección de observaciones del entregable an
 | US09 | Registro de vehículo | TA008 | Formulario de registro vehicular | Desarrollar un formulario para registrar datos de vehículos con validación y confirmación visual. | 2 | Renzo Miguel Llerena Delgado | Done |
 | US11 | Footer informativo | TA009 | Creación del pie de página informativo | Diseñar un footer con enlaces de contacto, políticas de privacidad y redes sociales. | 2 | Huamani Sánchez, José Diego  | Done |
 | US12 | Información conductor | TA010 | Visualización de datos del conductor | Implementar componente que muestre información detallada del conductor (nombre, licencia, historial). | 1 | Renzo Alonso Villafuerte Tapia  | Done |
-| US14 | Información del vehículo | TA011 | Módulo de detalles del vehículo | Crear una vista con los datos completos del vehículo: modelo, placa, estado y revisiones. | 3 | NARenzo Alonso Villafuerte Tapia ME | Done |
+| US14 | Información del vehículo | TA011 | Módulo de detalles del vehículo | Crear una vista con los datos completos del vehículo: modelo, placa, estado y revisiones. | 3 | Renzo Alonso Villafuerte Tapia ME | Done |
 
 <br>
 
@@ -1128,31 +1128,26 @@ Finalmente, el sprint incluyó la corrección de observaciones del entregable an
 
 |Repository |Branch| Commit Id | Commit Message| Commit Message Body| Date|
 |----|-----|---------------------|----------------------------------------|---------------------------------------------------------|------------|
-|Flota365/landing-page|develop| 2753d07           | feat(header): add the header and navigations  | the access with differents informative articles about Flota365 Startup | 05/10/2025 |
-|Flota365/landing-page|develop| 184f6f5           | feat(hero): add the new version of Hero Section o n the Flota365 Landing Page         | Added hero section with headline | 05/10/2025 |
-|Flota365/landing-page|develop| a831a7f           | feat(features): add the primordial features  | features of Flota365 offers our customers         | 05/10/2025 |
-|Flota365/landing-page|develop| 74000b4           | feat(about): add the first vertion of About section    | Implemented company info section with team photos       | 05/10/2025 |
-|Flota365/landing-page|develop| c5ab48a           | feat(contact): Add contact information | add the contact forms into the Landing Page of Flota465 | 05/10/2025 |
-|Flota365/landing-page|develop| 3473e3f           | Chore(colors): update the color palette     | Implemented apply into the new navigation items  | 05/10/2025 |
-|Flota365/landing-page|develop| 681332a           | feat(stats): add the stadistics   | Implemented information about the advantage to use Flota365   | 05/10/2025 |
-|Flota365/landing-page|develop| 932bd47           | feat(team): add the group of developers | Implemented  team member of Flota365 into the Landing Page   | 05/10/2025 |
-|Flota365/landing-page|develop| 71f42b3           | feat(footer): add Footer   | content that descripve the differents informative article about the service   | 05/10/2025 |
+|Flota365-mobile-application-flutter|feature/conductores| 95e004b           | feat(driver): update page  | feat(driver): update page | 14/11/2025 |
+|Flota365-mobile-application-flutter|feature/conductores| 998f339           | Merge branch 'feature/conductores' of https://github.com/1ACC0238-2520-1821-G2-Flota365/Flota365-mobile-application-flutter into feature/conductores
+         | merge feat/conductores | 14/11/2025 |
+|Flota365-mobile-application-flutter|feature/conductores| a406749           | feat(login): update register  | feat(login): update register         | 14/11/2025 |
+|Flota365-mobile-application-flutter|feature/conductores| 97128e9           | feat(driver): update presentation    | feat(driver): update presentation       | 13/11/2025 |
+|Flota365-mobile-application-flutter|feature/conductores| f32a5cf           | feat(driver): update data
+ | feat(driver): update data | 13/11/2025 |
+|Flota365-mobile-application-flutter|feature/conductores| ebd4def           | feat(driver): add driver_mapper     | feat(driver): add driver_mapper  | 13/11/2025 |
+|Flota365-mobile-application-flutter|feature/conductores| bd0ffd3           | feat(dirver): update blocs route   | feat(dirver): update blocs route   | 12/11/2025 |
+|Flota365-mobile-application-flutter|feature/conductores| c59ec8b           | feat(driver): add routes page | feat(driver): add routes page   | 12/11/2025 |
+|Flota365-mobile-application-flutter|feature/conductores| 9377e53           | feat(conductores): update   | feat(conductores): update   | 11/11/2025 |
 
 <br>
 
 **Web Service**:
 
-|Repository |Branch| Commit Id | Commit Message| Commit Message Body| Date|
-|----|-----|---------------------|----------------------------------------|---------------------------------------------------------|------------|
-|Flota365/landing-page|develop| 2753d07           | feat(header): add the header and navigations  | the access with differents informative articles about Flota365 Startup | 05/10/2025 |
-|Flota365/landing-page|develop| 184f6f5           | feat(hero): add the new version of Hero Section o n the Flota365 Landing Page         | Added hero section with headline | 05/10/2025 |
-|Flota365/landing-page|develop| a831a7f           | feat(features): add the primordial features  | features of Flota365 offers our customers         | 05/10/2025 |
-|Flota365/landing-page|develop| 74000b4           | feat(about): add the first vertion of About section    | Implemented company info section with team photos       | 05/10/2025 |
-|Flota365/landing-page|develop| c5ab48a           | feat(contact): Add contact information | add the contact forms into the Landing Page of Flota465 | 05/10/2025 |
-|Flota365/landing-page|develop| 3473e3f           | Chore(colors): update the color palette     | Implemented apply into the new navigation items  | 05/10/2025 |
-|Flota365/landing-page|develop| 681332a           | feat(stats): add the stadistics   | Implemented information about the advantage to use Flota365   | 05/10/2025 |
-|Flota365/landing-page|develop| 932bd47           | feat(team): add the group of developers | Implemented  team member of Flota365 into the Landing Page   | 05/10/2025 |
-|Flota365/landing-page|develop| 71f42b3           | feat(footer): add Footer   | content that descripve the differents informative article about the service   | 05/10/2025 |
+| **Repository** | **Branch**      | **Commit Id** | **Commit Message**                                                | **Commit Message Body**                                                                                                                                                                                                                                                                                          | **Date**      |
+|----------------|-----------------|---------------|--------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------|                                                                                         
+| FlotaAPI       | main            | 6a85612       | **feat():** endpoint de métricas para Dashboard                    | Creación del endpoint `/api/dashboard/metrics` consolidando KPIs de Reporting: flotas, conductores, asignaciones, MTTR. Incluye cache en memoria de 60 segundos.                                                                                                                                                | 29/10/2025    |
+| FlotaAPI       | main            | 648ccf6       | **refactor(Management):** separar contratos y servicios (CQRS)     | Reorganización del módulo Management bajo un enfoque CQRS ligero: separación de Commands/Queries, perfiles de AutoMapper y servicios por caso de uso. Mejora claridad, mantenimiento y testabilidad.                                                                                                            | 29/10/2025    |
 
 <br>
 
@@ -1216,15 +1211,19 @@ Para el logro de este proyecto, se realizó el despliegue tanto de la versión f
 
 **Mobile Application - Flutter:**
 
-![alt text](../images/chapter-IV/)
+![alt text](../images/chapter-IV/Flutter%20Login.jfif)
 
 <br>
 
-![alt text](../images/chapter-IV/)
+![alt text](../images/chapter-IV/Flutter%20Welcome.jfif)
 
 <br>
 
-![alt text](../images/chapter-IV/)
+![alt text](../images/chapter-IV/Flutter%20Menu.jfif)
+
+<br>
+
+![alt text](../images/chapter-IV/Flutter%20Routes.jfif)
 
 <br>
 
@@ -1867,12 +1866,16 @@ Finalmente, se lanzó la primera versión de la aplicación para conductores, de
 
 ## Video About the product
 
-![App Validation Background Video](../images/chapter-IV/Video%20About%20The%20Product.png)
+![About the product Background Video](../images/chapter-IV/Video%20About%20The%20Product.png)
 
 * **Enlace del video:** <a href="https://youtu.be/PgJkLZSe23Q">https://www.youtube.com/watch?v=w7eizS0Nv6w</a>
 
 
 ## Video About the team
+
+![About the team Background Video](../images/chapter-IV/Video%20About%20the%20Team.png)
+
+* **Enlace del video:** <a href="https://youtu.be/4C5rVB0vVy0">https://youtu.be/4C5rVB0vVy0</a>
 
 # Glosario
 

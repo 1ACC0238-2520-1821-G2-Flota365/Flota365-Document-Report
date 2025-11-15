@@ -24,7 +24,7 @@
         <br><br>
         Huamani Sánchez, José Diego - U202110458
         <br><br>
-        Comettant Rubiños, Jessica Elizabeth - U20211C009
+        Llerena Delgado Renzo Miguel
         <br><br>
         Villafuerte Tapia, Renzo Alonso - U202310670
         <br><br>
@@ -611,3 +611,51 @@ En el siguiente cuadro se describen las acciones realizadas y enunciados de conc
     </tr>
   </tbody>
 </table>
+
+## Objetivos SMART
+
+**Huamani Sánchez, José Diego – U202110458**
+
+**Objetivo SMART 1**
+
+Desarrollar dominio intermedio–avanzado en Kotlin aplicado a arquitecturas móviles modernas (MVVM y Clean Architecture) antes de junio de 2026, completando al menos dos cursos especializados y contribuyendo con tres nuevas funcionalidades escalables en la aplicación de gestión de flotas. La evidencia será el incremento del 30% en la calidad del código evaluado mediante revisión por pares y análisis estático.
+
+**Objetivo SMART 2**
+
+Implementar patrones avanzados de estado en Flutter (Bloc o Riverpod) para diciembre de 2026, incorporándolos en al menos dos módulos críticos de la aplicación de conductores de Flota365. El progreso será validado mediante métricas de reducción del tiempo de render y una mejora del 20% en la estabilidad del flujo de UI durante pruebas internas.
+
+<br>
+
+**Llerena Delgado, Renzo Miguel**
+
+**Objetivo SMART 3**
+
+Fortalecer competencias en Arquitectura Hexagonal aplicada a servicios .NET para marzo de 2026, refactorizando un módulo completo del backend de Flota365 (seguridad, reporting o gestión de flotas) e incorporando puertos y adaptadores claramente definidos. La evidencia será la reducción del acoplamiento en al menos 25% y la mejora de testabilidad medida por un incremento del 40% en la cobertura de pruebas unitarias.
+
+**Objetivo SMART 4**
+
+Certificarse en “Microsoft Azure Developer Associate” antes de noviembre de 2026, con el propósito de optimizar los despliegues cloud del backend y asegurar tres pipelines CI/CD funcionales que automaticen pruebas, build y release. La validación será la ejecución continua exitosa en entornos de staging y producción del sistema Flota365.
+
+<br>
+
+**Villafuerte Tapia, Renzo Alonso – U202310670**
+
+Objetivo SMART 5
+
+Diseñar e implementar un sistema de monitoreo centralizado para los microservicios de Flota365 usando .NET + OpenTelemetry antes de septiembre de 2026, logrando métricas, logs y trazas distribuidas que permitan reducir los tiempos de diagnóstico en incidentes críticos en al menos un 35%. La evidencia será un dashboard operativo validado por gestores de flota.
+
+**Objetivo SMART 6**
+
+Alcanzar competencias sólidas en modelamiento de datos y optimización de consultas SQL antes de febrero de 2026, aplicando estas mejoras en los módulos de reporting y dashboard. El logro será medido por una reducción del 20% en el tiempo de respuesta de los endpoints analíticos y la creación de dos pipelines ETL iniciales para futuras capacidades de analítica avanzada.
+
+<br>
+
+**Torres Apolinario, Giovany Smith – U202311601**
+
+**Objetivo SMART 7**
+
+Diseñar un sistema de componentes reutilizables para la app Flutter de Flota365 antes de agosto de 2026, documentando estilos, spacing, tipografías y widgets críticos. El avance será validado mediante la adopción del 70% de dichos componentes por parte del equipo y la reducción del tiempo de diseño/implementación de nuevas vistas en un 25%.
+
+**Objetivo SMART 8**
+
+Publicar un manual técnico completo para desarrolladores móviles y backend de Flota365 antes de diciembre de 2026, integrando lineamientos de arquitectura, estándares de commits, estructura DDD y definición de contratos API. El cumplimiento será medido por la creación de un documento mayor a 40 páginas y su aceptación formal durante la Spring Review del proyecto.
